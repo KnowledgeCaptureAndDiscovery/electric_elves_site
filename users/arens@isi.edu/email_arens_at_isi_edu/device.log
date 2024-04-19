@@ -1,0 +1,405 @@
+Tue Jun 04 18:20:54 2002: Using ANS: ('vibhagam.isi.edu', 5500)
+Tue Jun 04 18:20:54 2002: Bound to host/port: sangat.isi.edu:6693
+Tue Jun 04 18:20:54 2002: Sending message: (register :ontology tcp-ip :sender arens_at_isi_edu_email_arens_at_isi_edu :reply-with t :content "arens_at_isi_edu_email_arens_at_isi_edu sangat.isi.edu:6693")
+Tue Jun 04 18:20:54 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Tue Jun 04 18:20:54 2002: Registration produced: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Tue Jun 04 18:20:54 2002: Sending message: (unregister :sender arens_at_isi_edu_email_arens_at_isi_edu :ontology tcp-ip :reply-with nil :content arens_at_isi_edu_email_arens_at_isi_edu)
+Tue Jun 04 18:20:54 2002: Sending message: (register :sender arens_at_isi_edu_email_arens_at_isi_edu :ontology tcp-ip :reply-with t :content (arens_at_isi_edu_email_arens_at_isi_edu sangat.isi.edu:6693))
+Tue Jun 04 18:20:54 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'arens_at_isi_edu_email_arens_at_isi_edu TEAMCORE'}
+Tue Jun 04 18:20:54 2002: Registration produced: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'arens_at_isi_edu_email_arens_at_isi_edu TEAMCORE'}arens_at_isi_edu_email_arens_at_isi_edu, TEAMCORE
+Tue Jun 04 18:20:54 2002: Registration successful: arens_at_isi_edu_email_arens_at_isi_edu
+Tue Jun 04 18:20:54 2002: Router for arens_at_isi_edu_email_arens_at_isi_edu running...
+Tue Jun 04 18:20:54 2002: Sending message: (ask-one :sender arens_at_isi_edu_email_arens_at_isi_edu :reply-with t :content "proxy_arens_at_isi_edu")
+Tue Jun 04 18:20:54 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_arens_at_isi_edu:sangat.isi.edu:9992:'}
+Tue Jun 04 18:20:54 2002: Sending message: (register :name email_arens_at_isi_edu :reply-with nil :agenttype device :receiver proxy_arens_at_isi_edu :user arens_at_isi_edu :sender arens_at_isi_edu_email_arens_at_isi_edu :direction (to user))
+Thu Jun 06 14:45:45 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'ask', 'sender': 'ping_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'arens_at_isi_edu', 'content': 'hello'}
+Thu Jun 06 14:45:45 2002: Processing message: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'ask', 'sender': 'ping_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'arens_at_isi_edu', 'content': 'hello'}
+Thu Jun 06 14:45:45 2002: Replying: (sorry :reply-with nil :in-reply-to arens_at_isi_edu :receiver ping_arens_at_isi_edu_email_arens_at_isi_edu :sender arens_at_isi_edu_email_arens_at_isi_edu :comment "Unintelligible query")
+Mon Jun 10 12:50:24 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'kqml-admin', 'sender': 'TEAMCORE', 'kqml-msg-id': '699+vibhagam.isi.edu+31', 'reply-with': 't', 'content': 'name'}
+Mon Jun 10 13:19:28 2002: Using ANS: ('vibhagam', 5500)
+Mon Jun 10 13:19:28 2002: Bound to host/port: sangat.isi.edu:6669
+Mon Jun 10 13:19:28 2002: Sending message: (register :ontology tcp-ip :sender arens_at_isi_edu_email_arens_at_isi_edu :reply-with t :content "arens_at_isi_edu_email_arens_at_isi_edu sangat.isi.edu:6669")
+Mon Jun 10 13:19:28 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Mon Jun 10 13:19:28 2002: Registration produced: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Mon Jun 10 13:19:28 2002: Sending message: (unregister :sender arens_at_isi_edu_email_arens_at_isi_edu :ontology tcp-ip :reply-with nil :content arens_at_isi_edu_email_arens_at_isi_edu)
+Mon Jun 10 13:19:28 2002: Sending message: (register :sender arens_at_isi_edu_email_arens_at_isi_edu :ontology tcp-ip :reply-with t :content (arens_at_isi_edu_email_arens_at_isi_edu sangat.isi.edu:6669))
+Mon Jun 10 13:19:28 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'arens_at_isi_edu_email_arens_at_isi_edu TEAMCORE'}
+Mon Jun 10 13:19:28 2002: Registration produced: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'arens_at_isi_edu_email_arens_at_isi_edu TEAMCORE'}arens_at_isi_edu_email_arens_at_isi_edu, TEAMCORE
+Mon Jun 10 13:19:28 2002: Registration successful: arens_at_isi_edu_email_arens_at_isi_edu
+Mon Jun 10 13:19:28 2002: Router for arens_at_isi_edu_email_arens_at_isi_edu running...
+Mon Jun 10 13:19:28 2002: Sending message: (ask-one :sender arens_at_isi_edu_email_arens_at_isi_edu :reply-with t :content "proxy_arens_at_isi_edu")
+Mon Jun 10 13:19:28 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_arens_at_isi_edu:sangat.isi.edu:9991:'}
+Mon Jun 10 13:19:28 2002: Sending message: (register :name email_arens_at_isi_edu :reply-with nil :agenttype device :receiver proxy_arens_at_isi_edu :user arens_at_isi_edu :sender arens_at_isi_edu_email_arens_at_isi_edu :direction (to user))
+Mon Jun 10 13:19:29 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'ask', 'sender': 'ping_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'arens_at_isi_edu', 'content': 'hello'}
+Mon Jun 10 13:19:29 2002: Processing message: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'ask', 'sender': 'ping_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'arens_at_isi_edu', 'content': 'hello'}
+Mon Jun 10 13:19:29 2002: Replying: (sorry :reply-with nil :in-reply-to arens_at_isi_edu :receiver ping_arens_at_isi_edu_email_arens_at_isi_edu :sender arens_at_isi_edu_email_arens_at_isi_edu :comment "Unintelligible query")
+Mon Jun 10 13:23:01 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'ask', 'sender': 'ping_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'arens_at_isi_edu', 'content': 'hello'}
+Mon Jun 10 13:23:01 2002: Processing message: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'ask', 'sender': 'ping_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'arens_at_isi_edu', 'content': 'hello'}
+Mon Jun 10 13:23:01 2002: Replying: (sorry :reply-with nil :in-reply-to arens_at_isi_edu :receiver ping_arens_at_isi_edu_email_arens_at_isi_edu :sender arens_at_isi_edu_email_arens_at_isi_edu :comment "Unintelligible query")
+Wed Jun 12 11:55:38 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'ask', 'sender': 'ping_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'arens_at_isi_edu', 'content': 'hello'}
+Wed Jun 12 11:55:38 2002: Processing message: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'ask', 'sender': 'ping_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'arens_at_isi_edu', 'content': 'hello'}
+Wed Jun 12 11:55:38 2002: Replying: (sorry :reply-with nil :in-reply-to arens_at_isi_edu :receiver ping_arens_at_isi_edu_email_arens_at_isi_edu :sender arens_at_isi_edu_email_arens_at_isi_edu :comment "Unintelligible query")
+Fri Jun 21 17:39:47 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'ask', 'sender': 'ping_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'arens_at_isi_edu', 'content': 'hello'}
+Fri Jun 21 17:39:47 2002: Processing message: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'ask', 'sender': 'ping_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'arens_at_isi_edu', 'content': 'hello'}
+Fri Jun 21 17:39:47 2002: Replying: (sorry :reply-with nil :in-reply-to arens_at_isi_edu :receiver ping_arens_at_isi_edu_email_arens_at_isi_edu :sender arens_at_isi_edu_email_arens_at_isi_edu :comment "Unintelligible query")
+Mon Jun 24 17:24:50 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'ask', 'sender': 'ping_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'arens_at_isi_edu', 'content': 'hello'}
+Mon Jun 24 17:24:50 2002: Processing message: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'ask', 'sender': 'ping_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'arens_at_isi_edu', 'content': 'hello'}
+Mon Jun 24 17:24:50 2002: Replying: (sorry :reply-with nil :in-reply-to arens_at_isi_edu :receiver ping_arens_at_isi_edu_email_arens_at_isi_edu :sender arens_at_isi_edu_email_arens_at_isi_edu :comment "Unintelligible query")
+Tue Jun 25 09:56:55 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'tell', 'sender': 'stop_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'nil', 'content': 'stop'}
+Tue Jun 25 09:56:55 2002: Processing message: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'tell', 'sender': 'stop_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'nil', 'content': 'stop'}
+Tue Jun 25 09:56:56 2002: Sending message: (unregister :receiver proxy_arens_at_isi_edu :name email_arens_at_isi_edu :sender arens_at_isi_edu_email_arens_at_isi_edu :reply-with nil :user arens_at_isi_edu)
+Tue Jun 25 09:56:56 2002: Router arens_at_isi_edu_email_arens_at_isi_edu exiting...
+Tue Jun 25 09:56:56 2002: Sending message: (unregister :receiver TEAMCORE :sender arens_at_isi_edu_email_arens_at_isi_edu :ontology tcp-ip :reply-with nil :content arens_at_isi_edu_email_arens_at_isi_edu)
+Tue Jun 25 09:56:56 2002: Exiting...
+Tue Jun 25 10:02:24 2002: Using ANS: ('vibhagam.isi.edu', 5500)
+Tue Jun 25 10:02:24 2002: Bound to host/port: sangat.isi.edu:6690
+Tue Jun 25 10:02:24 2002: Sending message: (register :ontology tcp-ip :sender arens_at_isi_edu_email_arens_at_isi_edu :reply-with t :content "arens_at_isi_edu_email_arens_at_isi_edu sangat.isi.edu:6690")
+Tue Jun 25 10:02:24 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Tue Jun 25 10:02:24 2002: Registration produced: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Tue Jun 25 10:02:24 2002: Sending message: (unregister :sender arens_at_isi_edu_email_arens_at_isi_edu :ontology tcp-ip :reply-with nil :content arens_at_isi_edu_email_arens_at_isi_edu)
+Tue Jun 25 10:02:24 2002: Sending message: (register :sender arens_at_isi_edu_email_arens_at_isi_edu :ontology tcp-ip :reply-with t :content (arens_at_isi_edu_email_arens_at_isi_edu sangat.isi.edu:6690))
+Tue Jun 25 10:02:24 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'arens_at_isi_edu_email_arens_at_isi_edu TEAMCORE'}
+Tue Jun 25 10:02:24 2002: Registration produced: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'arens_at_isi_edu_email_arens_at_isi_edu TEAMCORE'}arens_at_isi_edu_email_arens_at_isi_edu, TEAMCORE
+Tue Jun 25 10:02:24 2002: Registration successful: arens_at_isi_edu_email_arens_at_isi_edu
+Tue Jun 25 10:02:24 2002: Router for arens_at_isi_edu_email_arens_at_isi_edu running...
+Tue Jun 25 10:02:24 2002: Sending message: (ask-one :sender arens_at_isi_edu_email_arens_at_isi_edu :reply-with t :content "proxy_arens_at_isi_edu")
+Tue Jun 25 10:02:24 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_arens_at_isi_edu:sangat.isi.edu:9991:'}
+Tue Jun 25 10:02:24 2002: Sending message: (register :name email_arens_at_isi_edu :reply-with nil :agenttype device :receiver proxy_arens_at_isi_edu :user arens_at_isi_edu :sender arens_at_isi_edu_email_arens_at_isi_edu :direction (to user))
+Wed Jun 26 14:20:47 2002: Using ANS: ('vibhagam.isi.edu', 5500)
+Wed Jun 26 14:20:47 2002: Bound to host/port: sangat.isi.edu:6668
+Wed Jun 26 14:20:47 2002: Sending message: (register :ontology tcp-ip :sender arens_at_isi_edu_email_arens_at_isi_edu :reply-with t :content "arens_at_isi_edu_email_arens_at_isi_edu sangat.isi.edu:6668")
+Wed Jun 26 14:20:47 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Wed Jun 26 14:20:47 2002: Registration produced: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Wed Jun 26 14:20:47 2002: Sending message: (unregister :sender arens_at_isi_edu_email_arens_at_isi_edu :ontology tcp-ip :reply-with nil :content arens_at_isi_edu_email_arens_at_isi_edu)
+Wed Jun 26 14:20:47 2002: Sending message: (register :sender arens_at_isi_edu_email_arens_at_isi_edu :ontology tcp-ip :reply-with t :content (arens_at_isi_edu_email_arens_at_isi_edu sangat.isi.edu:6668))
+Wed Jun 26 14:20:47 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'arens_at_isi_edu_email_arens_at_isi_edu TEAMCORE'}
+Wed Jun 26 14:20:47 2002: Registration produced: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'arens_at_isi_edu_email_arens_at_isi_edu TEAMCORE'}arens_at_isi_edu_email_arens_at_isi_edu, TEAMCORE
+Wed Jun 26 14:20:47 2002: Registration successful: arens_at_isi_edu_email_arens_at_isi_edu
+Wed Jun 26 14:20:47 2002: Router for arens_at_isi_edu_email_arens_at_isi_edu running...
+Wed Jun 26 14:20:47 2002: Sending message: (ask-one :sender arens_at_isi_edu_email_arens_at_isi_edu :reply-with t :content "proxy_arens_at_isi_edu")
+Wed Jun 26 14:20:47 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_arens_at_isi_edu:sangat.isi.edu:9991:'}
+Wed Jun 26 14:20:47 2002: Sending message: (register :name email_arens_at_isi_edu :reply-with nil :agenttype device :receiver proxy_arens_at_isi_edu :user arens_at_isi_edu :sender arens_at_isi_edu_email_arens_at_isi_edu :direction (to user))
+Wed Jun 26 14:20:48 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'ask', 'sender': 'ping_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'arens_at_isi_edu', 'content': 'hello'}
+Wed Jun 26 14:20:48 2002: Processing message: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'ask', 'sender': 'ping_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'arens_at_isi_edu', 'content': 'hello'}
+Wed Jun 26 14:20:48 2002: Replying: (sorry :reply-with nil :in-reply-to arens_at_isi_edu :receiver ping_arens_at_isi_edu_email_arens_at_isi_edu :sender arens_at_isi_edu_email_arens_at_isi_edu :comment "Unintelligible query")
+Wed Jun 26 14:20:57 2002: Received: {'receiver': 'blythe_at_isi_edu_email_blythe_at_isi_edu', 'performative': 'tell', 'sender': 'stop_blythe_at_isi_edu_email_blythe_at_isi_edu', 'reply-with': 'nil', 'content': 'stop'}
+Wed Jun 26 14:20:57 2002: Processing message: {'receiver': 'blythe_at_isi_edu_email_blythe_at_isi_edu', 'performative': 'tell', 'sender': 'stop_blythe_at_isi_edu_email_blythe_at_isi_edu', 'reply-with': 'nil', 'content': 'stop'}
+Wed Jun 26 14:20:57 2002: Sending message: (unregister :receiver proxy_arens_at_isi_edu :name email_arens_at_isi_edu :sender arens_at_isi_edu_email_arens_at_isi_edu :reply-with nil :user arens_at_isi_edu)
+Wed Jun 26 14:20:57 2002: Router arens_at_isi_edu_email_arens_at_isi_edu exiting...
+Wed Jun 26 14:20:57 2002: Sending message: (unregister :receiver TEAMCORE :sender arens_at_isi_edu_email_arens_at_isi_edu :ontology tcp-ip :reply-with nil :content arens_at_isi_edu_email_arens_at_isi_edu)
+Wed Jun 26 14:20:57 2002: Exiting...
+Wed Jun 26 14:48:41 2002: Using ANS: ('vibhagam.isi.edu', 5500)
+Wed Jun 26 14:48:41 2002: Bound to host/port: sangat.isi.edu:6685
+Wed Jun 26 14:48:41 2002: Sending message: (register :ontology tcp-ip :sender arens_at_isi_edu_email_arens_at_isi_edu :reply-with t :content "arens_at_isi_edu_email_arens_at_isi_edu sangat.isi.edu:6685")
+Wed Jun 26 14:48:41 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Wed Jun 26 14:48:41 2002: Registration produced: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Wed Jun 26 14:48:41 2002: Sending message: (unregister :sender arens_at_isi_edu_email_arens_at_isi_edu :ontology tcp-ip :reply-with nil :content arens_at_isi_edu_email_arens_at_isi_edu)
+Wed Jun 26 14:48:41 2002: Sending message: (register :sender arens_at_isi_edu_email_arens_at_isi_edu :ontology tcp-ip :reply-with t :content (arens_at_isi_edu_email_arens_at_isi_edu sangat.isi.edu:6685))
+Wed Jun 26 14:48:41 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'arens_at_isi_edu_email_arens_at_isi_edu TEAMCORE'}
+Wed Jun 26 14:48:41 2002: Registration produced: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'arens_at_isi_edu_email_arens_at_isi_edu TEAMCORE'}arens_at_isi_edu_email_arens_at_isi_edu, TEAMCORE
+Wed Jun 26 14:48:41 2002: Registration successful: arens_at_isi_edu_email_arens_at_isi_edu
+Wed Jun 26 14:48:41 2002: Router for arens_at_isi_edu_email_arens_at_isi_edu running...
+Wed Jun 26 14:48:41 2002: Sending message: (ask-one :sender arens_at_isi_edu_email_arens_at_isi_edu :reply-with t :content "proxy_arens_at_isi_edu")
+Wed Jun 26 14:48:41 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_arens_at_isi_edu:sangat.isi.edu:9991:'}
+Wed Jun 26 14:48:41 2002: Sending message: (register :name email_arens_at_isi_edu :reply-with nil :agenttype device :receiver proxy_arens_at_isi_edu :user arens_at_isi_edu :sender arens_at_isi_edu_email_arens_at_isi_edu :direction (to user))
+Fri Jun 28 10:25:46 2002: Using ANS: ('vibhagam.isi.edu', 5500)
+Fri Jun 28 10:25:46 2002: Bound to host/port: equipe.isi.edu:6667
+Fri Jun 28 10:25:46 2002: Sending message: (register :ontology tcp-ip :sender arens_at_isi_edu_email_arens_at_isi_edu :reply-with t :content "arens_at_isi_edu_email_arens_at_isi_edu equipe.isi.edu:6667")
+Fri Jun 28 10:25:46 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Fri Jun 28 10:25:46 2002: Registration produced: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Fri Jun 28 10:25:46 2002: Sending message: (unregister :sender arens_at_isi_edu_email_arens_at_isi_edu :ontology tcp-ip :reply-with nil :content arens_at_isi_edu_email_arens_at_isi_edu)
+Fri Jun 28 10:25:46 2002: Sending message: (register :sender arens_at_isi_edu_email_arens_at_isi_edu :ontology tcp-ip :reply-with t :content (arens_at_isi_edu_email_arens_at_isi_edu equipe.isi.edu:6667))
+Fri Jun 28 10:25:46 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'arens_at_isi_edu_email_arens_at_isi_edu TEAMCORE'}
+Fri Jun 28 10:25:46 2002: Registration produced: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'arens_at_isi_edu_email_arens_at_isi_edu TEAMCORE'}arens_at_isi_edu_email_arens_at_isi_edu, TEAMCORE
+Fri Jun 28 10:25:46 2002: Registration successful: arens_at_isi_edu_email_arens_at_isi_edu
+Fri Jun 28 10:25:46 2002: Router for arens_at_isi_edu_email_arens_at_isi_edu running...
+Fri Jun 28 10:25:46 2002: Sending message: (ask-one :sender arens_at_isi_edu_email_arens_at_isi_edu :reply-with t :content "proxy_arens_at_isi_edu")
+Fri Jun 28 10:25:46 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_arens_at_isi_edu:sangat.isi.edu:9991:'}
+Fri Jun 28 10:25:46 2002: Sending message: (register :name email_arens_at_isi_edu :reply-with nil :agenttype device :receiver proxy_arens_at_isi_edu :user arens_at_isi_edu :sender arens_at_isi_edu_email_arens_at_isi_edu :direction (to user))
+Fri Jun 28 10:29:23 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'ask', 'sender': 'ping_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'arens_at_isi_edu', 'content': 'hello'}
+Fri Jun 28 10:29:23 2002: Processing message: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'ask', 'sender': 'ping_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'arens_at_isi_edu', 'content': 'hello'}
+Fri Jun 28 10:29:23 2002: Replying: (sorry :reply-with nil :in-reply-to arens_at_isi_edu :receiver ping_arens_at_isi_edu_email_arens_at_isi_edu :sender arens_at_isi_edu_email_arens_at_isi_edu :comment "Unintelligible query")
+Fri Jul 12 11:35:36 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'ask', 'sender': 'ping_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'arens_at_isi_edu', 'content': 'hello'}
+Fri Jul 12 11:35:37 2002: Processing message: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'ask', 'sender': 'ping_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'arens_at_isi_edu', 'content': 'hello'}
+Fri Jul 12 11:35:37 2002: Replying: (sorry :reply-with nil :in-reply-to arens_at_isi_edu :receiver ping_arens_at_isi_edu_email_arens_at_isi_edu :sender arens_at_isi_edu_email_arens_at_isi_edu :comment "Unintelligible query")
+Fri Jul 26 15:10:19 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'tell', 'sender': 'stop_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'nil', 'content': 'stop'}
+Fri Jul 26 15:10:19 2002: Processing message: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'tell', 'sender': 'stop_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'nil', 'content': 'stop'}
+Fri Jul 26 15:10:21 2002: Sending message: (unregister :receiver proxy_arens_at_isi_edu :name email_arens_at_isi_edu :sender arens_at_isi_edu_email_arens_at_isi_edu :reply-with nil :user arens_at_isi_edu)
+Fri Jul 26 15:10:21 2002: Router arens_at_isi_edu_email_arens_at_isi_edu exiting...
+Fri Jul 26 15:10:21 2002: Sending message: (unregister :receiver TEAMCORE :sender arens_at_isi_edu_email_arens_at_isi_edu :ontology tcp-ip :reply-with nil :content arens_at_isi_edu_email_arens_at_isi_edu)
+Fri Jul 26 15:10:21 2002: Exiting...
+Fri Jul 26 15:11:55 2002: Using ANS: ('vibhagam', 5500)
+Fri Jul 26 15:11:55 2002: Bound to host/port: sangat.isi.edu:6681
+Fri Jul 26 15:11:55 2002: Sending message: (register :ontology tcp-ip :sender arens_at_isi_edu_email_arens_at_isi_edu :reply-with t :content "arens_at_isi_edu_email_arens_at_isi_edu sangat.isi.edu:6681")
+Fri Jul 26 15:11:55 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Fri Jul 26 15:11:55 2002: Registration produced: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Fri Jul 26 15:11:55 2002: Sending message: (unregister :sender arens_at_isi_edu_email_arens_at_isi_edu :ontology tcp-ip :reply-with nil :content arens_at_isi_edu_email_arens_at_isi_edu)
+Fri Jul 26 15:11:55 2002: Sending message: (register :sender arens_at_isi_edu_email_arens_at_isi_edu :ontology tcp-ip :reply-with t :content (arens_at_isi_edu_email_arens_at_isi_edu sangat.isi.edu:6681))
+Fri Jul 26 15:11:55 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'arens_at_isi_edu_email_arens_at_isi_edu TEAMCORE'}
+Fri Jul 26 15:11:55 2002: Registration produced: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'arens_at_isi_edu_email_arens_at_isi_edu TEAMCORE'}arens_at_isi_edu_email_arens_at_isi_edu, TEAMCORE
+Fri Jul 26 15:11:55 2002: Registration successful: arens_at_isi_edu_email_arens_at_isi_edu
+Fri Jul 26 15:11:55 2002: Router for arens_at_isi_edu_email_arens_at_isi_edu running...
+Fri Jul 26 15:11:55 2002: Sending message: (ask-one :sender arens_at_isi_edu_email_arens_at_isi_edu :reply-with t :content "proxy_arens_at_isi_edu")
+Fri Jul 26 15:11:55 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_arens_at_isi_edu:sangat.isi.edu:9991:'}
+Fri Jul 26 15:11:55 2002: Sending message: (register :name email_arens_at_isi_edu :reply-with nil :agenttype device :receiver proxy_arens_at_isi_edu :user arens_at_isi_edu :sender arens_at_isi_edu_email_arens_at_isi_edu :direction (to user))
+Fri Jul 26 15:11:56 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'ask', 'sender': 'ping_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'arens_at_isi_edu', 'content': 'hello'}
+Fri Jul 26 15:11:56 2002: Processing message: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'ask', 'sender': 'ping_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'arens_at_isi_edu', 'content': 'hello'}
+Fri Jul 26 15:11:56 2002: Replying: (sorry :reply-with nil :in-reply-to arens_at_isi_edu :receiver ping_arens_at_isi_edu_email_arens_at_isi_edu :sender arens_at_isi_edu_email_arens_at_isi_edu :comment "Unintelligible query")
+Fri Jul 26 15:13:29 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'tell', 'sender': 'stop_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'nil', 'content': 'stop'}
+Fri Jul 26 15:13:29 2002: Processing message: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'tell', 'sender': 'stop_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'nil', 'content': 'stop'}
+Fri Jul 26 15:13:29 2002: Sending message: (unregister :receiver proxy_arens_at_isi_edu :name email_arens_at_isi_edu :sender arens_at_isi_edu_email_arens_at_isi_edu :reply-with nil :user arens_at_isi_edu)
+Fri Jul 26 15:13:29 2002: Router arens_at_isi_edu_email_arens_at_isi_edu exiting...
+Fri Jul 26 15:13:29 2002: Sending message: (unregister :receiver TEAMCORE :sender arens_at_isi_edu_email_arens_at_isi_edu :ontology tcp-ip :reply-with nil :content arens_at_isi_edu_email_arens_at_isi_edu)
+Fri Jul 26 15:13:29 2002: Exiting...
+Fri Jul 26 15:12:01 2002: Using ANS: ('vibhagam.isi.edu', 5500)
+Fri Jul 26 15:12:01 2002: Bound to host/port: equipe.isi.edu:6668
+Fri Jul 26 15:12:01 2002: Sending message: (register :ontology tcp-ip :sender arens_at_isi_edu_email_arens_at_isi_edu :reply-with t :content "arens_at_isi_edu_email_arens_at_isi_edu equipe.isi.edu:6668")
+Fri Jul 26 15:12:01 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Fri Jul 26 15:12:01 2002: Registration produced: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Fri Jul 26 15:12:01 2002: Sending message: (unregister :sender arens_at_isi_edu_email_arens_at_isi_edu :ontology tcp-ip :reply-with nil :content arens_at_isi_edu_email_arens_at_isi_edu)
+Fri Jul 26 15:12:01 2002: Sending message: (register :sender arens_at_isi_edu_email_arens_at_isi_edu :ontology tcp-ip :reply-with t :content (arens_at_isi_edu_email_arens_at_isi_edu equipe.isi.edu:6668))
+Fri Jul 26 15:12:01 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'arens_at_isi_edu_email_arens_at_isi_edu TEAMCORE'}
+Fri Jul 26 15:12:01 2002: Registration produced: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'arens_at_isi_edu_email_arens_at_isi_edu TEAMCORE'}arens_at_isi_edu_email_arens_at_isi_edu, TEAMCORE
+Fri Jul 26 15:12:01 2002: Registration successful: arens_at_isi_edu_email_arens_at_isi_edu
+Fri Jul 26 15:12:01 2002: Router for arens_at_isi_edu_email_arens_at_isi_edu running...
+Fri Jul 26 15:12:01 2002: Sending message: (ask-one :sender arens_at_isi_edu_email_arens_at_isi_edu :reply-with t :content "proxy_arens_at_isi_edu")
+Fri Jul 26 15:12:01 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_arens_at_isi_edu:sangat.isi.edu:9991:'}
+Fri Jul 26 15:12:01 2002: Sending message: (register :name email_arens_at_isi_edu :reply-with nil :agenttype device :receiver proxy_arens_at_isi_edu :user arens_at_isi_edu :sender arens_at_isi_edu_email_arens_at_isi_edu :direction (to user))
+Fri Jul 26 15:12:02 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'ask', 'sender': 'ping_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'arens_at_isi_edu', 'content': 'hello'}
+Fri Jul 26 15:12:02 2002: Processing message: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'ask', 'sender': 'ping_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'arens_at_isi_edu', 'content': 'hello'}
+Fri Jul 26 15:12:02 2002: Replying: (sorry :reply-with nil :in-reply-to arens_at_isi_edu :receiver ping_arens_at_isi_edu_email_arens_at_isi_edu :sender arens_at_isi_edu_email_arens_at_isi_edu :comment "Unintelligible query")
+Fri Jul 26 15:15:10 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'ask', 'sender': 'ping_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'arens_at_isi_edu', 'content': 'hello'}
+Fri Jul 26 15:15:10 2002: Processing message: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'ask', 'sender': 'ping_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'arens_at_isi_edu', 'content': 'hello'}
+Fri Jul 26 15:15:10 2002: Replying: (sorry :reply-with nil :in-reply-to arens_at_isi_edu :receiver ping_arens_at_isi_edu_email_arens_at_isi_edu :sender arens_at_isi_edu_email_arens_at_isi_edu :comment "Unintelligible query")
+Mon Aug 19 18:22:11 2002: Using ANS: ('vibhagam', 5500)
+Mon Aug 19 18:22:11 2002: Bound to host/port: sangat.isi.edu:6668
+Mon Aug 19 18:22:11 2002: Sending message: (register :ontology tcp-ip :sender arens_at_isi_edu_email_arens_at_isi_edu :reply-with t :content "arens_at_isi_edu_email_arens_at_isi_edu sangat.isi.edu:6668")
+Mon Aug 19 18:22:11 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Mon Aug 19 18:22:11 2002: Registration produced: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Mon Aug 19 18:22:11 2002: Sending message: (unregister :sender arens_at_isi_edu_email_arens_at_isi_edu :ontology tcp-ip :reply-with nil :content arens_at_isi_edu_email_arens_at_isi_edu)
+Mon Aug 19 18:22:11 2002: Sending message: (register :sender arens_at_isi_edu_email_arens_at_isi_edu :ontology tcp-ip :reply-with t :content (arens_at_isi_edu_email_arens_at_isi_edu sangat.isi.edu:6668))
+Mon Aug 19 18:22:11 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'arens_at_isi_edu_email_arens_at_isi_edu TEAMCORE'}
+Mon Aug 19 18:22:11 2002: Registration produced: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'arens_at_isi_edu_email_arens_at_isi_edu TEAMCORE'}arens_at_isi_edu_email_arens_at_isi_edu, TEAMCORE
+Mon Aug 19 18:22:11 2002: Registration successful: arens_at_isi_edu_email_arens_at_isi_edu
+Mon Aug 19 18:22:11 2002: Router for arens_at_isi_edu_email_arens_at_isi_edu running...
+Mon Aug 19 18:22:11 2002: Sending message: (ask-one :sender arens_at_isi_edu_email_arens_at_isi_edu :reply-with t :content "proxy_arens_at_isi_edu")
+Mon Aug 19 18:22:11 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_arens_at_isi_edu:sangat.isi.edu:9992:'}
+Mon Aug 19 18:22:11 2002: Sending message: (register :name email_arens_at_isi_edu :reply-with nil :agenttype device :receiver proxy_arens_at_isi_edu :user arens_at_isi_edu :sender arens_at_isi_edu_email_arens_at_isi_edu :direction (to user))
+Mon Aug 19 18:22:13 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'ask', 'sender': 'ping_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'arens_at_isi_edu', 'content': 'hello'}
+Mon Aug 19 18:22:13 2002: Processing message: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'ask', 'sender': 'ping_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'arens_at_isi_edu', 'content': 'hello'}
+Mon Aug 19 18:22:13 2002: Replying: (sorry :reply-with nil :in-reply-to arens_at_isi_edu :receiver ping_arens_at_isi_edu_email_arens_at_isi_edu :sender arens_at_isi_edu_email_arens_at_isi_edu :comment "Unintelligible query")
+Fri Sep 06 13:52:20 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'ask', 'sender': 'ping_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'arens_at_isi_edu', 'content': 'hello'}
+Fri Sep 06 13:52:20 2002: Processing message: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'ask', 'sender': 'ping_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'arens_at_isi_edu', 'content': 'hello'}
+Fri Sep 06 13:52:20 2002: Replying: (sorry :reply-with nil :in-reply-to arens_at_isi_edu :receiver ping_arens_at_isi_edu_email_arens_at_isi_edu :sender arens_at_isi_edu_email_arens_at_isi_edu :comment "Unintelligible query")
+Fri Sep 06 14:07:36 2002: Using ANS: ('vibhagam.isi.edu', 5500)
+Fri Sep 06 14:07:36 2002: Bound to host/port: equipe.isi.edu:6667
+Fri Sep 06 14:07:36 2002: Sending message: (register :ontology tcp-ip :sender arens_at_isi_edu_email_arens_at_isi_edu :reply-with t :content "arens_at_isi_edu_email_arens_at_isi_edu equipe.isi.edu:6667")
+Fri Sep 06 14:07:36 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Fri Sep 06 14:07:36 2002: Registration produced: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Fri Sep 06 14:07:36 2002: Sending message: (unregister :sender arens_at_isi_edu_email_arens_at_isi_edu :ontology tcp-ip :reply-with nil :content arens_at_isi_edu_email_arens_at_isi_edu)
+Fri Sep 06 14:07:36 2002: Sending message: (register :sender arens_at_isi_edu_email_arens_at_isi_edu :ontology tcp-ip :reply-with t :content (arens_at_isi_edu_email_arens_at_isi_edu equipe.isi.edu:6667))
+Fri Sep 06 14:07:36 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'arens_at_isi_edu_email_arens_at_isi_edu TEAMCORE'}
+Fri Sep 06 14:07:36 2002: Registration produced: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'arens_at_isi_edu_email_arens_at_isi_edu TEAMCORE'}arens_at_isi_edu_email_arens_at_isi_edu, TEAMCORE
+Fri Sep 06 14:07:36 2002: Registration successful: arens_at_isi_edu_email_arens_at_isi_edu
+Fri Sep 06 14:07:36 2002: Router for arens_at_isi_edu_email_arens_at_isi_edu running...
+Fri Sep 06 14:07:36 2002: Sending message: (ask-one :sender arens_at_isi_edu_email_arens_at_isi_edu :reply-with t :content "proxy_arens_at_isi_edu")
+Fri Sep 06 14:07:36 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_arens_at_isi_edu:sangat.isi.edu:9992:'}
+Fri Sep 06 14:07:36 2002: Sending message: (register :name email_arens_at_isi_edu :reply-with nil :agenttype device :receiver proxy_arens_at_isi_edu :user arens_at_isi_edu :sender arens_at_isi_edu_email_arens_at_isi_edu :direction (to user))
+Tue Sep 24 15:19:27 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'kqml-admin', 'sender': 'TEAMCORE', 'kqml-msg-id': '29131+vibhagam.isi.edu+33', 'reply-with': 't', 'content': 'name'}
+Wed Sep 25 16:40:30 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'ask', 'sender': 'ping_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'arens_at_isi_edu', 'content': 'hello'}
+Wed Sep 25 16:40:30 2002: Processing message: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'ask', 'sender': 'ping_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'arens_at_isi_edu', 'content': 'hello'}
+Wed Sep 25 16:40:30 2002: Replying: (sorry :reply-with nil :in-reply-to arens_at_isi_edu :receiver ping_arens_at_isi_edu_email_arens_at_isi_edu :sender arens_at_isi_edu_email_arens_at_isi_edu :comment "Unintelligible query")
+Mon Oct 28 14:19:22 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'kqml-admin', 'sender': 'TEAMCORE', 'kqml-msg-id': '24669+vibhagam.isi.edu+30', 'reply-with': 't', 'content': 'name'}
+Mon Oct 28 14:20:43 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'ask', 'sender': 'ping_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'arens_at_isi_edu', 'content': 'hello'}
+Mon Oct 28 14:20:43 2002: Processing message: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'ask', 'sender': 'ping_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'arens_at_isi_edu', 'content': 'hello'}
+Mon Oct 28 14:20:43 2002: Replying: (sorry :reply-with nil :in-reply-to arens_at_isi_edu :receiver ping_arens_at_isi_edu_email_arens_at_isi_edu :sender arens_at_isi_edu_email_arens_at_isi_edu :comment "Unintelligible query")
+Tue Oct 29 10:23:16 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'kqml-admin', 'sender': 'TEAMCORE', 'kqml-msg-id': '26893+vibhagam.isi.edu+23', 'reply-with': 't', 'content': 'name'}
+Tue Oct 29 18:35:10 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'kqml-admin', 'sender': 'TEAMCORE', 'kqml-msg-id': '29472+vibhagam.isi.edu+23', 'reply-with': 't', 'content': 'name'}
+Tue Oct 29 19:59:06 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'kqml-admin', 'sender': 'TEAMCORE', 'kqml-msg-id': '181+vibhagam.isi.edu+23', 'reply-with': 't', 'content': 'name'}
+Tue Oct 29 20:15:46 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'kqml-admin', 'sender': 'TEAMCORE', 'kqml-msg-id': '405+vibhagam.isi.edu+23', 'reply-with': 't', 'content': 'name'}
+Mon Nov 04 10:16:25 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'kqml-admin', 'sender': 'TEAMCORE', 'kqml-msg-id': '15317+vibhagam.isi.edu+27', 'reply-with': 't', 'content': 'name'}
+Thu Nov 07 11:47:15 2002: Using ANS: ('vibhagam.isi.edu', 5500)
+Thu Nov 07 11:47:15 2002: Bound to host/port: sangat.isi.edu:6668
+Thu Nov 07 11:47:15 2002: Sending message: (register :ontology tcp-ip :sender arens_at_isi_edu_email_arens_at_isi_edu :reply-with t :content "arens_at_isi_edu_email_arens_at_isi_edu sangat.isi.edu:6668")
+Thu Nov 07 11:47:15 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Thu Nov 07 11:47:15 2002: Registration produced: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Thu Nov 07 11:47:15 2002: Sending message: (unregister :sender arens_at_isi_edu_email_arens_at_isi_edu :ontology tcp-ip :reply-with nil :content arens_at_isi_edu_email_arens_at_isi_edu)
+Thu Nov 07 11:47:15 2002: Sending message: (register :sender arens_at_isi_edu_email_arens_at_isi_edu :ontology tcp-ip :reply-with t :content (arens_at_isi_edu_email_arens_at_isi_edu sangat.isi.edu:6668))
+Thu Nov 07 11:47:15 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'arens_at_isi_edu_email_arens_at_isi_edu TEAMCORE'}
+Thu Nov 07 11:47:15 2002: Registration produced: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'arens_at_isi_edu_email_arens_at_isi_edu TEAMCORE'}arens_at_isi_edu_email_arens_at_isi_edu, TEAMCORE
+Thu Nov 07 11:47:15 2002: Registration successful: arens_at_isi_edu_email_arens_at_isi_edu
+Thu Nov 07 11:47:15 2002: Router for arens_at_isi_edu_email_arens_at_isi_edu running...
+Thu Nov 07 11:47:15 2002: Sending message: (ask-one :sender arens_at_isi_edu_email_arens_at_isi_edu :reply-with t :content "proxy_arens_at_isi_edu")
+Thu Nov 07 11:47:15 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_arens_at_isi_edu:sangat.isi.edu:9992:'}
+Thu Nov 07 11:47:15 2002: Sending message: (register :name email_arens_at_isi_edu :reply-with nil :agenttype device :receiver proxy_arens_at_isi_edu :user arens_at_isi_edu :sender arens_at_isi_edu_email_arens_at_isi_edu :direction (to user))
+Thu Nov 07 11:47:17 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'ask', 'sender': 'ping_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'arens_at_isi_edu', 'content': 'hello'}
+Thu Nov 07 11:47:17 2002: Processing message: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'ask', 'sender': 'ping_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'arens_at_isi_edu', 'content': 'hello'}
+Thu Nov 07 11:47:17 2002: Replying: (sorry :reply-with nil :in-reply-to arens_at_isi_edu :receiver ping_arens_at_isi_edu_email_arens_at_isi_edu :sender arens_at_isi_edu_email_arens_at_isi_edu :comment "Unintelligible query")
+Thu Nov 07 12:50:23 2002: Using ANS: ('vibhagam.isi.edu', 5500)
+Thu Nov 07 12:50:23 2002: Bound to host/port: sangat.isi.edu:6668
+Thu Nov 07 12:50:23 2002: Sending message: (register :ontology tcp-ip :sender arens_at_isi_edu_email_arens_at_isi_edu :reply-with t :content "arens_at_isi_edu_email_arens_at_isi_edu sangat.isi.edu:6668")
+Thu Nov 07 12:50:23 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Thu Nov 07 12:50:23 2002: Registration produced: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Thu Nov 07 12:50:23 2002: Sending message: (unregister :sender arens_at_isi_edu_email_arens_at_isi_edu :ontology tcp-ip :reply-with nil :content arens_at_isi_edu_email_arens_at_isi_edu)
+Thu Nov 07 12:50:23 2002: Sending message: (register :sender arens_at_isi_edu_email_arens_at_isi_edu :ontology tcp-ip :reply-with t :content (arens_at_isi_edu_email_arens_at_isi_edu sangat.isi.edu:6668))
+Thu Nov 07 12:50:23 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'arens_at_isi_edu_email_arens_at_isi_edu TEAMCORE'}
+Thu Nov 07 12:50:23 2002: Registration produced: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'arens_at_isi_edu_email_arens_at_isi_edu TEAMCORE'}arens_at_isi_edu_email_arens_at_isi_edu, TEAMCORE
+Thu Nov 07 12:50:23 2002: Registration successful: arens_at_isi_edu_email_arens_at_isi_edu
+Thu Nov 07 12:50:23 2002: Router for arens_at_isi_edu_email_arens_at_isi_edu running...
+Thu Nov 07 12:50:23 2002: Sending message: (ask-one :sender arens_at_isi_edu_email_arens_at_isi_edu :reply-with t :content "proxy_arens_at_isi_edu")
+Thu Nov 07 12:50:23 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'sorry', 'sender': 'TEAMCORE', 'in-reply-to': 't'}
+Thu Nov 07 12:50:23 2002: No registered agent: proxy_arens_at_isi_edu
+Thu Nov 07 12:50:24 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'ask', 'sender': 'ping_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'arens_at_isi_edu', 'content': 'hello'}
+Thu Nov 07 12:50:24 2002: Processing message: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'ask', 'sender': 'ping_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'arens_at_isi_edu', 'content': 'hello'}
+Thu Nov 07 12:50:24 2002: Replying: (sorry :reply-with nil :in-reply-to arens_at_isi_edu :receiver ping_arens_at_isi_edu_email_arens_at_isi_edu :sender arens_at_isi_edu_email_arens_at_isi_edu :comment "Unintelligible query")
+Thu Nov 07 13:06:57 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'tell', 'sender': 'stop_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'nil', 'content': 'stop'}
+Thu Nov 07 13:06:57 2002: Processing message: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'tell', 'sender': 'stop_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'nil', 'content': 'stop'}
+Thu Nov 07 13:06:57 2002: Sending message: (ask-one :sender arens_at_isi_edu_email_arens_at_isi_edu :reply-with t :content "proxy_arens_at_isi_edu")
+Thu Nov 07 13:06:57 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_arens_at_isi_edu:sangat.isi.edu:9992:'}
+Thu Nov 07 13:06:57 2002: Sending message: (unregister :receiver proxy_arens_at_isi_edu :name email_arens_at_isi_edu :sender arens_at_isi_edu_email_arens_at_isi_edu :reply-with nil :user arens_at_isi_edu)
+Thu Nov 07 13:06:57 2002: Router arens_at_isi_edu_email_arens_at_isi_edu exiting...
+Thu Nov 07 13:06:57 2002: Sending message: (unregister :receiver TEAMCORE :sender arens_at_isi_edu_email_arens_at_isi_edu :ontology tcp-ip :reply-with nil :content arens_at_isi_edu_email_arens_at_isi_edu)
+Thu Nov 07 13:06:57 2002: Exiting...
+Thu Nov 07 13:06:59 2002: Using ANS: ('vibhagam.isi.edu', 5500)
+Thu Nov 07 13:06:59 2002: Bound to host/port: sangat.isi.edu:6667
+Thu Nov 07 13:06:59 2002: Sending message: (register :ontology tcp-ip :sender arens_at_isi_edu_email_arens_at_isi_edu :reply-with t :content "arens_at_isi_edu_email_arens_at_isi_edu sangat.isi.edu:6667")
+Thu Nov 07 13:06:59 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Thu Nov 07 13:06:59 2002: Registration produced: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Thu Nov 07 13:06:59 2002: Sending message: (unregister :sender arens_at_isi_edu_email_arens_at_isi_edu :ontology tcp-ip :reply-with nil :content arens_at_isi_edu_email_arens_at_isi_edu)
+Thu Nov 07 13:06:59 2002: Sending message: (register :sender arens_at_isi_edu_email_arens_at_isi_edu :ontology tcp-ip :reply-with t :content (arens_at_isi_edu_email_arens_at_isi_edu sangat.isi.edu:6667))
+Thu Nov 07 13:07:00 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'arens_at_isi_edu_email_arens_at_isi_edu TEAMCORE'}
+Thu Nov 07 13:07:00 2002: Registration produced: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'arens_at_isi_edu_email_arens_at_isi_edu TEAMCORE'}arens_at_isi_edu_email_arens_at_isi_edu, TEAMCORE
+Thu Nov 07 13:07:00 2002: Registration successful: arens_at_isi_edu_email_arens_at_isi_edu
+Thu Nov 07 13:07:00 2002: Router for arens_at_isi_edu_email_arens_at_isi_edu running...
+Thu Nov 07 13:07:00 2002: Sending message: (ask-one :sender arens_at_isi_edu_email_arens_at_isi_edu :reply-with t :content "proxy_arens_at_isi_edu")
+Thu Nov 07 13:07:00 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_arens_at_isi_edu:sangat.isi.edu:9992:'}
+Thu Nov 07 13:07:00 2002: Sending message: (register :name email_arens_at_isi_edu :reply-with nil :agenttype device :receiver proxy_arens_at_isi_edu :user arens_at_isi_edu :sender arens_at_isi_edu_email_arens_at_isi_edu :direction (to user))
+Thu Nov 07 13:07:01 2002: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'ask', 'sender': 'ping_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'arens_at_isi_edu', 'content': 'hello'}
+Thu Nov 07 13:07:01 2002: Processing message: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'ask', 'sender': 'ping_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'arens_at_isi_edu', 'content': 'hello'}
+Thu Nov 07 13:07:01 2002: Replying: (sorry :reply-with nil :in-reply-to arens_at_isi_edu :receiver ping_arens_at_isi_edu_email_arens_at_isi_edu :sender arens_at_isi_edu_email_arens_at_isi_edu :comment "Unintelligible query")
+Tue Jan 07 16:40:06 2003: Using ANS: ('vibhagam', 5500)
+Tue Jan 07 16:40:06 2003: Bound to host/port: sangat.isi.edu:6668
+Tue Jan 07 16:40:06 2003: Sending message: (register :ontology tcp-ip :sender arens_at_isi_edu_email_arens_at_isi_edu :reply-with t :content "arens_at_isi_edu_email_arens_at_isi_edu sangat.isi.edu:6668")
+Tue Jan 07 16:40:06 2003: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Tue Jan 07 16:40:06 2003: Registration produced: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Tue Jan 07 16:40:06 2003: Sending message: (unregister :sender arens_at_isi_edu_email_arens_at_isi_edu :ontology tcp-ip :reply-with nil :content arens_at_isi_edu_email_arens_at_isi_edu)
+Tue Jan 07 16:40:06 2003: Sending message: (register :sender arens_at_isi_edu_email_arens_at_isi_edu :ontology tcp-ip :reply-with t :content (arens_at_isi_edu_email_arens_at_isi_edu sangat.isi.edu:6668))
+Tue Jan 07 16:40:06 2003: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'arens_at_isi_edu_email_arens_at_isi_edu TEAMCORE'}
+Tue Jan 07 16:40:06 2003: Registration produced: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'arens_at_isi_edu_email_arens_at_isi_edu TEAMCORE'}arens_at_isi_edu_email_arens_at_isi_edu, TEAMCORE
+Tue Jan 07 16:40:06 2003: Registration successful: arens_at_isi_edu_email_arens_at_isi_edu
+Tue Jan 07 16:40:06 2003: Router for arens_at_isi_edu_email_arens_at_isi_edu running...
+Tue Jan 07 16:40:06 2003: Sending message: (ask-one :sender arens_at_isi_edu_email_arens_at_isi_edu :reply-with t :content "proxy_arens_at_isi_edu")
+Tue Jan 07 16:40:06 2003: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_arens_at_isi_edu:sangat.isi.edu:9992:'}
+Tue Jan 07 16:40:06 2003: Sending message: (register :name email_arens_at_isi_edu :reply-with nil :agenttype device :receiver proxy_arens_at_isi_edu :user arens_at_isi_edu :sender arens_at_isi_edu_email_arens_at_isi_edu :direction (to user))
+Tue Jan 07 16:40:07 2003: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'ask', 'sender': 'ping_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'arens_at_isi_edu', 'content': 'hello'}
+Tue Jan 07 16:40:07 2003: Processing message: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'ask', 'sender': 'ping_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'arens_at_isi_edu', 'content': 'hello'}
+Tue Jan 07 16:40:07 2003: Replying: (sorry :reply-with nil :in-reply-to arens_at_isi_edu :receiver ping_arens_at_isi_edu_email_arens_at_isi_edu :sender arens_at_isi_edu_email_arens_at_isi_edu :comment "Unintelligible query")
+Mon Jan 13 16:24:06 2003: Using ANS: ('vibhagam', 5500)
+Mon Jan 13 16:24:06 2003: Bound to host/port: sangat.isi.edu:6669
+Mon Jan 13 16:24:06 2003: Sending message: (register :ontology tcp-ip :sender arens_at_isi_edu_email_arens_at_isi_edu :reply-with t :content "arens_at_isi_edu_email_arens_at_isi_edu sangat.isi.edu:6669")
+Mon Jan 13 16:24:06 2003: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Mon Jan 13 16:24:06 2003: Registration produced: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Mon Jan 13 16:24:06 2003: Sending message: (unregister :sender arens_at_isi_edu_email_arens_at_isi_edu :ontology tcp-ip :reply-with nil :content arens_at_isi_edu_email_arens_at_isi_edu)
+Mon Jan 13 16:24:06 2003: Sending message: (register :sender arens_at_isi_edu_email_arens_at_isi_edu :ontology tcp-ip :reply-with t :content (arens_at_isi_edu_email_arens_at_isi_edu sangat.isi.edu:6669))
+Mon Jan 13 16:24:06 2003: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'arens_at_isi_edu_email_arens_at_isi_edu TEAMCORE'}
+Mon Jan 13 16:24:06 2003: Registration produced: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'arens_at_isi_edu_email_arens_at_isi_edu TEAMCORE'}arens_at_isi_edu_email_arens_at_isi_edu, TEAMCORE
+Mon Jan 13 16:24:06 2003: Registration successful: arens_at_isi_edu_email_arens_at_isi_edu
+Mon Jan 13 16:24:06 2003: Router for arens_at_isi_edu_email_arens_at_isi_edu running...
+Mon Jan 13 16:24:06 2003: Sending message: (ask-one :sender arens_at_isi_edu_email_arens_at_isi_edu :reply-with t :content "proxy_arens_at_isi_edu")
+Mon Jan 13 16:24:06 2003: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_arens_at_isi_edu:sangat.isi.edu:9993:'}
+Mon Jan 13 16:24:06 2003: Sending message: (register :name email_arens_at_isi_edu :reply-with nil :agenttype device :receiver proxy_arens_at_isi_edu :user arens_at_isi_edu :sender arens_at_isi_edu_email_arens_at_isi_edu :direction (to user))
+Mon Jan 13 16:24:07 2003: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'ask', 'sender': 'ping_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'arens_at_isi_edu', 'content': 'hello'}
+Mon Jan 13 16:24:07 2003: Processing message: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'ask', 'sender': 'ping_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'arens_at_isi_edu', 'content': 'hello'}
+Mon Jan 13 16:24:07 2003: Replying: (sorry :reply-with nil :in-reply-to arens_at_isi_edu :receiver ping_arens_at_isi_edu_email_arens_at_isi_edu :sender arens_at_isi_edu_email_arens_at_isi_edu :comment "Unintelligible query")
+Thu Jan 16 10:59:04 2003: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'kqml-admin', 'sender': 'TEAMCORE', 'kqml-msg-id': '1786+vibhagam.isi.edu+24', 'reply-with': 't', 'content': 'name'}
+Thu Jan 16 11:53:41 2003: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'ask', 'sender': 'ping_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'arens_at_isi_edu', 'content': 'hello'}
+Thu Jan 16 11:53:41 2003: Processing message: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'ask', 'sender': 'ping_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'arens_at_isi_edu', 'content': 'hello'}
+Thu Jan 16 11:53:41 2003: Replying: (sorry :reply-with nil :in-reply-to arens_at_isi_edu :receiver ping_arens_at_isi_edu_email_arens_at_isi_edu :sender arens_at_isi_edu_email_arens_at_isi_edu :comment "Unintelligible query")
+Tue Mar 04 15:42:08 2003: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'ask', 'sender': 'ping_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'arens_at_isi_edu', 'content': 'hello'}
+Tue Mar 04 15:42:08 2003: Processing message: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'ask', 'sender': 'ping_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'arens_at_isi_edu', 'content': 'hello'}
+Tue Mar 04 15:42:08 2003: Replying: (sorry :reply-with nil :in-reply-to arens_at_isi_edu :receiver ping_arens_at_isi_edu_email_arens_at_isi_edu :sender arens_at_isi_edu_email_arens_at_isi_edu :comment "Unintelligible query")
+Tue Mar 04 15:45:52 2003: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'ask', 'sender': 'ping_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'arens_at_isi_edu', 'content': 'hello'}
+Tue Mar 04 15:45:52 2003: Processing message: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'ask', 'sender': 'ping_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'arens_at_isi_edu', 'content': 'hello'}
+Tue Mar 04 15:45:52 2003: Replying: (sorry :reply-with nil :in-reply-to arens_at_isi_edu :receiver ping_arens_at_isi_edu_email_arens_at_isi_edu :sender arens_at_isi_edu_email_arens_at_isi_edu :comment "Unintelligible query")
+Tue Mar 04 16:00:18 2003: Using ANS: ('vibhagam.isi.edu', 5500)
+Tue Mar 04 16:00:18 2003: Bound to host/port: sangat.isi.edu:6668
+Tue Mar 04 16:00:18 2003: Sending message: (register :ontology tcp-ip :sender arens_at_isi_edu_email_arens_at_isi_edu :reply-with t :content "arens_at_isi_edu_email_arens_at_isi_edu sangat.isi.edu:6668")
+Tue Mar 04 16:00:18 2003: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Tue Mar 04 16:00:18 2003: Registration produced: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Tue Mar 04 16:00:18 2003: Sending message: (unregister :sender arens_at_isi_edu_email_arens_at_isi_edu :ontology tcp-ip :reply-with nil :content arens_at_isi_edu_email_arens_at_isi_edu)
+Tue Mar 04 16:00:18 2003: Sending message: (register :sender arens_at_isi_edu_email_arens_at_isi_edu :ontology tcp-ip :reply-with t :content (arens_at_isi_edu_email_arens_at_isi_edu sangat.isi.edu:6668))
+Tue Mar 04 16:00:18 2003: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'arens_at_isi_edu_email_arens_at_isi_edu TEAMCORE'}
+Tue Mar 04 16:00:18 2003: Registration produced: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'arens_at_isi_edu_email_arens_at_isi_edu TEAMCORE'}arens_at_isi_edu_email_arens_at_isi_edu, TEAMCORE
+Tue Mar 04 16:00:18 2003: Registration successful: arens_at_isi_edu_email_arens_at_isi_edu
+Tue Mar 04 16:00:18 2003: Router for arens_at_isi_edu_email_arens_at_isi_edu running...
+Tue Mar 04 16:00:18 2003: Sending message: (ask-one :sender arens_at_isi_edu_email_arens_at_isi_edu :reply-with t :content "proxy_arens_at_isi_edu")
+Tue Mar 04 16:00:18 2003: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_arens_at_isi_edu:sangat.isi.edu:9993:'}
+Tue Mar 04 16:00:18 2003: Sending message: (register :name email_arens_at_isi_edu :reply-with nil :agenttype device :receiver proxy_arens_at_isi_edu :user arens_at_isi_edu :sender arens_at_isi_edu_email_arens_at_isi_edu :direction (to user))
+Tue Mar 04 16:00:19 2003: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'ask', 'sender': 'ping_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'arens_at_isi_edu', 'content': 'hello'}
+Tue Mar 04 16:00:19 2003: Processing message: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'ask', 'sender': 'ping_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'arens_at_isi_edu', 'content': 'hello'}
+Tue Mar 04 16:00:19 2003: Replying: (sorry :reply-with nil :in-reply-to arens_at_isi_edu :receiver ping_arens_at_isi_edu_email_arens_at_isi_edu :sender arens_at_isi_edu_email_arens_at_isi_edu :comment "Unintelligible query")
+Tue Mar 04 16:10:42 2003: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'tell', 'sender': 'stop_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'nil', 'content': 'stop'}
+Tue Mar 04 16:10:42 2003: Processing message: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'tell', 'sender': 'stop_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'nil', 'content': 'stop'}
+Tue Mar 04 16:10:42 2003: Sending message: (unregister :receiver proxy_arens_at_isi_edu :name email_arens_at_isi_edu :sender arens_at_isi_edu_email_arens_at_isi_edu :reply-with nil :user arens_at_isi_edu)
+Tue Mar 04 16:10:42 2003: Router arens_at_isi_edu_email_arens_at_isi_edu exiting...
+Tue Mar 04 16:10:42 2003: Sending message: (unregister :receiver TEAMCORE :sender arens_at_isi_edu_email_arens_at_isi_edu :ontology tcp-ip :reply-with nil :content arens_at_isi_edu_email_arens_at_isi_edu)
+Tue Mar 04 16:10:42 2003: Exiting...
+Tue Mar 04 16:10:45 2003: Using ANS: ('vibhagam.isi.edu', 5500)
+Tue Mar 04 16:10:45 2003: Bound to host/port: sangat.isi.edu:6667
+Tue Mar 04 16:10:45 2003: Sending message: (register :ontology tcp-ip :sender arens_at_isi_edu_email_arens_at_isi_edu :reply-with t :content "arens_at_isi_edu_email_arens_at_isi_edu sangat.isi.edu:6667")
+Tue Mar 04 16:10:45 2003: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Tue Mar 04 16:10:45 2003: Registration produced: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Tue Mar 04 16:10:45 2003: Sending message: (unregister :sender arens_at_isi_edu_email_arens_at_isi_edu :ontology tcp-ip :reply-with nil :content arens_at_isi_edu_email_arens_at_isi_edu)
+Tue Mar 04 16:10:45 2003: Sending message: (register :sender arens_at_isi_edu_email_arens_at_isi_edu :ontology tcp-ip :reply-with t :content (arens_at_isi_edu_email_arens_at_isi_edu sangat.isi.edu:6667))
+Tue Mar 04 16:10:45 2003: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'arens_at_isi_edu_email_arens_at_isi_edu TEAMCORE'}
+Tue Mar 04 16:10:45 2003: Registration produced: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'arens_at_isi_edu_email_arens_at_isi_edu TEAMCORE'}arens_at_isi_edu_email_arens_at_isi_edu, TEAMCORE
+Tue Mar 04 16:10:45 2003: Registration successful: arens_at_isi_edu_email_arens_at_isi_edu
+Tue Mar 04 16:10:45 2003: Router for arens_at_isi_edu_email_arens_at_isi_edu running...
+Tue Mar 04 16:10:45 2003: Sending message: (ask-one :sender arens_at_isi_edu_email_arens_at_isi_edu :reply-with t :content "proxy_arens_at_isi_edu")
+Tue Mar 04 16:10:45 2003: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_arens_at_isi_edu:sangat.isi.edu:9993:'}
+Tue Mar 04 16:10:45 2003: Sending message: (register :name email_arens_at_isi_edu :reply-with nil :agenttype device :receiver proxy_arens_at_isi_edu :user arens_at_isi_edu :sender arens_at_isi_edu_email_arens_at_isi_edu :direction (to user))
+Tue Mar 04 16:10:46 2003: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'ask', 'sender': 'ping_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'arens_at_isi_edu', 'content': 'hello'}
+Tue Mar 04 16:10:46 2003: Processing message: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'ask', 'sender': 'ping_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'arens_at_isi_edu', 'content': 'hello'}
+Tue Mar 04 16:10:46 2003: Replying: (sorry :reply-with nil :in-reply-to arens_at_isi_edu :receiver ping_arens_at_isi_edu_email_arens_at_isi_edu :sender arens_at_isi_edu_email_arens_at_isi_edu :comment "Unintelligible query")
+Mon Apr 21 16:58:05 2003: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'kqml-admin', 'sender': 'TEAMCORE', 'kqml-msg-id': '880+vibhagam.isi.edu+27', 'reply-with': 't', 'content': 'name'}
+Mon Apr 21 17:00:49 2003: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'kqml-msg-id': '880+vibhagam.isi.edu+27', 'in-reply-to': 't', 'content': 'not ready for performative.'}
+Mon Apr 21 17:10:25 2003: Using ANS: ('vibhagam.isi.edu', 5500)
+Mon Apr 21 17:10:25 2003: Bound to host/port: sangat.isi.edu:6698
+Mon Apr 21 17:10:25 2003: Sending message: (register :ontology tcp-ip :sender arens_at_isi_edu_email_arens_at_isi_edu :reply-with t :content "arens_at_isi_edu_email_arens_at_isi_edu sangat.isi.edu:6698")
+Mon Apr 21 17:10:25 2003: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Mon Apr 21 17:10:25 2003: Registration produced: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Mon Apr 21 17:10:25 2003: Sending message: (unregister :sender arens_at_isi_edu_email_arens_at_isi_edu :ontology tcp-ip :reply-with nil :content arens_at_isi_edu_email_arens_at_isi_edu)
+Mon Apr 21 17:10:25 2003: Sending message: (register :sender arens_at_isi_edu_email_arens_at_isi_edu :ontology tcp-ip :reply-with t :content (arens_at_isi_edu_email_arens_at_isi_edu sangat.isi.edu:6698))
+Mon Apr 21 17:10:25 2003: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'arens_at_isi_edu_email_arens_at_isi_edu TEAMCORE'}
+Mon Apr 21 17:10:25 2003: Registration produced: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'arens_at_isi_edu_email_arens_at_isi_edu TEAMCORE'}arens_at_isi_edu_email_arens_at_isi_edu, TEAMCORE
+Mon Apr 21 17:10:25 2003: Registration successful: arens_at_isi_edu_email_arens_at_isi_edu
+Mon Apr 21 17:10:25 2003: Router for arens_at_isi_edu_email_arens_at_isi_edu running...
+Mon Apr 21 17:10:25 2003: Sending message: (ask-one :sender arens_at_isi_edu_email_arens_at_isi_edu :reply-with t :content "proxy_arens_at_isi_edu")
+Mon Apr 21 17:10:25 2003: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_arens_at_isi_edu:sangat.isi.edu:9993:'}
+Mon Apr 21 17:10:25 2003: Sending message: (register :name email_arens_at_isi_edu :reply-with nil :agenttype device :receiver proxy_arens_at_isi_edu :user arens_at_isi_edu :sender arens_at_isi_edu_email_arens_at_isi_edu :direction (to user))
+Mon Apr 21 17:10:26 2003: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'ask', 'sender': 'ping_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'arens_at_isi_edu', 'content': 'hello'}
+Mon Apr 21 17:10:26 2003: Processing message: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'ask', 'sender': 'ping_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'arens_at_isi_edu', 'content': 'hello'}
+Mon Apr 21 17:10:26 2003: Replying: (sorry :reply-with nil :in-reply-to arens_at_isi_edu :receiver ping_arens_at_isi_edu_email_arens_at_isi_edu :sender arens_at_isi_edu_email_arens_at_isi_edu :comment "Unintelligible query")
+Mon Apr 21 17:51:03 2003: Using ANS: ('vibhagam', 5500)
+Mon Apr 21 17:51:03 2003: Bound to host/port: sangat.isi.edu:6668
+Mon Apr 21 17:51:03 2003: Sending message: (register :ontology tcp-ip :sender arens_at_isi_edu_email_arens_at_isi_edu :reply-with t :content "arens_at_isi_edu_email_arens_at_isi_edu sangat.isi.edu:6668")
+Mon Apr 21 17:51:03 2003: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Mon Apr 21 17:51:03 2003: Registration produced: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Mon Apr 21 17:51:03 2003: Sending message: (unregister :sender arens_at_isi_edu_email_arens_at_isi_edu :ontology tcp-ip :reply-with nil :content arens_at_isi_edu_email_arens_at_isi_edu)
+Mon Apr 21 17:51:03 2003: Sending message: (register :sender arens_at_isi_edu_email_arens_at_isi_edu :ontology tcp-ip :reply-with t :content (arens_at_isi_edu_email_arens_at_isi_edu sangat.isi.edu:6668))
+Mon Apr 21 17:51:03 2003: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'arens_at_isi_edu_email_arens_at_isi_edu TEAMCORE'}
+Mon Apr 21 17:51:03 2003: Registration produced: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'arens_at_isi_edu_email_arens_at_isi_edu TEAMCORE'}arens_at_isi_edu_email_arens_at_isi_edu, TEAMCORE
+Mon Apr 21 17:51:03 2003: Registration successful: arens_at_isi_edu_email_arens_at_isi_edu
+Mon Apr 21 17:51:03 2003: Router for arens_at_isi_edu_email_arens_at_isi_edu running...
+Mon Apr 21 17:51:03 2003: Sending message: (ask-one :sender arens_at_isi_edu_email_arens_at_isi_edu :reply-with t :content "proxy_arens_at_isi_edu")
+Mon Apr 21 17:51:03 2003: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_arens_at_isi_edu:sangat.isi.edu:9991:'}
+Mon Apr 21 17:51:03 2003: Sending message: (register :name email_arens_at_isi_edu :reply-with nil :agenttype device :receiver proxy_arens_at_isi_edu :user arens_at_isi_edu :sender arens_at_isi_edu_email_arens_at_isi_edu :direction (to user))
+Mon Apr 21 17:51:05 2003: Received: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'ask', 'sender': 'ping_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'arens_at_isi_edu', 'content': 'hello'}
+Mon Apr 21 17:51:05 2003: Processing message: {'receiver': 'arens_at_isi_edu_email_arens_at_isi_edu', 'performative': 'ask', 'sender': 'ping_arens_at_isi_edu_email_arens_at_isi_edu', 'reply-with': 'arens_at_isi_edu', 'content': 'hello'}
+Mon Apr 21 17:51:05 2003: Replying: (sorry :reply-with nil :in-reply-to arens_at_isi_edu :receiver ping_arens_at_isi_edu_email_arens_at_isi_edu :sender arens_at_isi_edu_email_arens_at_isi_edu :comment "Unintelligible query")
+Mon Apr 21 17:51:20 2003: Received: {'receiver': 'ddyer_at_darpa_mil_email_ddyer_at_darpa_mil', 'performative': 'tell', 'sender': 'stop_ddyer_at_darpa_mil_email_ddyer_at_darpa_mil', 'reply-with': 'nil', 'content': 'stop'}
+Mon Apr 21 17:51:20 2003: Processing message: {'receiver': 'ddyer_at_darpa_mil_email_ddyer_at_darpa_mil', 'performative': 'tell', 'sender': 'stop_ddyer_at_darpa_mil_email_ddyer_at_darpa_mil', 'reply-with': 'nil', 'content': 'stop'}
+Mon Apr 21 17:51:20 2003: Sending message: (unregister :receiver proxy_arens_at_isi_edu :name email_arens_at_isi_edu :sender arens_at_isi_edu_email_arens_at_isi_edu :reply-with nil :user arens_at_isi_edu)
+Mon Apr 21 17:51:20 2003: Router arens_at_isi_edu_email_arens_at_isi_edu exiting...
+Mon Apr 21 17:51:20 2003: Sending message: (unregister :receiver TEAMCORE :sender arens_at_isi_edu_email_arens_at_isi_edu :ontology tcp-ip :reply-with nil :content arens_at_isi_edu_email_arens_at_isi_edu)
+Mon Apr 21 17:51:20 2003: Exiting...

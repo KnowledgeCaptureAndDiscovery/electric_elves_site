@@ -1,0 +1,365 @@
+Waiting for Jini ServiceRegistrars...
+No Jini ServiceRegistrar yet...
+No Jini ServiceRegistrar yet...
+No Jini ServiceRegistrar yet...
+No Jini ServiceRegistrar yet...
+Found ServiceRegistrar.
+Before getLogAgent();
+Before logAllMessages();
+Wed Jan 09 16:27:41 PST 2002 - proxy_daskiewd_at_rl_af_mil: Registering...
+Registered AgentRep proxy_daskiewd_at_rl_af_mil with Jini. Waiting for ServiceID returned.
+Service ID 05bf04dc-ad50-4d01-803d-e8c2e34bca57 passed to proxy_daskiewd_at_rl_af_mil AgentRep
+Couldn't log msg.
+
+proxy_daskiewd_at_rl_af_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: proxy_daskiewd_at_rl_af_mil
+  sender: 
+  acl: FIPA-ACL
+  rawText:
+(inform
+  :sender CoabsGridRegistry
+  :receiver proxy_daskiewd_at_rl_af_mil
+  :content
+    (done
+      (action CoabsGridRegistry
+        (register-agent
+          (:CoABS-agent-description
+            (:uniqueID 05bf04dc-ad50-4d01-803d-e8c2e34bca57)
+            (:name proxy_daskiewd_at_rl_af_mil)
+            (:description User Grid Proxy for daskiewd@rl.af.mil)
+            (:organization USC Information Sciences Institute)
+            (:architecture Electric Elves)
+            (:documentationURL http://www.isi.edu/agents-united/about.html)
+            (:acls KQML)
+            (:contentLanguages KQML)
+            (:displayIconURL http://www.isi.edu/isd/LOOM/eelves16.gif))
+)))
+  :language SL0
+  :in-reply-to proxy_daskiewd_at_rl_af_milRegister
+  :protocol fipa-request
+  :ontology fipa-agent-management)
+  translatedText: null
+============================
+
+Wed Jan 09 16:27:42 PST 2002 - proxy_daskiewd_at_rl_af_mil: Registration complete.
+Wed Jan 09 16:27:42 PST 2002 - Message from Grid Registry:
+Wed Jan 09 16:27:42 PST 2002 - (done
+      (action CoabsGridRegistry
+        (register-agent
+          (:CoABS-agent-description
+            (:uniqueID 05bf04dc-ad50-4d01-803d-e8c2e34bca57)
+            (:name proxy_daskiewd_at_rl_af_mil)
+            (:description User Grid Proxy for daskiewd@rl.af.mil)
+            (:organization USC Information Sciences Institute)
+            (:architecture Electric Elves)
+            (:documentationURL http://www.isi.edu/agents-united/about.html)
+            (:acls KQML)
+            (:contentLanguages KQML)
+            (:displayIconURL http://www.isi.edu/isd/LOOM/eelves16.gif))
+)))
+Attributes modified to:
+  (:CoABS-agent-description
+    (:uniqueID 05bf04dc-ad50-4d01-803d-e8c2e34bca57)
+    (:name proxy_daskiewd_at_rl_af_mil)
+    (:description User Grid Proxy for daskiewd@rl.af.mil)
+    (:organization USC Information Sciences Institute)
+    (:architecture Electric Elves)
+    (:documentationURL http://www.isi.edu/agents-united/about.html)
+    (:acls KQML)
+    (:contentLanguages KQML)
+    (:displayIconURL http://www.isi.edu/isd/LOOM/eelves16.gif))
+
+Wed Jan 09 16:27:42 PST 2002 - proxy_daskiewd_at_rl_af_mil: Found logging agent -> null
+KQMLListener: In constructor...
+KQMLListener: Could not listen on port 9991
+KQMLListener: Could not listen on port 9992
+KQMLListener: Could not listen on port 9993
+KQMLListener: Could not listen on port 9994
+KQMLListener: Could not listen on port 9995
+KQMLListener: Could not listen on port 9996
+KQMLListener: Could not listen on port 9997
+KQMLListener: Could not listen on port 9998
+KQMLListener: Could not listen on port 9999
+KQMLListener: Could not listen on port 10000
+KQMLListener: Listening on port 10001
+Waiting for New Message...
+Wed Jan 09 16:27:42 PST 2002 - Registering on port: 10001
+[daskiewd@rl.af.mil]
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_daskiewd_at_rl_af_mil :user daskiewd_at_rl_af_mil :sender ping_daskiewd_at_rl_af_mil :reply-with daskiewd@rl.af.mil :content devices)
+============================
+
+
+proxy_daskiewd_at_rl_af_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_daskiewd_at_rl_af_mil :user daskiewd_at_rl_af_mil :sender ping_daskiewd_at_rl_af_mil :reply-with daskiewd@rl.af.mil :content devices)
+  translatedText: null
+============================
+
+Mon Feb 04 16:19:56 PST 2002 - daskiewd_at_rl_af_mil: Device list is  nil
+Mon Feb 04 16:19:56 PST 2002 - Replying with: ( reply :content nil :sender proxy_daskiewd_at_rl_af_mil :reply-with nil :in-reply-to daskiewd@rl.af.mil :user daskiewd_at_rl_af_mil :receiver ping_daskiewd_at_rl_af_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_daskiewd_at_rl_af_mil :user daskiewd_at_rl_af_mil :sender ping_daskiewd_at_rl_af_mil :reply-with daskiewd@rl.af.mil :content devices)
+============================
+
+
+proxy_daskiewd_at_rl_af_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_daskiewd_at_rl_af_mil :user daskiewd_at_rl_af_mil :sender ping_daskiewd_at_rl_af_mil :reply-with daskiewd@rl.af.mil :content devices)
+  translatedText: null
+============================
+
+Mon Feb 04 16:20:57 PST 2002 - daskiewd_at_rl_af_mil: Device list is  nil
+Mon Feb 04 16:20:57 PST 2002 - Replying with: ( reply :content nil :sender proxy_daskiewd_at_rl_af_mil :reply-with nil :in-reply-to daskiewd@rl.af.mil :user daskiewd_at_rl_af_mil :receiver ping_daskiewd_at_rl_af_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_daskiewd_at_rl_af_mil :user daskiewd_at_rl_af_mil :sender ping_daskiewd_at_rl_af_mil :reply-with daskiewd@rl.af.mil :content devices)
+============================
+
+
+proxy_daskiewd_at_rl_af_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_daskiewd_at_rl_af_mil :user daskiewd_at_rl_af_mil :sender ping_daskiewd_at_rl_af_mil :reply-with daskiewd@rl.af.mil :content devices)
+  translatedText: null
+============================
+
+Mon Feb 04 16:23:16 PST 2002 - daskiewd_at_rl_af_mil: Device list is  nil
+Mon Feb 04 16:23:16 PST 2002 - Replying with: ( reply :content nil :sender proxy_daskiewd_at_rl_af_mil :reply-with nil :in-reply-to daskiewd@rl.af.mil :user daskiewd_at_rl_af_mil :receiver ping_daskiewd_at_rl_af_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_daskiewd_at_rl_af_mil :user daskiewd_at_rl_af_mil :sender ping_daskiewd_at_rl_af_mil :reply-with daskiewd@rl.af.mil :content devices)
+============================
+
+
+proxy_daskiewd_at_rl_af_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_daskiewd_at_rl_af_mil :user daskiewd_at_rl_af_mil :sender ping_daskiewd_at_rl_af_mil :reply-with daskiewd@rl.af.mil :content devices)
+  translatedText: null
+============================
+
+Mon Feb 04 16:24:10 PST 2002 - daskiewd_at_rl_af_mil: Device list is  nil
+Mon Feb 04 16:24:10 PST 2002 - Replying with: ( reply :content nil :sender proxy_daskiewd_at_rl_af_mil :reply-with nil :in-reply-to daskiewd@rl.af.mil :user daskiewd_at_rl_af_mil :receiver ping_daskiewd_at_rl_af_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_daskiewd_at_rl_af_mil :user daskiewd_at_rl_af_mil :sender ping_daskiewd_at_rl_af_mil :reply-with daskiewd@rl.af.mil :content devices)
+============================
+
+
+proxy_daskiewd_at_rl_af_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_daskiewd_at_rl_af_mil :user daskiewd_at_rl_af_mil :sender ping_daskiewd_at_rl_af_mil :reply-with daskiewd@rl.af.mil :content devices)
+  translatedText: null
+============================
+
+Tue Feb 05 15:48:10 PST 2002 - daskiewd_at_rl_af_mil: Device list is  nil
+Tue Feb 05 15:48:10 PST 2002 - Replying with: ( reply :content nil :sender proxy_daskiewd_at_rl_af_mil :reply-with nil :in-reply-to daskiewd@rl.af.mil :user daskiewd_at_rl_af_mil :receiver ping_daskiewd_at_rl_af_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_daskiewd_at_rl_af_mil :user daskiewd_at_rl_af_mil :sender ping_daskiewd_at_rl_af_mil :reply-with daskiewd@rl.af.mil :content devices)
+============================
+
+
+proxy_daskiewd_at_rl_af_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_daskiewd_at_rl_af_mil :user daskiewd_at_rl_af_mil :sender ping_daskiewd_at_rl_af_mil :reply-with daskiewd@rl.af.mil :content devices)
+  translatedText: null
+============================
+
+Tue Feb 05 15:53:08 PST 2002 - daskiewd_at_rl_af_mil: Device list is  nil
+Tue Feb 05 15:53:08 PST 2002 - Replying with: ( reply :content nil :sender proxy_daskiewd_at_rl_af_mil :reply-with nil :in-reply-to daskiewd@rl.af.mil :user daskiewd_at_rl_af_mil :receiver ping_daskiewd_at_rl_af_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_daskiewd_at_rl_af_mil :user daskiewd_at_rl_af_mil :sender ping_daskiewd_at_rl_af_mil :reply-with daskiewd@rl.af.mil :content devices)
+============================
+
+
+proxy_daskiewd_at_rl_af_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_daskiewd_at_rl_af_mil :user daskiewd_at_rl_af_mil :sender ping_daskiewd_at_rl_af_mil :reply-with daskiewd@rl.af.mil :content devices)
+  translatedText: null
+============================
+
+Tue Feb 05 15:54:08 PST 2002 - daskiewd_at_rl_af_mil: Device list is  nil
+Tue Feb 05 15:54:08 PST 2002 - Replying with: ( reply :content nil :sender proxy_daskiewd_at_rl_af_mil :reply-with nil :in-reply-to daskiewd@rl.af.mil :user daskiewd_at_rl_af_mil :receiver ping_daskiewd_at_rl_af_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_daskiewd_at_rl_af_mil :user daskiewd_at_rl_af_mil :sender ping_daskiewd_at_rl_af_mil :reply-with daskiewd@rl.af.mil :content devices)
+============================
+
+
+proxy_daskiewd_at_rl_af_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_daskiewd_at_rl_af_mil :user daskiewd_at_rl_af_mil :sender ping_daskiewd_at_rl_af_mil :reply-with daskiewd@rl.af.mil :content devices)
+  translatedText: null
+============================
+
+Tue Feb 05 15:54:40 PST 2002 - daskiewd_at_rl_af_mil: Device list is  nil
+Tue Feb 05 15:54:40 PST 2002 - Replying with: ( reply :content nil :sender proxy_daskiewd_at_rl_af_mil :reply-with nil :in-reply-to daskiewd@rl.af.mil :user daskiewd_at_rl_af_mil :receiver ping_daskiewd_at_rl_af_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_daskiewd_at_rl_af_mil :user daskiewd_at_rl_af_mil :sender ping_daskiewd_at_rl_af_mil :reply-with daskiewd@rl.af.mil :content devices)
+============================
+
+
+proxy_daskiewd_at_rl_af_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_daskiewd_at_rl_af_mil :user daskiewd_at_rl_af_mil :sender ping_daskiewd_at_rl_af_mil :reply-with daskiewd@rl.af.mil :content devices)
+  translatedText: null
+============================
+
+Tue Feb 05 15:55:06 PST 2002 - daskiewd_at_rl_af_mil: Device list is  nil
+Tue Feb 05 15:55:06 PST 2002 - Replying with: ( reply :content nil :sender proxy_daskiewd_at_rl_af_mil :reply-with nil :in-reply-to daskiewd@rl.af.mil :user daskiewd_at_rl_af_mil :receiver ping_daskiewd_at_rl_af_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_daskiewd_at_rl_af_mil :user daskiewd_at_rl_af_mil :sender ping_daskiewd_at_rl_af_mil :reply-with daskiewd@rl.af.mil :content devices)
+============================
+
+
+proxy_daskiewd_at_rl_af_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_daskiewd_at_rl_af_mil :user daskiewd_at_rl_af_mil :sender ping_daskiewd_at_rl_af_mil :reply-with daskiewd@rl.af.mil :content devices)
+  translatedText: null
+============================
+
+Tue Feb 05 16:40:42 PST 2002 - daskiewd_at_rl_af_mil: Device list is  nil
+Tue Feb 05 16:40:42 PST 2002 - Replying with: ( reply :content nil :sender proxy_daskiewd_at_rl_af_mil :reply-with nil :in-reply-to daskiewd@rl.af.mil :user daskiewd_at_rl_af_mil :receiver ping_daskiewd_at_rl_af_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_daskiewd_at_rl_af_mil :user daskiewd_at_rl_af_mil :sender ping_daskiewd_at_rl_af_mil :reply-with daskiewd@rl.af.mil :content devices)
+============================
+
+
+proxy_daskiewd_at_rl_af_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_daskiewd_at_rl_af_mil :user daskiewd_at_rl_af_mil :sender ping_daskiewd_at_rl_af_mil :reply-with daskiewd@rl.af.mil :content devices)
+  translatedText: null
+============================
+
+Tue Feb 05 16:41:16 PST 2002 - daskiewd_at_rl_af_mil: Device list is  nil
+Tue Feb 05 16:41:16 PST 2002 - Replying with: ( reply :content nil :sender proxy_daskiewd_at_rl_af_mil :reply-with nil :in-reply-to daskiewd@rl.af.mil :user daskiewd_at_rl_af_mil :receiver ping_daskiewd_at_rl_af_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_daskiewd_at_rl_af_mil :user daskiewd_at_rl_af_mil :sender ping_daskiewd_at_rl_af_mil :reply-with daskiewd@rl.af.mil :content devices)
+============================
+
+
+proxy_daskiewd_at_rl_af_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_daskiewd_at_rl_af_mil :user daskiewd_at_rl_af_mil :sender ping_daskiewd_at_rl_af_mil :reply-with daskiewd@rl.af.mil :content devices)
+  translatedText: null
+============================
+
+Tue Feb 05 17:45:26 PST 2002 - daskiewd_at_rl_af_mil: Device list is  nil
+Tue Feb 05 17:45:26 PST 2002 - Replying with: ( reply :content nil :sender proxy_daskiewd_at_rl_af_mil :reply-with nil :in-reply-to daskiewd@rl.af.mil :user daskiewd_at_rl_af_mil :receiver ping_daskiewd_at_rl_af_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_daskiewd_at_rl_af_mil :user daskiewd_at_rl_af_mil :sender ping_daskiewd_at_rl_af_mil :reply-with daskiewd@rl.af.mil :content devices)
+============================
+
+
+proxy_daskiewd_at_rl_af_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_daskiewd_at_rl_af_mil :user daskiewd_at_rl_af_mil :sender ping_daskiewd_at_rl_af_mil :reply-with daskiewd@rl.af.mil :content devices)
+  translatedText: null
+============================
+
+Wed Feb 06 15:24:25 PST 2002 - daskiewd_at_rl_af_mil: Device list is  nil
+Wed Feb 06 15:24:25 PST 2002 - Replying with: ( reply :content nil :sender proxy_daskiewd_at_rl_af_mil :reply-with nil :in-reply-to daskiewd@rl.af.mil :user daskiewd_at_rl_af_mil :receiver ping_daskiewd_at_rl_af_mil )
+
+proxy_daskiewd_at_rl_af_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: proxy_daskiewd_at_rl_af_mil
+  sender: Controller
+  acl: KQML
+  rawText:
+(tell
+  :sender Controller
+  :receiver proxy_daskiewd_at_rl_af_mil
+  :language GRID-control
+  :content (stop))
+  translatedText: null
+============================
+
+Couldn't log msg.
+Wed Feb 06 15:24:45 PST 2002 - proxy_daskiewd_at_rl_af_mil: Shutting down

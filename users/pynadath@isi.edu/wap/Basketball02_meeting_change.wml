@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml><head>
+<meta http-equiv="Cache-Control" content="max-age=1"/>
+<meta forua="true" http-equiv="Cache-Control" content="must-revalidate"/>
+</head>
+<card id="Main" title="Info">
+<p>The Basketball02 meeting has been rescheduled to<br/>be at 12:15 on 08/02/02<br/>instead of 12:00 on 08/02/02.
+</p>
+<do type="accept" label="OK">
+<go method="post" href="http://www.isi.edu/cgi-bin/teamhost/rsvp.cgi">
+<postfield name="dialog" value="/nfs/web/isi.edu/htdocs/teamcore/elves/pynadath@isi.edu/wap/Basketball02_meeting_change.wml"/>
+<postfield name="device" value="wap"/>
+<postfield name="user" value="pynadath@isi.edu"/>
+<postfield name="action" value="OK"/>
+</go></do>
+
+<do type="accept" label="Delete">
+<go method="post" href="http://www.isi.edu/cgi-bin/teamhost/rsvp.cgi">
+<postfield name="dialog" value="/nfs/web/isi.edu/htdocs/teamcore/elves/pynadath@isi.edu/wap/Basketball02_meeting_change.wml"/>
+<postfield name="device" value="wap"/>
+<postfield name="user" value="pynadath@isi.edu"/>
+<postfield name="action" value="Delete"/>
+</go></do>
+</card></wml>

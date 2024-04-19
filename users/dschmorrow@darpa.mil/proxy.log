@@ -1,0 +1,2645 @@
+Waiting for Jini ServiceRegistrars...
+No Jini ServiceRegistrar yet...
+No Jini ServiceRegistrar yet...
+No Jini ServiceRegistrar yet...
+No Jini ServiceRegistrar yet...
+No Jini ServiceRegistrar yet...
+No Jini ServiceRegistrar yet...
+Found ServiceRegistrar.
+Before getLogAgent();
+Before logAllMessages();
+proxy_dschmorrow_at_darpa_mil: Registering...
+Registered AgentRep proxy_dschmorrow_at_darpa_mil with Jini. Waiting for ServiceID returned.
+Service ID d94a665a-50b0-4b9c-b3e0-f51695c61260 passed to proxy_dschmorrow_at_darpa_mil AgentRep
+Couldn't log msg.
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: proxy_dschmorrow_at_darpa_mil
+  sender: 
+  acl: FIPA-ACL
+  rawText:
+(inform
+  :sender CoabsGridRegistry
+  :receiver proxy_dschmorrow_at_darpa_mil
+  :content
+    (done
+      (action CoabsGridRegistry
+        (register-agent
+          (:CoABS-agent-description
+            (:uniqueID d94a665a-50b0-4b9c-b3e0-f51695c61260)
+            (:name proxy_dschmorrow_at_darpa_mil)
+            (:description User Grid Proxy for dschmorrow@darpa.mil)
+            (:organization USC Information Sciences Institute)
+            (:architecture Electric Elves)
+            (:documentationURL http://www.isi.edu/agents-united/about.html)
+            (:acls KQML)
+            (:contentLanguages KQML)
+            (:displayIconURL http://www.isi.edu/isd/LOOM/eelves16.gif))
+)))
+  :language SL0
+  :in-reply-to proxy_dschmorrow_at_darpa_milRegister
+  :protocol fipa-request
+  :ontology fipa-agent-management)
+  translatedText: null
+============================
+
+proxy_dschmorrow_at_darpa_mil: Registration complete.
+Message from Grid Registry:
+(done
+      (action CoabsGridRegistry
+        (register-agent
+          (:CoABS-agent-description
+            (:uniqueID d94a665a-50b0-4b9c-b3e0-f51695c61260)
+            (:name proxy_dschmorrow_at_darpa_mil)
+            (:description User Grid Proxy for dschmorrow@darpa.mil)
+            (:organization USC Information Sciences Institute)
+            (:architecture Electric Elves)
+            (:documentationURL http://www.isi.edu/agents-united/about.html)
+            (:acls KQML)
+            (:contentLanguages KQML)
+            (:displayIconURL http://www.isi.edu/isd/LOOM/eelves16.gif))
+)))
+Attributes modified to:
+  (:CoABS-agent-description
+    (:uniqueID d94a665a-50b0-4b9c-b3e0-f51695c61260)
+    (:name proxy_dschmorrow_at_darpa_mil)
+    (:description User Grid Proxy for dschmorrow@darpa.mil)
+    (:organization USC Information Sciences Institute)
+    (:architecture Electric Elves)
+    (:documentationURL http://www.isi.edu/agents-united/about.html)
+    (:acls KQML)
+    (:contentLanguages KQML)
+    (:displayIconURL http://www.isi.edu/isd/LOOM/eelves16.gif))
+
+proxy_dschmorrow_at_darpa_mil: Found logging agent -> null
+KQMLListener: In constructor...
+KQMLListener: Could not listen on port 9991
+KQMLListener: Could not listen on port 9992
+KQMLListener: Listening on port 9993
+Waiting for New Message...
+Registering on port: 9993
+[dschmorrow@darpa.mil]
+Received new Message
+
+Re-Init ANS!
+Waiting for New Message...
+Received new Message
+Waiting for New Message...
+
+Re-Init ANS!
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: proxy_dschmorrow_at_darpa_mil
+  sender: Controller
+  acl: KQML
+  rawText:
+(tell
+  :sender Controller
+  :receiver proxy_dschmorrow_at_darpa_mil
+  :language GRID-control
+  :content (stop))
+  translatedText: null
+============================
+
+Couldn't log msg.
+proxy_dschmorrow_at_darpa_mil: Shutting down
+Waiting for Jini ServiceRegistrars...
+No Jini ServiceRegistrar yet...
+No Jini ServiceRegistrar yet...
+No Jini ServiceRegistrar yet...
+No Jini ServiceRegistrar yet...
+Found ServiceRegistrar.
+Before getLogAgent();
+Before logAllMessages();
+proxy_dschmorrow_at_darpa_mil: Registering...
+Registered AgentRep proxy_dschmorrow_at_darpa_mil with Jini. Waiting for ServiceID returned.
+Service ID dce5e240-6999-4019-8105-be191453602a passed to proxy_dschmorrow_at_darpa_mil AgentRep
+Couldn't log msg.
+proxy_dschmorrow_at_darpa_mil: Registration complete.
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: proxy_dschmorrow_at_darpa_mil
+  sender: 
+  acl: FIPA-ACL
+  rawText:
+(inform
+  :sender CoabsGridRegistry
+  :receiver proxy_dschmorrow_at_darpa_mil
+  :content
+    (done
+      (action CoabsGridRegistry
+        (register-agent
+          (:CoABS-agent-description
+            (:uniqueID dce5e240-6999-4019-8105-be191453602a)
+            (:name proxy_dschmorrow_at_darpa_mil)
+            (:description User Grid Proxy for dschmorrow@darpa.mil)
+            (:organization USC Information Sciences Institute)
+            (:architecture Electric Elves)
+            (:documentationURL http://www.isi.edu/agents-united/about.html)
+            (:acls KQML)
+            (:contentLanguages KQML)
+            (:displayIconURL http://www.isi.edu/isd/LOOM/eelves16.gif))
+)))
+  :language SL0
+  :in-reply-to proxy_dschmorrow_at_darpa_milRegister
+  :protocol fipa-request
+  :ontology fipa-agent-management)
+  translatedText: null
+============================
+
+Message from Grid Registry:
+(done
+      (action CoabsGridRegistry
+        (register-agent
+          (:CoABS-agent-description
+            (:uniqueID dce5e240-6999-4019-8105-be191453602a)
+            (:name proxy_dschmorrow_at_darpa_mil)
+            (:description User Grid Proxy for dschmorrow@darpa.mil)
+            (:organization USC Information Sciences Institute)
+            (:architecture Electric Elves)
+            (:documentationURL http://www.isi.edu/agents-united/about.html)
+            (:acls KQML)
+            (:contentLanguages KQML)
+            (:displayIconURL http://www.isi.edu/isd/LOOM/eelves16.gif))
+)))
+proxy_dschmorrow_at_darpa_mil: Found logging agent -> null
+KQMLListener: In constructor...
+KQMLListener: Could not listen on port 9991
+KQMLListener: Could not listen on port 9992
+KQMLListener: Listening on port 9993
+Registering on port: 9993
+Waiting for New Message...
+[dschmorrow@darpa.mil]
+Attributes modified to:
+  (:CoABS-agent-description
+    (:uniqueID dce5e240-6999-4019-8105-be191453602a)
+    (:name proxy_dschmorrow_at_darpa_mil)
+    (:description User Grid Proxy for dschmorrow@darpa.mil)
+    (:organization USC Information Sciences Institute)
+    (:architecture Electric Elves)
+    (:documentationURL http://www.isi.edu/agents-united/about.html)
+    (:acls KQML)
+    (:contentLanguages KQML)
+    (:displayIconURL http://www.isi.edu/isd/LOOM/eelves16.gif))
+
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+dschmorrow_at_darpa_mil: Device list is  nil
+Replying with: ( reply :content nil :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver userCGI_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(register :name email_dschmorrow_at_darpa_mil :reply-with nil :agenttype device :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender dschmorrow_at_darpa_mil_email_dschmorrow_at_darpa_mil :direction (to user))
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(register :name email_dschmorrow_at_darpa_mil :reply-with nil :agenttype device :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender dschmorrow_at_darpa_mil_email_dschmorrow_at_darpa_mil :direction (to user))
+  translatedText: null
+============================
+
+dschmorrow_at_darpa_mil: New agent registration
+dschmorrow_at_darpa_mil_email_dschmorrow_at_darpa_mil
+[email_dschmorrow_at_darpa_mil (device)]
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil )
+Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver userCGI_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil )
+Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver userCGI_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil )
+Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver userCGI_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil )
+Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver userCGI_dschmorrow_at_darpa_mil )
+# # An unexpected exception has been detected in native code outside the VM.# Program counter=0xff373a54
+#
+# Problematic Thread: prio=5 tid=0x1d98c8 nid=0x11 runnable 
+#
+Waiting for Jini ServiceRegistrars...
+No Jini ServiceRegistrar yet...
+No Jini ServiceRegistrar yet...
+No Jini ServiceRegistrar yet...
+No Jini ServiceRegistrar yet...
+No Jini ServiceRegistrar yet...
+Found ServiceRegistrar.
+Before getLogAgent();
+Before logAllMessages();
+Thu Jan 03 10:02:20 PST 2002 - proxy_dschmorrow_at_darpa_mil: Registering...
+Registered AgentRep proxy_dschmorrow_at_darpa_mil with Jini. Waiting for ServiceID returned.
+Service ID f058da61-5d96-4d97-82aa-dd5e6a055205 passed to proxy_dschmorrow_at_darpa_mil AgentRep
+Couldn't log msg.
+Thu Jan 03 10:02:21 PST 2002 - proxy_dschmorrow_at_darpa_mil: Registration complete.
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: proxy_dschmorrow_at_darpa_mil
+  sender: 
+  acl: FIPA-ACL
+  rawText:
+(inform
+  :sender CoabsGridRegistry
+  :receiver proxy_dschmorrow_at_darpa_mil
+  :content
+    (done
+      (action CoabsGridRegistry
+        (register-agent
+          (:CoABS-agent-description
+            (:uniqueID f058da61-5d96-4d97-82aa-dd5e6a055205)
+            (:name proxy_dschmorrow_at_darpa_mil)
+            (:description User Grid Proxy for dschmorrow@darpa.mil)
+            (:organization USC Information Sciences Institute)
+            (:architecture Electric Elves)
+            (:documentationURL http://www.isi.edu/agents-united/about.html)
+            (:acls KQML)
+            (:contentLanguages KQML)
+            (:displayIconURL http://www.isi.edu/isd/LOOM/eelves16.gif))
+)))
+  :language SL0
+  :in-reply-to proxy_dschmorrow_at_darpa_milRegister
+  :protocol fipa-request
+  :ontology fipa-agent-management)
+  translatedText: null
+============================
+
+Attributes modified to:
+  (:CoABS-agent-description
+    (:uniqueID f058da61-5d96-4d97-82aa-dd5e6a055205)
+    (:name proxy_dschmorrow_at_darpa_mil)
+    (:description User Grid Proxy for dschmorrow@darpa.mil)
+    (:organization USC Information Sciences Institute)
+    (:architecture Electric Elves)
+    (:documentationURL http://www.isi.edu/agents-united/about.html)
+    (:acls KQML)
+    (:contentLanguages KQML)
+    (:displayIconURL http://www.isi.edu/isd/LOOM/eelves16.gif))
+
+Thu Jan 03 10:02:21 PST 2002 - Message from Grid Registry:
+Thu Jan 03 10:02:21 PST 2002 - (done
+      (action CoabsGridRegistry
+        (register-agent
+          (:CoABS-agent-description
+            (:uniqueID f058da61-5d96-4d97-82aa-dd5e6a055205)
+            (:name proxy_dschmorrow_at_darpa_mil)
+            (:description User Grid Proxy for dschmorrow@darpa.mil)
+            (:organization USC Information Sciences Institute)
+            (:architecture Electric Elves)
+            (:documentationURL http://www.isi.edu/agents-united/about.html)
+            (:acls KQML)
+            (:contentLanguages KQML)
+            (:displayIconURL http://www.isi.edu/isd/LOOM/eelves16.gif))
+)))
+Thu Jan 03 10:02:21 PST 2002 - proxy_dschmorrow_at_darpa_mil: Found logging agent -> null
+KQMLListener: In constructor...
+KQMLListener: Listening on port 9991
+Waiting for New Message...
+Thu Jan 03 10:02:21 PST 2002 - Registering on port: 9991
+[dschmorrow@darpa.mil]
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Thu Jan 03 10:03:14 PST 2002 - dschmorrow_at_darpa_mil: Device list is  nil
+Thu Jan 03 10:03:14 PST 2002 - Replying with: ( reply :content nil :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver userCGI_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Thu Jan 03 10:03:24 PST 2002 - dschmorrow_at_darpa_mil: Device list is  nil
+Thu Jan 03 10:03:24 PST 2002 - Replying with: ( reply :content nil :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver userCGI_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(register :name email_dschmorrow_at_darpa_mil :reply-with nil :agenttype device :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender dschmorrow_at_darpa_mil_email_dschmorrow_at_darpa_mil :direction (to user))
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(register :name email_dschmorrow_at_darpa_mil :reply-with nil :agenttype device :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender dschmorrow_at_darpa_mil_email_dschmorrow_at_darpa_mil :direction (to user))
+  translatedText: null
+============================
+
+Thu Jan 03 10:03:24 PST 2002 - dschmorrow_at_darpa_mil: New agent registration
+Thu Jan 03 10:03:24 PST 2002 - dschmorrow_at_darpa_mil_email_dschmorrow_at_darpa_mil
+Thu Jan 03 10:03:24 PST 2002 - [email_dschmorrow_at_darpa_mil (device)]
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(register :name email_dschmorrow_at_darpa_mil :reply-with nil :agenttype device :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender dschmorrow_at_darpa_mil_email_dschmorrow_at_darpa_mil :direction (to user))
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(register :name email_dschmorrow_at_darpa_mil :reply-with nil :agenttype device :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender dschmorrow_at_darpa_mil_email_dschmorrow_at_darpa_mil :direction (to user))
+  translatedText: null
+============================
+
+Thu Jan 03 10:04:08 PST 2002 - dschmorrow_at_darpa_mil: New agent registration
+Thu Jan 03 10:04:08 PST 2002 - dschmorrow_at_darpa_mil_email_dschmorrow_at_darpa_mil
+Thu Jan 03 10:04:08 PST 2002 - dschmorrow_at_darpa_mil: Agent email_dschmorrow_at_darpa_mil already registered
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Thu Jan 03 10:04:11 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil )
+Thu Jan 03 10:04:11 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver userCGI_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(unregister :receiver proxy_dschmorrow_at_darpa_mil :name email_dschmorrow_at_darpa_mil :sender dschmorrow_at_darpa_mil_email_dschmorrow_at_darpa_mil :reply-with nil :user dschmorrow_at_darpa_mil)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(unregister :receiver proxy_dschmorrow_at_darpa_mil :name email_dschmorrow_at_darpa_mil :sender dschmorrow_at_darpa_mil_email_dschmorrow_at_darpa_mil :reply-with nil :user dschmorrow_at_darpa_mil)
+  translatedText: null
+============================
+
+Thu Jan 03 10:10:00 PST 2002 - dschmorrow_at_darpa_mil: Unregistering agent email_dschmorrow_at_darpa_mil
+Thu Jan 03 10:10:00 PST 2002 - []
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Thu Jan 03 10:10:11 PST 2002 - dschmorrow_at_darpa_mil: Device list is  nil
+Thu Jan 03 10:10:11 PST 2002 - Replying with: ( reply :content nil :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver userCGI_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(register :name email_dschmorrow_at_darpa_mil :reply-with nil :agenttype device :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender dschmorrow_at_darpa_mil_email_dschmorrow_at_darpa_mil :direction (to user))
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(register :name email_dschmorrow_at_darpa_mil :reply-with nil :agenttype device :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender dschmorrow_at_darpa_mil_email_dschmorrow_at_darpa_mil :direction (to user))
+  translatedText: null
+============================
+
+Thu Jan 03 10:10:35 PST 2002 - dschmorrow_at_darpa_mil: New agent registration
+Thu Jan 03 10:10:35 PST 2002 - dschmorrow_at_darpa_mil_email_dschmorrow_at_darpa_mil
+Thu Jan 03 10:10:35 PST 2002 - [email_dschmorrow_at_darpa_mil (device)]
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Thu Jan 03 10:10:35 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil )
+Thu Jan 03 10:10:35 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver userCGI_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Thu Jan 03 12:58:01 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil )
+Thu Jan 03 12:58:01 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver userCGI_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(unregister :receiver proxy_dschmorrow_at_darpa_mil :name email_dschmorrow_at_darpa_mil :sender dschmorrow_at_darpa_mil_email_dschmorrow_at_darpa_mil :reply-with nil :user dschmorrow_at_darpa_mil)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(unregister :receiver proxy_dschmorrow_at_darpa_mil :name email_dschmorrow_at_darpa_mil :sender dschmorrow_at_darpa_mil_email_dschmorrow_at_darpa_mil :reply-with nil :user dschmorrow_at_darpa_mil)
+  translatedText: null
+============================
+
+Thu Jan 03 12:58:06 PST 2002 - dschmorrow_at_darpa_mil: Unregistering agent email_dschmorrow_at_darpa_mil
+Thu Jan 03 12:58:06 PST 2002 - []
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: proxy_dschmorrow_at_darpa_mil
+  sender: Controller
+  acl: KQML
+  rawText:
+(tell
+  :sender Controller
+  :receiver proxy_dschmorrow_at_darpa_mil
+  :language GRID-control
+  :content (stop))
+  translatedText: null
+============================
+
+Couldn't log msg.
+Thu Jan 03 12:58:43 PST 2002 - proxy_dschmorrow_at_darpa_mil: Shutting down
+Waiting for Jini ServiceRegistrars...
+No Jini ServiceRegistrar yet...
+No Jini ServiceRegistrar yet...
+No Jini ServiceRegistrar yet...
+No Jini ServiceRegistrar yet...
+No Jini ServiceRegistrar yet...
+No Jini ServiceRegistrar yet...
+Found ServiceRegistrar.
+Before getLogAgent();
+Before logAllMessages();
+Thu Jan 03 13:14:39 PST 2002 - proxy_dschmorrow_at_darpa_mil: Registering...
+Registered AgentRep proxy_dschmorrow_at_darpa_mil with Jini. Waiting for ServiceID returned.
+Service ID 21827fa8-0797-4652-aa8f-ca4193848120 passed to proxy_dschmorrow_at_darpa_mil AgentRep
+Couldn't log msg.
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: proxy_dschmorrow_at_darpa_mil
+  sender: 
+  acl: FIPA-ACL
+  rawText:
+(inform
+  :sender CoabsGridRegistry
+  :receiver proxy_dschmorrow_at_darpa_mil
+  :content
+    (done
+      (action CoabsGridRegistry
+        (register-agent
+          (:CoABS-agent-description
+            (:uniqueID 21827fa8-0797-4652-aa8f-ca4193848120)
+            (:name proxy_dschmorrow_at_darpa_mil)
+            (:description User Grid Proxy for dschmorrow@darpa.mil)
+            (:organization USC Information Sciences Institute)
+            (:architecture Electric Elves)
+            (:documentationURL http://www.isi.edu/agents-united/about.html)
+            (:acls KQML)
+            (:contentLanguages KQML)
+            (:displayIconURL http://www.isi.edu/isd/LOOM/eelves16.gif))
+)))
+  :language SL0
+  :in-reply-to proxy_dschmorrow_at_darpa_milRegister
+  :protocol fipa-request
+  :ontology fipa-agent-management)
+  translatedText: null
+============================
+
+Thu Jan 03 13:14:39 PST 2002 - proxy_dschmorrow_at_darpa_mil: Registration complete.
+Thu Jan 03 13:14:40 PST 2002 - Message from Grid Registry:
+Thu Jan 03 13:14:40 PST 2002 - (done
+      (action CoabsGridRegistry
+        (register-agent
+          (:CoABS-agent-description
+            (:uniqueID 21827fa8-0797-4652-aa8f-ca4193848120)
+            (:name proxy_dschmorrow_at_darpa_mil)
+            (:description User Grid Proxy for dschmorrow@darpa.mil)
+            (:organization USC Information Sciences Institute)
+            (:architecture Electric Elves)
+            (:documentationURL http://www.isi.edu/agents-united/about.html)
+            (:acls KQML)
+            (:contentLanguages KQML)
+            (:displayIconURL http://www.isi.edu/isd/LOOM/eelves16.gif))
+)))
+Thu Jan 03 13:14:40 PST 2002 - proxy_dschmorrow_at_darpa_mil: Found logging agent -> null
+Attributes modified to:
+  (:CoABS-agent-description
+    (:uniqueID 21827fa8-0797-4652-aa8f-ca4193848120)
+    (:name proxy_dschmorrow_at_darpa_mil)
+    (:description User Grid Proxy for dschmorrow@darpa.mil)
+    (:organization USC Information Sciences Institute)
+    (:architecture Electric Elves)
+    (:documentationURL http://www.isi.edu/agents-united/about.html)
+    (:acls KQML)
+    (:contentLanguages KQML)
+    (:displayIconURL http://www.isi.edu/isd/LOOM/eelves16.gif))
+
+KQMLListener: In constructor...
+KQMLListener: Could not listen on port 9991
+KQMLListener: Could not listen on port 9992
+KQMLListener: Could not listen on port 9993
+KQMLListener: Listening on port 9994
+Waiting for New Message...
+Thu Jan 03 13:14:40 PST 2002 - Registering on port: 9994
+[dschmorrow@darpa.mil]
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Thu Jan 03 13:14:42 PST 2002 - dschmorrow_at_darpa_mil: Device list is  nil
+Thu Jan 03 13:14:42 PST 2002 - Replying with: ( reply :content nil :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver userCGI_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(register :name email_dschmorrow_at_darpa_mil :reply-with nil :agenttype device :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender dschmorrow_at_darpa_mil_email_dschmorrow_at_darpa_mil :direction (to user))
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(register :name email_dschmorrow_at_darpa_mil :reply-with nil :agenttype device :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender dschmorrow_at_darpa_mil_email_dschmorrow_at_darpa_mil :direction (to user))
+  translatedText: null
+============================
+
+Thu Jan 03 13:14:49 PST 2002 - dschmorrow_at_darpa_mil: New agent registration
+Thu Jan 03 13:14:49 PST 2002 - dschmorrow_at_darpa_mil_email_dschmorrow_at_darpa_mil
+Thu Jan 03 13:14:49 PST 2002 - [email_dschmorrow_at_darpa_mil (device)]
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Thu Jan 03 13:14:50 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil )
+Thu Jan 03 13:14:50 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver userCGI_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Wed Jan 09 14:13:34 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil )
+Wed Jan 09 14:13:34 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver userCGI_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(unregister :receiver proxy_dschmorrow_at_darpa_mil :name email_dschmorrow_at_darpa_mil :sender dschmorrow_at_darpa_mil_email_dschmorrow_at_darpa_mil :reply-with nil :user dschmorrow_at_darpa_mil)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(unregister :receiver proxy_dschmorrow_at_darpa_mil :name email_dschmorrow_at_darpa_mil :sender dschmorrow_at_darpa_mil_email_dschmorrow_at_darpa_mil :reply-with nil :user dschmorrow_at_darpa_mil)
+  translatedText: null
+============================
+
+Wed Jan 09 14:13:38 PST 2002 - dschmorrow_at_darpa_mil: Unregistering agent email_dschmorrow_at_darpa_mil
+Wed Jan 09 14:13:38 PST 2002 - []
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Wed Jan 09 14:13:41 PST 2002 - dschmorrow_at_darpa_mil: Device list is  nil
+Wed Jan 09 14:13:41 PST 2002 - Replying with: ( reply :content nil :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver userCGI_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(register :name email_dschmorrow_at_darpa_mil :reply-with nil :agenttype device :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender dschmorrow_at_darpa_mil_email_dschmorrow_at_darpa_mil :direction (to user))
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(register :name email_dschmorrow_at_darpa_mil :reply-with nil :agenttype device :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender dschmorrow_at_darpa_mil_email_dschmorrow_at_darpa_mil :direction (to user))
+  translatedText: null
+============================
+
+Wed Jan 09 14:13:48 PST 2002 - dschmorrow_at_darpa_mil: New agent registration
+Wed Jan 09 14:13:48 PST 2002 - dschmorrow_at_darpa_mil_email_dschmorrow_at_darpa_mil
+Wed Jan 09 14:13:48 PST 2002 - [email_dschmorrow_at_darpa_mil (device)]
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Wed Jan 09 14:13:50 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil )
+Wed Jan 09 14:13:50 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver userCGI_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Wed Jan 09 14:46:17 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil )
+Wed Jan 09 14:46:17 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver userCGI_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(unregister :receiver proxy_dschmorrow_at_darpa_mil :name email_dschmorrow_at_darpa_mil :sender dschmorrow_at_darpa_mil_email_dschmorrow_at_darpa_mil :reply-with nil :user dschmorrow_at_darpa_mil)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(unregister :receiver proxy_dschmorrow_at_darpa_mil :name email_dschmorrow_at_darpa_mil :sender dschmorrow_at_darpa_mil_email_dschmorrow_at_darpa_mil :reply-with nil :user dschmorrow_at_darpa_mil)
+  translatedText: null
+============================
+
+Wed Jan 09 14:46:20 PST 2002 - dschmorrow_at_darpa_mil: Unregistering agent email_dschmorrow_at_darpa_mil
+Wed Jan 09 14:46:20 PST 2002 - []
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(register :name email_dschmorrow_at_darpa_mil :reply-with nil :agenttype device :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender dschmorrow_at_darpa_mil_email_dschmorrow_at_darpa_mil :direction (to user))
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(register :name email_dschmorrow_at_darpa_mil :reply-with nil :agenttype device :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender dschmorrow_at_darpa_mil_email_dschmorrow_at_darpa_mil :direction (to user))
+  translatedText: null
+============================
+
+Wed Jan 09 14:52:38 PST 2002 - dschmorrow_at_darpa_mil: New agent registration
+Wed Jan 09 14:52:38 PST 2002 - dschmorrow_at_darpa_mil_email_dschmorrow_at_darpa_mil
+Wed Jan 09 14:52:38 PST 2002 - [email_dschmorrow_at_darpa_mil (device)]
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Wed Jan 09 14:52:39 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil )
+Wed Jan 09 14:52:39 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver userCGI_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(unregister :receiver proxy_dschmorrow_at_darpa_mil :name email_dschmorrow_at_darpa_mil :sender dschmorrow_at_darpa_mil_email_dschmorrow_at_darpa_mil :reply-with nil :user dschmorrow_at_darpa_mil)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(unregister :receiver proxy_dschmorrow_at_darpa_mil :name email_dschmorrow_at_darpa_mil :sender dschmorrow_at_darpa_mil_email_dschmorrow_at_darpa_mil :reply-with nil :user dschmorrow_at_darpa_mil)
+  translatedText: null
+============================
+
+Wed Jan 09 14:57:21 PST 2002 - dschmorrow_at_darpa_mil: Unregistering agent email_dschmorrow_at_darpa_mil
+Wed Jan 09 14:57:21 PST 2002 - []
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Wed Jan 09 14:57:24 PST 2002 - dschmorrow_at_darpa_mil: Device list is  nil
+Wed Jan 09 14:57:24 PST 2002 - Replying with: ( reply :content nil :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver userCGI_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(register :name email_dschmorrow_at_darpa_mil :reply-with nil :agenttype device :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender dschmorrow_at_darpa_mil_email_dschmorrow_at_darpa_mil :direction (to user))
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(register :name email_dschmorrow_at_darpa_mil :reply-with nil :agenttype device :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender dschmorrow_at_darpa_mil_email_dschmorrow_at_darpa_mil :direction (to user))
+  translatedText: null
+============================
+
+Wed Jan 09 14:58:10 PST 2002 - dschmorrow_at_darpa_mil: New agent registration
+Wed Jan 09 14:58:10 PST 2002 - dschmorrow_at_darpa_mil_email_dschmorrow_at_darpa_mil
+Wed Jan 09 14:58:10 PST 2002 - [email_dschmorrow_at_darpa_mil (device)]
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Wed Jan 09 14:58:17 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil )
+Wed Jan 09 14:58:17 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver userCGI_dschmorrow_at_darpa_mil )
+Received new Message
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Waiting for New Message...
+Wed Jan 09 20:01:02 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil )
+Wed Jan 09 20:01:02 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver userCGI_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(unregister :receiver proxy_dschmorrow_at_darpa_mil :name email_dschmorrow_at_darpa_mil :sender dschmorrow_at_darpa_mil_email_dschmorrow_at_darpa_mil :reply-with nil :user dschmorrow_at_darpa_mil)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(unregister :receiver proxy_dschmorrow_at_darpa_mil :name email_dschmorrow_at_darpa_mil :sender dschmorrow_at_darpa_mil_email_dschmorrow_at_darpa_mil :reply-with nil :user dschmorrow_at_darpa_mil)
+  translatedText: null
+============================
+
+Wed Jan 09 20:01:06 PST 2002 - dschmorrow_at_darpa_mil: Unregistering agent email_dschmorrow_at_darpa_mil
+Wed Jan 09 20:01:06 PST 2002 - []
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Wed Jan 09 20:02:11 PST 2002 - dschmorrow_at_darpa_mil: Device list is  nil
+Wed Jan 09 20:02:11 PST 2002 - Replying with: ( reply :content nil :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver userCGI_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(register :name email_dschmorrow_at_darpa_mil :reply-with nil :agenttype device :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender dschmorrow_at_darpa_mil_email_dschmorrow_at_darpa_mil :direction (to user))
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(register :name email_dschmorrow_at_darpa_mil :reply-with nil :agenttype device :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender dschmorrow_at_darpa_mil_email_dschmorrow_at_darpa_mil :direction (to user))
+  translatedText: null
+============================
+
+Wed Jan 09 20:02:17 PST 2002 - dschmorrow_at_darpa_mil: New agent registration
+Wed Jan 09 20:02:17 PST 2002 - dschmorrow_at_darpa_mil_email_dschmorrow_at_darpa_mil
+Wed Jan 09 20:02:17 PST 2002 - [email_dschmorrow_at_darpa_mil (device)]
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Wed Jan 09 20:02:24 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil )
+Wed Jan 09 20:02:24 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver userCGI_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Mon Jan 14 19:21:34 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil )
+Mon Jan 14 19:21:34 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver userCGI_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Mon Jan 14 19:52:15 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil )
+Mon Jan 14 19:52:15 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver userCGI_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Mon Jan 14 19:55:20 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil )
+Mon Jan 14 19:55:20 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver userCGI_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(unregister :receiver proxy_dschmorrow_at_darpa_mil :name email_dschmorrow_at_darpa_mil :sender dschmorrow_at_darpa_mil_email_dschmorrow_at_darpa_mil :reply-with nil :user dschmorrow_at_darpa_mil)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(unregister :receiver proxy_dschmorrow_at_darpa_mil :name email_dschmorrow_at_darpa_mil :sender dschmorrow_at_darpa_mil_email_dschmorrow_at_darpa_mil :reply-with nil :user dschmorrow_at_darpa_mil)
+  translatedText: null
+============================
+
+Mon Jan 14 19:55:24 PST 2002 - dschmorrow_at_darpa_mil: Unregistering agent email_dschmorrow_at_darpa_mil
+Mon Jan 14 19:55:24 PST 2002 - []
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Mon Jan 14 19:57:03 PST 2002 - dschmorrow_at_darpa_mil: Device list is  nil
+Mon Jan 14 19:57:03 PST 2002 - Replying with: ( reply :content nil :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver userCGI_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(register :name email_dschmorrow_at_darpa_mil :reply-with nil :agenttype device :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender dschmorrow_at_darpa_mil_email_dschmorrow_at_darpa_mil :direction (to user))
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(register :name email_dschmorrow_at_darpa_mil :reply-with nil :agenttype device :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender dschmorrow_at_darpa_mil_email_dschmorrow_at_darpa_mil :direction (to user))
+  translatedText: null
+============================
+
+Mon Jan 14 19:57:09 PST 2002 - dschmorrow_at_darpa_mil: New agent registration
+Mon Jan 14 19:57:09 PST 2002 - dschmorrow_at_darpa_mil_email_dschmorrow_at_darpa_mil
+Mon Jan 14 19:57:09 PST 2002 - [email_dschmorrow_at_darpa_mil (device)]
+Received new Message
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Waiting for New Message...
+Mon Jan 14 20:01:30 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil )
+Mon Jan 14 20:01:30 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver userCGI_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(register :name palm :reply-with nil :agenttype device :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender dschmorrow_at_darpa_mil_palm :direction both)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(register :name palm :reply-with nil :agenttype device :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender dschmorrow_at_darpa_mil_palm :direction both)
+  translatedText: null
+============================
+
+Mon Jan 14 20:01:38 PST 2002 - dschmorrow_at_darpa_mil: New agent registration
+Mon Jan 14 20:01:38 PST 2002 - dschmorrow_at_darpa_mil_palm
+Mon Jan 14 20:01:38 PST 2002 - [email_dschmorrow_at_darpa_mil (device), palm (device)]
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Mon Jan 14 20:01:39 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Mon Jan 14 20:01:39 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver userCGI_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Sun Jan 20 15:06:51 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Sun Jan 20 15:06:51 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver userCGI_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender ping_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender ping_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Mon Feb 04 16:19:49 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Mon Feb 04 16:19:49 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver ping_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender ping_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender ping_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Mon Feb 04 16:20:51 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Mon Feb 04 16:20:51 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver ping_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender ping_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender ping_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Mon Feb 04 16:23:09 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Mon Feb 04 16:23:09 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver ping_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender ping_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender ping_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Mon Feb 04 16:24:03 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Mon Feb 04 16:24:03 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver ping_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender ping_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender ping_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Tue Feb 05 15:48:03 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Tue Feb 05 15:48:03 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver ping_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender ping_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender ping_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Tue Feb 05 15:53:01 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Tue Feb 05 15:53:01 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver ping_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender ping_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender ping_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Tue Feb 05 15:54:01 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Tue Feb 05 15:54:01 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver ping_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender ping_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender ping_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Tue Feb 05 15:54:34 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Tue Feb 05 15:54:34 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver ping_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender ping_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender ping_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Tue Feb 05 15:55:00 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Tue Feb 05 15:55:00 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver ping_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender ping_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender ping_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Tue Feb 05 16:40:36 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Tue Feb 05 16:40:36 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver ping_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender ping_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender ping_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Tue Feb 05 16:41:10 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Tue Feb 05 16:41:10 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver ping_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender ping_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender ping_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Tue Feb 05 17:45:18 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Tue Feb 05 17:45:18 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver ping_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender ping_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender ping_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Wed Feb 06 15:24:18 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Wed Feb 06 15:24:18 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver ping_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender ping_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender ping_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Wed Feb 06 18:24:41 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Wed Feb 06 18:24:41 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver ping_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Fri Feb 08 18:57:15 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Fri Feb 08 18:57:15 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver queryDevices_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(register :name email_dschmorrow_at_darpa_mil :reply-with nil :agenttype device :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender dschmorrow_at_darpa_mil_email_dschmorrow_at_darpa_mil :direction (to user))
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(register :name email_dschmorrow_at_darpa_mil :reply-with nil :agenttype device :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender dschmorrow_at_darpa_mil_email_dschmorrow_at_darpa_mil :direction (to user))
+  translatedText: null
+============================
+
+Fri Feb 08 18:57:19 PST 2002 - dschmorrow_at_darpa_mil: New agent registration
+Fri Feb 08 18:57:19 PST 2002 - dschmorrow_at_darpa_mil_email_dschmorrow_at_darpa_mil
+Fri Feb 08 18:57:19 PST 2002 - dschmorrow_at_darpa_mil: Agent email_dschmorrow_at_darpa_mil already registered
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(register :name palm :reply-with nil :agenttype device :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender dschmorrow_at_darpa_mil_palm :direction both)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(register :name palm :reply-with nil :agenttype device :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender dschmorrow_at_darpa_mil_palm :direction both)
+  translatedText: null
+============================
+
+Fri Feb 08 18:57:20 PST 2002 - dschmorrow_at_darpa_mil: New agent registration
+Fri Feb 08 18:57:20 PST 2002 - dschmorrow_at_darpa_mil_palm
+Fri Feb 08 18:57:20 PST 2002 - dschmorrow_at_darpa_mil: Agent palm already registered
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender userCGI_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Tue Feb 12 13:27:14 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Tue Feb 12 13:27:14 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver userCGI_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Thu Feb 21 17:10:00 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Thu Feb 21 17:10:00 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver queryDevices_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Thu Feb 21 17:10:24 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Thu Feb 21 17:10:24 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver queryDevices_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Thu Feb 21 17:12:24 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Thu Feb 21 17:12:24 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver queryDevices_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Thu Feb 21 17:12:47 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Thu Feb 21 17:12:47 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver queryDevices_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Thu Feb 21 17:15:49 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Thu Feb 21 17:15:49 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver queryDevices_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Thu Feb 21 17:33:27 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Thu Feb 21 17:33:27 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver queryDevices_dschmorrow_at_darpa_mil )
+Received new Message
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Waiting for New Message...
+Thu Feb 21 19:52:01 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Thu Feb 21 19:52:01 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver queryDevices_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Thu Feb 21 19:52:34 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Thu Feb 21 19:52:34 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver queryDevices_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Thu Feb 21 19:53:19 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Thu Feb 21 19:53:19 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver queryDevices_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Thu Feb 21 20:01:13 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Thu Feb 21 20:01:13 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver queryDevices_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Thu Feb 21 20:02:19 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Thu Feb 21 20:02:19 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver queryDevices_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Thu Feb 21 20:04:08 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Thu Feb 21 20:04:08 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver queryDevices_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Thu Feb 21 20:05:22 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Thu Feb 21 20:05:22 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver queryDevices_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Mon Feb 25 14:08:47 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Mon Feb 25 14:08:47 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver queryDevices_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Mon Feb 25 14:15:32 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Mon Feb 25 14:15:32 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver queryDevices_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Mon Feb 25 14:16:07 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Mon Feb 25 14:16:07 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver queryDevices_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Mon Feb 25 14:23:52 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Mon Feb 25 14:23:52 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver queryDevices_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Mon Feb 25 15:45:36 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Mon Feb 25 15:45:37 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver queryDevices_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Mon Feb 25 15:48:12 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Mon Feb 25 15:48:12 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver queryDevices_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Mon Feb 25 15:58:15 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Mon Feb 25 15:58:15 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver queryDevices_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Mon Feb 25 16:08:59 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Mon Feb 25 16:08:59 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver queryDevices_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Mon Feb 25 16:11:35 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Mon Feb 25 16:11:35 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver queryDevices_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Mon Feb 25 16:17:44 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Mon Feb 25 16:17:44 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver queryDevices_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(unregister :receiver proxy_dschmorrow_at_darpa_mil :name email_dschmorrow_at_darpa_mil :sender dschmorrow_at_darpa_mil_email_dschmorrow_at_darpa_mil :reply-with nil :user dschmorrow_at_darpa_mil)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(unregister :receiver proxy_dschmorrow_at_darpa_mil :name email_dschmorrow_at_darpa_mil :sender dschmorrow_at_darpa_mil_email_dschmorrow_at_darpa_mil :reply-with nil :user dschmorrow_at_darpa_mil)
+  translatedText: null
+============================
+
+Mon Feb 25 16:46:33 PST 2002 - dschmorrow_at_darpa_mil: Unregistering agent email_dschmorrow_at_darpa_mil
+Mon Feb 25 16:46:33 PST 2002 - [palm (device)]
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(register :name email_dschmorrow_at_darpa_mil :reply-with nil :agenttype device :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender dschmorrow_at_darpa_mil_email_dschmorrow_at_darpa_mil :direction (to user))
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(register :name email_dschmorrow_at_darpa_mil :reply-with nil :agenttype device :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender dschmorrow_at_darpa_mil_email_dschmorrow_at_darpa_mil :direction (to user))
+  translatedText: null
+============================
+
+Mon Feb 25 16:46:36 PST 2002 - dschmorrow_at_darpa_mil: New agent registration
+Mon Feb 25 16:46:36 PST 2002 - dschmorrow_at_darpa_mil_email_dschmorrow_at_darpa_mil
+Mon Feb 25 16:46:36 PST 2002 - [palm (device), email_dschmorrow_at_darpa_mil (device)]
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(unregister :receiver proxy_dschmorrow_at_darpa_mil :name palm :sender dschmorrow_at_darpa_mil_palm :reply-with nil :user dschmorrow_at_darpa_mil)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(unregister :receiver proxy_dschmorrow_at_darpa_mil :name palm :sender dschmorrow_at_darpa_mil_palm :reply-with nil :user dschmorrow_at_darpa_mil)
+  translatedText: null
+============================
+
+Mon Feb 25 16:46:40 PST 2002 - dschmorrow_at_darpa_mil: Unregistering agent palm
+Mon Feb 25 16:46:40 PST 2002 - [email_dschmorrow_at_darpa_mil (device)]
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(register :name palm :reply-with nil :agenttype device :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender dschmorrow_at_darpa_mil_palm :direction both)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(register :name palm :reply-with nil :agenttype device :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender dschmorrow_at_darpa_mil_palm :direction both)
+  translatedText: null
+============================
+
+Mon Feb 25 16:46:42 PST 2002 - dschmorrow_at_darpa_mil: New agent registration
+Mon Feb 25 16:46:42 PST 2002 - dschmorrow_at_darpa_mil_palm
+Mon Feb 25 16:46:43 PST 2002 - [email_dschmorrow_at_darpa_mil (device), palm (device)]
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Mon Feb 25 17:51:45 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Mon Feb 25 17:51:45 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver queryDevices_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Tue Feb 26 10:07:34 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Tue Feb 26 10:07:34 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver queryDevices_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Tue Feb 26 10:10:45 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Tue Feb 26 10:10:45 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver queryDevices_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Tue Feb 26 16:53:56 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Tue Feb 26 16:53:56 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver queryDevices_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Wed Feb 27 17:24:31 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Wed Feb 27 17:24:31 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver queryDevices_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Fri Mar 01 15:33:49 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Fri Mar 01 15:33:49 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver queryDevices_dschmorrow_at_darpa_mil )
+Received new Message
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Waiting for New Message...
+Fri Mar 01 15:58:36 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Fri Mar 01 15:58:36 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver queryDevices_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Wed Mar 06 14:13:11 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Wed Mar 06 14:13:11 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver queryDevices_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Thu Mar 07 15:30:11 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Thu Mar 07 15:30:11 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver queryDevices_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Mon Mar 11 11:35:46 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Mon Mar 11 11:35:46 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver queryDevices_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Mon Mar 18 13:23:51 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Mon Mar 18 13:23:51 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver queryDevices_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Mon Mar 18 14:39:51 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Mon Mar 18 14:39:51 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver queryDevices_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Fri Mar 22 18:22:14 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Fri Mar 22 18:22:14 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver queryDevices_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Fri Mar 29 14:57:23 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Fri Mar 29 14:57:24 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver queryDevices_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Fri Mar 29 15:11:12 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Fri Mar 29 15:11:12 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver queryDevices_dschmorrow_at_darpa_mil )
+Received new Message
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Waiting for New Message...
+Fri Mar 29 16:00:36 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Fri Mar 29 16:00:36 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver queryDevices_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Wed Apr 03 12:05:03 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Wed Apr 03 12:05:03 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver queryDevices_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Wed Apr 03 12:14:02 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Wed Apr 03 12:14:02 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver queryDevices_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Wed Apr 03 12:15:15 PST 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Wed Apr 03 12:15:15 PST 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver queryDevices_dschmorrow_at_darpa_mil )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+============================
+
+
+proxy_dschmorrow_at_darpa_mil: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_dschmorrow_at_darpa_mil :user dschmorrow_at_darpa_mil :sender queryDevices_dschmorrow_at_darpa_mil :reply-with dschmorrow@darpa.mil :content devices)
+  translatedText: null
+============================
+
+Thu May 16 16:47:24 PDT 2002 - dschmorrow_at_darpa_mil: Device list is  ( email_dschmorrow_at_darpa_mil palm )
+Thu May 16 16:47:24 PDT 2002 - Replying with: ( reply :content ( email_dschmorrow_at_darpa_mil palm ) :sender proxy_dschmorrow_at_darpa_mil :reply-with nil :in-reply-to dschmorrow@darpa.mil :user dschmorrow_at_darpa_mil :receiver queryDevices_dschmorrow_at_darpa_mil )

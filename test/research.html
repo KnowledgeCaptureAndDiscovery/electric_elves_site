@@ -1,0 +1,225 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+  <!-- ## subtitle -->
+  <head>
+	<LINK REL=STYLESHEET HREF="mystyle.css" TYPE="text/css">
+    <title>electric elves : Home </title>
+  </head>
+
+<body bgcolor="#ffffff" text="#000000" link="#003399" alink="#8888aa" 
+      vlink="#663366" marginwidth="0" leftmargin="0" 
+      topmargin="0" marginheight="0">
+
+<center>
+
+<!-------------- ---------------------------------------->
+<center>
+<table valign=top border=0 width="100%">
+<tr>
+<td><img src="/e-elves/img/agentsatusc.gif"></td>
+<td><img src="/e-elves/img/elves5.jpg" width=200 ></td> 
+</tr>
+</table>
+
+<table align=center width="100%" border=0 cellspacing=0 cellpadding=0><tr>  
+<tr><td width=100> &nbsp;</td>
+<td> &nbsp;</td>
+<td valign=bottom><!img valign=bottom border=0 src="/e-elves/img/high3.jpg" width=100></td>
+
+<td colspan=4></td>
+</tr>
+
+    <td width=100 align=center bgcolor="#ffffff"  > 
+    </td>
+    <td width=100 align=center class=mytd> <font class=myfont><a href="index.html">Home</a> | </font></td>
+	<td width=100 align=center class=seltd><font class=selfont>Research </font></td>
+
+    <td width=100 align=center class=mytd> <font class=myfont><a href="people.html">People</a> | </font></td>
+    <td width=110  align=center class=mytd> <font class=myfont><a href="publications.html">Publications</a> | </font></td>
+    <td width=100 align=center class=mytd> <font class=myfont><a href="slides.html">Slides</a>  </font></td>
+    <td align=center bgcolor="#ffffff"> &nbsp;  </td>
+</tr>
+
+<tr><td colspan=7 bgcolor="#dddddd" > &nbsp;</td></tr>
+<tr><td colspan=4>&nbsp;</td><td colspan=3 align=center bgcolor="#cccccc">
+<font class=eefont>e.l.e.c.t.r.i.c &nbsp;&nbsp;e.l.v.e.s</font>
+</td></tr>
+
+</table>
+
+<!-------------- ---------------------------------------->
+
+<table width="100%" border=0 cellpadding=10 cellspacing=5 bgcolor="#ffffff">
+<tr><td>
+<!---------- ---------->
+
+<H1 align=left><FONT COLOR="#888844">Research</H1></FONT>
+
+<BR>
+<p>
+Many activities of a human organization are well-suited for software
+agents, which can devote significant resources to perform these tasks,
+thus reducing the burden on humans. Indeed, teams of such software
+agents could assist all organizations, including disaster response
+organizations, corporations, the military, universities and research
+institutions.
+</p>
+<p>
+Based on the above vision, we have developed a system called the
+Electric Elves that applies agent technology in service of the
+day-to-day activities of the Intelligent Systems Division of
+USC/ISI. Electric Elves is a system of about 15 agents, including nine
+proxies for nine people, plus two different matchmakers, one flight
+tracker and one scheduler running continuously for past several
+months. This paper discusses the tasks performed by the system, the
+research challenges it faced and its use of AI technology in overcoming
+those challenges.
+</p>
+<p>
+A key contribution of our work is understanding the challenges faced
+in deploying agents to support organizations. In particular, the
+complexity inherent in human organizations complicates all of the tasks
+agents must perform.  First, since agents must interact with humans,
+issues of  adjustable autonomy become critical.  In particular,
+agents acting as proxies for people must automatically adjust their own
+autonomy, e.g., avoiding critical errors, possibly by letting people
+make important decisions while autonomously making the more routine
+decisions.  Second, to accomplish their goals, agents must be provided
+reliable access to information.  Third, people have a wide variety of
+capabilities, interests, preferences and engage in many different tasks.
+</p>
+<p>
+To enable teaming among such people for crisis response or other
+organizational tasks, agents acting as their proxies must represent and
+reason with such capabilities and interests.  We thus require powerful
+matchmaking capabilities to match both interests and capabilities.
+Fourth, coordination of all of these different agents, including
+proxies, is itself a significant research challenge. Finally, the entire
+agent system must scale-up: 
+<ol type=alpha>
+<li> it must scale-up in the sense of 
+	running continually 24 hours a day 7 days a week (24/7) for months at a
+time 
+<li> it must scale-up in the number of agents to support
+	large-scale human organizations.
+</ol>
+</p>
+
+<!------
+<P>Future large-scale human organizations will be highly agentized,
+with software agents supporting the traditional tasks of information
+gathering, planning, and execution monitoring, as well as having
+increased control of resources and devices (communication and
+otherwise). As these heterogeneous software agents take on more of
+these activities, they will face the additional tasks of interfacing
+with people and sometimes acting as their proxies. Dynamic teaming of
+such heterogeneous agents will enable organizations to act
+coherently, to robustly attain their mission goals, to react swiftly
+to crises, and to dynamically adapt to events. Advances in this
+agentization could potentially assist all organizations, including
+the military, civilian disaster response organizations, corporations,
+and universities and research institutions.</P>
+
+<P>Within an organization, we envision that agent-based technology
+will facilitate (and sometimes supervise) all collaborative
+activities. For a research institution, agentization may facilitate
+such activities as meeting organization, paper composition, software
+development, and deployment of people and equipment for out-of-town
+demonstrations. For a military organization, agentization may enable
+the teaming of military units and equipment for rapid deployment, the
+monitoring of the progress of such deployments, and the rapid
+response to any crises that may arise. In the service of these
+collaborations, agent proxies will automatically take actions on
+behalf of the various entities in the human organization to ensure
+the success of the collaboration, while also reducing the amount of
+effort required of the human members. To maximize the benefit of
+these agent proxies, they must effectively manage the full range of
+scenarios that occur within human organizations.</P>
+
+<P>Specifically, there is one class of challenging scenarios in
+such an agentized organization, namely the task of recruiting agent
+teams and managing small-scale deployments of people and equipment to
+respond to needs both planned and unanticipated. We envision
+providing an agent proxy for each and every element of the human
+organization. These agent proxies dynamically volunteer for team
+membership on behalf of the humans or resources they represent, while
+also ensuring that the selected team collectively possesses
+sufficient resources and capabilities. The proxies must also manage
+the team by ensuring the availability of appropriate resources
+throughout the mission, the efficient transportation of such
+resources, the monitoring of the progress of individual participants
+and of the mission as a whole, and the execution of corrective
+actions when goals appear to be endangered. Crises may emerge during
+such missions, at which point the organization will dynamically
+recruit the appropriate agents into a crisis response team. Such a
+team will divide up responsibilities and monitor progress,
+dynamically adjusting team membership as required.</P>
+
+<P>The complexity inherent in human organizations complicates all
+of these tasks and provides a challenging research testbed for agent
+technology. First, the domain of human collaboration is highly
+dynamic, making it impossible to predict what new tasks may arise and
+how existing tasks may change during the course of a human
+organization's operation. Second, humans, as well as their associated
+tasks, are also very heterogeneous. The humans themselves have a wide
+variety of capabilities, interests, preferences, etc. Third, human
+organizations operate on a large scale, with large numbers of agents,
+groups, tasks, etc. Human organizations operate on a large temporal
+scale as well, requiring support 24 hours a day, 7 days a week, for
+years. Finally, the members of the human organization place stringent
+accuracy demands on the software agents that will be acting on their
+behalf. For instance, a human's agent proxy should not take any
+actions that conflict with the human's wishes, requiring the software
+agent to maintain an accurate representation of the human's
+preferences, capabilities, and constraints. These properties lead to
+a wide range of research problems, from interface design to internal
+representation languages, covering both single-agent and multi-agent
+issues including:<br>
+
+<ul>
+<li>adjusting the autonomy of the agent organization when acting as
+proxies for the corresponding humans
+<li>using ontology-based matchmaking to allow the agent proxies to
+represent and reason about the heterogeneity of the human agents and
+their capabilities.
+<li>methods for automatically generating textual and conceptual
+descriptions of the interests of human agents and identifying those
+agents who share common interests.<br>
+</ul>
+<BR><BR>
+
+<P><font size="+1"><b>Visitor Hoster scenario<br>
+</b></font>
+
+<P>The <B>Electric Elves </B>project has begun applying agent
+technology to several of these research problems within the testbed
+of our own Intelligent Systems Division of USC/ISI. Our
+implementation of this research is focusing on the illustrative
+scenario of hosting a visiting researcher, since this problem raises
+many of the issues common to the general class of research
+collaboration tasks within our division. To robustly execute such a
+scenario, the agent organization must perform a variety of tasks,
+including<br>
+
+<ul>
+<li>recruiting researchers interested in meeting with the visitor
+<li>identifying appropriate demonstrations for the visitor to observe
+<li>scheduling meetings and demonstrations
+<li>reacting to dynamic changes (e.g., meetings run long)
+<li>notifying the appropriate human members of these changes, etc.<br>
+</ul>
+
+<P><A HREF="./metzger-visit.html">E-Elves Host Rick Metzger from AFRL on July 26, 2000</A></P>.
+
+
+<P>
+<HR>
+
+<P ALIGN=CENTER><I>Milind Tambe <A HREF="mailto:tambe@isi.edu">tambe@isi.edu</A></I></p>
+--------->
+
+<!---------- ---------->
+</td></tr></table>
+
+  </body>
+</html>

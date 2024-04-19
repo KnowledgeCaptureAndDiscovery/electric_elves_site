@@ -1,0 +1,480 @@
+Mon Apr 08 16:28:33 2002: Using ANS: ('vibhagam', 5500)
+Mon Apr 08 16:28:33 2002: Bound to host/port: sangat.isi.edu:6687
+Mon Apr 08 16:28:33 2002: Sending message: (register :ontology tcp-ip :sender philpot_at_isi_edu_email_philpot_at_isi_edu :reply-with t :content "philpot_at_isi_edu_email_philpot_at_isi_edu sangat.isi.edu:6687")
+Mon Apr 08 16:28:33 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Mon Apr 08 16:28:33 2002: Registration produced: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Mon Apr 08 16:28:33 2002: Sending message: (unregister :sender philpot_at_isi_edu_email_philpot_at_isi_edu :ontology tcp-ip :reply-with nil :content philpot_at_isi_edu_email_philpot_at_isi_edu)
+Mon Apr 08 16:28:33 2002: Sending message: (register :sender philpot_at_isi_edu_email_philpot_at_isi_edu :ontology tcp-ip :reply-with t :content (philpot_at_isi_edu_email_philpot_at_isi_edu sangat.isi.edu:6687))
+Mon Apr 08 16:28:33 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'philpot_at_isi_edu_email_philpot_at_isi_edu TEAMCORE'}
+Mon Apr 08 16:28:33 2002: Registration produced: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'philpot_at_isi_edu_email_philpot_at_isi_edu TEAMCORE'}philpot_at_isi_edu_email_philpot_at_isi_edu, TEAMCORE
+Mon Apr 08 16:28:33 2002: Registration successful: philpot_at_isi_edu_email_philpot_at_isi_edu
+Mon Apr 08 16:28:33 2002: Router for philpot_at_isi_edu_email_philpot_at_isi_edu running...
+Mon Apr 08 16:28:33 2002: Sending message: (ask-one :sender philpot_at_isi_edu_email_philpot_at_isi_edu :reply-with t :content "proxy_philpot_at_isi_edu")
+Mon Apr 08 16:28:33 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_philpot_at_isi_edu:sangat.isi.edu:10002:'}
+Mon Apr 08 16:28:33 2002: Sending message: (register :name email_philpot_at_isi_edu :reply-with nil :agenttype device :receiver proxy_philpot_at_isi_edu :user philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :direction (to user))
+Sat Apr 20 09:07:28 2002: Received: {'subject': 'American Airlines flight 2436', 'performative': 'tell', 'reply-with': 'nil', 'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'user': 'philpot_at_isi_edu', 'sender': 'proxy_philpot_at_isi_edu', 'deadline': '10000', 'shortcontent': 'American Airlines flight 2436 departs LAX<br/> on-time at 11:16 AM Gate 48A and <br/>arrives DFW at 4:21 PM Gate .', 'content': 'Dear philpot_at_isi_edu,<br/><br/>Your American Airlines flight 2436 is still scheduled to depart LAX on-time at 11:16 AM Gate 48A and is scheduled to arrive DFW at 4:21 PM Gate .<br/><br/>   -- Your personal elf'}
+Sat Apr 20 09:07:28 2002: Processing message: {'subject': 'American Airlines flight 2436', 'performative': 'tell', 'reply-with': 'nil', 'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'user': 'philpot_at_isi_edu', 'sender': 'proxy_philpot_at_isi_edu', 'deadline': '10000', 'shortcontent': 'American Airlines flight 2436 departs LAX<br/> on-time at 11:16 AM Gate 48A and <br/>arrives DFW at 4:21 PM Gate .', 'content': 'Dear philpot_at_isi_edu,<br/><br/>Your American Airlines flight 2436 is still scheduled to depart LAX on-time at 11:16 AM Gate 48A and is scheduled to arrive DFW at 4:21 PM Gate .<br/><br/>   -- Your personal elf'}
+Sat Apr 20 09:07:29 2002: Message for user ID: philpot@isi.edu
+Sat Apr 20 09:07:29 2002: User name:  
+Thu May 16 16:47:42 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Thu May 16 16:47:42 2002: Processing message: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Thu May 16 16:47:42 2002: Replying: (sorry :reply-with nil :in-reply-to philpot_at_isi_edu :receiver ping_philpot_at_isi_edu_email_philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :comment "Unintelligible query")
+Fri May 17 14:36:54 2002: Using ANS: ('vibhagam.isi.edu', 5500)
+Fri May 17 14:36:54 2002: Bound to host/port: sangat.isi.edu:6683
+Fri May 17 14:36:54 2002: Sending message: (register :ontology tcp-ip :sender philpot_at_isi_edu_email_philpot_at_isi_edu :reply-with t :content "philpot_at_isi_edu_email_philpot_at_isi_edu sangat.isi.edu:6683")
+Fri May 17 14:36:54 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Fri May 17 14:36:54 2002: Registration produced: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Fri May 17 14:36:54 2002: Sending message: (unregister :sender philpot_at_isi_edu_email_philpot_at_isi_edu :ontology tcp-ip :reply-with nil :content philpot_at_isi_edu_email_philpot_at_isi_edu)
+Fri May 17 14:36:54 2002: Sending message: (register :sender philpot_at_isi_edu_email_philpot_at_isi_edu :ontology tcp-ip :reply-with t :content (philpot_at_isi_edu_email_philpot_at_isi_edu sangat.isi.edu:6683))
+Fri May 17 14:36:54 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'philpot_at_isi_edu_email_philpot_at_isi_edu TEAMCORE'}
+Fri May 17 14:36:54 2002: Registration produced: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'philpot_at_isi_edu_email_philpot_at_isi_edu TEAMCORE'}philpot_at_isi_edu_email_philpot_at_isi_edu, TEAMCORE
+Fri May 17 14:36:54 2002: Registration successful: philpot_at_isi_edu_email_philpot_at_isi_edu
+Fri May 17 14:36:54 2002: Router for philpot_at_isi_edu_email_philpot_at_isi_edu running...
+Fri May 17 14:36:54 2002: Sending message: (ask-one :sender philpot_at_isi_edu_email_philpot_at_isi_edu :reply-with t :content "proxy_philpot_at_isi_edu")
+Fri May 17 14:36:54 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_philpot_at_isi_edu:sangat.isi.edu:9992:'}
+Fri May 17 14:36:54 2002: Sending message: (register :name email_philpot_at_isi_edu :reply-with nil :agenttype device :receiver proxy_philpot_at_isi_edu :user philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :direction (to user))
+Fri May 17 14:36:55 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Fri May 17 14:36:55 2002: Processing message: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Fri May 17 14:36:55 2002: Replying: (sorry :reply-with nil :in-reply-to philpot_at_isi_edu :receiver ping_philpot_at_isi_edu_email_philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :comment "Unintelligible query")
+Fri May 17 14:43:06 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Fri May 17 14:43:06 2002: Processing message: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Fri May 17 14:43:06 2002: Replying: (sorry :reply-with nil :in-reply-to philpot_at_isi_edu :receiver ping_philpot_at_isi_edu_email_philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :comment "Unintelligible query")
+Wed May 22 13:56:50 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Wed May 22 13:56:50 2002: Processing message: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Wed May 22 13:56:50 2002: Replying: (sorry :reply-with nil :in-reply-to philpot_at_isi_edu :receiver ping_philpot_at_isi_edu_email_philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :comment "Unintelligible query")
+Wed May 22 16:19:11 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'kqml-admin', 'sender': 'TEAMCORE', 'kqml-msg-id': '475+vibhagam.isi.edu+14', 'reply-with': 't', 'content': 'name'}
+Wed May 22 16:21:32 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Wed May 22 16:21:32 2002: Processing message: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Wed May 22 16:21:32 2002: Replying: (sorry :reply-with nil :in-reply-to philpot_at_isi_edu :receiver ping_philpot_at_isi_edu_email_philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :comment "Unintelligible query")
+Thu May 23 11:18:40 2002: Using ANS: ('vibhagam.isi.edu', 5500)
+Thu May 23 11:18:40 2002: Bound to host/port: sangat.isi.edu:6694
+Thu May 23 11:18:40 2002: Sending message: (register :ontology tcp-ip :sender philpot_at_isi_edu_email_philpot_at_isi_edu :reply-with t :content "philpot_at_isi_edu_email_philpot_at_isi_edu sangat.isi.edu:6694")
+Thu May 23 11:18:40 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Thu May 23 11:18:40 2002: Registration produced: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Thu May 23 11:18:40 2002: Sending message: (unregister :sender philpot_at_isi_edu_email_philpot_at_isi_edu :ontology tcp-ip :reply-with nil :content philpot_at_isi_edu_email_philpot_at_isi_edu)
+Thu May 23 11:18:40 2002: Sending message: (register :sender philpot_at_isi_edu_email_philpot_at_isi_edu :ontology tcp-ip :reply-with t :content (philpot_at_isi_edu_email_philpot_at_isi_edu sangat.isi.edu:6694))
+Thu May 23 11:18:40 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'philpot_at_isi_edu_email_philpot_at_isi_edu TEAMCORE'}
+Thu May 23 11:18:40 2002: Registration produced: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'philpot_at_isi_edu_email_philpot_at_isi_edu TEAMCORE'}philpot_at_isi_edu_email_philpot_at_isi_edu, TEAMCORE
+Thu May 23 11:18:40 2002: Registration successful: philpot_at_isi_edu_email_philpot_at_isi_edu
+Thu May 23 11:18:40 2002: Router for philpot_at_isi_edu_email_philpot_at_isi_edu running...
+Thu May 23 11:18:40 2002: Sending message: (ask-one :sender philpot_at_isi_edu_email_philpot_at_isi_edu :reply-with t :content "proxy_philpot_at_isi_edu")
+Thu May 23 11:18:40 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_philpot_at_isi_edu:sangat.isi.edu:9992:'}
+Thu May 23 11:18:40 2002: Sending message: (register :name email_philpot_at_isi_edu :reply-with nil :agenttype device :receiver proxy_philpot_at_isi_edu :user philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :direction (to user))
+Thu May 23 11:18:41 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Thu May 23 11:18:41 2002: Processing message: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Thu May 23 11:18:41 2002: Replying: (sorry :reply-with nil :in-reply-to philpot_at_isi_edu :receiver ping_philpot_at_isi_edu_email_philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :comment "Unintelligible query")
+Thu May 23 11:27:25 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Thu May 23 11:27:25 2002: Processing message: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Thu May 23 11:27:25 2002: Replying: (sorry :reply-with nil :in-reply-to philpot_at_isi_edu :receiver ping_philpot_at_isi_edu_email_philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :comment "Unintelligible query")
+Thu May 23 11:31:02 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'tell', 'sender': 'stop_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'nil', 'content': 'stop'}
+Thu May 23 11:31:02 2002: Processing message: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'tell', 'sender': 'stop_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'nil', 'content': 'stop'}
+Thu May 23 11:31:03 2002: Sending message: (unregister :receiver proxy_philpot_at_isi_edu :name email_philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :reply-with nil :user philpot_at_isi_edu)
+Thu May 23 11:31:03 2002: Router philpot_at_isi_edu_email_philpot_at_isi_edu exiting...
+Thu May 23 11:31:03 2002: Sending message: (unregister :receiver TEAMCORE :sender philpot_at_isi_edu_email_philpot_at_isi_edu :ontology tcp-ip :reply-with nil :content philpot_at_isi_edu_email_philpot_at_isi_edu)
+Thu May 23 11:31:03 2002: Exiting...
+Thu May 23 11:31:05 2002: Using ANS: ('vibhagam.isi.edu', 5500)
+Thu May 23 11:31:05 2002: Bound to host/port: sangat.isi.edu:6681
+Thu May 23 11:31:05 2002: Sending message: (register :ontology tcp-ip :sender philpot_at_isi_edu_email_philpot_at_isi_edu :reply-with t :content "philpot_at_isi_edu_email_philpot_at_isi_edu sangat.isi.edu:6681")
+Thu May 23 11:31:05 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Thu May 23 11:31:05 2002: Registration produced: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Thu May 23 11:31:05 2002: Sending message: (unregister :sender philpot_at_isi_edu_email_philpot_at_isi_edu :ontology tcp-ip :reply-with nil :content philpot_at_isi_edu_email_philpot_at_isi_edu)
+Thu May 23 11:31:05 2002: Sending message: (register :sender philpot_at_isi_edu_email_philpot_at_isi_edu :ontology tcp-ip :reply-with t :content (philpot_at_isi_edu_email_philpot_at_isi_edu sangat.isi.edu:6681))
+Thu May 23 11:31:05 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'philpot_at_isi_edu_email_philpot_at_isi_edu TEAMCORE'}
+Thu May 23 11:31:05 2002: Registration produced: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'philpot_at_isi_edu_email_philpot_at_isi_edu TEAMCORE'}philpot_at_isi_edu_email_philpot_at_isi_edu, TEAMCORE
+Thu May 23 11:31:05 2002: Registration successful: philpot_at_isi_edu_email_philpot_at_isi_edu
+Thu May 23 11:31:05 2002: Router for philpot_at_isi_edu_email_philpot_at_isi_edu running...
+Thu May 23 11:31:05 2002: Sending message: (ask-one :sender philpot_at_isi_edu_email_philpot_at_isi_edu :reply-with t :content "proxy_philpot_at_isi_edu")
+Thu May 23 11:31:05 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_philpot_at_isi_edu:sangat.isi.edu:9992:'}
+Thu May 23 11:31:05 2002: Sending message: (register :name email_philpot_at_isi_edu :reply-with nil :agenttype device :receiver proxy_philpot_at_isi_edu :user philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :direction (to user))
+Thu May 23 11:31:07 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Thu May 23 11:31:07 2002: Processing message: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Thu May 23 11:31:07 2002: Replying: (sorry :reply-with nil :in-reply-to philpot_at_isi_edu :receiver ping_philpot_at_isi_edu_email_philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :comment "Unintelligible query")
+Thu May 23 11:56:57 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'tell', 'sender': 'stop_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'nil', 'content': 'stop'}
+Thu May 23 11:56:57 2002: Processing message: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'tell', 'sender': 'stop_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'nil', 'content': 'stop'}
+Thu May 23 11:56:57 2002: Sending message: (unregister :receiver proxy_philpot_at_isi_edu :name email_philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :reply-with nil :user philpot_at_isi_edu)
+Thu May 23 11:56:57 2002: Router philpot_at_isi_edu_email_philpot_at_isi_edu exiting...
+Thu May 23 11:56:57 2002: Sending message: (unregister :receiver TEAMCORE :sender philpot_at_isi_edu_email_philpot_at_isi_edu :ontology tcp-ip :reply-with nil :content philpot_at_isi_edu_email_philpot_at_isi_edu)
+Thu May 23 11:56:57 2002: Exiting...
+Thu May 23 11:57:00 2002: Using ANS: ('vibhagam.isi.edu', 5500)
+Thu May 23 11:57:00 2002: Bound to host/port: sangat.isi.edu:6666
+Thu May 23 11:57:00 2002: Sending message: (register :ontology tcp-ip :sender philpot_at_isi_edu_email_philpot_at_isi_edu :reply-with t :content "philpot_at_isi_edu_email_philpot_at_isi_edu sangat.isi.edu:6666")
+Thu May 23 11:57:00 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Thu May 23 11:57:00 2002: Registration produced: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Thu May 23 11:57:00 2002: Sending message: (unregister :sender philpot_at_isi_edu_email_philpot_at_isi_edu :ontology tcp-ip :reply-with nil :content philpot_at_isi_edu_email_philpot_at_isi_edu)
+Thu May 23 11:57:00 2002: Sending message: (register :sender philpot_at_isi_edu_email_philpot_at_isi_edu :ontology tcp-ip :reply-with t :content (philpot_at_isi_edu_email_philpot_at_isi_edu sangat.isi.edu:6666))
+Thu May 23 11:57:00 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'philpot_at_isi_edu_email_philpot_at_isi_edu TEAMCORE'}
+Thu May 23 11:57:00 2002: Registration produced: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'philpot_at_isi_edu_email_philpot_at_isi_edu TEAMCORE'}philpot_at_isi_edu_email_philpot_at_isi_edu, TEAMCORE
+Thu May 23 11:57:00 2002: Registration successful: philpot_at_isi_edu_email_philpot_at_isi_edu
+Thu May 23 11:57:00 2002: Router for philpot_at_isi_edu_email_philpot_at_isi_edu running...
+Thu May 23 11:57:00 2002: Sending message: (ask-one :sender philpot_at_isi_edu_email_philpot_at_isi_edu :reply-with t :content "proxy_philpot_at_isi_edu")
+Thu May 23 11:57:00 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_philpot_at_isi_edu:sangat.isi.edu:9992:'}
+Thu May 23 11:57:00 2002: Sending message: (register :name email_philpot_at_isi_edu :reply-with nil :agenttype device :receiver proxy_philpot_at_isi_edu :user philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :direction (to user))
+Thu May 23 11:57:01 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Thu May 23 11:57:01 2002: Processing message: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Thu May 23 11:57:01 2002: Replying: (sorry :reply-with nil :in-reply-to philpot_at_isi_edu :receiver ping_philpot_at_isi_edu_email_philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :comment "Unintelligible query")
+Mon Jun 03 10:55:35 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Mon Jun 03 10:55:35 2002: Processing message: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Mon Jun 03 10:55:35 2002: Replying: (sorry :reply-with nil :in-reply-to philpot_at_isi_edu :receiver ping_philpot_at_isi_edu_email_philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :comment "Unintelligible query")
+Thu Jun 06 14:47:05 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Thu Jun 06 14:47:05 2002: Processing message: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Thu Jun 06 14:47:05 2002: Replying: (sorry :reply-with nil :in-reply-to philpot_at_isi_edu :receiver ping_philpot_at_isi_edu_email_philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :comment "Unintelligible query")
+Mon Jun 10 12:50:06 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'kqml-admin', 'sender': 'TEAMCORE', 'kqml-msg-id': '699+vibhagam.isi.edu+15', 'reply-with': 't', 'content': 'name'}
+Mon Jun 10 13:21:42 2002: Using ANS: ('vibhagam', 5500)
+Mon Jun 10 13:21:42 2002: Bound to host/port: sangat.isi.edu:6690
+Mon Jun 10 13:21:42 2002: Sending message: (register :ontology tcp-ip :sender philpot_at_isi_edu_email_philpot_at_isi_edu :reply-with t :content "philpot_at_isi_edu_email_philpot_at_isi_edu sangat.isi.edu:6690")
+Mon Jun 10 13:21:42 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Mon Jun 10 13:21:42 2002: Registration produced: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Mon Jun 10 13:21:42 2002: Sending message: (unregister :sender philpot_at_isi_edu_email_philpot_at_isi_edu :ontology tcp-ip :reply-with nil :content philpot_at_isi_edu_email_philpot_at_isi_edu)
+Mon Jun 10 13:21:42 2002: Sending message: (register :sender philpot_at_isi_edu_email_philpot_at_isi_edu :ontology tcp-ip :reply-with t :content (philpot_at_isi_edu_email_philpot_at_isi_edu sangat.isi.edu:6690))
+Mon Jun 10 13:21:42 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'philpot_at_isi_edu_email_philpot_at_isi_edu TEAMCORE'}
+Mon Jun 10 13:21:42 2002: Registration produced: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'philpot_at_isi_edu_email_philpot_at_isi_edu TEAMCORE'}philpot_at_isi_edu_email_philpot_at_isi_edu, TEAMCORE
+Mon Jun 10 13:21:42 2002: Registration successful: philpot_at_isi_edu_email_philpot_at_isi_edu
+Mon Jun 10 13:21:42 2002: Router for philpot_at_isi_edu_email_philpot_at_isi_edu running...
+Mon Jun 10 13:21:42 2002: Sending message: (ask-one :sender philpot_at_isi_edu_email_philpot_at_isi_edu :reply-with t :content "proxy_philpot_at_isi_edu")
+Mon Jun 10 13:21:42 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_philpot_at_isi_edu:sangat.isi.edu:9991:'}
+Mon Jun 10 13:21:42 2002: Sending message: (register :name email_philpot_at_isi_edu :reply-with nil :agenttype device :receiver proxy_philpot_at_isi_edu :user philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :direction (to user))
+Mon Jun 10 13:21:44 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Mon Jun 10 13:21:44 2002: Processing message: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Mon Jun 10 13:21:44 2002: Replying: (sorry :reply-with nil :in-reply-to philpot_at_isi_edu :receiver ping_philpot_at_isi_edu_email_philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :comment "Unintelligible query")
+Mon Jun 10 13:24:19 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Mon Jun 10 13:24:19 2002: Processing message: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Mon Jun 10 13:24:19 2002: Replying: (sorry :reply-with nil :in-reply-to philpot_at_isi_edu :receiver ping_philpot_at_isi_edu_email_philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :comment "Unintelligible query")
+Wed Jun 12 11:57:10 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Wed Jun 12 11:57:10 2002: Processing message: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Wed Jun 12 11:57:10 2002: Replying: (sorry :reply-with nil :in-reply-to philpot_at_isi_edu :receiver ping_philpot_at_isi_edu_email_philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :comment "Unintelligible query")
+Fri Jun 21 17:41:14 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Fri Jun 21 17:41:14 2002: Processing message: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Fri Jun 21 17:41:14 2002: Replying: (sorry :reply-with nil :in-reply-to philpot_at_isi_edu :receiver ping_philpot_at_isi_edu_email_philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :comment "Unintelligible query")
+Mon Jun 24 17:26:07 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Mon Jun 24 17:26:07 2002: Processing message: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Mon Jun 24 17:26:07 2002: Replying: (sorry :reply-with nil :in-reply-to philpot_at_isi_edu :receiver ping_philpot_at_isi_edu_email_philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :comment "Unintelligible query")
+Tue Jun 25 10:00:25 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'tell', 'sender': 'stop_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'nil', 'content': 'stop'}
+Tue Jun 25 10:00:25 2002: Processing message: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'tell', 'sender': 'stop_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'nil', 'content': 'stop'}
+Tue Jun 25 10:00:25 2002: Sending message: (unregister :receiver proxy_philpot_at_isi_edu :name email_philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :reply-with nil :user philpot_at_isi_edu)
+Tue Jun 25 10:00:25 2002: Router philpot_at_isi_edu_email_philpot_at_isi_edu exiting...
+Tue Jun 25 10:00:25 2002: Sending message: (unregister :receiver TEAMCORE :sender philpot_at_isi_edu_email_philpot_at_isi_edu :ontology tcp-ip :reply-with nil :content philpot_at_isi_edu_email_philpot_at_isi_edu)
+Tue Jun 25 10:00:25 2002: Exiting...
+Tue Jun 25 10:00:28 2002: Using ANS: ('vibhagam.isi.edu', 5500)
+Tue Jun 25 10:00:28 2002: Bound to host/port: sangat.isi.edu:6686
+Tue Jun 25 10:00:28 2002: Sending message: (register :ontology tcp-ip :sender philpot_at_isi_edu_email_philpot_at_isi_edu :reply-with t :content "philpot_at_isi_edu_email_philpot_at_isi_edu sangat.isi.edu:6686")
+Tue Jun 25 10:00:28 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Tue Jun 25 10:00:28 2002: Registration produced: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Tue Jun 25 10:00:28 2002: Sending message: (unregister :sender philpot_at_isi_edu_email_philpot_at_isi_edu :ontology tcp-ip :reply-with nil :content philpot_at_isi_edu_email_philpot_at_isi_edu)
+Tue Jun 25 10:00:28 2002: Sending message: (register :sender philpot_at_isi_edu_email_philpot_at_isi_edu :ontology tcp-ip :reply-with t :content (philpot_at_isi_edu_email_philpot_at_isi_edu sangat.isi.edu:6686))
+Tue Jun 25 10:00:28 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'philpot_at_isi_edu_email_philpot_at_isi_edu TEAMCORE'}
+Tue Jun 25 10:00:28 2002: Registration produced: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'philpot_at_isi_edu_email_philpot_at_isi_edu TEAMCORE'}philpot_at_isi_edu_email_philpot_at_isi_edu, TEAMCORE
+Tue Jun 25 10:00:28 2002: Registration successful: philpot_at_isi_edu_email_philpot_at_isi_edu
+Tue Jun 25 10:00:28 2002: Router for philpot_at_isi_edu_email_philpot_at_isi_edu running...
+Tue Jun 25 10:00:28 2002: Sending message: (ask-one :sender philpot_at_isi_edu_email_philpot_at_isi_edu :reply-with t :content "proxy_philpot_at_isi_edu")
+Tue Jun 25 10:00:28 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_philpot_at_isi_edu:sangat.isi.edu:9991:'}
+Tue Jun 25 10:00:28 2002: Sending message: (register :name email_philpot_at_isi_edu :reply-with nil :agenttype device :receiver proxy_philpot_at_isi_edu :user philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :direction (to user))
+Tue Jun 25 10:00:29 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Tue Jun 25 10:00:29 2002: Processing message: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Tue Jun 25 10:00:29 2002: Replying: (sorry :reply-with nil :in-reply-to philpot_at_isi_edu :receiver ping_philpot_at_isi_edu_email_philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :comment "Unintelligible query")
+Wed Jun 26 14:22:55 2002: Using ANS: ('vibhagam.isi.edu', 5500)
+Wed Jun 26 14:22:55 2002: Bound to host/port: sangat.isi.edu:6684
+Wed Jun 26 14:22:55 2002: Sending message: (register :ontology tcp-ip :sender philpot_at_isi_edu_email_philpot_at_isi_edu :reply-with t :content "philpot_at_isi_edu_email_philpot_at_isi_edu sangat.isi.edu:6684")
+Wed Jun 26 14:22:55 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Wed Jun 26 14:22:55 2002: Registration produced: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Wed Jun 26 14:22:55 2002: Sending message: (unregister :sender philpot_at_isi_edu_email_philpot_at_isi_edu :ontology tcp-ip :reply-with nil :content philpot_at_isi_edu_email_philpot_at_isi_edu)
+Wed Jun 26 14:22:55 2002: Sending message: (register :sender philpot_at_isi_edu_email_philpot_at_isi_edu :ontology tcp-ip :reply-with t :content (philpot_at_isi_edu_email_philpot_at_isi_edu sangat.isi.edu:6684))
+Wed Jun 26 14:22:55 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'philpot_at_isi_edu_email_philpot_at_isi_edu TEAMCORE'}
+Wed Jun 26 14:22:55 2002: Registration produced: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'philpot_at_isi_edu_email_philpot_at_isi_edu TEAMCORE'}philpot_at_isi_edu_email_philpot_at_isi_edu, TEAMCORE
+Wed Jun 26 14:22:55 2002: Registration successful: philpot_at_isi_edu_email_philpot_at_isi_edu
+Wed Jun 26 14:22:55 2002: Router for philpot_at_isi_edu_email_philpot_at_isi_edu running...
+Wed Jun 26 14:22:55 2002: Sending message: (ask-one :sender philpot_at_isi_edu_email_philpot_at_isi_edu :reply-with t :content "proxy_philpot_at_isi_edu")
+Wed Jun 26 14:22:55 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_philpot_at_isi_edu:sangat.isi.edu:9991:'}
+Wed Jun 26 14:22:55 2002: Sending message: (register :name email_philpot_at_isi_edu :reply-with nil :agenttype device :receiver proxy_philpot_at_isi_edu :user philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :direction (to user))
+Wed Jun 26 14:22:57 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Wed Jun 26 14:22:57 2002: Processing message: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Wed Jun 26 14:22:57 2002: Replying: (sorry :reply-with nil :in-reply-to philpot_at_isi_edu :receiver ping_philpot_at_isi_edu_email_philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :comment "Unintelligible query")
+Wed Jun 26 14:44:04 2002: Using ANS: ('vibhagam.isi.edu', 5500)
+Wed Jun 26 14:44:04 2002: Bound to host/port: sangat.isi.edu:6681
+Wed Jun 26 14:44:04 2002: Sending message: (register :ontology tcp-ip :sender philpot_at_isi_edu_email_philpot_at_isi_edu :reply-with t :content "philpot_at_isi_edu_email_philpot_at_isi_edu sangat.isi.edu:6681")
+Wed Jun 26 14:44:04 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Wed Jun 26 14:44:04 2002: Registration produced: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Wed Jun 26 14:44:04 2002: Sending message: (unregister :sender philpot_at_isi_edu_email_philpot_at_isi_edu :ontology tcp-ip :reply-with nil :content philpot_at_isi_edu_email_philpot_at_isi_edu)
+Wed Jun 26 14:44:04 2002: Sending message: (register :sender philpot_at_isi_edu_email_philpot_at_isi_edu :ontology tcp-ip :reply-with t :content (philpot_at_isi_edu_email_philpot_at_isi_edu sangat.isi.edu:6681))
+Wed Jun 26 14:44:04 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'philpot_at_isi_edu_email_philpot_at_isi_edu TEAMCORE'}
+Wed Jun 26 14:44:04 2002: Registration produced: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'philpot_at_isi_edu_email_philpot_at_isi_edu TEAMCORE'}philpot_at_isi_edu_email_philpot_at_isi_edu, TEAMCORE
+Wed Jun 26 14:44:04 2002: Registration successful: philpot_at_isi_edu_email_philpot_at_isi_edu
+Wed Jun 26 14:44:04 2002: Router for philpot_at_isi_edu_email_philpot_at_isi_edu running...
+Wed Jun 26 14:44:04 2002: Sending message: (ask-one :sender philpot_at_isi_edu_email_philpot_at_isi_edu :reply-with t :content "proxy_philpot_at_isi_edu")
+Wed Jun 26 14:44:04 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_philpot_at_isi_edu:sangat.isi.edu:9991:'}
+Wed Jun 26 14:44:04 2002: Sending message: (register :name email_philpot_at_isi_edu :reply-with nil :agenttype device :receiver proxy_philpot_at_isi_edu :user philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :direction (to user))
+Wed Jun 26 14:44:05 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Wed Jun 26 14:44:05 2002: Processing message: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Wed Jun 26 14:44:05 2002: Replying: (sorry :reply-with nil :in-reply-to philpot_at_isi_edu :receiver ping_philpot_at_isi_edu_email_philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :comment "Unintelligible query")
+Fri Jun 28 10:29:27 2002: Using ANS: ('vibhagam', 5500)
+Fri Jun 28 10:29:27 2002: Bound to host/port: sangat.isi.edu:6679
+Fri Jun 28 10:29:27 2002: Sending message: (register :ontology tcp-ip :sender philpot_at_isi_edu_email_philpot_at_isi_edu :reply-with t :content "philpot_at_isi_edu_email_philpot_at_isi_edu sangat.isi.edu:6679")
+Fri Jun 28 10:29:27 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Fri Jun 28 10:29:27 2002: Registration produced: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Fri Jun 28 10:29:27 2002: Sending message: (unregister :sender philpot_at_isi_edu_email_philpot_at_isi_edu :ontology tcp-ip :reply-with nil :content philpot_at_isi_edu_email_philpot_at_isi_edu)
+Fri Jun 28 10:29:27 2002: Sending message: (register :sender philpot_at_isi_edu_email_philpot_at_isi_edu :ontology tcp-ip :reply-with t :content (philpot_at_isi_edu_email_philpot_at_isi_edu sangat.isi.edu:6679))
+Fri Jun 28 10:29:27 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'philpot_at_isi_edu_email_philpot_at_isi_edu TEAMCORE'}
+Fri Jun 28 10:29:27 2002: Registration produced: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'philpot_at_isi_edu_email_philpot_at_isi_edu TEAMCORE'}philpot_at_isi_edu_email_philpot_at_isi_edu, TEAMCORE
+Fri Jun 28 10:29:27 2002: Registration successful: philpot_at_isi_edu_email_philpot_at_isi_edu
+Fri Jun 28 10:29:27 2002: Router for philpot_at_isi_edu_email_philpot_at_isi_edu running...
+Fri Jun 28 10:29:27 2002: Sending message: (ask-one :sender philpot_at_isi_edu_email_philpot_at_isi_edu :reply-with t :content "proxy_philpot_at_isi_edu")
+Fri Jun 28 10:29:27 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_philpot_at_isi_edu:sangat.isi.edu:9991:'}
+Fri Jun 28 10:29:27 2002: Sending message: (register :name email_philpot_at_isi_edu :reply-with nil :agenttype device :receiver proxy_philpot_at_isi_edu :user philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :direction (to user))
+Fri Jun 28 10:29:28 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Fri Jun 28 10:29:28 2002: Processing message: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Fri Jun 28 10:29:28 2002: Replying: (sorry :reply-with nil :in-reply-to philpot_at_isi_edu :receiver ping_philpot_at_isi_edu_email_philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :comment "Unintelligible query")
+Fri Jun 28 10:32:08 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Fri Jun 28 10:32:08 2002: Processing message: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Fri Jun 28 10:32:08 2002: Replying: (sorry :reply-with nil :in-reply-to philpot_at_isi_edu :receiver ping_philpot_at_isi_edu_email_philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :comment "Unintelligible query")
+Fri Jul 12 11:38:44 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Fri Jul 12 11:38:44 2002: Processing message: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Fri Jul 12 11:38:44 2002: Replying: (sorry :reply-with nil :in-reply-to philpot_at_isi_edu :receiver ping_philpot_at_isi_edu_email_philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :comment "Unintelligible query")
+Fri Jul 26 15:16:03 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'tell', 'sender': 'stop_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'nil', 'content': 'stop'}
+Fri Jul 26 15:16:03 2002: Processing message: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'tell', 'sender': 'stop_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'nil', 'content': 'stop'}
+Fri Jul 26 15:16:04 2002: Sending message: (unregister :receiver proxy_philpot_at_isi_edu :name email_philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :reply-with nil :user philpot_at_isi_edu)
+Fri Jul 26 15:16:04 2002: Router philpot_at_isi_edu_email_philpot_at_isi_edu exiting...
+Fri Jul 26 15:16:04 2002: Sending message: (unregister :receiver TEAMCORE :sender philpot_at_isi_edu_email_philpot_at_isi_edu :ontology tcp-ip :reply-with nil :content philpot_at_isi_edu_email_philpot_at_isi_edu)
+Fri Jul 26 15:16:04 2002: Exiting...
+Fri Jul 26 15:16:05 2002: Using ANS: ('vibhagam', 5500)
+Fri Jul 26 15:16:05 2002: Bound to host/port: sangat.isi.edu:6676
+Fri Jul 26 15:16:05 2002: Sending message: (register :ontology tcp-ip :sender philpot_at_isi_edu_email_philpot_at_isi_edu :reply-with t :content "philpot_at_isi_edu_email_philpot_at_isi_edu sangat.isi.edu:6676")
+Fri Jul 26 15:16:05 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Fri Jul 26 15:16:05 2002: Registration produced: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Fri Jul 26 15:16:05 2002: Sending message: (unregister :sender philpot_at_isi_edu_email_philpot_at_isi_edu :ontology tcp-ip :reply-with nil :content philpot_at_isi_edu_email_philpot_at_isi_edu)
+Fri Jul 26 15:16:05 2002: Sending message: (register :sender philpot_at_isi_edu_email_philpot_at_isi_edu :ontology tcp-ip :reply-with t :content (philpot_at_isi_edu_email_philpot_at_isi_edu sangat.isi.edu:6676))
+Fri Jul 26 15:16:05 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'philpot_at_isi_edu_email_philpot_at_isi_edu TEAMCORE'}
+Fri Jul 26 15:16:05 2002: Registration produced: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'philpot_at_isi_edu_email_philpot_at_isi_edu TEAMCORE'}philpot_at_isi_edu_email_philpot_at_isi_edu, TEAMCORE
+Fri Jul 26 15:16:05 2002: Registration successful: philpot_at_isi_edu_email_philpot_at_isi_edu
+Fri Jul 26 15:16:05 2002: Router for philpot_at_isi_edu_email_philpot_at_isi_edu running...
+Fri Jul 26 15:16:05 2002: Sending message: (ask-one :sender philpot_at_isi_edu_email_philpot_at_isi_edu :reply-with t :content "proxy_philpot_at_isi_edu")
+Fri Jul 26 15:16:05 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_philpot_at_isi_edu:sangat.isi.edu:9991:'}
+Fri Jul 26 15:16:05 2002: Sending message: (register :name email_philpot_at_isi_edu :reply-with nil :agenttype device :receiver proxy_philpot_at_isi_edu :user philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :direction (to user))
+Fri Jul 26 15:16:07 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Fri Jul 26 15:16:07 2002: Processing message: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Fri Jul 26 15:16:07 2002: Replying: (sorry :reply-with nil :in-reply-to philpot_at_isi_edu :receiver ping_philpot_at_isi_edu_email_philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :comment "Unintelligible query")
+Fri Jul 26 15:18:10 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Fri Jul 26 15:18:10 2002: Processing message: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Fri Jul 26 15:18:10 2002: Replying: (sorry :reply-with nil :in-reply-to philpot_at_isi_edu :receiver ping_philpot_at_isi_edu_email_philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :comment "Unintelligible query")
+Mon Aug 19 18:24:32 2002: Using ANS: ('vibhagam', 5500)
+Mon Aug 19 18:24:32 2002: Bound to host/port: sangat.isi.edu:6690
+Mon Aug 19 18:24:32 2002: Sending message: (register :ontology tcp-ip :sender philpot_at_isi_edu_email_philpot_at_isi_edu :reply-with t :content "philpot_at_isi_edu_email_philpot_at_isi_edu sangat.isi.edu:6690")
+Mon Aug 19 18:24:32 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Mon Aug 19 18:24:32 2002: Registration produced: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Mon Aug 19 18:24:32 2002: Sending message: (unregister :sender philpot_at_isi_edu_email_philpot_at_isi_edu :ontology tcp-ip :reply-with nil :content philpot_at_isi_edu_email_philpot_at_isi_edu)
+Mon Aug 19 18:24:32 2002: Sending message: (register :sender philpot_at_isi_edu_email_philpot_at_isi_edu :ontology tcp-ip :reply-with t :content (philpot_at_isi_edu_email_philpot_at_isi_edu sangat.isi.edu:6690))
+Mon Aug 19 18:24:32 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'philpot_at_isi_edu_email_philpot_at_isi_edu TEAMCORE'}
+Mon Aug 19 18:24:32 2002: Registration produced: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'philpot_at_isi_edu_email_philpot_at_isi_edu TEAMCORE'}philpot_at_isi_edu_email_philpot_at_isi_edu, TEAMCORE
+Mon Aug 19 18:24:32 2002: Registration successful: philpot_at_isi_edu_email_philpot_at_isi_edu
+Mon Aug 19 18:24:32 2002: Router for philpot_at_isi_edu_email_philpot_at_isi_edu running...
+Mon Aug 19 18:24:32 2002: Sending message: (ask-one :sender philpot_at_isi_edu_email_philpot_at_isi_edu :reply-with t :content "proxy_philpot_at_isi_edu")
+Mon Aug 19 18:24:32 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_philpot_at_isi_edu:sangat.isi.edu:9992:'}
+Mon Aug 19 18:24:32 2002: Sending message: (register :name email_philpot_at_isi_edu :reply-with nil :agenttype device :receiver proxy_philpot_at_isi_edu :user philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :direction (to user))
+Mon Aug 19 18:24:33 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Mon Aug 19 18:24:33 2002: Processing message: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Mon Aug 19 18:24:33 2002: Replying: (sorry :reply-with nil :in-reply-to philpot_at_isi_edu :receiver ping_philpot_at_isi_edu_email_philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :comment "Unintelligible query")
+Fri Sep 06 13:54:47 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Fri Sep 06 13:54:47 2002: Processing message: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Fri Sep 06 13:54:47 2002: Replying: (sorry :reply-with nil :in-reply-to philpot_at_isi_edu :receiver ping_philpot_at_isi_edu_email_philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :comment "Unintelligible query")
+Fri Sep 06 14:11:38 2002: Using ANS: ('vibhagam.isi.edu', 5500)
+Fri Sep 06 14:11:38 2002: Bound to host/port: sangat.isi.edu:6675
+Fri Sep 06 14:11:38 2002: Sending message: (register :ontology tcp-ip :sender philpot_at_isi_edu_email_philpot_at_isi_edu :reply-with t :content "philpot_at_isi_edu_email_philpot_at_isi_edu sangat.isi.edu:6675")
+Fri Sep 06 14:11:38 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Fri Sep 06 14:11:38 2002: Registration produced: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Fri Sep 06 14:11:38 2002: Sending message: (unregister :sender philpot_at_isi_edu_email_philpot_at_isi_edu :ontology tcp-ip :reply-with nil :content philpot_at_isi_edu_email_philpot_at_isi_edu)
+Fri Sep 06 14:11:38 2002: Sending message: (register :sender philpot_at_isi_edu_email_philpot_at_isi_edu :ontology tcp-ip :reply-with t :content (philpot_at_isi_edu_email_philpot_at_isi_edu sangat.isi.edu:6675))
+Fri Sep 06 14:11:38 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'philpot_at_isi_edu_email_philpot_at_isi_edu TEAMCORE'}
+Fri Sep 06 14:11:38 2002: Registration produced: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'philpot_at_isi_edu_email_philpot_at_isi_edu TEAMCORE'}philpot_at_isi_edu_email_philpot_at_isi_edu, TEAMCORE
+Fri Sep 06 14:11:38 2002: Registration successful: philpot_at_isi_edu_email_philpot_at_isi_edu
+Fri Sep 06 14:11:38 2002: Router for philpot_at_isi_edu_email_philpot_at_isi_edu running...
+Fri Sep 06 14:11:38 2002: Sending message: (ask-one :sender philpot_at_isi_edu_email_philpot_at_isi_edu :reply-with t :content "proxy_philpot_at_isi_edu")
+Fri Sep 06 14:11:38 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_philpot_at_isi_edu:sangat.isi.edu:9992:'}
+Fri Sep 06 14:11:38 2002: Sending message: (register :name email_philpot_at_isi_edu :reply-with nil :agenttype device :receiver proxy_philpot_at_isi_edu :user philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :direction (to user))
+Fri Sep 06 14:11:40 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Fri Sep 06 14:11:40 2002: Processing message: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Fri Sep 06 14:11:40 2002: Replying: (sorry :reply-with nil :in-reply-to philpot_at_isi_edu :receiver ping_philpot_at_isi_edu_email_philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :comment "Unintelligible query")
+Tue Sep 24 15:17:24 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'kqml-admin', 'sender': 'TEAMCORE', 'kqml-msg-id': '29131+vibhagam.isi.edu+15', 'reply-with': 't', 'content': 'name'}
+Wed Sep 25 16:43:41 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Wed Sep 25 16:43:41 2002: Processing message: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Wed Sep 25 16:43:41 2002: Replying: (sorry :reply-with nil :in-reply-to philpot_at_isi_edu :receiver ping_philpot_at_isi_edu_email_philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :comment "Unintelligible query")
+Mon Oct 28 14:21:10 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'kqml-admin', 'sender': 'TEAMCORE', 'kqml-msg-id': '24669+vibhagam.isi.edu+17', 'reply-with': 't', 'content': 'name'}
+Mon Oct 28 14:24:21 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Mon Oct 28 14:24:21 2002: Processing message: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Mon Oct 28 14:24:21 2002: Replying: (sorry :reply-with nil :in-reply-to philpot_at_isi_edu :receiver ping_philpot_at_isi_edu_email_philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :comment "Unintelligible query")
+Tue Oct 29 10:25:04 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'kqml-admin', 'sender': 'TEAMCORE', 'kqml-msg-id': '26893+vibhagam.isi.edu+12', 'reply-with': 't', 'content': 'name'}
+Tue Oct 29 18:37:00 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'kqml-admin', 'sender': 'TEAMCORE', 'kqml-msg-id': '29472+vibhagam.isi.edu+12', 'reply-with': 't', 'content': 'name'}
+Tue Oct 29 20:00:56 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'kqml-admin', 'sender': 'TEAMCORE', 'kqml-msg-id': '181+vibhagam.isi.edu+12', 'reply-with': 't', 'content': 'name'}
+Tue Oct 29 20:17:36 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'kqml-admin', 'sender': 'TEAMCORE', 'kqml-msg-id': '405+vibhagam.isi.edu+12', 'reply-with': 't', 'content': 'name'}
+Mon Nov 04 10:18:15 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'kqml-admin', 'sender': 'TEAMCORE', 'kqml-msg-id': '15317+vibhagam.isi.edu+14', 'reply-with': 't', 'content': 'name'}
+Thu Nov 07 12:52:50 2002: Using ANS: ('vibhagam.isi.edu', 5500)
+Thu Nov 07 12:52:50 2002: Bound to host/port: sangat.isi.edu:6691
+Thu Nov 07 12:52:50 2002: Sending message: (register :ontology tcp-ip :sender philpot_at_isi_edu_email_philpot_at_isi_edu :reply-with t :content "philpot_at_isi_edu_email_philpot_at_isi_edu sangat.isi.edu:6691")
+Thu Nov 07 12:52:51 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Thu Nov 07 12:52:51 2002: Registration produced: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Thu Nov 07 12:52:51 2002: Sending message: (unregister :sender philpot_at_isi_edu_email_philpot_at_isi_edu :ontology tcp-ip :reply-with nil :content philpot_at_isi_edu_email_philpot_at_isi_edu)
+Thu Nov 07 12:52:51 2002: Sending message: (register :sender philpot_at_isi_edu_email_philpot_at_isi_edu :ontology tcp-ip :reply-with t :content (philpot_at_isi_edu_email_philpot_at_isi_edu sangat.isi.edu:6691))
+Thu Nov 07 12:52:51 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'philpot_at_isi_edu_email_philpot_at_isi_edu TEAMCORE'}
+Thu Nov 07 12:52:51 2002: Registration produced: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'philpot_at_isi_edu_email_philpot_at_isi_edu TEAMCORE'}philpot_at_isi_edu_email_philpot_at_isi_edu, TEAMCORE
+Thu Nov 07 12:52:51 2002: Registration successful: philpot_at_isi_edu_email_philpot_at_isi_edu
+Thu Nov 07 12:52:51 2002: Router for philpot_at_isi_edu_email_philpot_at_isi_edu running...
+Thu Nov 07 12:52:51 2002: Sending message: (ask-one :sender philpot_at_isi_edu_email_philpot_at_isi_edu :reply-with t :content "proxy_philpot_at_isi_edu")
+Thu Nov 07 12:52:51 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'sorry', 'sender': 'TEAMCORE', 'in-reply-to': 't'}
+Thu Nov 07 12:52:51 2002: No registered agent: proxy_philpot_at_isi_edu
+Thu Nov 07 12:52:52 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Thu Nov 07 12:52:52 2002: Processing message: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Thu Nov 07 12:52:52 2002: Replying: (sorry :reply-with nil :in-reply-to philpot_at_isi_edu :receiver ping_philpot_at_isi_edu_email_philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :comment "Unintelligible query")
+Thu Nov 07 13:09:25 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'tell', 'sender': 'stop_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'nil', 'content': 'stop'}
+Thu Nov 07 13:09:25 2002: Processing message: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'tell', 'sender': 'stop_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'nil', 'content': 'stop'}
+Thu Nov 07 13:09:25 2002: Sending message: (ask-one :sender philpot_at_isi_edu_email_philpot_at_isi_edu :reply-with t :content "proxy_philpot_at_isi_edu")
+Thu Nov 07 13:09:25 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_philpot_at_isi_edu:sangat.isi.edu:9992:'}
+Thu Nov 07 13:09:25 2002: Sending message: (unregister :receiver proxy_philpot_at_isi_edu :name email_philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :reply-with nil :user philpot_at_isi_edu)
+Thu Nov 07 13:09:25 2002: Router philpot_at_isi_edu_email_philpot_at_isi_edu exiting...
+Thu Nov 07 13:09:25 2002: Sending message: (unregister :receiver TEAMCORE :sender philpot_at_isi_edu_email_philpot_at_isi_edu :ontology tcp-ip :reply-with nil :content philpot_at_isi_edu_email_philpot_at_isi_edu)
+Thu Nov 07 13:09:25 2002: Exiting...
+Thu Nov 07 13:09:28 2002: Using ANS: ('vibhagam.isi.edu', 5500)
+Thu Nov 07 13:09:28 2002: Bound to host/port: sangat.isi.edu:6690
+Thu Nov 07 13:09:28 2002: Sending message: (register :ontology tcp-ip :sender philpot_at_isi_edu_email_philpot_at_isi_edu :reply-with t :content "philpot_at_isi_edu_email_philpot_at_isi_edu sangat.isi.edu:6690")
+Thu Nov 07 13:09:28 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Thu Nov 07 13:09:28 2002: Registration produced: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Thu Nov 07 13:09:28 2002: Sending message: (unregister :sender philpot_at_isi_edu_email_philpot_at_isi_edu :ontology tcp-ip :reply-with nil :content philpot_at_isi_edu_email_philpot_at_isi_edu)
+Thu Nov 07 13:09:28 2002: Sending message: (register :sender philpot_at_isi_edu_email_philpot_at_isi_edu :ontology tcp-ip :reply-with t :content (philpot_at_isi_edu_email_philpot_at_isi_edu sangat.isi.edu:6690))
+Thu Nov 07 13:09:28 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'philpot_at_isi_edu_email_philpot_at_isi_edu TEAMCORE'}
+Thu Nov 07 13:09:28 2002: Registration produced: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'philpot_at_isi_edu_email_philpot_at_isi_edu TEAMCORE'}philpot_at_isi_edu_email_philpot_at_isi_edu, TEAMCORE
+Thu Nov 07 13:09:28 2002: Registration successful: philpot_at_isi_edu_email_philpot_at_isi_edu
+Thu Nov 07 13:09:28 2002: Router for philpot_at_isi_edu_email_philpot_at_isi_edu running...
+Thu Nov 07 13:09:28 2002: Sending message: (ask-one :sender philpot_at_isi_edu_email_philpot_at_isi_edu :reply-with t :content "proxy_philpot_at_isi_edu")
+Thu Nov 07 13:09:28 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_philpot_at_isi_edu:sangat.isi.edu:9992:'}
+Thu Nov 07 13:09:28 2002: Sending message: (register :name email_philpot_at_isi_edu :reply-with nil :agenttype device :receiver proxy_philpot_at_isi_edu :user philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :direction (to user))
+Thu Nov 07 13:09:29 2002: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Thu Nov 07 13:09:29 2002: Processing message: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Thu Nov 07 13:09:29 2002: Replying: (sorry :reply-with nil :in-reply-to philpot_at_isi_edu :receiver ping_philpot_at_isi_edu_email_philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :comment "Unintelligible query")
+Tue Jan 07 16:42:40 2003: Using ANS: ('vibhagam', 5500)
+Tue Jan 07 16:42:40 2003: Bound to host/port: sangat.isi.edu:6692
+Tue Jan 07 16:42:40 2003: Sending message: (register :ontology tcp-ip :sender philpot_at_isi_edu_email_philpot_at_isi_edu :reply-with t :content "philpot_at_isi_edu_email_philpot_at_isi_edu sangat.isi.edu:6692")
+Tue Jan 07 16:42:40 2003: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Tue Jan 07 16:42:40 2003: Registration produced: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Tue Jan 07 16:42:40 2003: Sending message: (unregister :sender philpot_at_isi_edu_email_philpot_at_isi_edu :ontology tcp-ip :reply-with nil :content philpot_at_isi_edu_email_philpot_at_isi_edu)
+Tue Jan 07 16:42:40 2003: Sending message: (register :sender philpot_at_isi_edu_email_philpot_at_isi_edu :ontology tcp-ip :reply-with t :content (philpot_at_isi_edu_email_philpot_at_isi_edu sangat.isi.edu:6692))
+Tue Jan 07 16:42:40 2003: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'philpot_at_isi_edu_email_philpot_at_isi_edu TEAMCORE'}
+Tue Jan 07 16:42:40 2003: Registration produced: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'philpot_at_isi_edu_email_philpot_at_isi_edu TEAMCORE'}philpot_at_isi_edu_email_philpot_at_isi_edu, TEAMCORE
+Tue Jan 07 16:42:40 2003: Registration successful: philpot_at_isi_edu_email_philpot_at_isi_edu
+Tue Jan 07 16:42:40 2003: Router for philpot_at_isi_edu_email_philpot_at_isi_edu running...
+Tue Jan 07 16:42:40 2003: Sending message: (ask-one :sender philpot_at_isi_edu_email_philpot_at_isi_edu :reply-with t :content "proxy_philpot_at_isi_edu")
+Tue Jan 07 16:42:40 2003: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_philpot_at_isi_edu:sangat.isi.edu:9992:'}
+Tue Jan 07 16:42:40 2003: Sending message: (register :name email_philpot_at_isi_edu :reply-with nil :agenttype device :receiver proxy_philpot_at_isi_edu :user philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :direction (to user))
+Tue Jan 07 16:42:42 2003: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Tue Jan 07 16:42:42 2003: Processing message: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Tue Jan 07 16:42:42 2003: Replying: (sorry :reply-with nil :in-reply-to philpot_at_isi_edu :receiver ping_philpot_at_isi_edu_email_philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :comment "Unintelligible query")
+Mon Jan 13 16:26:39 2003: Using ANS: ('vibhagam', 5500)
+Mon Jan 13 16:26:39 2003: Bound to host/port: sangat.isi.edu:6693
+Mon Jan 13 16:26:39 2003: Sending message: (register :ontology tcp-ip :sender philpot_at_isi_edu_email_philpot_at_isi_edu :reply-with t :content "philpot_at_isi_edu_email_philpot_at_isi_edu sangat.isi.edu:6693")
+Mon Jan 13 16:26:39 2003: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Mon Jan 13 16:26:39 2003: Registration produced: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Mon Jan 13 16:26:39 2003: Sending message: (unregister :sender philpot_at_isi_edu_email_philpot_at_isi_edu :ontology tcp-ip :reply-with nil :content philpot_at_isi_edu_email_philpot_at_isi_edu)
+Mon Jan 13 16:26:39 2003: Sending message: (register :sender philpot_at_isi_edu_email_philpot_at_isi_edu :ontology tcp-ip :reply-with t :content (philpot_at_isi_edu_email_philpot_at_isi_edu sangat.isi.edu:6693))
+Mon Jan 13 16:26:39 2003: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'philpot_at_isi_edu_email_philpot_at_isi_edu TEAMCORE'}
+Mon Jan 13 16:26:39 2003: Registration produced: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'philpot_at_isi_edu_email_philpot_at_isi_edu TEAMCORE'}philpot_at_isi_edu_email_philpot_at_isi_edu, TEAMCORE
+Mon Jan 13 16:26:39 2003: Registration successful: philpot_at_isi_edu_email_philpot_at_isi_edu
+Mon Jan 13 16:26:39 2003: Router for philpot_at_isi_edu_email_philpot_at_isi_edu running...
+Mon Jan 13 16:26:39 2003: Sending message: (ask-one :sender philpot_at_isi_edu_email_philpot_at_isi_edu :reply-with t :content "proxy_philpot_at_isi_edu")
+Mon Jan 13 16:26:39 2003: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_philpot_at_isi_edu:sangat.isi.edu:9993:'}
+Mon Jan 13 16:26:39 2003: Sending message: (register :name email_philpot_at_isi_edu :reply-with nil :agenttype device :receiver proxy_philpot_at_isi_edu :user philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :direction (to user))
+Mon Jan 13 16:26:41 2003: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Mon Jan 13 16:26:41 2003: Processing message: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Mon Jan 13 16:26:41 2003: Replying: (sorry :reply-with nil :in-reply-to philpot_at_isi_edu :receiver ping_philpot_at_isi_edu_email_philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :comment "Unintelligible query")
+Thu Jan 16 10:58:53 2003: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'kqml-admin', 'sender': 'TEAMCORE', 'kqml-msg-id': '1786+vibhagam.isi.edu+13', 'reply-with': 't', 'content': 'name'}
+Thu Jan 16 11:55:23 2003: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Thu Jan 16 11:55:23 2003: Processing message: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Thu Jan 16 11:55:23 2003: Replying: (sorry :reply-with nil :in-reply-to philpot_at_isi_edu :receiver ping_philpot_at_isi_edu_email_philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :comment "Unintelligible query")
+Tue Mar 04 15:44:05 2003: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Tue Mar 04 15:44:05 2003: Processing message: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Tue Mar 04 15:44:05 2003: Replying: (sorry :reply-with nil :in-reply-to philpot_at_isi_edu :receiver ping_philpot_at_isi_edu_email_philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :comment "Unintelligible query")
+Tue Mar 04 15:47:33 2003: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Tue Mar 04 15:47:33 2003: Processing message: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Tue Mar 04 15:47:33 2003: Replying: (sorry :reply-with nil :in-reply-to philpot_at_isi_edu :receiver ping_philpot_at_isi_edu_email_philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :comment "Unintelligible query")
+Tue Mar 04 16:03:00 2003: Using ANS: ('vibhagam.isi.edu', 5500)
+Tue Mar 04 16:03:00 2003: Bound to host/port: sangat.isi.edu:6693
+Tue Mar 04 16:03:00 2003: Sending message: (register :ontology tcp-ip :sender philpot_at_isi_edu_email_philpot_at_isi_edu :reply-with t :content "philpot_at_isi_edu_email_philpot_at_isi_edu sangat.isi.edu:6693")
+Tue Mar 04 16:03:00 2003: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Tue Mar 04 16:03:00 2003: Registration produced: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Tue Mar 04 16:03:00 2003: Sending message: (unregister :sender philpot_at_isi_edu_email_philpot_at_isi_edu :ontology tcp-ip :reply-with nil :content philpot_at_isi_edu_email_philpot_at_isi_edu)
+Tue Mar 04 16:03:00 2003: Sending message: (register :sender philpot_at_isi_edu_email_philpot_at_isi_edu :ontology tcp-ip :reply-with t :content (philpot_at_isi_edu_email_philpot_at_isi_edu sangat.isi.edu:6693))
+Tue Mar 04 16:03:00 2003: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'philpot_at_isi_edu_email_philpot_at_isi_edu TEAMCORE'}
+Tue Mar 04 16:03:00 2003: Registration produced: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'philpot_at_isi_edu_email_philpot_at_isi_edu TEAMCORE'}philpot_at_isi_edu_email_philpot_at_isi_edu, TEAMCORE
+Tue Mar 04 16:03:00 2003: Registration successful: philpot_at_isi_edu_email_philpot_at_isi_edu
+Tue Mar 04 16:03:00 2003: Router for philpot_at_isi_edu_email_philpot_at_isi_edu running...
+Tue Mar 04 16:03:00 2003: Sending message: (ask-one :sender philpot_at_isi_edu_email_philpot_at_isi_edu :reply-with t :content "proxy_philpot_at_isi_edu")
+Tue Mar 04 16:03:00 2003: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_philpot_at_isi_edu:sangat.isi.edu:9993:'}
+Tue Mar 04 16:03:00 2003: Sending message: (register :name email_philpot_at_isi_edu :reply-with nil :agenttype device :receiver proxy_philpot_at_isi_edu :user philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :direction (to user))
+Tue Mar 04 16:03:02 2003: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Tue Mar 04 16:03:02 2003: Processing message: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Tue Mar 04 16:03:02 2003: Replying: (sorry :reply-with nil :in-reply-to philpot_at_isi_edu :receiver ping_philpot_at_isi_edu_email_philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :comment "Unintelligible query")
+Tue Mar 04 16:13:24 2003: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'tell', 'sender': 'stop_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'nil', 'content': 'stop'}
+Tue Mar 04 16:13:24 2003: Processing message: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'tell', 'sender': 'stop_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'nil', 'content': 'stop'}
+Tue Mar 04 16:13:24 2003: Sending message: (unregister :receiver proxy_philpot_at_isi_edu :name email_philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :reply-with nil :user philpot_at_isi_edu)
+Tue Mar 04 16:13:24 2003: Router philpot_at_isi_edu_email_philpot_at_isi_edu exiting...
+Tue Mar 04 16:13:24 2003: Sending message: (unregister :receiver TEAMCORE :sender philpot_at_isi_edu_email_philpot_at_isi_edu :ontology tcp-ip :reply-with nil :content philpot_at_isi_edu_email_philpot_at_isi_edu)
+Tue Mar 04 16:13:24 2003: Exiting...
+Tue Mar 04 16:13:26 2003: Using ANS: ('vibhagam.isi.edu', 5500)
+Tue Mar 04 16:13:26 2003: Bound to host/port: sangat.isi.edu:6692
+Tue Mar 04 16:13:26 2003: Sending message: (register :ontology tcp-ip :sender philpot_at_isi_edu_email_philpot_at_isi_edu :reply-with t :content "philpot_at_isi_edu_email_philpot_at_isi_edu sangat.isi.edu:6692")
+Tue Mar 04 16:13:26 2003: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Tue Mar 04 16:13:26 2003: Registration produced: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Tue Mar 04 16:13:26 2003: Sending message: (unregister :sender philpot_at_isi_edu_email_philpot_at_isi_edu :ontology tcp-ip :reply-with nil :content philpot_at_isi_edu_email_philpot_at_isi_edu)
+Tue Mar 04 16:13:26 2003: Sending message: (register :sender philpot_at_isi_edu_email_philpot_at_isi_edu :ontology tcp-ip :reply-with t :content (philpot_at_isi_edu_email_philpot_at_isi_edu sangat.isi.edu:6692))
+Tue Mar 04 16:13:26 2003: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'philpot_at_isi_edu_email_philpot_at_isi_edu TEAMCORE'}
+Tue Mar 04 16:13:26 2003: Registration produced: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'philpot_at_isi_edu_email_philpot_at_isi_edu TEAMCORE'}philpot_at_isi_edu_email_philpot_at_isi_edu, TEAMCORE
+Tue Mar 04 16:13:26 2003: Registration successful: philpot_at_isi_edu_email_philpot_at_isi_edu
+Tue Mar 04 16:13:26 2003: Router for philpot_at_isi_edu_email_philpot_at_isi_edu running...
+Tue Mar 04 16:13:26 2003: Sending message: (ask-one :sender philpot_at_isi_edu_email_philpot_at_isi_edu :reply-with t :content "proxy_philpot_at_isi_edu")
+Tue Mar 04 16:13:27 2003: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_philpot_at_isi_edu:sangat.isi.edu:9993:'}
+Tue Mar 04 16:13:27 2003: Sending message: (register :name email_philpot_at_isi_edu :reply-with nil :agenttype device :receiver proxy_philpot_at_isi_edu :user philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :direction (to user))
+Tue Mar 04 16:13:28 2003: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Tue Mar 04 16:13:28 2003: Processing message: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Tue Mar 04 16:13:28 2003: Replying: (sorry :reply-with nil :in-reply-to philpot_at_isi_edu :receiver ping_philpot_at_isi_edu_email_philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :comment "Unintelligible query")
+Mon Apr 21 16:54:10 2003: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'kqml-admin', 'sender': 'TEAMCORE', 'kqml-msg-id': '880+vibhagam.isi.edu+14', 'reply-with': 't', 'content': 'name'}
+Mon Apr 21 17:06:08 2003: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Mon Apr 21 17:06:08 2003: Processing message: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Mon Apr 21 17:06:08 2003: Replying: (sorry :reply-with nil :in-reply-to philpot_at_isi_edu :receiver ping_philpot_at_isi_edu_email_philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :comment "Unintelligible query")
+Mon Apr 21 17:13:01 2003: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'tell', 'sender': 'stop_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'nil', 'content': 'stop'}
+Mon Apr 21 17:13:01 2003: Processing message: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'tell', 'sender': 'stop_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'nil', 'content': 'stop'}
+Mon Apr 21 17:13:02 2003: Sending message: (unregister :receiver proxy_philpot_at_isi_edu :name email_philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :reply-with nil :user philpot_at_isi_edu)
+Mon Apr 21 17:13:02 2003: Router philpot_at_isi_edu_email_philpot_at_isi_edu exiting...
+Mon Apr 21 17:13:02 2003: Sending message: (unregister :receiver TEAMCORE :sender philpot_at_isi_edu_email_philpot_at_isi_edu :ontology tcp-ip :reply-with nil :content philpot_at_isi_edu_email_philpot_at_isi_edu)
+Mon Apr 21 17:13:02 2003: Exiting...
+Mon Apr 21 17:13:04 2003: Using ANS: ('vibhagam.isi.edu', 5500)
+Mon Apr 21 17:13:04 2003: Bound to host/port: sangat.isi.edu:6691
+Mon Apr 21 17:13:04 2003: Sending message: (register :ontology tcp-ip :sender philpot_at_isi_edu_email_philpot_at_isi_edu :reply-with t :content "philpot_at_isi_edu_email_philpot_at_isi_edu sangat.isi.edu:6691")
+Mon Apr 21 17:13:04 2003: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Mon Apr 21 17:13:04 2003: Registration produced: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Mon Apr 21 17:13:04 2003: Sending message: (unregister :sender philpot_at_isi_edu_email_philpot_at_isi_edu :ontology tcp-ip :reply-with nil :content philpot_at_isi_edu_email_philpot_at_isi_edu)
+Mon Apr 21 17:13:04 2003: Sending message: (register :sender philpot_at_isi_edu_email_philpot_at_isi_edu :ontology tcp-ip :reply-with t :content (philpot_at_isi_edu_email_philpot_at_isi_edu sangat.isi.edu:6691))
+Mon Apr 21 17:13:04 2003: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'philpot_at_isi_edu_email_philpot_at_isi_edu TEAMCORE'}
+Mon Apr 21 17:13:04 2003: Registration produced: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'philpot_at_isi_edu_email_philpot_at_isi_edu TEAMCORE'}philpot_at_isi_edu_email_philpot_at_isi_edu, TEAMCORE
+Mon Apr 21 17:13:04 2003: Registration successful: philpot_at_isi_edu_email_philpot_at_isi_edu
+Mon Apr 21 17:13:04 2003: Router for philpot_at_isi_edu_email_philpot_at_isi_edu running...
+Mon Apr 21 17:13:04 2003: Sending message: (ask-one :sender philpot_at_isi_edu_email_philpot_at_isi_edu :reply-with t :content "proxy_philpot_at_isi_edu")
+Mon Apr 21 17:13:04 2003: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_philpot_at_isi_edu:sangat.isi.edu:9993:'}
+Mon Apr 21 17:13:04 2003: Sending message: (register :name email_philpot_at_isi_edu :reply-with nil :agenttype device :receiver proxy_philpot_at_isi_edu :user philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :direction (to user))
+Mon Apr 21 17:13:05 2003: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Mon Apr 21 17:13:05 2003: Processing message: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Mon Apr 21 17:13:05 2003: Replying: (sorry :reply-with nil :in-reply-to philpot_at_isi_edu :receiver ping_philpot_at_isi_edu_email_philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :comment "Unintelligible query")
+Mon Apr 21 17:53:45 2003: Using ANS: ('vibhagam', 5500)
+Mon Apr 21 17:53:45 2003: Bound to host/port: sangat.isi.edu:6691
+Mon Apr 21 17:53:45 2003: Sending message: (register :ontology tcp-ip :sender philpot_at_isi_edu_email_philpot_at_isi_edu :reply-with t :content "philpot_at_isi_edu_email_philpot_at_isi_edu sangat.isi.edu:6691")
+Mon Apr 21 17:53:45 2003: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Mon Apr 21 17:53:45 2003: Registration produced: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Mon Apr 21 17:53:45 2003: Sending message: (unregister :sender philpot_at_isi_edu_email_philpot_at_isi_edu :ontology tcp-ip :reply-with nil :content philpot_at_isi_edu_email_philpot_at_isi_edu)
+Mon Apr 21 17:53:45 2003: Sending message: (register :sender philpot_at_isi_edu_email_philpot_at_isi_edu :ontology tcp-ip :reply-with t :content (philpot_at_isi_edu_email_philpot_at_isi_edu sangat.isi.edu:6691))
+Mon Apr 21 17:53:45 2003: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'philpot_at_isi_edu_email_philpot_at_isi_edu TEAMCORE'}
+Mon Apr 21 17:53:45 2003: Registration produced: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'philpot_at_isi_edu_email_philpot_at_isi_edu TEAMCORE'}philpot_at_isi_edu_email_philpot_at_isi_edu, TEAMCORE
+Mon Apr 21 17:53:45 2003: Registration successful: philpot_at_isi_edu_email_philpot_at_isi_edu
+Mon Apr 21 17:53:45 2003: Router for philpot_at_isi_edu_email_philpot_at_isi_edu running...
+Mon Apr 21 17:53:45 2003: Sending message: (ask-one :sender philpot_at_isi_edu_email_philpot_at_isi_edu :reply-with t :content "proxy_philpot_at_isi_edu")
+Mon Apr 21 17:53:45 2003: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_philpot_at_isi_edu:sangat.isi.edu:9991:'}
+Mon Apr 21 17:53:45 2003: Sending message: (register :name email_philpot_at_isi_edu :reply-with nil :agenttype device :receiver proxy_philpot_at_isi_edu :user philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :direction (to user))
+Mon Apr 21 17:53:46 2003: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Mon Apr 21 17:53:46 2003: Processing message: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Mon Apr 21 17:53:46 2003: Replying: (sorry :reply-with nil :in-reply-to philpot_at_isi_edu :receiver ping_philpot_at_isi_edu_email_philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :comment "Unintelligible query")
+Mon Apr 21 17:56:37 2003: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Mon Apr 21 17:56:37 2003: Processing message: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'ask', 'sender': 'ping_philpot_at_isi_edu_email_philpot_at_isi_edu', 'reply-with': 'philpot_at_isi_edu', 'content': 'hello'}
+Mon Apr 21 17:56:37 2003: Replying: (sorry :reply-with nil :in-reply-to philpot_at_isi_edu :receiver ping_philpot_at_isi_edu_email_philpot_at_isi_edu :sender philpot_at_isi_edu_email_philpot_at_isi_edu :comment "Unintelligible query")
+Fri Aug 15 11:56:22 2003: Received: {'receiver': 'philpot_at_isi_edu_email_philpot_at_isi_edu', 'performative': 'kqml-admin', 'sender': 'TEAMCORE', 'kqml-msg-id': '23912+vibhagam.isi.edu+12', 'reply-with': 't', 'content': 'name'}

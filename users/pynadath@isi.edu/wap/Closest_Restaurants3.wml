@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml><head>
+<meta http-equiv="Cache-Control" content="max-age=1"/>
+<meta forua="true" http-equiv="Cache-Control" content="must-revalidate"/>
+</head>
+<card id="Main" title="Info">
+<p>Closest Restaurants<br/><br/>Johnnys Sub Shop<br/>Sandwich<br/>4139 Wheeler Rd SE<br/>202-562-5114<br/>(dollars)1-5<br/>Lat: 38.83409<br/>Lon: -76.99009<br/>358.0 miles<br/><br/>Yum's Carry Out<br/>American<br/>3917 S Capitol St Sw<br/>202-562-6300<br/>(dollars)5-10<br/>Lat: 38.83264<br/>Lon: -77.00803<br/>358.2 miles<br/><br/>Blackies House Of Beef<br/>American<br/>6710 Commerce St<br/>703-971-4200<br/>(dollars)5-10<br/>Lat: 38.78031<br/>Lon: -77.178<br/>357.71 miles<br/><br/>Peyton Place<br/>American<br/>6516 Backlick Rd<br/>703-451-6620<br/>(dollars)5-10<br/>Lat: 38.7781<br/>Lon: -77.18488<br/>357.69 miles<br/><br/>Ding How Carry Out<br/>American<br/>6808 Bland St<br/>703-451-4325<br/>(dollars)5-10<br/>Lat: 38.78072<br/>Lon: -77.18367<br/>357.84 miles<br/><br/><br/><br/>-- Your personal elf
+</p>
+<do type="accept" label="OK">
+<go method="post" href="http://www.isi.edu/cgi-bin/teamhost/rsvp.cgi">
+<postfield name="dialog" value="/nfs/web/isi.edu/htdocs/teamcore/elves/pynadath@isi.edu/wap/Closest_Restaurants3.wml"/>
+<postfield name="device" value="wap"/>
+<postfield name="user" value="pynadath@isi.edu"/>
+<postfield name="action" value="OK"/>
+</go></do>
+
+<do type="accept" label="Delete">
+<go method="post" href="http://www.isi.edu/cgi-bin/teamhost/rsvp.cgi">
+<postfield name="dialog" value="/nfs/web/isi.edu/htdocs/teamcore/elves/pynadath@isi.edu/wap/Closest_Restaurants3.wml"/>
+<postfield name="device" value="wap"/>
+<postfield name="user" value="pynadath@isi.edu"/>
+<postfield name="action" value="Delete"/>
+</go></do>
+</card></wml>

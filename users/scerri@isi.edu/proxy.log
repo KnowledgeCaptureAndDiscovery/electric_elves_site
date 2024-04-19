@@ -1,0 +1,769 @@
+Waiting for Jini ServiceRegistrars...
+No Jini ServiceRegistrar yet...
+No Jini ServiceRegistrar yet...
+No Jini ServiceRegistrar yet...
+No Jini ServiceRegistrar yet...
+No Jini ServiceRegistrar yet...
+Found ServiceRegistrar.
+Before getLogAgent();
+Before logAllMessages();
+Wed Jan 09 16:27:01 PST 2002 - proxy_scerri_at_isi_edu: Registering...
+Registered AgentRep proxy_scerri_at_isi_edu with Jini. Waiting for ServiceID returned.
+Service ID d4db6e5d-c3ab-4f12-8acb-b928efe26bd5 passed to proxy_scerri_at_isi_edu AgentRep
+Couldn't log msg.
+
+proxy_scerri_at_isi_edu: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: proxy_scerri_at_isi_edu
+  sender: 
+  acl: FIPA-ACL
+  rawText:
+(inform
+  :sender CoabsGridRegistry
+  :receiver proxy_scerri_at_isi_edu
+  :content
+    (done
+      (action CoabsGridRegistry
+        (register-agent
+          (:CoABS-agent-description
+            (:uniqueID d4db6e5d-c3ab-4f12-8acb-b928efe26bd5)
+            (:name proxy_scerri_at_isi_edu)
+            (:description User Grid Proxy for scerri@isi.edu)
+            (:organization USC Information Sciences Institute)
+            (:architecture Electric Elves)
+            (:documentationURL http://www.isi.edu/agents-united/about.html)
+            (:acls KQML)
+            (:contentLanguages KQML)
+            (:displayIconURL http://www.isi.edu/isd/LOOM/eelves16.gif))
+)))
+  :language SL0
+  :in-reply-to proxy_scerri_at_isi_eduRegister
+  :protocol fipa-request
+  :ontology fipa-agent-management)
+  translatedText: null
+============================
+
+Wed Jan 09 16:27:01 PST 2002 - proxy_scerri_at_isi_edu: Registration complete.
+Wed Jan 09 16:27:01 PST 2002 - Message from Grid Registry:
+Wed Jan 09 16:27:01 PST 2002 - (done
+      (action CoabsGridRegistry
+        (register-agent
+          (:CoABS-agent-description
+            (:uniqueID d4db6e5d-c3ab-4f12-8acb-b928efe26bd5)
+            (:name proxy_scerri_at_isi_edu)
+            (:description User Grid Proxy for scerri@isi.edu)
+            (:organization USC Information Sciences Institute)
+            (:architecture Electric Elves)
+            (:documentationURL http://www.isi.edu/agents-united/about.html)
+            (:acls KQML)
+            (:contentLanguages KQML)
+            (:displayIconURL http://www.isi.edu/isd/LOOM/eelves16.gif))
+)))
+Attributes modified to:
+  (:CoABS-agent-description
+    (:uniqueID d4db6e5d-c3ab-4f12-8acb-b928efe26bd5)
+    (:name proxy_scerri_at_isi_edu)
+    (:description User Grid Proxy for scerri@isi.edu)
+    (:organization USC Information Sciences Institute)
+    (:architecture Electric Elves)
+    (:documentationURL http://www.isi.edu/agents-united/about.html)
+    (:acls KQML)
+    (:contentLanguages KQML)
+    (:displayIconURL http://www.isi.edu/isd/LOOM/eelves16.gif))
+
+Wed Jan 09 16:27:02 PST 2002 - proxy_scerri_at_isi_edu: Found logging agent -> null
+KQMLListener: In constructor...
+KQMLListener: Could not listen on port 9991
+KQMLListener: Could not listen on port 9992
+KQMLListener: Could not listen on port 9993
+KQMLListener: Could not listen on port 9994
+KQMLListener: Could not listen on port 9995
+KQMLListener: Could not listen on port 9996
+KQMLListener: Could not listen on port 9997
+KQMLListener: Could not listen on port 9998
+KQMLListener: Could not listen on port 9999
+KQMLListener: Listening on port 10000
+Waiting for New Message...
+Wed Jan 09 16:27:02 PST 2002 - Registering on port: 10000
+[scerri@isi.edu]
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_scerri_at_isi_edu :user scerri_at_isi_edu :sender userCGI_scerri_at_isi_edu :reply-with scerri@isi.edu :content devices)
+============================
+
+
+proxy_scerri_at_isi_edu: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_scerri_at_isi_edu :user scerri_at_isi_edu :sender userCGI_scerri_at_isi_edu :reply-with scerri@isi.edu :content devices)
+  translatedText: null
+============================
+
+Wed Jan 09 16:27:24 PST 2002 - scerri_at_isi_edu: Device list is  nil
+Wed Jan 09 16:27:24 PST 2002 - Replying with: ( reply :content nil :sender proxy_scerri_at_isi_edu :reply-with nil :in-reply-to scerri@isi.edu :user scerri_at_isi_edu :receiver userCGI_scerri_at_isi_edu )
+
+proxy_scerri_at_isi_edu: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: proxy_scerri_at_isi_edu
+  sender: Controller
+  acl: KQML
+  rawText:
+(tell
+  :sender Controller
+  :receiver proxy_scerri_at_isi_edu
+  :language GRID-control
+  :content (stop))
+  translatedText: null
+============================
+
+Couldn't log msg.
+Wed Jan 09 16:40:35 PST 2002 - proxy_scerri_at_isi_edu: Shutting down
+Waiting for Jini ServiceRegistrars...
+No Jini ServiceRegistrar yet...
+No Jini ServiceRegistrar yet...
+No Jini ServiceRegistrar yet...
+No Jini ServiceRegistrar yet...
+No Jini ServiceRegistrar yet...
+Found ServiceRegistrar.
+Before getLogAgent();
+Before logAllMessages();
+Wed Jan 09 16:41:07 PST 2002 - proxy_scerri_at_isi_edu: Registering...
+Registered AgentRep proxy_scerri_at_isi_edu with Jini. Waiting for ServiceID returned.
+Service ID eade7a84-cb9b-46d1-8602-accd6f3d2cc6 passed to proxy_scerri_at_isi_edu AgentRep
+Couldn't log msg.
+Wed Jan 09 16:41:08 PST 2002 - proxy_scerri_at_isi_edu: Registration complete.
+
+proxy_scerri_at_isi_edu: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: proxy_scerri_at_isi_edu
+  sender: 
+  acl: FIPA-ACL
+  rawText:
+(inform
+  :sender CoabsGridRegistry
+  :receiver proxy_scerri_at_isi_edu
+  :content
+    (done
+      (action CoabsGridRegistry
+        (register-agent
+          (:CoABS-agent-description
+            (:uniqueID eade7a84-cb9b-46d1-8602-accd6f3d2cc6)
+            (:name proxy_scerri_at_isi_edu)
+            (:description User Grid Proxy for scerri@isi.edu)
+            (:organization USC Information Sciences Institute)
+            (:architecture Electric Elves)
+            (:documentationURL http://www.isi.edu/agents-united/about.html)
+            (:acls KQML)
+            (:contentLanguages KQML)
+            (:displayIconURL http://www.isi.edu/isd/LOOM/eelves16.gif))
+)))
+  :language SL0
+  :in-reply-to proxy_scerri_at_isi_eduRegister
+  :protocol fipa-request
+  :ontology fipa-agent-management)
+  translatedText: null
+============================
+
+Wed Jan 09 16:41:08 PST 2002 - Message from Grid Registry:
+Wed Jan 09 16:41:08 PST 2002 - (done
+      (action CoabsGridRegistry
+        (register-agent
+          (:CoABS-agent-description
+            (:uniqueID eade7a84-cb9b-46d1-8602-accd6f3d2cc6)
+            (:name proxy_scerri_at_isi_edu)
+            (:description User Grid Proxy for scerri@isi.edu)
+            (:organization USC Information Sciences Institute)
+            (:architecture Electric Elves)
+            (:documentationURL http://www.isi.edu/agents-united/about.html)
+            (:acls KQML)
+            (:contentLanguages KQML)
+            (:displayIconURL http://www.isi.edu/isd/LOOM/eelves16.gif))
+)))
+Wed Jan 09 16:41:08 PST 2002 - proxy_scerri_at_isi_edu: Found logging agent -> null
+Attributes modified to:
+  (:CoABS-agent-description
+    (:uniqueID eade7a84-cb9b-46d1-8602-accd6f3d2cc6)
+    (:name proxy_scerri_at_isi_edu)
+    (:description User Grid Proxy for scerri@isi.edu)
+    (:organization USC Information Sciences Institute)
+    (:architecture Electric Elves)
+    (:documentationURL http://www.isi.edu/agents-united/about.html)
+    (:acls KQML)
+    (:contentLanguages KQML)
+    (:displayIconURL http://www.isi.edu/isd/LOOM/eelves16.gif))
+
+KQMLListener: In constructor...
+KQMLListener: Could not listen on port 9991
+KQMLListener: Could not listen on port 9992
+KQMLListener: Could not listen on port 9993
+KQMLListener: Could not listen on port 9994
+KQMLListener: Could not listen on port 9995
+KQMLListener: Could not listen on port 9996
+KQMLListener: Could not listen on port 9997
+KQMLListener: Could not listen on port 9998
+KQMLListener: Could not listen on port 9999
+KQMLListener: Listening on port 10000
+Waiting for New Message...
+Wed Jan 09 16:41:08 PST 2002 - Registering on port: 10000
+[scerri@isi.edu]
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_scerri_at_isi_edu :user scerri_at_isi_edu :sender userCGI_scerri_at_isi_edu :reply-with scerri@isi.edu :content devices)
+============================
+
+
+proxy_scerri_at_isi_edu: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_scerri_at_isi_edu :user scerri_at_isi_edu :sender userCGI_scerri_at_isi_edu :reply-with scerri@isi.edu :content devices)
+  translatedText: null
+============================
+
+Wed Jan 09 16:41:40 PST 2002 - scerri_at_isi_edu: Device list is  nil
+Wed Jan 09 16:41:40 PST 2002 - Replying with: ( reply :content nil :sender proxy_scerri_at_isi_edu :reply-with nil :in-reply-to scerri@isi.edu :user scerri_at_isi_edu :receiver userCGI_scerri_at_isi_edu )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_scerri_at_isi_edu :user scerri_at_isi_edu :sender userCGI_scerri_at_isi_edu :reply-with scerri@isi.edu :content devices)
+============================
+
+
+proxy_scerri_at_isi_edu: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_scerri_at_isi_edu :user scerri_at_isi_edu :sender userCGI_scerri_at_isi_edu :reply-with scerri@isi.edu :content devices)
+  translatedText: null
+============================
+
+Mon Jan 14 22:12:09 PST 2002 - scerri_at_isi_edu: Device list is  nil
+Mon Jan 14 22:12:09 PST 2002 - Replying with: ( reply :content nil :sender proxy_scerri_at_isi_edu :reply-with nil :in-reply-to scerri@isi.edu :user scerri_at_isi_edu :receiver userCGI_scerri_at_isi_edu )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(register :name palm :reply-with nil :agenttype device :receiver proxy_scerri_at_isi_edu :user scerri_at_isi_edu :sender scerri_at_isi_edu_palm :direction both)
+============================
+
+
+proxy_scerri_at_isi_edu: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(register :name palm :reply-with nil :agenttype device :receiver proxy_scerri_at_isi_edu :user scerri_at_isi_edu :sender scerri_at_isi_edu_palm :direction both)
+  translatedText: null
+============================
+
+Mon Jan 14 22:12:23 PST 2002 - scerri_at_isi_edu: New agent registration
+Mon Jan 14 22:12:23 PST 2002 - scerri_at_isi_edu_palm
+Mon Jan 14 22:12:23 PST 2002 - [palm (device)]
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_scerri_at_isi_edu :user scerri_at_isi_edu :sender userCGI_scerri_at_isi_edu :reply-with scerri@isi.edu :content devices)
+============================
+
+
+proxy_scerri_at_isi_edu: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_scerri_at_isi_edu :user scerri_at_isi_edu :sender userCGI_scerri_at_isi_edu :reply-with scerri@isi.edu :content devices)
+  translatedText: null
+============================
+
+Mon Jan 14 22:14:16 PST 2002 - scerri_at_isi_edu: Device list is  ( palm )
+Mon Jan 14 22:14:16 PST 2002 - Replying with: ( reply :content ( palm ) :sender proxy_scerri_at_isi_edu :reply-with nil :in-reply-to scerri@isi.edu :user scerri_at_isi_edu :receiver userCGI_scerri_at_isi_edu )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(unregister :receiver proxy_scerri_at_isi_edu :name palm :sender scerri_at_isi_edu_palm :reply-with nil :user scerri_at_isi_edu)
+============================
+
+
+proxy_scerri_at_isi_edu: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(unregister :receiver proxy_scerri_at_isi_edu :name palm :sender scerri_at_isi_edu_palm :reply-with nil :user scerri_at_isi_edu)
+  translatedText: null
+============================
+
+Mon Jan 14 22:14:22 PST 2002 - scerri_at_isi_edu: Unregistering agent palm
+Mon Jan 14 22:14:22 PST 2002 - []
+Received new Message
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_scerri_at_isi_edu :user scerri_at_isi_edu :sender userCGI_scerri_at_isi_edu :reply-with scerri@isi.edu :content devices)
+============================
+
+
+proxy_scerri_at_isi_edu: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_scerri_at_isi_edu :user scerri_at_isi_edu :sender userCGI_scerri_at_isi_edu :reply-with scerri@isi.edu :content devices)
+  translatedText: null
+============================
+
+Mon Jan 14 22:14:24 PST 2002 - scerri_at_isi_edu: Device list is  nil
+Waiting for New Message...
+Mon Jan 14 22:14:24 PST 2002 - Replying with: ( reply :content nil :sender proxy_scerri_at_isi_edu :reply-with nil :in-reply-to scerri@isi.edu :user scerri_at_isi_edu :receiver userCGI_scerri_at_isi_edu )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(register :name palm :reply-with nil :agenttype device :receiver proxy_scerri_at_isi_edu :user scerri_at_isi_edu :sender scerri_at_isi_edu_palm :direction both)
+============================
+
+
+proxy_scerri_at_isi_edu: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(register :name palm :reply-with nil :agenttype device :receiver proxy_scerri_at_isi_edu :user scerri_at_isi_edu :sender scerri_at_isi_edu_palm :direction both)
+  translatedText: null
+============================
+
+Mon Jan 14 22:14:36 PST 2002 - scerri_at_isi_edu: New agent registration
+Mon Jan 14 22:14:36 PST 2002 - scerri_at_isi_edu_palm
+Mon Jan 14 22:14:36 PST 2002 - [palm (device)]
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_scerri_at_isi_edu :user scerri_at_isi_edu :sender userCGI_scerri_at_isi_edu :reply-with scerri@isi.edu :content devices)
+============================
+
+
+proxy_scerri_at_isi_edu: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_scerri_at_isi_edu :user scerri_at_isi_edu :sender userCGI_scerri_at_isi_edu :reply-with scerri@isi.edu :content devices)
+  translatedText: null
+============================
+
+Mon Feb 04 13:47:28 PST 2002 - scerri_at_isi_edu: Device list is  ( palm )
+Mon Feb 04 13:47:28 PST 2002 - Replying with: ( reply :content ( palm ) :sender proxy_scerri_at_isi_edu :reply-with nil :in-reply-to scerri@isi.edu :user scerri_at_isi_edu :receiver userCGI_scerri_at_isi_edu )
+Received new Message
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(unregister :receiver proxy_scerri_at_isi_edu :name palm :sender scerri_at_isi_edu_palm :reply-with nil :user scerri_at_isi_edu)
+============================
+
+
+proxy_scerri_at_isi_edu: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(unregister :receiver proxy_scerri_at_isi_edu :name palm :sender scerri_at_isi_edu_palm :reply-with nil :user scerri_at_isi_edu)
+  translatedText: null
+============================
+
+Mon Feb 04 13:47:36 PST 2002 - scerri_at_isi_edu: Unregistering agent palm
+Mon Feb 04 13:47:36 PST 2002 - []
+Waiting for New Message...
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_scerri_at_isi_edu :user scerri_at_isi_edu :sender userCGI_scerri_at_isi_edu :reply-with scerri@isi.edu :content devices)
+============================
+
+
+proxy_scerri_at_isi_edu: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_scerri_at_isi_edu :user scerri_at_isi_edu :sender userCGI_scerri_at_isi_edu :reply-with scerri@isi.edu :content devices)
+  translatedText: null
+============================
+
+Mon Feb 04 13:47:38 PST 2002 - scerri_at_isi_edu: Device list is  nil
+Mon Feb 04 13:47:38 PST 2002 - Replying with: ( reply :content nil :sender proxy_scerri_at_isi_edu :reply-with nil :in-reply-to scerri@isi.edu :user scerri_at_isi_edu :receiver userCGI_scerri_at_isi_edu )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(tell :receiver proxy_scerri_at_isi_edu :user scerri@isi.edu :sender newuser_scerri_at_isi_edu :reply-with nil :content stop)
+============================
+
+
+proxy_scerri_at_isi_edu: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(tell :receiver proxy_scerri_at_isi_edu :user scerri@isi.edu :sender newuser_scerri_at_isi_edu :reply-with nil :content stop)
+  translatedText: null
+============================
+
+Mon Feb 04 13:47:46 PST 2002 - Informing user: scerri@isi.edu
+Mon Feb 04 13:47:46 PST 2002 - Message: stop
+Received new Message
+Waiting for New Message...
+
+Re-Init ANS!
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_scerri_at_isi_edu :user scerri_at_isi_edu :sender userCGI_scerri_at_isi_edu :reply-with scerri@isi.edu :content devices)
+============================
+
+
+proxy_scerri_at_isi_edu: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_scerri_at_isi_edu :user scerri_at_isi_edu :sender userCGI_scerri_at_isi_edu :reply-with scerri@isi.edu :content devices)
+  translatedText: null
+============================
+
+Mon Feb 04 13:49:54 PST 2002 - scerri_at_isi_edu: Device list is  nil
+Mon Feb 04 13:49:54 PST 2002 - Replying with: ( reply :content nil :sender proxy_scerri_at_isi_edu :reply-with nil :in-reply-to scerri@isi.edu :user scerri_at_isi_edu :receiver userCGI_scerri_at_isi_edu )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_scerri_at_isi_edu :user scerri_at_isi_edu :sender userCGI_scerri_at_isi_edu :reply-with scerri@isi.edu :content devices)
+============================
+
+
+proxy_scerri_at_isi_edu: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_scerri_at_isi_edu :user scerri_at_isi_edu :sender userCGI_scerri_at_isi_edu :reply-with scerri@isi.edu :content devices)
+  translatedText: null
+============================
+
+Mon Feb 04 14:02:38 PST 2002 - scerri_at_isi_edu: Device list is  nil
+Mon Feb 04 14:02:38 PST 2002 - Replying with: ( reply :content nil :sender proxy_scerri_at_isi_edu :reply-with nil :in-reply-to scerri@isi.edu :user scerri_at_isi_edu :receiver userCGI_scerri_at_isi_edu )
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(unregister :receiver proxy_scerri_at_isi_edu :user scerri@isi.edu :sender newuser_scerri_at_isi_edu :reply-with nil)
+============================
+
+
+proxy_scerri_at_isi_edu: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(unregister :receiver proxy_scerri_at_isi_edu :user scerri@isi.edu :sender newuser_scerri_at_isi_edu :reply-with nil)
+  translatedText: null
+============================
+
+Mon Feb 04 14:02:45 PST 2002 - scerri@isi.edu: No name in agent unregistration
+
+proxy_scerri_at_isi_edu: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: proxy_scerri_at_isi_edu
+  sender: Controller
+  acl: KQML
+  rawText:
+(tell
+  :sender Controller
+  :receiver proxy_scerri_at_isi_edu
+  :language GRID-control
+  :content (stop))
+  translatedText: null
+============================
+
+Couldn't log msg.
+Mon Feb 04 14:34:20 PST 2002 - proxy_scerri_at_isi_edu: Shutting down
+ould not listen on port 9998
+KQMLListener: Could not listen on port 9999
+KQMLListener: Could not listen on port 10000
+KQMLListener: Could not listen on port 10001
+KQMLListener: Could not listen on port 10002
+KQMLListener: Listening on port 10003
+Waiting for New Message...
+Mon Feb 04 13:49:53 PST 2002 - Registering on port: 10003
+Attributes modified to:
+  (:CoABS-agent-description
+    (:uniqueID e274b792-6286-40a0-bf89-d2d536bd9539)
+    (:name proxy_scerri_at_isi_edu)
+    (:description User Grid Proxy for scerri@isi.edu)
+    (:organization USC Information Sciences Institute)
+    (:architecture Electric Elves)
+    (:documentationURL http://www.isi.edu/agents-united/about.html)
+    (:acls KQML)
+    (:contentLanguages KQML)
+    (:displayIconURL http://www.isi.edu/isd/LOOM/eelves16.gif))
+
+[scerri@isi.edu]
+Setting environment variables.
+Waiting for Jini ServiceRegistrars...
+No Jini ServiceRegistrar yet...
+No Jini ServiceRegistrar yet...
+No Jini ServiceRegistrar yet...
+No Jini ServiceRegistrar yet...
+No Jini ServiceRegistrar yet...
+Found ServiceRegistrar.
+Before getLogAgent();
+Before logAllMessages();
+Mon Feb 04 14:35:47 PST 2002 - proxy_scerri_at_isi_edu: Registering...
+Registered AgentRep proxy_scerri_at_isi_edu with Jini. Waiting for ServiceID returned.
+Service ID a0a4f9c9-d83c-442a-b308-8e6872ffed23 passed to proxy_scerri_at_isi_edu AgentRep
+Couldn't log msg.
+
+proxy_scerri_at_isi_edu: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: proxy_scerri_at_isi_edu
+  sender: 
+  acl: FIPA-ACL
+  rawText:
+(inform
+  :sender CoabsGridRegistry
+  :receiver proxy_scerri_at_isi_edu
+  :content
+    (done
+      (action CoabsGridRegistry
+        (register-agent
+          (:CoABS-agent-description
+            (:uniqueID a0a4f9c9-d83c-442a-b308-8e6872ffed23)
+            (:name proxy_scerri_at_isi_edu)
+            (:description User Grid Proxy for scerri@isi.edu)
+            (:organization USC Information Sciences Institute)
+            (:architecture Electric Elves)
+            (:documentationURL http://www.isi.edu/agents-united/about.html)
+            (:acls KQML)
+            (:contentLanguages KQML)
+            (:displayIconURL http://www.isi.edu/isd/LOOM/eelves16.gif))
+)))
+  :language SL0
+  :in-reply-to proxy_scerri_at_isi_eduRegister
+  :protocol fipa-request
+  :ontology fipa-agent-management)
+  translatedText: null
+============================
+
+Mon Feb 04 14:35:48 PST 2002 - proxy_scerri_at_isi_edu: Registration complete.
+Mon Feb 04 14:35:48 PST 2002 - Message from Grid Registry:
+Mon Feb 04 14:35:48 PST 2002 - (done
+      (action CoabsGridRegistry
+        (register-agent
+          (:CoABS-agent-description
+            (:uniqueID a0a4f9c9-d83c-442a-b308-8e6872ffed23)
+            (:name proxy_scerri_at_isi_edu)
+            (:description User Grid Proxy for scerri@isi.edu)
+            (:organization USC Information Sciences Institute)
+            (:architecture Electric Elves)
+            (:documentationURL http://www.isi.edu/agents-united/about.html)
+            (:acls KQML)
+            (:contentLanguages KQML)
+            (:displayIconURL http://www.isi.edu/isd/LOOM/eelves16.gif))
+)))
+Mon Feb 04 14:35:48 PST 2002 - proxy_scerri_at_isi_edu: Found logging agent -> null
+Attributes modified to:
+  (:CoABS-agent-description
+    (:uniqueID a0a4f9c9-d83c-442a-b308-8e6872ffed23)
+    (:name proxy_scerri_at_isi_edu)
+    (:description User Grid Proxy for scerri@isi.edu)
+    (:organization USC Information Sciences Institute)
+    (:architecture Electric Elves)
+    (:documentationURL http://www.isi.edu/agents-united/about.html)
+    (:acls KQML)
+    (:contentLanguages KQML)
+    (:displayIconURL http://www.isi.edu/isd/LOOM/eelves16.gif))
+
+KQMLListener: In constructor...
+KQMLListener: Could not listen on port 9991
+KQMLListener: Could not listen on port 9992
+KQMLListener: Could not listen on port 9993
+KQMLListener: Could not listen on port 9994
+KQMLListener: Could not listen on port 9995
+KQMLListener: Could not listen on port 9996
+KQMLListener: Could not listen on port 9997
+KQMLListener: Could not listen on port 9998
+KQMLListener: Could not listen on port 9999
+KQMLListener: Listening on port 10000
+Waiting for New Message...
+Mon Feb 04 14:35:48 PST 2002 - Registering on port: 10000
+[scerri@isi.edu]
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(ask-all :receiver proxy_scerri_at_isi_edu :user scerri_at_isi_edu :sender userCGI_scerri_at_isi_edu :reply-with scerri@isi.edu :content devices)
+============================
+
+
+proxy_scerri_at_isi_edu: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(ask-all :receiver proxy_scerri_at_isi_edu :user scerri_at_isi_edu :sender userCGI_scerri_at_isi_edu :reply-with scerri@isi.edu :content devices)
+  translatedText: null
+============================
+
+Mon Feb 04 14:36:59 PST 2002 - scerri_at_isi_edu: Device list is  nil
+Mon Feb 04 14:36:59 PST 2002 - Replying with: ( reply :content nil :sender proxy_scerri_at_isi_edu :reply-with nil :in-reply-to scerri@isi.edu :user scerri_at_isi_edu :receiver userCGI_scerri_at_isi_edu )
+
+proxy_scerri_at_isi_edu: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: proxy_scerri_at_isi_edu
+  sender: Controller
+  acl: KQML
+  rawText:
+(tell
+  :sender Controller
+  :receiver proxy_scerri_at_isi_edu
+  :language GRID-control
+  :content (stop))
+  translatedText: null
+============================
+
+Couldn't log msg.
+Mon Feb 04 14:58:40 PST 2002 - proxy_scerri_at_isi_edu: Shutting down
+Setting environment variables.
+Waiting for Jini ServiceRegistrars...
+No Jini ServiceRegistrar yet...
+No Jini ServiceRegistrar yet...
+No Jini ServiceRegistrar yet...
+No Jini ServiceRegistrar yet...
+Found ServiceRegistrar.
+Before getLogAgent();
+Before logAllMessages();
+Mon Feb 04 14:58:46 PST 2002 - proxy_scerri_at_isi_edu: Registering...
+Registered AgentRep proxy_scerri_at_isi_edu with Jini. Waiting for ServiceID returned.
+Service ID ff932c16-bfc6-40a2-badd-8b608a2a7fa2 passed to proxy_scerri_at_isi_edu AgentRep
+Couldn't log msg.
+
+proxy_scerri_at_isi_edu: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: proxy_scerri_at_isi_edu
+  sender: 
+  acl: FIPA-ACL
+  rawText:
+(inform
+  :sender CoabsGridRegistry
+  :receiver proxy_scerri_at_isi_edu
+  :content
+    (done
+      (action CoabsGridRegistry
+        (register-agent
+          (:CoABS-agent-description
+            (:uniqueID ff932c16-bfc6-40a2-badd-8b608a2a7fa2)
+            (:name proxy_scerri_at_isi_edu)
+            (:description User Grid Proxy for scerri@isi.edu)
+            (:organization USC Information Sciences Institute)
+            (:architecture Electric Elves)
+            (:documentationURL http://www.isi.edu/agents-united/about.html)
+            (:acls KQML)
+            (:contentLanguages KQML)
+            (:displayIconURL http://www.isi.edu/isd/LOOM/eelves16.gif))
+)))
+  :language SL0
+  :in-reply-to proxy_scerri_at_isi_eduRegister
+  :protocol fipa-request
+  :ontology fipa-agent-management)
+  translatedText: null
+============================
+
+Mon Feb 04 14:58:47 PST 2002 - proxy_scerri_at_isi_edu: Registration complete.
+Mon Feb 04 14:58:47 PST 2002 - Message from Grid Registry:
+Mon Feb 04 14:58:47 PST 2002 - (done
+      (action CoabsGridRegistry
+        (register-agent
+          (:CoABS-agent-description
+            (:uniqueID ff932c16-bfc6-40a2-badd-8b608a2a7fa2)
+            (:name proxy_scerri_at_isi_edu)
+            (:description User Grid Proxy for scerri@isi.edu)
+            (:organization USC Information Sciences Institute)
+            (:architecture Electric Elves)
+            (:documentationURL http://www.isi.edu/agents-united/about.html)
+            (:acls KQML)
+            (:contentLanguages KQML)
+            (:displayIconURL http://www.isi.edu/isd/LOOM/eelves16.gif))
+)))
+Mon Feb 04 14:58:47 PST 2002 - proxy_scerri_at_isi_edu: Found logging agent -> null
+KQMLListener: In constructor...
+KQMLListener: Could not listen on port 9991
+KQMLListener: Could not listen on port 9992
+KQMLListener: Could not listen on port 9993
+KQMLListener: Could not listen on port 9994
+KQMLListener: Could not listen on port 9995
+KQMLListener: Could not listen on port 9996
+KQMLListener: Could not listen on port 9997
+KQMLListener: Could not listen on port 9998
+KQMLListener: Could not listen on port 9999
+KQMLListener: Listening on port 10000
+Waiting for New Message...
+Mon Feb 04 14:58:47 PST 2002 - Registering on port: 10000
+Attributes modified to:
+  (:CoABS-agent-description
+    (:uniqueID ff932c16-bfc6-40a2-badd-8b608a2a7fa2)
+    (:name proxy_scerri_at_isi_edu)
+    (:description User Grid Proxy for scerri@isi.edu)
+    (:organization USC Information Sciences Institute)
+    (:architecture Electric Elves)
+    (:documentationURL http://www.isi.edu/agents-united/about.html)
+    (:acls KQML)
+    (:contentLanguages KQML)
+    (:displayIconURL http://www.isi.edu/isd/LOOM/eelves16.gif))
+
+[scerri@isi.edu]
+Received new Message
+Waiting for New Message...
+
+ KQML Listener: >>>>>>   RECVD   >>>>>>
+(unregister :receiver proxy_scerri_at_isi_edu :user scerri@isi.edu :sender newuser_scerri_at_isi_edu :reply-with nil)
+============================
+
+
+proxy_scerri_at_isi_edu: <<<<<< RECEIVED <<<<<<
+Message:
+  receiver: null
+  sender: 
+  acl: KQML
+  rawText:
+(unregister :receiver proxy_scerri_at_isi_edu :user scerri@isi.edu :sender newuser_scerri_at_isi_edu :reply-with nil)
+  translatedText: null
+============================
+
+Mon Feb 04 14:59:25 PST 2002 - proxy_scerri_at_isi_edu: Shutting down

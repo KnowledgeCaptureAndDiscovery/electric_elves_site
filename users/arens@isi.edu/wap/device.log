@@ -1,0 +1,40 @@
+Tue Jun 04 18:19:57 2002: Using ANS: ('vibhagam.isi.edu', 5500)
+Tue Jun 04 18:19:57 2002: Bound to host/port: sangat.isi.edu:6693
+Tue Jun 04 18:19:57 2002: Sending message: (register :ontology tcp-ip :sender arens_at_isi_edu_wap :reply-with t :content "arens_at_isi_edu_wap sangat.isi.edu:6693")
+Tue Jun 04 18:19:57 2002: Received: {'receiver': 'arens_at_isi_edu_wap', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Tue Jun 04 18:19:57 2002: Registration produced: {'receiver': 'arens_at_isi_edu_wap', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Tue Jun 04 18:19:57 2002: Sending message: (unregister :sender arens_at_isi_edu_wap :ontology tcp-ip :reply-with nil :content arens_at_isi_edu_wap)
+Tue Jun 04 18:19:57 2002: Sending message: (register :sender arens_at_isi_edu_wap :ontology tcp-ip :reply-with t :content (arens_at_isi_edu_wap sangat.isi.edu:6693))
+Tue Jun 04 18:19:58 2002: Received: {'receiver': 'arens_at_isi_edu_wap', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'arens_at_isi_edu_wap TEAMCORE'}
+Tue Jun 04 18:19:58 2002: Registration produced: {'receiver': 'arens_at_isi_edu_wap', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'arens_at_isi_edu_wap TEAMCORE'}arens_at_isi_edu_wap, TEAMCORE
+Tue Jun 04 18:19:58 2002: Registration successful: arens_at_isi_edu_wap
+Tue Jun 04 18:19:58 2002: Router for arens_at_isi_edu_wap running...
+Tue Jun 04 18:19:58 2002: Sending message: (ask-one :sender arens_at_isi_edu_wap :reply-with t :content "proxy_arens_at_isi_edu")
+Tue Jun 04 18:19:58 2002: Received: {'receiver': 'arens_at_isi_edu_wap', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_arens_at_isi_edu:sangat.isi.edu:9992:'}
+Tue Jun 04 18:19:58 2002: Sending message: (register :name wap :reply-with nil :agenttype device :receiver proxy_arens_at_isi_edu :user arens_at_isi_edu :sender arens_at_isi_edu_wap :direction both)
+Tue Jun 04 18:20:05 2002: Received: {'receiver': 'arens_at_isi_edu_wap', 'performative': 'tell', 'sender': 'deviceCGI_arens_at_isi_edu', 'reply-with': 'nil', 'content': 'stop'}
+Tue Jun 04 18:20:05 2002: Processing message: {'receiver': 'arens_at_isi_edu_wap', 'performative': 'tell', 'sender': 'deviceCGI_arens_at_isi_edu', 'reply-with': 'nil', 'content': 'stop'}
+Tue Jun 04 18:20:05 2002: Sending message: (unregister :receiver proxy_arens_at_isi_edu :name wap :sender arens_at_isi_edu_wap :reply-with nil :user arens_at_isi_edu)
+Tue Jun 04 18:20:05 2002: Router arens_at_isi_edu_wap exiting...
+Tue Jun 04 18:20:05 2002: Sending message: (unregister :receiver TEAMCORE :sender arens_at_isi_edu_wap :ontology tcp-ip :reply-with nil :content arens_at_isi_edu_wap)
+Tue Jun 04 18:20:05 2002: Exiting...
+Tue Jun 04 18:46:52 2002: Using ANS: ('vibhagam.isi.edu', 5500)
+Tue Jun 04 18:46:52 2002: Bound to host/port: sangat.isi.edu:6694
+Tue Jun 04 18:46:52 2002: Sending message: (register :ontology tcp-ip :sender arens_at_isi_edu_wap :reply-with t :content "arens_at_isi_edu_wap sangat.isi.edu:6694")
+Tue Jun 04 18:46:52 2002: Received: {'receiver': 'arens_at_isi_edu_wap', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Tue Jun 04 18:46:52 2002: Registration produced: {'receiver': 'arens_at_isi_edu_wap', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Tue Jun 04 18:46:52 2002: Sending message: (unregister :sender arens_at_isi_edu_wap :ontology tcp-ip :reply-with nil :content arens_at_isi_edu_wap)
+Tue Jun 04 18:46:52 2002: Sending message: (register :sender arens_at_isi_edu_wap :ontology tcp-ip :reply-with t :content (arens_at_isi_edu_wap sangat.isi.edu:6694))
+Tue Jun 04 18:46:52 2002: Received: {'receiver': 'arens_at_isi_edu_wap', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'arens_at_isi_edu_wap TEAMCORE'}
+Tue Jun 04 18:46:52 2002: Registration produced: {'receiver': 'arens_at_isi_edu_wap', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'arens_at_isi_edu_wap TEAMCORE'}arens_at_isi_edu_wap, TEAMCORE
+Tue Jun 04 18:46:52 2002: Registration successful: arens_at_isi_edu_wap
+Tue Jun 04 18:46:52 2002: Router for arens_at_isi_edu_wap running...
+Tue Jun 04 18:46:52 2002: Sending message: (ask-one :sender arens_at_isi_edu_wap :reply-with t :content "proxy_arens_at_isi_edu")
+Tue Jun 04 18:46:52 2002: Received: {'receiver': 'arens_at_isi_edu_wap', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_arens_at_isi_edu:sangat.isi.edu:9992:'}
+Tue Jun 04 18:46:52 2002: Sending message: (register :name wap :reply-with nil :agenttype device :receiver proxy_arens_at_isi_edu :user arens_at_isi_edu :sender arens_at_isi_edu_wap :direction both)
+Tue Jun 04 18:47:13 2002: Received: {'receiver': 'arens_at_isi_edu_wap', 'performative': 'tell', 'sender': 'deviceCGI_arens_at_isi_edu', 'reply-with': 'nil', 'content': 'stop'}
+Tue Jun 04 18:47:13 2002: Processing message: {'receiver': 'arens_at_isi_edu_wap', 'performative': 'tell', 'sender': 'deviceCGI_arens_at_isi_edu', 'reply-with': 'nil', 'content': 'stop'}
+Tue Jun 04 18:47:13 2002: Sending message: (unregister :receiver proxy_arens_at_isi_edu :name wap :sender arens_at_isi_edu_wap :reply-with nil :user arens_at_isi_edu)
+Tue Jun 04 18:47:13 2002: Router arens_at_isi_edu_wap exiting...
+Tue Jun 04 18:47:13 2002: Sending message: (unregister :receiver TEAMCORE :sender arens_at_isi_edu_wap :ontology tcp-ip :reply-with nil :content arens_at_isi_edu_wap)
+Tue Jun 04 18:47:13 2002: Exiting...

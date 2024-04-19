@@ -1,0 +1,16 @@
+Wed Dec 05 18:30:30 2001: Using ANS: ('vibhagam.isi.edu', 5500)
+Wed Dec 05 18:30:30 2001: Bound to host/port: vibhagam.isi.edu:6666
+Wed Dec 05 18:30:30 2001: Sending message: (register :sender jeanoh_at_isi_edu_speech :ontology tcp-ip :reply-with t :content (jeanoh_at_isi_edu_speech vibhagam.isi.edu:6666))
+Wed Dec 05 18:30:30 2001: Received: {'receiver': 'jeanoh_at_isi_edu_speech', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'jeanoh_at_isi_edu_speech TEAMCORE'}
+Wed Dec 05 18:30:30 2001: Registration produced: {'receiver': 'jeanoh_at_isi_edu_speech', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'jeanoh_at_isi_edu_speech TEAMCORE'}
+Wed Dec 05 18:30:30 2001: Registration successful: jeanoh_at_isi_edu_speech
+Wed Dec 05 18:30:30 2001: Sending message: (ask-one :sender jeanoh_at_isi_edu_speech :reply-with t :content "proxy_jeanoh_at_isi_edu")
+Wed Dec 05 18:30:31 2001: Received: {'receiver': 'jeanoh_at_isi_edu_speech', 'performative': 'sorry', 'sender': 'TEAMCORE', 'in-reply-to': 't'}
+Wed Dec 05 18:30:31 2001: No registered agent: proxy_jeanoh_at_isi_edu
+Wed Dec 05 18:30:31 2001: Router for jeanoh_at_isi_edu_speech running...
+Wed Dec 05 18:31:47 2001: Sending message: (ask-one :sender jeanoh_at_isi_edu_speech :reply-with t :content "proxy_jeanoh_at_isi_edu")
+Wed Dec 05 18:31:47 2001: Received: {'receiver': 'jeanoh_at_isi_edu_speech', 'performative': 'sorry', 'sender': 'TEAMCORE', 'in-reply-to': 't'}
+Wed Dec 05 18:31:47 2001: No registered agent: proxy_jeanoh_at_isi_edu
+Wed Dec 05 18:31:47 2001: Router jeanoh_at_isi_edu_speech exiting...
+Wed Dec 05 18:31:47 2001: Sending message: (unregister :receiver TEAMCORE :sender jeanoh_at_isi_edu_speech :ontology tcp-ip :reply-with nil :content jeanoh_at_isi_edu_speech)
+Wed Dec 05 18:31:47 2001: Exiting...

@@ -1,0 +1,189 @@
+Mon Oct 21 10:22:48 2002: Using ANS: ('vibhagam.isi.edu', 5500)
+Mon Oct 21 10:22:48 2002: Bound to host/port: equipe.isi.edu:6683
+Mon Oct 21 10:22:48 2002: Sending message: (register :ontology tcp-ip :sender tedmond_at_snap_org_email_tedmond_at_snap_org :reply-with t :content "tedmond_at_snap_org_email_tedmond_at_snap_org equipe.isi.edu:6683")
+Mon Oct 21 10:22:48 2002: Received: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Mon Oct 21 10:22:48 2002: Registration produced: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Mon Oct 21 10:22:48 2002: Sending message: (unregister :sender tedmond_at_snap_org_email_tedmond_at_snap_org :ontology tcp-ip :reply-with nil :content tedmond_at_snap_org_email_tedmond_at_snap_org)
+Mon Oct 21 10:22:48 2002: Sending message: (register :sender tedmond_at_snap_org_email_tedmond_at_snap_org :ontology tcp-ip :reply-with t :content (tedmond_at_snap_org_email_tedmond_at_snap_org equipe.isi.edu:6683))
+Mon Oct 21 10:22:48 2002: Received: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'tedmond_at_snap_org_email_tedmond_at_snap_org TEAMCORE'}
+Mon Oct 21 10:22:48 2002: Registration produced: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'tedmond_at_snap_org_email_tedmond_at_snap_org TEAMCORE'}tedmond_at_snap_org_email_tedmond_at_snap_org, TEAMCORE
+Mon Oct 21 10:22:48 2002: Registration successful: tedmond_at_snap_org_email_tedmond_at_snap_org
+Mon Oct 21 10:22:48 2002: Router for tedmond_at_snap_org_email_tedmond_at_snap_org running...
+Mon Oct 21 10:22:48 2002: Sending message: (ask-one :sender tedmond_at_snap_org_email_tedmond_at_snap_org :reply-with t :content "proxy_tedmond_at_snap_org")
+Mon Oct 21 10:22:49 2002: Received: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_tedmond_at_snap_org:sangat.isi.edu:9992:'}
+Mon Oct 21 10:22:49 2002: Sending message: (register :name email_tedmond_at_snap_org :reply-with nil :agenttype device :receiver proxy_tedmond_at_snap_org :user tedmond_at_snap_org :sender tedmond_at_snap_org_email_tedmond_at_snap_org :direction (to user))
+Mon Oct 28 14:19:29 2002: Received: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'kqml-admin', 'sender': 'TEAMCORE', 'kqml-msg-id': '24669+vibhagam.isi.edu+36', 'reply-with': 't', 'content': 'name'}
+Mon Oct 28 14:21:00 2002: Received: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'ask', 'sender': 'ping_tedmond_at_snap_org_email_tedmond_at_snap_org', 'reply-with': 'tedmond_at_snap_org', 'content': 'hello'}
+Mon Oct 28 14:21:00 2002: Processing message: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'ask', 'sender': 'ping_tedmond_at_snap_org_email_tedmond_at_snap_org', 'reply-with': 'tedmond_at_snap_org', 'content': 'hello'}
+Mon Oct 28 14:21:00 2002: Replying: (sorry :reply-with nil :in-reply-to tedmond_at_snap_org :receiver ping_tedmond_at_snap_org_email_tedmond_at_snap_org :sender tedmond_at_snap_org_email_tedmond_at_snap_org :comment "Unintelligible query")
+Tue Oct 29 10:23:21 2002: Received: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'kqml-admin', 'sender': 'TEAMCORE', 'kqml-msg-id': '26893+vibhagam.isi.edu+27', 'reply-with': 't', 'content': 'name'}
+Tue Oct 29 18:35:14 2002: Received: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'kqml-admin', 'sender': 'TEAMCORE', 'kqml-msg-id': '29472+vibhagam.isi.edu+27', 'reply-with': 't', 'content': 'name'}
+Tue Oct 29 19:59:10 2002: Received: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'kqml-admin', 'sender': 'TEAMCORE', 'kqml-msg-id': '181+vibhagam.isi.edu+27', 'reply-with': 't', 'content': 'name'}
+Tue Oct 29 20:15:50 2002: Received: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'kqml-admin', 'sender': 'TEAMCORE', 'kqml-msg-id': '405+vibhagam.isi.edu+27', 'reply-with': 't', 'content': 'name'}
+Mon Nov 04 10:16:30 2002: Received: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'kqml-admin', 'sender': 'TEAMCORE', 'kqml-msg-id': '15317+vibhagam.isi.edu+32', 'reply-with': 't', 'content': 'name'}
+Thu Nov 07 12:50:49 2002: Using ANS: ('vibhagam.isi.edu', 5500)
+Thu Nov 07 12:50:49 2002: Bound to host/port: sangat.isi.edu:6672
+Thu Nov 07 12:50:49 2002: Sending message: (register :ontology tcp-ip :sender tedmond_at_snap_org_email_tedmond_at_snap_org :reply-with t :content "tedmond_at_snap_org_email_tedmond_at_snap_org sangat.isi.edu:6672")
+Thu Nov 07 12:50:49 2002: Received: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Thu Nov 07 12:50:49 2002: Registration produced: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Thu Nov 07 12:50:49 2002: Sending message: (unregister :sender tedmond_at_snap_org_email_tedmond_at_snap_org :ontology tcp-ip :reply-with nil :content tedmond_at_snap_org_email_tedmond_at_snap_org)
+Thu Nov 07 12:50:49 2002: Sending message: (register :sender tedmond_at_snap_org_email_tedmond_at_snap_org :ontology tcp-ip :reply-with t :content (tedmond_at_snap_org_email_tedmond_at_snap_org sangat.isi.edu:6672))
+Thu Nov 07 12:50:49 2002: Received: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'tedmond_at_snap_org_email_tedmond_at_snap_org TEAMCORE'}
+Thu Nov 07 12:50:49 2002: Registration produced: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'tedmond_at_snap_org_email_tedmond_at_snap_org TEAMCORE'}tedmond_at_snap_org_email_tedmond_at_snap_org, TEAMCORE
+Thu Nov 07 12:50:49 2002: Registration successful: tedmond_at_snap_org_email_tedmond_at_snap_org
+Thu Nov 07 12:50:49 2002: Router for tedmond_at_snap_org_email_tedmond_at_snap_org running...
+Thu Nov 07 12:50:49 2002: Sending message: (ask-one :sender tedmond_at_snap_org_email_tedmond_at_snap_org :reply-with t :content "proxy_tedmond_at_snap_org")
+Thu Nov 07 12:50:49 2002: Received: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'sorry', 'sender': 'TEAMCORE', 'in-reply-to': 't'}
+Thu Nov 07 12:50:49 2002: No registered agent: proxy_tedmond_at_snap_org
+Thu Nov 07 12:50:50 2002: Received: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'ask', 'sender': 'ping_tedmond_at_snap_org_email_tedmond_at_snap_org', 'reply-with': 'tedmond_at_snap_org', 'content': 'hello'}
+Thu Nov 07 12:50:50 2002: Processing message: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'ask', 'sender': 'ping_tedmond_at_snap_org_email_tedmond_at_snap_org', 'reply-with': 'tedmond_at_snap_org', 'content': 'hello'}
+Thu Nov 07 12:50:50 2002: Replying: (sorry :reply-with nil :in-reply-to tedmond_at_snap_org :receiver ping_tedmond_at_snap_org_email_tedmond_at_snap_org :sender tedmond_at_snap_org_email_tedmond_at_snap_org :comment "Unintelligible query")
+Thu Nov 07 13:07:22 2002: Received: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'tell', 'sender': 'stop_tedmond_at_snap_org_email_tedmond_at_snap_org', 'reply-with': 'nil', 'content': 'stop'}
+Thu Nov 07 13:07:22 2002: Processing message: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'tell', 'sender': 'stop_tedmond_at_snap_org_email_tedmond_at_snap_org', 'reply-with': 'nil', 'content': 'stop'}
+Thu Nov 07 13:07:23 2002: Sending message: (ask-one :sender tedmond_at_snap_org_email_tedmond_at_snap_org :reply-with t :content "proxy_tedmond_at_snap_org")
+Thu Nov 07 13:07:23 2002: Received: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_tedmond_at_snap_org:sangat.isi.edu:9992:'}
+Thu Nov 07 13:07:23 2002: Sending message: (unregister :receiver proxy_tedmond_at_snap_org :name email_tedmond_at_snap_org :sender tedmond_at_snap_org_email_tedmond_at_snap_org :reply-with nil :user tedmond_at_snap_org)
+Thu Nov 07 13:07:23 2002: Router tedmond_at_snap_org_email_tedmond_at_snap_org exiting...
+Thu Nov 07 13:07:23 2002: Sending message: (unregister :receiver TEAMCORE :sender tedmond_at_snap_org_email_tedmond_at_snap_org :ontology tcp-ip :reply-with nil :content tedmond_at_snap_org_email_tedmond_at_snap_org)
+Thu Nov 07 13:07:23 2002: Exiting...
+Thu Nov 07 13:07:25 2002: Using ANS: ('vibhagam.isi.edu', 5500)
+Thu Nov 07 13:07:25 2002: Bound to host/port: sangat.isi.edu:6671
+Thu Nov 07 13:07:25 2002: Sending message: (register :ontology tcp-ip :sender tedmond_at_snap_org_email_tedmond_at_snap_org :reply-with t :content "tedmond_at_snap_org_email_tedmond_at_snap_org sangat.isi.edu:6671")
+Thu Nov 07 13:07:25 2002: Received: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Thu Nov 07 13:07:25 2002: Registration produced: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Thu Nov 07 13:07:25 2002: Sending message: (unregister :sender tedmond_at_snap_org_email_tedmond_at_snap_org :ontology tcp-ip :reply-with nil :content tedmond_at_snap_org_email_tedmond_at_snap_org)
+Thu Nov 07 13:07:25 2002: Sending message: (register :sender tedmond_at_snap_org_email_tedmond_at_snap_org :ontology tcp-ip :reply-with t :content (tedmond_at_snap_org_email_tedmond_at_snap_org sangat.isi.edu:6671))
+Thu Nov 07 13:07:25 2002: Received: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'tedmond_at_snap_org_email_tedmond_at_snap_org TEAMCORE'}
+Thu Nov 07 13:07:25 2002: Registration produced: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'tedmond_at_snap_org_email_tedmond_at_snap_org TEAMCORE'}tedmond_at_snap_org_email_tedmond_at_snap_org, TEAMCORE
+Thu Nov 07 13:07:25 2002: Registration successful: tedmond_at_snap_org_email_tedmond_at_snap_org
+Thu Nov 07 13:07:25 2002: Router for tedmond_at_snap_org_email_tedmond_at_snap_org running...
+Thu Nov 07 13:07:25 2002: Sending message: (ask-one :sender tedmond_at_snap_org_email_tedmond_at_snap_org :reply-with t :content "proxy_tedmond_at_snap_org")
+Thu Nov 07 13:07:25 2002: Received: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_tedmond_at_snap_org:sangat.isi.edu:9992:'}
+Thu Nov 07 13:07:25 2002: Sending message: (register :name email_tedmond_at_snap_org :reply-with nil :agenttype device :receiver proxy_tedmond_at_snap_org :user tedmond_at_snap_org :sender tedmond_at_snap_org_email_tedmond_at_snap_org :direction (to user))
+Thu Nov 07 13:07:27 2002: Received: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'ask', 'sender': 'ping_tedmond_at_snap_org_email_tedmond_at_snap_org', 'reply-with': 'tedmond_at_snap_org', 'content': 'hello'}
+Thu Nov 07 13:07:27 2002: Processing message: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'ask', 'sender': 'ping_tedmond_at_snap_org_email_tedmond_at_snap_org', 'reply-with': 'tedmond_at_snap_org', 'content': 'hello'}
+Thu Nov 07 13:07:27 2002: Replying: (sorry :reply-with nil :in-reply-to tedmond_at_snap_org :receiver ping_tedmond_at_snap_org_email_tedmond_at_snap_org :sender tedmond_at_snap_org_email_tedmond_at_snap_org :comment "Unintelligible query")
+Tue Jan 07 16:40:31 2003: Using ANS: ('vibhagam', 5500)
+Tue Jan 07 16:40:31 2003: Bound to host/port: sangat.isi.edu:6672
+Tue Jan 07 16:40:31 2003: Sending message: (register :ontology tcp-ip :sender tedmond_at_snap_org_email_tedmond_at_snap_org :reply-with t :content "tedmond_at_snap_org_email_tedmond_at_snap_org sangat.isi.edu:6672")
+Tue Jan 07 16:40:31 2003: Received: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Tue Jan 07 16:40:31 2003: Registration produced: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Tue Jan 07 16:40:31 2003: Sending message: (unregister :sender tedmond_at_snap_org_email_tedmond_at_snap_org :ontology tcp-ip :reply-with nil :content tedmond_at_snap_org_email_tedmond_at_snap_org)
+Tue Jan 07 16:40:31 2003: Sending message: (register :sender tedmond_at_snap_org_email_tedmond_at_snap_org :ontology tcp-ip :reply-with t :content (tedmond_at_snap_org_email_tedmond_at_snap_org sangat.isi.edu:6672))
+Tue Jan 07 16:40:31 2003: Received: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'tedmond_at_snap_org_email_tedmond_at_snap_org TEAMCORE'}
+Tue Jan 07 16:40:31 2003: Registration produced: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'tedmond_at_snap_org_email_tedmond_at_snap_org TEAMCORE'}tedmond_at_snap_org_email_tedmond_at_snap_org, TEAMCORE
+Tue Jan 07 16:40:31 2003: Registration successful: tedmond_at_snap_org_email_tedmond_at_snap_org
+Tue Jan 07 16:40:31 2003: Router for tedmond_at_snap_org_email_tedmond_at_snap_org running...
+Tue Jan 07 16:40:31 2003: Sending message: (ask-one :sender tedmond_at_snap_org_email_tedmond_at_snap_org :reply-with t :content "proxy_tedmond_at_snap_org")
+Tue Jan 07 16:40:31 2003: Received: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_tedmond_at_snap_org:sangat.isi.edu:9992:'}
+Tue Jan 07 16:40:31 2003: Sending message: (register :name email_tedmond_at_snap_org :reply-with nil :agenttype device :receiver proxy_tedmond_at_snap_org :user tedmond_at_snap_org :sender tedmond_at_snap_org_email_tedmond_at_snap_org :direction (to user))
+Tue Jan 07 16:40:33 2003: Received: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'ask', 'sender': 'ping_tedmond_at_snap_org_email_tedmond_at_snap_org', 'reply-with': 'tedmond_at_snap_org', 'content': 'hello'}
+Tue Jan 07 16:40:33 2003: Processing message: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'ask', 'sender': 'ping_tedmond_at_snap_org_email_tedmond_at_snap_org', 'reply-with': 'tedmond_at_snap_org', 'content': 'hello'}
+Tue Jan 07 16:40:33 2003: Replying: (sorry :reply-with nil :in-reply-to tedmond_at_snap_org :receiver ping_tedmond_at_snap_org_email_tedmond_at_snap_org :sender tedmond_at_snap_org_email_tedmond_at_snap_org :comment "Unintelligible query")
+Mon Jan 13 16:24:31 2003: Using ANS: ('vibhagam', 5500)
+Mon Jan 13 16:24:31 2003: Bound to host/port: sangat.isi.edu:6673
+Mon Jan 13 16:24:31 2003: Sending message: (register :ontology tcp-ip :sender tedmond_at_snap_org_email_tedmond_at_snap_org :reply-with t :content "tedmond_at_snap_org_email_tedmond_at_snap_org sangat.isi.edu:6673")
+Mon Jan 13 16:24:31 2003: Received: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Mon Jan 13 16:24:31 2003: Registration produced: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Mon Jan 13 16:24:31 2003: Sending message: (unregister :sender tedmond_at_snap_org_email_tedmond_at_snap_org :ontology tcp-ip :reply-with nil :content tedmond_at_snap_org_email_tedmond_at_snap_org)
+Mon Jan 13 16:24:31 2003: Sending message: (register :sender tedmond_at_snap_org_email_tedmond_at_snap_org :ontology tcp-ip :reply-with t :content (tedmond_at_snap_org_email_tedmond_at_snap_org sangat.isi.edu:6673))
+Mon Jan 13 16:24:31 2003: Received: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'tedmond_at_snap_org_email_tedmond_at_snap_org TEAMCORE'}
+Mon Jan 13 16:24:31 2003: Registration produced: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'tedmond_at_snap_org_email_tedmond_at_snap_org TEAMCORE'}tedmond_at_snap_org_email_tedmond_at_snap_org, TEAMCORE
+Mon Jan 13 16:24:31 2003: Registration successful: tedmond_at_snap_org_email_tedmond_at_snap_org
+Mon Jan 13 16:24:31 2003: Router for tedmond_at_snap_org_email_tedmond_at_snap_org running...
+Mon Jan 13 16:24:31 2003: Sending message: (ask-one :sender tedmond_at_snap_org_email_tedmond_at_snap_org :reply-with t :content "proxy_tedmond_at_snap_org")
+Mon Jan 13 16:24:31 2003: Received: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_tedmond_at_snap_org:sangat.isi.edu:9993:'}
+Mon Jan 13 16:24:31 2003: Sending message: (register :name email_tedmond_at_snap_org :reply-with nil :agenttype device :receiver proxy_tedmond_at_snap_org :user tedmond_at_snap_org :sender tedmond_at_snap_org_email_tedmond_at_snap_org :direction (to user))
+Mon Jan 13 16:24:32 2003: Received: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'ask', 'sender': 'ping_tedmond_at_snap_org_email_tedmond_at_snap_org', 'reply-with': 'tedmond_at_snap_org', 'content': 'hello'}
+Mon Jan 13 16:24:32 2003: Processing message: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'ask', 'sender': 'ping_tedmond_at_snap_org_email_tedmond_at_snap_org', 'reply-with': 'tedmond_at_snap_org', 'content': 'hello'}
+Mon Jan 13 16:24:32 2003: Replying: (sorry :reply-with nil :in-reply-to tedmond_at_snap_org :receiver ping_tedmond_at_snap_org_email_tedmond_at_snap_org :sender tedmond_at_snap_org_email_tedmond_at_snap_org :comment "Unintelligible query")
+Thu Jan 16 10:59:09 2003: Received: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'kqml-admin', 'sender': 'TEAMCORE', 'kqml-msg-id': '1786+vibhagam.isi.edu+28', 'reply-with': 't', 'content': 'name'}
+Thu Jan 16 11:54:00 2003: Received: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'ask', 'sender': 'ping_tedmond_at_snap_org_email_tedmond_at_snap_org', 'reply-with': 'tedmond_at_snap_org', 'content': 'hello'}
+Thu Jan 16 11:54:00 2003: Processing message: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'ask', 'sender': 'ping_tedmond_at_snap_org_email_tedmond_at_snap_org', 'reply-with': 'tedmond_at_snap_org', 'content': 'hello'}
+Thu Jan 16 11:54:00 2003: Replying: (sorry :reply-with nil :in-reply-to tedmond_at_snap_org :receiver ping_tedmond_at_snap_org_email_tedmond_at_snap_org :sender tedmond_at_snap_org_email_tedmond_at_snap_org :comment "Unintelligible query")
+Tue Mar 04 15:42:30 2003: Received: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'ask', 'sender': 'ping_tedmond_at_snap_org_email_tedmond_at_snap_org', 'reply-with': 'tedmond_at_snap_org', 'content': 'hello'}
+Tue Mar 04 15:42:30 2003: Processing message: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'ask', 'sender': 'ping_tedmond_at_snap_org_email_tedmond_at_snap_org', 'reply-with': 'tedmond_at_snap_org', 'content': 'hello'}
+Tue Mar 04 15:42:30 2003: Replying: (sorry :reply-with nil :in-reply-to tedmond_at_snap_org :receiver ping_tedmond_at_snap_org_email_tedmond_at_snap_org :sender tedmond_at_snap_org_email_tedmond_at_snap_org :comment "Unintelligible query")
+Tue Mar 04 15:46:11 2003: Received: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'ask', 'sender': 'ping_tedmond_at_snap_org_email_tedmond_at_snap_org', 'reply-with': 'tedmond_at_snap_org', 'content': 'hello'}
+Tue Mar 04 15:46:11 2003: Processing message: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'ask', 'sender': 'ping_tedmond_at_snap_org_email_tedmond_at_snap_org', 'reply-with': 'tedmond_at_snap_org', 'content': 'hello'}
+Tue Mar 04 15:46:11 2003: Replying: (sorry :reply-with nil :in-reply-to tedmond_at_snap_org :receiver ping_tedmond_at_snap_org_email_tedmond_at_snap_org :sender tedmond_at_snap_org_email_tedmond_at_snap_org :comment "Unintelligible query")
+Tue Mar 04 16:00:44 2003: Using ANS: ('vibhagam.isi.edu', 5500)
+Tue Mar 04 16:00:44 2003: Bound to host/port: sangat.isi.edu:6672
+Tue Mar 04 16:00:44 2003: Sending message: (register :ontology tcp-ip :sender tedmond_at_snap_org_email_tedmond_at_snap_org :reply-with t :content "tedmond_at_snap_org_email_tedmond_at_snap_org sangat.isi.edu:6672")
+Tue Mar 04 16:00:44 2003: Received: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Tue Mar 04 16:00:44 2003: Registration produced: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Tue Mar 04 16:00:44 2003: Sending message: (unregister :sender tedmond_at_snap_org_email_tedmond_at_snap_org :ontology tcp-ip :reply-with nil :content tedmond_at_snap_org_email_tedmond_at_snap_org)
+Tue Mar 04 16:00:44 2003: Sending message: (register :sender tedmond_at_snap_org_email_tedmond_at_snap_org :ontology tcp-ip :reply-with t :content (tedmond_at_snap_org_email_tedmond_at_snap_org sangat.isi.edu:6672))
+Tue Mar 04 16:00:44 2003: Received: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'tedmond_at_snap_org_email_tedmond_at_snap_org TEAMCORE'}
+Tue Mar 04 16:00:44 2003: Registration produced: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'tedmond_at_snap_org_email_tedmond_at_snap_org TEAMCORE'}tedmond_at_snap_org_email_tedmond_at_snap_org, TEAMCORE
+Tue Mar 04 16:00:44 2003: Registration successful: tedmond_at_snap_org_email_tedmond_at_snap_org
+Tue Mar 04 16:00:44 2003: Router for tedmond_at_snap_org_email_tedmond_at_snap_org running...
+Tue Mar 04 16:00:44 2003: Sending message: (ask-one :sender tedmond_at_snap_org_email_tedmond_at_snap_org :reply-with t :content "proxy_tedmond_at_snap_org")
+Tue Mar 04 16:00:44 2003: Received: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_tedmond_at_snap_org:sangat.isi.edu:9993:'}
+Tue Mar 04 16:00:44 2003: Sending message: (register :name email_tedmond_at_snap_org :reply-with nil :agenttype device :receiver proxy_tedmond_at_snap_org :user tedmond_at_snap_org :sender tedmond_at_snap_org_email_tedmond_at_snap_org :direction (to user))
+Tue Mar 04 16:00:45 2003: Received: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'ask', 'sender': 'ping_tedmond_at_snap_org_email_tedmond_at_snap_org', 'reply-with': 'tedmond_at_snap_org', 'content': 'hello'}
+Tue Mar 04 16:00:45 2003: Processing message: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'ask', 'sender': 'ping_tedmond_at_snap_org_email_tedmond_at_snap_org', 'reply-with': 'tedmond_at_snap_org', 'content': 'hello'}
+Tue Mar 04 16:00:45 2003: Replying: (sorry :reply-with nil :in-reply-to tedmond_at_snap_org :receiver ping_tedmond_at_snap_org_email_tedmond_at_snap_org :sender tedmond_at_snap_org_email_tedmond_at_snap_org :comment "Unintelligible query")
+Tue Mar 04 16:11:07 2003: Received: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'tell', 'sender': 'stop_tedmond_at_snap_org_email_tedmond_at_snap_org', 'reply-with': 'nil', 'content': 'stop'}
+Tue Mar 04 16:11:07 2003: Processing message: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'tell', 'sender': 'stop_tedmond_at_snap_org_email_tedmond_at_snap_org', 'reply-with': 'nil', 'content': 'stop'}
+Tue Mar 04 16:11:08 2003: Sending message: (unregister :receiver proxy_tedmond_at_snap_org :name email_tedmond_at_snap_org :sender tedmond_at_snap_org_email_tedmond_at_snap_org :reply-with nil :user tedmond_at_snap_org)
+Tue Mar 04 16:11:08 2003: Router tedmond_at_snap_org_email_tedmond_at_snap_org exiting...
+Tue Mar 04 16:11:08 2003: Sending message: (unregister :receiver TEAMCORE :sender tedmond_at_snap_org_email_tedmond_at_snap_org :ontology tcp-ip :reply-with nil :content tedmond_at_snap_org_email_tedmond_at_snap_org)
+Tue Mar 04 16:11:08 2003: Exiting...
+Tue Mar 04 16:11:10 2003: Using ANS: ('vibhagam.isi.edu', 5500)
+Tue Mar 04 16:11:10 2003: Bound to host/port: sangat.isi.edu:6671
+Tue Mar 04 16:11:10 2003: Sending message: (register :ontology tcp-ip :sender tedmond_at_snap_org_email_tedmond_at_snap_org :reply-with t :content "tedmond_at_snap_org_email_tedmond_at_snap_org sangat.isi.edu:6671")
+Tue Mar 04 16:11:10 2003: Received: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Tue Mar 04 16:11:10 2003: Registration produced: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Tue Mar 04 16:11:10 2003: Sending message: (unregister :sender tedmond_at_snap_org_email_tedmond_at_snap_org :ontology tcp-ip :reply-with nil :content tedmond_at_snap_org_email_tedmond_at_snap_org)
+Tue Mar 04 16:11:10 2003: Sending message: (register :sender tedmond_at_snap_org_email_tedmond_at_snap_org :ontology tcp-ip :reply-with t :content (tedmond_at_snap_org_email_tedmond_at_snap_org sangat.isi.edu:6671))
+Tue Mar 04 16:11:11 2003: Received: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'tedmond_at_snap_org_email_tedmond_at_snap_org TEAMCORE'}
+Tue Mar 04 16:11:11 2003: Registration produced: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'tedmond_at_snap_org_email_tedmond_at_snap_org TEAMCORE'}tedmond_at_snap_org_email_tedmond_at_snap_org, TEAMCORE
+Tue Mar 04 16:11:11 2003: Registration successful: tedmond_at_snap_org_email_tedmond_at_snap_org
+Tue Mar 04 16:11:11 2003: Router for tedmond_at_snap_org_email_tedmond_at_snap_org running...
+Tue Mar 04 16:11:11 2003: Sending message: (ask-one :sender tedmond_at_snap_org_email_tedmond_at_snap_org :reply-with t :content "proxy_tedmond_at_snap_org")
+Tue Mar 04 16:11:11 2003: Received: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_tedmond_at_snap_org:sangat.isi.edu:9993:'}
+Tue Mar 04 16:11:11 2003: Sending message: (register :name email_tedmond_at_snap_org :reply-with nil :agenttype device :receiver proxy_tedmond_at_snap_org :user tedmond_at_snap_org :sender tedmond_at_snap_org_email_tedmond_at_snap_org :direction (to user))
+Tue Mar 04 16:11:12 2003: Received: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'ask', 'sender': 'ping_tedmond_at_snap_org_email_tedmond_at_snap_org', 'reply-with': 'tedmond_at_snap_org', 'content': 'hello'}
+Tue Mar 04 16:11:12 2003: Processing message: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'ask', 'sender': 'ping_tedmond_at_snap_org_email_tedmond_at_snap_org', 'reply-with': 'tedmond_at_snap_org', 'content': 'hello'}
+Tue Mar 04 16:11:12 2003: Replying: (sorry :reply-with nil :in-reply-to tedmond_at_snap_org :receiver ping_tedmond_at_snap_org_email_tedmond_at_snap_org :sender tedmond_at_snap_org_email_tedmond_at_snap_org :comment "Unintelligible query")
+Mon Apr 21 17:00:51 2003: Received: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'kqml-admin', 'sender': 'TEAMCORE', 'kqml-msg-id': '880+vibhagam.isi.edu+31', 'reply-with': 't', 'content': 'name'}
+Mon Apr 21 17:00:51 2003: Received: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'error', 'sender': 'TEAMCORE', 'kqml-msg-id': '880+vibhagam.isi.edu+31', 'in-reply-to': 't', 'content': 'not ready for performative.'}
+Mon Apr 21 17:10:50 2003: Using ANS: ('vibhagam.isi.edu', 5500)
+Mon Apr 21 17:10:50 2003: Bound to host/port: sangat.isi.edu:6670
+Mon Apr 21 17:10:50 2003: Sending message: (register :ontology tcp-ip :sender tedmond_at_snap_org_email_tedmond_at_snap_org :reply-with t :content "tedmond_at_snap_org_email_tedmond_at_snap_org sangat.isi.edu:6670")
+Mon Apr 21 17:10:50 2003: Received: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Mon Apr 21 17:10:50 2003: Registration produced: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Mon Apr 21 17:10:50 2003: Sending message: (unregister :sender tedmond_at_snap_org_email_tedmond_at_snap_org :ontology tcp-ip :reply-with nil :content tedmond_at_snap_org_email_tedmond_at_snap_org)
+Mon Apr 21 17:10:50 2003: Sending message: (register :sender tedmond_at_snap_org_email_tedmond_at_snap_org :ontology tcp-ip :reply-with t :content (tedmond_at_snap_org_email_tedmond_at_snap_org sangat.isi.edu:6670))
+Mon Apr 21 17:10:51 2003: Received: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'tedmond_at_snap_org_email_tedmond_at_snap_org TEAMCORE'}
+Mon Apr 21 17:10:51 2003: Registration produced: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'tedmond_at_snap_org_email_tedmond_at_snap_org TEAMCORE'}tedmond_at_snap_org_email_tedmond_at_snap_org, TEAMCORE
+Mon Apr 21 17:10:51 2003: Registration successful: tedmond_at_snap_org_email_tedmond_at_snap_org
+Mon Apr 21 17:10:51 2003: Router for tedmond_at_snap_org_email_tedmond_at_snap_org running...
+Mon Apr 21 17:10:51 2003: Sending message: (ask-one :sender tedmond_at_snap_org_email_tedmond_at_snap_org :reply-with t :content "proxy_tedmond_at_snap_org")
+Mon Apr 21 17:10:51 2003: Received: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_tedmond_at_snap_org:sangat.isi.edu:9993:'}
+Mon Apr 21 17:10:51 2003: Sending message: (register :name email_tedmond_at_snap_org :reply-with nil :agenttype device :receiver proxy_tedmond_at_snap_org :user tedmond_at_snap_org :sender tedmond_at_snap_org_email_tedmond_at_snap_org :direction (to user))
+Mon Apr 21 17:10:52 2003: Received: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'ask', 'sender': 'ping_tedmond_at_snap_org_email_tedmond_at_snap_org', 'reply-with': 'tedmond_at_snap_org', 'content': 'hello'}
+Mon Apr 21 17:10:52 2003: Processing message: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'ask', 'sender': 'ping_tedmond_at_snap_org_email_tedmond_at_snap_org', 'reply-with': 'tedmond_at_snap_org', 'content': 'hello'}
+Mon Apr 21 17:10:52 2003: Replying: (sorry :reply-with nil :in-reply-to tedmond_at_snap_org :receiver ping_tedmond_at_snap_org_email_tedmond_at_snap_org :sender tedmond_at_snap_org_email_tedmond_at_snap_org :comment "Unintelligible query")
+Mon Apr 21 17:51:29 2003: Using ANS: ('vibhagam', 5500)
+Mon Apr 21 17:51:29 2003: Bound to host/port: sangat.isi.edu:6668
+Mon Apr 21 17:51:29 2003: Sending message: (register :ontology tcp-ip :sender tedmond_at_snap_org_email_tedmond_at_snap_org :reply-with t :content "tedmond_at_snap_org_email_tedmond_at_snap_org sangat.isi.edu:6668")
+Mon Apr 21 17:51:29 2003: Received: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Mon Apr 21 17:51:29 2003: Registration produced: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Mon Apr 21 17:51:29 2003: Sending message: (unregister :sender tedmond_at_snap_org_email_tedmond_at_snap_org :ontology tcp-ip :reply-with nil :content tedmond_at_snap_org_email_tedmond_at_snap_org)
+Mon Apr 21 17:51:29 2003: Sending message: (register :sender tedmond_at_snap_org_email_tedmond_at_snap_org :ontology tcp-ip :reply-with t :content (tedmond_at_snap_org_email_tedmond_at_snap_org sangat.isi.edu:6668))
+Mon Apr 21 17:51:29 2003: Received: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'tedmond_at_snap_org_email_tedmond_at_snap_org TEAMCORE'}
+Mon Apr 21 17:51:29 2003: Registration produced: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'tedmond_at_snap_org_email_tedmond_at_snap_org TEAMCORE'}tedmond_at_snap_org_email_tedmond_at_snap_org, TEAMCORE
+Mon Apr 21 17:51:29 2003: Registration successful: tedmond_at_snap_org_email_tedmond_at_snap_org
+Mon Apr 21 17:51:29 2003: Router for tedmond_at_snap_org_email_tedmond_at_snap_org running...
+Mon Apr 21 17:51:29 2003: Sending message: (ask-one :sender tedmond_at_snap_org_email_tedmond_at_snap_org :reply-with t :content "proxy_tedmond_at_snap_org")
+Mon Apr 21 17:51:29 2003: Received: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_tedmond_at_snap_org:sangat.isi.edu:9991:'}
+Mon Apr 21 17:51:29 2003: Sending message: (register :name email_tedmond_at_snap_org :reply-with nil :agenttype device :receiver proxy_tedmond_at_snap_org :user tedmond_at_snap_org :sender tedmond_at_snap_org_email_tedmond_at_snap_org :direction (to user))
+Mon Apr 21 17:51:30 2003: Received: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'ask', 'sender': 'ping_tedmond_at_snap_org_email_tedmond_at_snap_org', 'reply-with': 'tedmond_at_snap_org', 'content': 'hello'}
+Mon Apr 21 17:51:30 2003: Processing message: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'ask', 'sender': 'ping_tedmond_at_snap_org_email_tedmond_at_snap_org', 'reply-with': 'tedmond_at_snap_org', 'content': 'hello'}
+Mon Apr 21 17:51:30 2003: Replying: (sorry :reply-with nil :in-reply-to tedmond_at_snap_org :receiver ping_tedmond_at_snap_org_email_tedmond_at_snap_org :sender tedmond_at_snap_org_email_tedmond_at_snap_org :comment "Unintelligible query")
+Mon Apr 21 17:55:12 2003: Received: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'ask', 'sender': 'ping_tedmond_at_snap_org_email_tedmond_at_snap_org', 'reply-with': 'tedmond_at_snap_org', 'content': 'hello'}
+Mon Apr 21 17:55:12 2003: Processing message: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'ask', 'sender': 'ping_tedmond_at_snap_org_email_tedmond_at_snap_org', 'reply-with': 'tedmond_at_snap_org', 'content': 'hello'}
+Mon Apr 21 17:55:12 2003: Replying: (sorry :reply-with nil :in-reply-to tedmond_at_snap_org :receiver ping_tedmond_at_snap_org_email_tedmond_at_snap_org :sender tedmond_at_snap_org_email_tedmond_at_snap_org :comment "Unintelligible query")
+Fri Aug 15 11:56:40 2003: Received: {'receiver': 'tedmond_at_snap_org_email_tedmond_at_snap_org', 'performative': 'kqml-admin', 'sender': 'TEAMCORE', 'kqml-msg-id': '23912+vibhagam.isi.edu+26', 'reply-with': 't', 'content': 'name'}

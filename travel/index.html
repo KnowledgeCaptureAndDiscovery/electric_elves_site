@@ -1,0 +1,387 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+  <!-- ## subtitle -->
+  <head>
+	<LINK REL=STYLESHEET HREF="mystyle.css" TYPE="text/css">
+    <title>electric elves : Home </title>
+  </head>
+
+<body bgcolor="#ffffff" text="#000000" link="#003399" alink="#8888aa" 
+      vlink="#663366" marginwidth="0" leftmargin="0" 
+      topmargin="0" marginheight="0">
+
+
+    
+
+<!-------------- ---------------------------------------->
+<table valign=top border=0 width="100%">
+<tr>
+<td><img src="/e-elves/img/agentsatusc.gif"></td>
+<td><img src="/e-elves/img/elves5.jpg" width=200 ></td> 
+</tr>
+</table>
+
+<table align=center width="100%" border=0 cellspacing=0 cellpadding=0><tr>  
+<tr><td width=100> &nbsp;</td>
+<td> &nbsp;</td>
+<td> &nbsp;</td>
+<td valign=bottom><!img valign=bottom border=0 src="/e-elves/img/high3.jpg" width=100></td>
+
+<td colspan=3></td>
+</tr>
+
+    <td width=100 align=center bgcolor="#ffffff"  > 
+    </td>
+    <td width=100 align=center class=mytd> <font class=myfont><a href="index.html">Home</a> | </font></td>
+
+    <td width=100 align=center class=mytd> <font class=myfont><a href="research.html">Research</a> | </font></td>
+
+    <td width=100 align=center class=mytd> <font class=myfont><a href="people.html">People</a> | </font></td>
+
+    <td width=110  align=center class=mytd> <font class=myfont><a href="publications.html">Publications</a> | </font></td>
+    <td width=100 align=center class=mytd> <font class=myfont><a href="slides.html">Slides</a>  </font></td>
+
+    <td width=100 align=center class=seltd><font class=selfont>Travel Elves </font></td>
+
+    <td align=center bgcolor="#ffffff"> &nbsp;  </td>
+</tr>
+
+<tr><td colspan=7 bgcolor="#dddddd" > &nbsp;</td></tr>
+<tr><td colspan=4>&nbsp;</td><td colspan=3 align=center bgcolor="#cccccc">
+<font class=eefont>e.l.e.c.t.r.i.c &nbsp;&nbsp;e.l.v.e.s</font>
+</td></tr>
+
+</table>
+
+<!-------------- ---------------------------------------->
+
+<!---------- ---------->
+<br><br>
+<H1 align=center><FONT COLOR="#888844">Elves Dynamic Travel Folder: User's Guide</H1></FONT>
+
+<center>
+<a href="http://www.isi.edu/teamcore/elves">Register</a> | 
+<a href="http://www.isi.edu/expect/projects/agents/phosphorus/portal/">Phosphorus Portal</a> |
+<a target=hera href="http://thanatos.isi.edu/ElvesApplet/applet/heracles.html">Heracles Travel Planner</a>
+</center>
+
+<p>&nbsp;</p>
+
+<p>
+     The Elves Dynamic Travel Folder is a multi-agent system that can monitor
+ various aspects of a trip for travelers.
+Elves monitoring agents provide immediate notification of changes and cancellations
+through the user's preferred notification device such as a text message to 
+a cellular phone or e-mail.
+There are existing commercial systems that provide small pieces of
+these various capabilities, but our technology and application
+is unique in providing a complete end-to-end solution for a trip.
+For example, the <i>Flight-Status</i> monitoring agent
+sends a fax to the hotel if the user's flight arrives late at night
+so that the reserved room will not be given away.  
+</p>
+
+<p>
+This project was funded by the <a href="http://www.darpa.mil">Defense Research Advanced Project Agency (DARPA)</a>, <a href="http://coabs.globalinfotek.com">Control of Agent-based Systems (COABS) program </a>.
+<br>
+<center><a href="http://coabs.globalinfotek.com"><img border=0 src="/e-elves/img/coabs.jpg"></a></center>
+</p>
+
+
+
+<p>
+This document describes how to use our system to monitor your own trip. 
+</p>
+
+<h2> &nbsp; &nbsp;Agent Description</h2>
+
+<p>
+      
+</p>
+<!--
+1. Air fare monitoring agent 
+	Input : airline, flight number, from (city or airport code), to, date, user
+	Action : notifies the user if the price drops for more than a certain amount (e.g. $50)
+
+2. Flight schedule monitoring agent
+	Input : airline, flight number, from (city or airport code), to, date, user
+	Action : notifies the user if the scheduled time changes
+
+3. Flight status monitoring agent
+	Input : airline, flight number, from, date, user
+	Action : notifies the user if the flight is cancelled or delayed
+
+
+-->
+<center>
+<table width="700" border=0 cellpadding=20 cellspacing=2 bgcolor="#ccddaa">
+<tr>
+<td bgcolor="#ffffff">Agent Name</td>
+<td bgcolor="#ffffff">Task Description</td></tr>
+
+<tr>
+<td bgcolor="#ffffff">Flight-Status</td>
+<td bgcolor="#ffffff">
+The <i>Flight-Status</i> monitoring agent uses the 
+<a href="http://www.itn.com">ITN Flight Tracker</a> site 
+to retrieve the current status of a given flight.
+If everything is normal, it will assure the user approximately two
+hours before the departure time by sending a message that the
+flight is on time.  
+If the user's flight is delayed or canceled it sends an alert through
+the user's preferred devices, for instance, an email or a text message
+to a cellular phone. If the flight is delayed by more than an hour,
+the agent sends a fax to the car rental counter to confirm the user's
+reservation. If the flight is going to arrive at the destination
+airport after 5 PM, the agent sends another fax to the hotel so that
+the reserved room will not be given away.
+
+<!-- notifies the user if the flight is cancelled or delayed -->
+</td></tr>
+
+<tr>
+<td bgcolor="#ffffff">Airfare</td>
+<td bgcolor="#ffffff">
+The airlines change prices unpredictably, but the user can request a
+refund if s/he finds out that the price has dropped.  The 
+<i>Airfare</i> monitoring agent uses the <a href="http://www.orbitz.com">Orbitz</a> site to
+gather the current price for a given itinerary. The agent notifies the
+user if the price drops by more than a given threshold.
+<!-- notifies the user if the price drops for more than a certain amount (e.g. $50) -->
+</td></tr>
+
+<tr>
+<td bgcolor="#ffffff">Flight-Schedule</td>
+<td bgcolor="#ffffff">
+Sometimes the scheduled departure time of a flight changes. This
+changes happen only occasionally and the change is usually minor, but
+when it does occur the traveler should know about them. The 
+<i>Flight-Schedule</i> monitoring agent also uses the 
+<a href="http://www.orbitz.com"> Orbitz </a> site to track
+this information, and notifies the user if there is any change.
+
+<!-- notifies the user if the scheduled time changes -->
+</td></tr>
+
+<tr>
+<td bgcolor="#ffffff">Earlier-Flight</td>
+<td bgcolor="#ffffff">
+If the user customarily switches flights, the <i>Earlier-Flight</i>
+monitoring agent can come in handy.  This agent again uses the 
+<a href="http://www.orbitz.com">Orbitz</a>
+site to find the flights that leave earlier than the scheduled
+flight. It shows the alternative flights and their
+status. This information becomes extremely useful when the
+scheduled flight is significantly delayed or cancelled.
+
+<!--notifies the user if there are flights leaving earlier than the user's 
+scheduled flight along with their current status.-->
+</td></tr>
+
+<tr>
+<td bgcolor="#ffffff">Flight-Connection</td>
+<td bgcolor="#ffffff">
+The <i>Flight-Connection</i> agent tracks the user's current flight,
+and a few minutes before it lands, it sends the user the gate and
+status of the connecting flight. This agent can also reuse the 
+<i>Earlier-Flight</i> agent and provide gates and status of earlier flights.
+ </td></tr>
+
+<tr>
+<td bgcolor="#ffffff">Restaurant-Finder (Coming soon)
+</td>
+<td bgcolor="#ffffff">
+The <i>Restaurant-Finder</i> agent locates the user based on either a
+Global Positioning System (GPS) device or his/her expected location
+according to the plan. A half an hour before the user's regular meal
+time, it suggests five closest restaurants together with cuisine type,
+price range, street address, phone number, latitude, longitude, and
+distance from the user's current location.
+</td></tr>
+
+</table>
+</center>
+
+
+<h2> &nbsp; &nbsp;How to add a New Task</h2>
+
+<p>
+First time user must <a href="http://www.isi.edu/teamcore/elves/">register</a> first. After you register, please enable your preferred notification devices (e.g. e-mail device). 
+</p>
+<p>
+	     
+     There are two ways to enter monitoring tasks to Travel Elves. 
+     First, Phosphorus Portal 
+     is a Web interface to all the currently available agents. 
+     If you are a registered user, you may log on to the system and 
+     enter new requests for your trip directly to each individual agent. 
+     Phosphorus Portal provides an overall view of agents' capabilities 
+     and activity history. If you already made reservations and have all the necessary 
+     information with you (e.g. Airline and flight number), you can use the Phosphorus interface. 
+</p>
+<p>     
+     Another way to enter your requests is using 
+     <a href="http://www.isi.edu/info-agents/heracles/">Heracles</a>. 
+     You can interactively plan your trip using Heracles Travel Planner
+     which can gather various kinds of travel related data,
+     such as flights and hotel information. Heracles has already been integrated 
+     with the Elves Travel system, and you can easily add or remove your monitoring tasks.
+     
+</p>
+
+<!------------------------------------->
+<h3> <a href="http://www.isi.edu/expect/projects/agents/phosphorus/portal/">
+&nbsp;1. Phosphorus Portal: Meet the Elves!</a> </h3> 
+<p>
+Your email address is your ID in our system. You may leave the Password field empty. 
+The first page shows all the available agents along with their brief capability description. 
+For each agent in the list, there are two buttons: "Go" and "Recent and Past Responses".
+Click <b>Go</b> button to go to the form interface to enter a new task. 
+When you submit data Phosphorus interface will verify some data types,
+and a popup window will notify you of the status of your request. An error message might be displayed 
+in some rare circumstances. In such cases, simply resubmit the previous request.
+
+<b>Recent and Past Responses</b> shows the message traffic for current and past tasks.
+For instance, the Flight-Status agent notified you that your United flight 200 
+was cancelled on January 10, 2002, and so on. Click the icon below to meet the Elves!
+</p>
+<center><a href="http://www.isi.edu/expect/projects/agents/phosphorus/portal/"><img src="http://www.isi.edu/expect/projects/agents/phosphorus/portal/logo.jpg" border=0 height=80></a></center>
+		<br><br>
+
+<!---------------------------------->
+<h3> <a href="http://thanatos.isi.edu/ElvesApplet/applet/heracles.html" target=hera>
+&nbsp;2. Heracles Travel Elves (JAVA Applet)</a> </h3>
+<p>
+The Heracles Travel Elves system is an information assistant that combines the best of the Internet-related
+travel sources into a single integrated environment that can help you plan out a trip from beginning to end. 
+</p>
+
+<p>
+Heracles will cache some data in your local disk to speed up. 
+If you want to enable Cache option, please follow <a href="cache.html">the instruction to set it up</a>. 
+In order to run this applet version of Heracles, it is necessary to grant the permission. 
+If you prefer installing an application version, 
+please <a href="mailto:elvesfeedback@isi.edu">send us an e-mail </a> 
+to get an access to the download page.		
+</p>
+
+<ul>
+  <li><p> <b>New &gt;&gt; TravelElves</b>: This will show an interface that you can get flight information. The slots with * are required fields. </p>
+</li>
+
+<li><p> If you already know the Airport codes, simply type in the codes, and choose the date and time of departure and arrival. Please note that we currently support only round trip with one stop or less. 
+</p></li>
+
+<li><p> Once the flight data is filled, the system will monitor everything by default. If you would like to cancel some of the tasks, simply click "Stop Monitoring" button for the specific task. 
+The slot "Task Entered" shows the status of the tasks whether or not the task is successfully entered to the system. If it says "Entered", it means everything went fine, otherwise, you may try entering the task again by clicking "Stop Monitoring" first and then "Monitor" button. 
+</p></li>
+
+<li><p> At the bottom, there is a slot labeled as "View all Tasks". If you click the slot and type a tab key or an enter key, it will popup an Internet Explorer 
+to show all the travel related tasks. You can also cancel any unwanted tasks through that page.  
+</p></li>
+
+<!--------------
+
+  <li> 
+<p>
+<b>File &gt;&gt; Edit Profile</b>:
+Heracles comes with a sample profile, and first thing you need to do is 
+to edit the Profile for yourself. 
+Your home address, company address, and email address 
+are <font bgcolor=red>required</font> fields. 
+Once you are done, you must save your profile (<b>File &gt;&gt; Save Profile</b>)
+
+</p>
+<p>
+Heracles Travel Planner uses MicroSoft Outlook Calendar program to 
+retrieve the user's schedule. If you want to use your own Outlook calendar, 
+edit your Profile properly (Domain Name, Host Name, User ID, Password).  
+You must have an Exchange Web account 
+(hermes.isi.edu/exchange) to use this option.
+ </p>
+  <li> <p>Start a new TravelPlanner template. (<b>New &gt;&gt; TravelPlanner</b>)
+</p>
+  <li> <p>If you have an Exchange Web account, and already edited your profile properly, 
+choose <b>1 Meeting (Round Trip Outlook)</b>. 
+Heracles will automatically retrieve meeting information for you. 
+</p>				
+ <li> <p>Otherwise, choose <b>1 Meeting (Round Trip Manual Inputs)</b> 
+and enter data manually. 
+</p>
+-------------->
+
+ <li><p> If you have further questions on how to use Heracles Travel Elves, 
+please contact 
+<a href="jeanoh@isi.edu">Jean Oh</a> or 
+<a href="mariam@isi.edu">Maria Muslea</a>.</p>
+</ul>
+
+<br>
+<center> <a target=hera href="http://thanatos.isi.edu/ElvesApplet/applet/heracles.html"><img border=0 src="/e-elves/img/hera.jpg"></a> </center>
+
+
+<p>&nbsp;</p>
+
+<h2> &nbsp; &nbsp;How to Remove Tasks</h2>
+<p>
+If you want to cancel the monitoring tasks that are already submitted, use this form. This will 
+show a list of your current monitoring tasks from which you may choose to cancel.
+</p>
+
+<p>
+<form action="http://thanatos.isi.edu/cgi-bin/e/cancelTask.cgi">
+Email Address (Your ID) : <input name=email>
+</form>
+</p>
+
+
+<h2>&nbsp;&nbsp;Restrictions</h2>
+
+<ul>
+<li> Currently our service is limited to trips within US, and these are all the airlines we support. 
+<select name="air" valign="top" size="1">
+<OPTION VALUE="AC">Air Canada</OPTION>
+<OPTION VALUE="AF">Air France</OPTION>
+<OPTION VALUE="AS">Alaska Airlines</OPTION>
+<OPTION VALUE="AZ">Alitalia</OPTION>
+<OPTION VALUE="HP">America West Airlines</OPTION>
+<OPTION VALUE="AA">American Airlines</OPTION>
+<OPTION VALUE="BA">British Airways</OPTION>
+<OPTION VALUE="CX">Cathay Pacific Airways</OPTION>
+<OPTION VALUE="CO">Continental Airlines</OPTION>
+<OPTION VALUE="DL">Delta Air Lines</OPTION>
+<OPTION VALUE="AY">Finnair</OPTION>
+<OPTION VALUE="IB">Iberia</OPTION>
+<OPTION VALUE="FI">Icelandair</OPTION>
+<OPTION VALUE="KL">KLM-Royal Dutch Airlines</OPTION>
+<OPTION VALUE="LH">Lufthansa German Airlines</OPTION>
+<OPTION VALUE="YX">Midwest Express Airlines Inc.</OPTION>
+<OPTION VALUE="NW">Northwest Airlines</OPTION>
+<OPTION VALUE="QF">Qantas Airways</OPTION>
+<OPTION VALUE="UA">United Airlines</OPTION>
+<OPTION VALUE="US">US Airways</OPTION>
+<OPTION VALUE="VS">Virgin Atlantic Airways</OPTION>
+			</select>
+
+<li> Itinerary that involves more than one airline will not work. 
+<li> Heracles Applet works only in Internet Explorer 5.50 or higher. 
+And another drawback is that when the applet exits, it also closes the browsers. 
+<li> Heracles Travel Planner has not yet tied with the real reservation systems.
+</ul>
+	    
+<p>&nbsp;</p>
+
+<h2>&nbsp;&nbsp;Feedback</h2>
+
+<p>
+It will be extremely useful for us to improve our system
+if you send us your feedback and comments after using our system.<br>
+<a href="electric-elves@isi.edu">Send Feedback</a>
+</p>
+<hr>
+<center><font size=-1>e.l.e.c.t.r.i.c &nbsp;&nbsp; e.l.v.e.s</font></center>
+
+
+  </body>
+</html>
+

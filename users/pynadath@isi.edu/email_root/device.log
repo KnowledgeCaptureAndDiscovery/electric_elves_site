@@ -1,0 +1,19 @@
+Wed Feb 06 18:18:58 2002: Using ANS: ('vibhagam.isi.edu', 5500)
+Wed Feb 06 18:18:58 2002: Bound to host/port: vibhagam.isi.edu:6667
+Wed Feb 06 18:18:58 2002: Sending message: (register :ontology tcp-ip :sender pynadath_at_isi_edu_email_root :reply-with t :content "pynadath_at_isi_edu_email_root vibhagam.isi.edu:6667")
+Wed Feb 06 18:18:58 2002: Received: {'receiver': 'pynadath_at_isi_edu_email_root', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Wed Feb 06 18:18:58 2002: Registration produced: {'receiver': 'pynadath_at_isi_edu_email_root', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Wed Feb 06 18:18:58 2002: Sending message: (unregister :sender pynadath_at_isi_edu_email_root :ontology tcp-ip :reply-with nil :content pynadath_at_isi_edu_email_root)
+Wed Feb 06 18:18:58 2002: Sending message: (register :sender pynadath_at_isi_edu_email_root :ontology tcp-ip :reply-with t :content (pynadath_at_isi_edu_email_root vibhagam.isi.edu:6667))
+Wed Feb 06 18:18:58 2002: Received: {'receiver': 'pynadath_at_isi_edu_email_root', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'pynadath_at_isi_edu_email_root TEAMCORE'}
+Wed Feb 06 18:18:58 2002: Registration produced: {'receiver': 'pynadath_at_isi_edu_email_root', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'pynadath_at_isi_edu_email_root TEAMCORE'}pynadath_at_isi_edu_email_root, TEAMCORE
+Wed Feb 06 18:18:58 2002: Registration successful: pynadath_at_isi_edu_email_root
+Wed Feb 06 18:18:58 2002: Sending message: (ask-one :sender pynadath_at_isi_edu_email_root :reply-with t :content "proxy_pynadath_at_isi_edu")
+Wed Feb 06 18:18:59 2002: Received: {'receiver': 'pynadath_at_isi_edu_email_root', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_pynadath_at_isi_edu:sangat.isi.edu:9992:'}
+Wed Feb 06 18:18:59 2002: Sending message: (register :name email_root :reply-with nil :agenttype device :receiver proxy_pynadath_at_isi_edu :user pynadath_at_isi_edu :sender pynadath_at_isi_edu_email_root :direction (to user))
+Wed Feb 06 18:18:59 2002: Router for pynadath_at_isi_edu_email_root running...
+Wed Feb 06 18:18:59 2002: Unable to store arguments
+Wed Feb 06 18:19:34 2002: Sending message: (unregister :receiver proxy_pynadath_at_isi_edu :name email_root :sender pynadath_at_isi_edu_email_root :reply-with nil :user pynadath_at_isi_edu)
+Wed Feb 06 18:19:34 2002: Router pynadath_at_isi_edu_email_root exiting...
+Wed Feb 06 18:19:34 2002: Sending message: (unregister :receiver TEAMCORE :sender pynadath_at_isi_edu_email_root :ontology tcp-ip :reply-with nil :content pynadath_at_isi_edu_email_root)
+Wed Feb 06 18:19:34 2002: Exiting...

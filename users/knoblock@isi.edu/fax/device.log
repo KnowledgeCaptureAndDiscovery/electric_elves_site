@@ -1,0 +1,41 @@
+Tue Dec 18 19:12:12 2001: Using ANS: ('vibhagam', 5500)
+Tue Dec 18 19:12:12 2001: Bound to host/port: sangat.isi.edu:6675
+Tue Dec 18 19:12:12 2001: Sending message: (register :ontology tcp-ip :sender knoblock_at_isi_edu_fax :reply-with t :content "knoblock_at_isi_edu_fax sangat.isi.edu:6675")
+Tue Dec 18 19:12:12 2001: Received: {'receiver': 'knoblock_at_isi_edu_fax', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Tue Dec 18 19:12:12 2001: Registration produced: {'receiver': 'knoblock_at_isi_edu_fax', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Tue Dec 18 19:12:12 2001: Sending message: (unregister :sender knoblock_at_isi_edu_fax :ontology tcp-ip :reply-with nil :content knoblock_at_isi_edu_fax)
+Tue Dec 18 19:12:12 2001: Sending message: (register :sender knoblock_at_isi_edu_fax :ontology tcp-ip :reply-with t :content (knoblock_at_isi_edu_fax sangat.isi.edu:6675))
+Tue Dec 18 19:12:12 2001: Received: {'receiver': 'knoblock_at_isi_edu_fax', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'knoblock_at_isi_edu_fax TEAMCORE'}
+Tue Dec 18 19:12:12 2001: Registration produced: {'receiver': 'knoblock_at_isi_edu_fax', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'knoblock_at_isi_edu_fax TEAMCORE'}knoblock_at_isi_edu_fax, TEAMCORE
+Tue Dec 18 19:12:12 2001: Registration successful: knoblock_at_isi_edu_fax
+Tue Dec 18 19:12:12 2001: Router for knoblock_at_isi_edu_fax running...
+Tue Dec 18 19:12:12 2001: Sending message: (ask-one :sender knoblock_at_isi_edu_fax :reply-with t :content "proxy_knoblock_at_isi_edu")
+Tue Dec 18 19:12:12 2001: Received: {'receiver': 'knoblock_at_isi_edu_fax', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_knoblock_at_isi_edu:sangat.isi.edu:9999:'}
+Tue Dec 18 19:12:12 2001: Sending message: (register :name fax :reply-with nil :agenttype device :receiver proxy_knoblock_at_isi_edu :user knoblock_at_isi_edu :sender knoblock_at_isi_edu_fax :direction (to other))
+Tue Dec 18 19:12:23 2001: Received: {'subject': 'Test', 'performative': 'tell', 'reply-with': 'nil', 'receiver': 'knoblock_at_isi_edu_fax', 'user': 'knoblock_at_isi_edu', 'sender': 'proxy_knoblock_at_isi_edu', 'shortcontent': 'Testing...'}
+Tue Dec 18 19:12:23 2001: Processing message: {'subject': 'Test', 'performative': 'tell', 'reply-with': 'nil', 'receiver': 'knoblock_at_isi_edu_fax', 'user': 'knoblock_at_isi_edu', 'sender': 'proxy_knoblock_at_isi_edu', 'shortcontent': 'Testing...'}
+Tue Dec 18 19:12:23 2001: Message for user ID: knoblock@isi.edu
+Tue Dec 18 19:12:23 2001: User name: Craig Knoblock
+Tue Dec 18 19:21:48 2001: Received: {'subject': 'Test', 'performative': 'tell', 'reply-with': 'nil', 'receiver': 'knoblock_at_isi_edu_fax', 'user': 'knoblock_at_isi_edu', 'sender': 'proxy_knoblock_at_isi_edu', 'shortcontent': 'Testing...'}
+Tue Dec 18 19:23:04 2001: Received: {'receiver': 'knoblock_at_isi_edu_fax', 'performative': 'tell', 'sender': 'deviceCGI_knoblock_at_isi_edu', 'reply-with': 'nil', 'content': 'stop'}
+Tue Dec 18 19:23:18 2001: Received: {'receiver': 'knoblock_at_isi_edu_fax', 'performative': 'tell', 'sender': 'deviceCGI_knoblock_at_isi_edu', 'reply-with': 'nil', 'content': 'stop'}
+Tue Dec 18 19:25:47 2001: Received: {'subject': 'Test', 'performative': 'tell', 'reply-with': 'nil', 'receiver': 'knoblock_at_isi_edu_fax', 'user': 'knoblock_at_isi_edu', 'sender': 'proxy_knoblock_at_isi_edu', 'shortcontent': 'Testing...'}
+Tue Dec 18 19:58:20 2001: Using ANS: ('vibhagam.isi.edu', 5500)
+Tue Dec 18 19:58:20 2001: Bound to host/port: vibhagam.isi.edu:6667
+Tue Dec 18 19:58:20 2001: Sending message: (register :ontology tcp-ip :sender knoblock_at_isi_edu_fax :reply-with t :content "knoblock_at_isi_edu_fax vibhagam.isi.edu:6667")
+Tue Dec 18 19:58:20 2001: Received: {'receiver': 'knoblock_at_isi_edu_fax', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Tue Dec 18 19:58:20 2001: Registration produced: {'receiver': 'knoblock_at_isi_edu_fax', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Tue Dec 18 19:58:20 2001: Sending message: (unregister :sender knoblock_at_isi_edu_fax :ontology tcp-ip :reply-with nil :content knoblock_at_isi_edu_fax)
+Tue Dec 18 19:58:20 2001: Sending message: (register :sender knoblock_at_isi_edu_fax :ontology tcp-ip :reply-with t :content (knoblock_at_isi_edu_fax vibhagam.isi.edu:6667))
+Tue Dec 18 19:58:20 2001: Received: {'receiver': 'knoblock_at_isi_edu_fax', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'knoblock_at_isi_edu_fax TEAMCORE'}
+Tue Dec 18 19:58:20 2001: Registration produced: {'receiver': 'knoblock_at_isi_edu_fax', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'knoblock_at_isi_edu_fax TEAMCORE'}knoblock_at_isi_edu_fax, TEAMCORE
+Tue Dec 18 19:58:20 2001: Registration successful: knoblock_at_isi_edu_fax
+Tue Dec 18 19:58:20 2001: Sending message: (ask-one :sender knoblock_at_isi_edu_fax :reply-with t :content "proxy_knoblock_at_isi_edu")
+Tue Dec 18 19:58:20 2001: Received: {'receiver': 'knoblock_at_isi_edu_fax', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_knoblock_at_isi_edu:sangat.isi.edu:9999:'}
+Tue Dec 18 19:58:20 2001: Sending message: (register :name fax :reply-with nil :agenttype device :receiver proxy_knoblock_at_isi_edu :user knoblock_at_isi_edu :sender knoblock_at_isi_edu_fax :direction (to other))
+Tue Dec 18 19:58:20 2001: Router for knoblock_at_isi_edu_fax running...
+Tue Dec 18 19:58:21 2001: Sending message: (unregister :receiver proxy_knoblock_at_isi_edu :name fax :sender knoblock_at_isi_edu_fax :reply-with nil :user knoblock_at_isi_edu)
+Tue Dec 18 19:58:21 2001: Router knoblock_at_isi_edu_fax exiting...
+Tue Dec 18 19:58:21 2001: Sending message: (unregister :receiver TEAMCORE :sender knoblock_at_isi_edu_fax :ontology tcp-ip :reply-with nil :content knoblock_at_isi_edu_fax)
+Tue Dec 18 19:58:21 2001: Exiting...
+Thu Jan 03 10:10:03 2002: Sending message: (unregister :receiver proxy_knoblock_at_isi_edu :name fax :sender knoblock_at_isi_edu_fax :reply-with nil :user knoblock_at_isi_edu)

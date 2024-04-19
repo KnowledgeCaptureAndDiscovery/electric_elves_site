@@ -1,0 +1,63 @@
+
+<HTML>
+
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft Internet Assistant for Macintosh PowerPoint 98">
+ <TITLE>OntoMorph Rewrite Rules within Rosetta</TITLE> 
+</HEAD>
+
+<BODY     >
+
+ <H1>OntoMorph Rewrite Rules within Rosetta</H1> 
+ <P><UL></P>
+
+<P><H2>(DEFREWRITE translate-find-sites-to-SQL{(find-sites :table ?table             :route (sequence :elements (?pointA ?pointB)))  <translate-route-segment-region ?pointA ?pointB>  (?minlat ?maxlat ?minlong ?maxlong)}==> (select distinct s.LAT, s.LON         from ?table s         where s.LAT '< ?maxlat and s.lat '> ?minlat         and s.LON '< ?maxlong and s.LON '> ?minlong)  Ö)
+
+</H2></P>
+
+<P></UL><UL></P>
+
+<P><H2>(DEFREWRITE translate-route-segment-region{?pointA ?pointB <lookup-domain-point ?pointA> (?? :coords (latlong :lat ?latA :long ?longA) ??) <lookup-domain-point ?pointB> (?? :coords (latlong :lat ?latB :long ?longB) ??)}==> (<min ?latA ?latB> <max ?latA ?latB>  <min ?longA ?longB> <max ?longA ?longB>))</H2></P>
+
+<P></UL></P>
+
+<P><UL></P>
+
+<P>Match intermediate representation</UL></P>
+
+<P><UL></P>
+
+<P>Rule invocation</UL></P>
+
+<P><UL></P>
+
+<P>Result destructuring</UL></P>
+
+<P><UL></P>
+
+<P>Retrieve point coordinates
+
+</UL><UL></P>
+
+<P>from domain/discourse KB</UL></P>
+
+<P><UL></P>
+
+<P>Anonymoussequence variable</UL></P>
+
+<P></P> 
+<P>
+<TABLE>
+  <TD HEIGHT=100 WIDTH=100> <A HREF="tsld007.htm">Previous slide</A> </TD>
+  <TD HEIGHT=100 WIDTH=100></TD>
+  <TD HEIGHT=100 WIDTH=150> <A HREF="tsld001.htm">Back to first slide</A> </TD>
+  <TD HEIGHT=100 WIDTH=150> <A HREF="sld008.htm">View graphic version</A> </TD>
+</TABLE>
+<BR>
+</P>
+
+
+
+</Body>
+</HTML>

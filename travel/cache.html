@@ -1,0 +1,73 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>Heracles</title>
+  </head>
+
+  <body>
+    <h1>Heracles</h1>
+
+<p>
+<a name="CACHE">
+<h3> Using Cache Capabilities</h3></a>
+<ul>
+<li><b>Default Set Up</b> 
+	<ol>
+	<li> Create a Database. You can use any ODBC
+	   compatible DB. For creating an Access database go to:
+		<ul>
+		<li> Start/Programs/Microsoft Access
+		<li> Create a "Blank Access Database", and name it 
+		  (for example "mydb.mdb"). 
+		</ul>
+	<li> Create an ODBC Data Source for the newly created database. Go to:
+		<ul>
+		<li> Start/Settings/Control Panel/Administrative Tools/Data Sources(ODBC)
+		<li> Choose "MS Access Database", and say "Add"
+		<li> Choose "MS Access Driver", and say "Finish"
+		<li> Enter the Data Source name, <font color="#ff5555"><tt>actcache</tt></font>, choose "Select Directory", and navigate to the directory where you created your empty database. Select the newly created DB, "mydb.mdb" as the database.
+		<li> Choose "OK", and you are done
+		</ul>
+	<li> By default, images are downloaded in the directory HERACLES_HOME/cache. 
+	</ol>
+<li><b>Custom Set Up</b>
+	<ol>
+	<li> Choose from the Heracles "Cache" menu "Choose Cache Folder". This will set the caching folder AND will create an empty database in that folder.
+	<li> Create an ODBC Data Source for the newly created database. Go to:
+		<ul>
+		<li> Start/Settings/Control Panel/Administrative Tools/Data Sources(ODBC)
+		<li> Choose "MS Access Database", and say "Add"
+		<li> Choose "MS Access Driver", and say "Finish"
+		<li> Enter the Data Source name, <font color="#ff5555"><tt>actcache</tt></font>(or anything else), choose "Select Directory", and navigate to the directory chosen in Step 1. Select the newly created DB, "heracles.mdb" as the database.
+		<li> Choose "OK", and you are done
+		</ul>
+
+	<li> Choose from the Heracles "Cache" menu "Enter DataSource Name", and enter the Data Source name specified at the previous step (if it is not <font color="#ff5555"><tt>actcache</tt></font>).
+	<li> Now the images will be downloaded in the folder chosen at step 1, and the database used for caching is the database that was created in this folder.
+	</ol>
+<li><b>Clearing the Cache</b>
+<p>By selecting from the Heracles "Cache" menu "Clear Cache", all contents of the current download directory will be removed, and all contents of the database stored in that directory will be removed.
+</ul>
+	<p> 
+	You can specify whether you want to use this database capabilities or not
+	in the application's File menu. By default, data is retrieved 
+	from the wrappers, and
+	   if the wrapper fails it is retrieved from the DB if it exists in the
+	   DB.
+
+	<p>
+	<table border=1>
+	<tr><td nowrap>Live Date then Cached Data</td><td>Use live data only, but save the data in the DB</td>
+	<tr><td nowrap>Use Cache Data</td><td>Use the data from the DB, no live data</td>
+	</table>
+</p>
+
+
+    <hr>
+    <address><a href="mailto:jeanoh@isi.edu"></a></address>
+<!-- Created: Fri Mar 15 10:16:27 Pacific Standard Time 2002 -->
+<!-- hhmts start -->
+Last modified: Fri Mar 15 10:16:33 Pacific Standard Time 2002
+<!-- hhmts end -->
+  </body>
+</html>

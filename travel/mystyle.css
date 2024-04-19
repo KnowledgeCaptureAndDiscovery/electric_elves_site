@@ -1,0 +1,23 @@
+
+BODY 		{ COLOR: black; background-color:white; FONT-FAMILY: Verdana; font-size:11pt }
+P 		{ margin-top:0.05in; margin-right:0.3in; margin-left:0.3in; TEXT-INDENT: 0pt; font-size:11pt; }
+.sf	 	{ FONT-FAMILY: Verdana; font-weight:plain; font-size:8pt; }
+
+A		{ text-decoration: none; cursor="hand"}
+A.contract      { text-decoration: none; }
+a.contract:hover   { color: white; background-color: green }
+.wd		{ font-family:webdings; color:red }
+bleu		{ color: #6699ff;  text-decoration: none; font-size:9pt}
+myb		{ color: #888844;  text-decoration: none; font-size:11pt}
+.ll		{ color: #448888;  font-size:8pt}
+.basic		{ font-size:11pt}
+
+.mytable	{ font-size:11pt}
+
+.mytd		{ background-color:#eeeeee;  }
+.seltd		{ background-color:#dddddd;  }
+.btd		{ font-size:11pt;  }
+
+.myfont		{ font-size:11pt; color:#996633; }
+.selfont	{ font-size:11pt; color:#555555; }
+.eefont		{ color:666666; }

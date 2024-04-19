@@ -1,0 +1,20 @@
+Mon Aug 19 18:30:53 2002: Using ANS: ('vibhagam.isi.edu', 5500)
+Mon Aug 19 18:30:53 2002: Bound to host/port: vibhagam.isi.edu:6666
+Mon Aug 19 18:30:53 2002: Sending message: (register :ontology tcp-ip :sender pynadath_at_isi_edu_tk_:0 :reply-with t :content "pynadath_at_isi_edu_tk_:0 vibhagam.isi.edu:6666")
+Mon Aug 19 18:30:53 2002: Received: {'receiver': 'pynadath_at_isi_edu_tk_:0', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Mon Aug 19 18:30:53 2002: Registration produced: {'receiver': 'pynadath_at_isi_edu_tk_:0', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Mon Aug 19 18:30:53 2002: Sending message: (unregister :sender pynadath_at_isi_edu_tk_:0 :ontology tcp-ip :reply-with nil :content pynadath_at_isi_edu_tk_:0)
+Mon Aug 19 18:30:53 2002: Sending message: (register :sender pynadath_at_isi_edu_tk_:0 :ontology tcp-ip :reply-with t :content (pynadath_at_isi_edu_tk_:0 vibhagam.isi.edu:6666))
+Mon Aug 19 18:30:53 2002: Received: {'receiver': 'pynadath_at_isi_edu_tk_:0', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'pynadath_at_isi_edu_tk_:0 TEAMCORE'}
+Mon Aug 19 18:30:53 2002: Registration produced: {'receiver': 'pynadath_at_isi_edu_tk_:0', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'pynadath_at_isi_edu_tk_:0 TEAMCORE'}pynadath_at_isi_edu_tk_:0, TEAMCORE
+Mon Aug 19 18:30:53 2002: Registration successful: pynadath_at_isi_edu_tk_:0
+Mon Aug 19 18:30:53 2002: Sending message: (ask-one :sender pynadath_at_isi_edu_tk_:0 :reply-with t :content "proxy_pynadath_at_isi_edu")
+Mon Aug 19 18:30:53 2002: Router for pynadath_at_isi_edu_tk_:0 running...
+Mon Aug 19 18:30:53 2002: Received: {'receiver': 'pynadath_at_isi_edu_tk_:0', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_pynadath_at_isi_edu:sangat.isi.edu:9992:'}
+Mon Aug 19 18:30:53 2002: Sending message: (register :name tk_:0 :reply-with nil :agenttype device :receiver proxy_pynadath_at_isi_edu :user pynadath_at_isi_edu :sender pynadath_at_isi_edu_tk_:0 :direction both)
+Mon Aug 19 18:31:57 2002: Received: {'receiver': 'pynadath_at_isi_edu_tk_:0', 'performative': 'tell', 'sender': 'deviceCGI_pynadath_at_isi_edu', 'reply-with': 'nil', 'content': 'stop'}
+Mon Aug 19 18:31:57 2002: Processing message: {'receiver': 'pynadath_at_isi_edu_tk_:0', 'performative': 'tell', 'sender': 'deviceCGI_pynadath_at_isi_edu', 'reply-with': 'nil', 'content': 'stop'}
+Mon Aug 19 18:32:00 2002: Sending message: (unregister :receiver proxy_pynadath_at_isi_edu :name tk_:0 :sender pynadath_at_isi_edu_tk_:0 :reply-with nil :user pynadath_at_isi_edu)
+Mon Aug 19 18:32:00 2002: Router pynadath_at_isi_edu_tk_:0 exiting...
+Mon Aug 19 18:32:00 2002: Sending message: (unregister :receiver TEAMCORE :sender pynadath_at_isi_edu_tk_:0 :ontology tcp-ip :reply-with nil :content pynadath_at_isi_edu_tk_:0)
+Mon Aug 19 18:32:00 2002: Exiting...

@@ -1,0 +1,1906 @@
+New Device:  --email  --address arens@isi.edu --length long --user arens@isi.edu --debug 1
+New Device:  --email  --address cellulararens@isi.edu --length 120 --user arens@isi.edu --debug 1
+New Device:  --email  --address blythe@isi.edu --length long --user blythe@isi.edu --debug 1
+New Device:  --email  --address knight@isi.edu --length long --user knight@isi.edu --debug 1
+New Device:  --email  --address knoblock@isi.edu --length long --user knoblock@isi.edu --debug 1
+New Device:  --email  --address jeanoh@isi.edu --length long --user jeanoh@isi.edu --debug 1
+New Device:  --email  --address 3104183355@mobile.att.net --length 120 --user pynadath@isi.edu --debug 1
+New Device:  --palm --user pynadath@isi.edu --debug 1
+New Device:  --html --user tar@isi.edu --debug 1
+New Device:  --email  --address barish@isi.edu --length long --user barish@isi.edu --debug 1
+New Device:  --email  --address nlemberos@darpa.mil --length long --user nlemberos@darpa.mil --debug 1
+New Device:  --email  --address scerri@isi.edu --length long --user scerri@isi.edu --debug 1
+send: 'ehlo equipe.isi.edu\015\012'
+reply: '250-equipe.isi.edu Hello LOCALHOST [127.0.0.1], pleased to meet you\015\012'
+reply: '250-EXPN\015\012'
+reply: '250-VERB\015\012'
+reply: '250-8BITMIME\015\012'
+reply: '250-SIZE\015\012'
+reply: '250-DSN\015\012'
+reply: '250-ONEX\015\012'
+reply: '250-ETRN\015\012'
+reply: '250-XUSR\015\012'
+reply: '250 HELP\015\012'
+reply: retcode (250); Msg: equipe.isi.edu Hello LOCALHOST [127.0.0.1], pleased to meet you
+EXPN
+VERB
+8BITMIME
+SIZE
+DSN
+ONEX
+ETRN
+XUSR
+HELP
+send: 'mail FROM:<elves@isi.edu> size=210\015\012'
+reply: '250 <elves@isi.edu>... Sender ok\015\012'
+reply: retcode (250); Msg: <elves@isi.edu>... Sender ok
+send: 'rcpt TO:<knoblock@isi.edu>\015\012'
+reply: '250 <knoblock@isi.edu>... Recipient ok\015\012'
+reply: retcode (250); Msg: <knoblock@isi.edu>... Recipient ok
+send: 'data \015\012'
+reply: '354 Enter mail, end with "." on a line by itself\015\012'
+reply: retcode (354); Msg: Enter mail, end with "." on a line by itself
+data: (354, 'Enter mail, end with "." on a line by itself')
+send: 'From: "The Electric Elves" <elves>\015\012To: knoblock@isi.edu\015\012Subject: Airfare Changed\015\012\015\012Dear Craig Knoblock,\015\012\015\012 The airfare for your United Airlines itinerary (LAX - BOS) has increased to $2490.\015\012\015\012 -- Your personal elf'
+send: '\015\012.\015\012'
+reply: '250 WAA06275 Message accepted for delivery\015\012'
+reply: retcode (250); Msg: WAA06275 Message accepted for delivery
+data: (250, 'WAA06275 Message accepted for delivery')
+send: 'quit \015\012'
+reply: '221 equipe.isi.edu closing connection\015\012'
+reply: retcode (221); Msg: equipe.isi.edu closing connection
+send: 'ehlo equipe.isi.edu\015\012'
+reply: '250-equipe.isi.edu Hello LOCALHOST [127.0.0.1], pleased to meet you\015\012'
+reply: '250-EXPN\015\012'
+reply: '250-VERB\015\012'
+reply: '250-8BITMIME\015\012'
+reply: '250-SIZE\015\012'
+reply: '250-DSN\015\012'
+reply: '250-ONEX\015\012'
+reply: '250-ETRN\015\012'
+reply: '250-XUSR\015\012'
+reply: '250 HELP\015\012'
+reply: retcode (250); Msg: equipe.isi.edu Hello LOCALHOST [127.0.0.1], pleased to meet you
+EXPN
+VERB
+8BITMIME
+SIZE
+DSN
+ONEX
+ETRN
+XUSR
+HELP
+send: 'mail FROM:<elves@isi.edu> size=275\015\012'
+reply: '250 <elves@isi.edu>... Sender ok\015\012'
+reply: retcode (250); Msg: <elves@isi.edu>... Sender ok
+send: 'rcpt TO:<knoblock@isi.edu>\015\012'
+reply: '250 <knoblock@isi.edu>... Recipient ok\015\012'
+reply: retcode (250); Msg: <knoblock@isi.edu>... Recipient ok
+send: 'data \015\012'
+reply: '354 Enter mail, end with "." on a line by itself\015\012'
+reply: retcode (354); Msg: Enter mail, end with "." on a line by itself
+data: (354, 'Enter mail, end with "." on a line by itself')
+send: 'From: "The Electric Elves" <elves>\015\012To: knoblock@isi.edu\015\012Subject: United Airlines flight 174\015\012\015\012Dear Craig Knoblock,\015\012\015\012Your United Airlines flight 174 is still scheduled to depart LAX on-time at 8:05 AM Gate and is scheduled to arrive BOS at 4:38 PM Gate .\015\012\015\012 -- Your personal elf'
+send: '\015\012.\015\012'
+reply: '250 MAA06741 Message accepted for delivery\015\012'
+reply: retcode (250); Msg: MAA06741 Message accepted for delivery
+data: (250, 'MAA06741 Message accepted for delivery')
+send: 'quit \015\012'
+reply: '221 equipe.isi.edu closing connection\015\012'
+reply: retcode (221); Msg: equipe.isi.edu closing connection
+send: 'ehlo equipe.isi.edu\015\012'
+reply: '250-equipe.isi.edu Hello LOCALHOST [127.0.0.1], pleased to meet you\015\012'
+reply: '250-EXPN\015\012'
+reply: '250-VERB\015\012'
+reply: '250-8BITMIME\015\012'
+reply: '250-SIZE\015\012'
+reply: '250-DSN\015\012'
+reply: '250-ONEX\015\012'
+reply: '250-ETRN\015\012'
+reply: '250-XUSR\015\012'
+reply: '250 HELP\015\012'
+reply: retcode (250); Msg: equipe.isi.edu Hello LOCALHOST [127.0.0.1], pleased to meet you
+EXPN
+VERB
+8BITMIME
+SIZE
+DSN
+ONEX
+ETRN
+XUSR
+HELP
+send: 'mail FROM:<elves@isi.edu> size=277\015\012'
+reply: '250 <elves@isi.edu>... Sender ok\015\012'
+reply: retcode (250); Msg: <elves@isi.edu>... Sender ok
+send: 'rcpt TO:<knoblock@isi.edu>\015\012'
+reply: '250 <knoblock@isi.edu>... Recipient ok\015\012'
+reply: retcode (250); Msg: <knoblock@isi.edu>... Recipient ok
+send: 'data \015\012'
+reply: '354 Enter mail, end with "." on a line by itself\015\012'
+reply: retcode (354); Msg: Enter mail, end with "." on a line by itself
+data: (354, 'Enter mail, end with "." on a line by itself')
+send: 'From: "The Electric Elves" <elves>\015\012To: knoblock@isi.edu\015\012Subject: United Airlines flight 7882\015\012\015\012Dear Craig Knoblock,\015\012\015\012Your United Airlines flight 7882 is still scheduled to depart ORD on-time at 5:00 PM Gate and is scheduled to arrive RDU at 7:57 PM Gate .\015\012\015\012 -- Your personal elf'
+send: '\015\012.\015\012'
+reply: '250 UAA07913 Message accepted for delivery\015\012'
+reply: retcode (250); Msg: UAA07913 Message accepted for delivery
+data: (250, 'UAA07913 Message accepted for delivery')
+send: 'quit \015\012'
+reply: '221 equipe.isi.edu closing connection\015\012'
+reply: retcode (221); Msg: equipe.isi.edu closing connection
+send: 'ehlo equipe.isi.edu\015\012'
+reply: '250-equipe.isi.edu Hello LOCALHOST [127.0.0.1], pleased to meet you\015\012'
+reply: '250-EXPN\015\012'
+reply: '250-VERB\015\012'
+reply: '250-8BITMIME\015\012'
+reply: '250-SIZE\015\012'
+reply: '250-DSN\015\012'
+reply: '250-ONEX\015\012'
+reply: '250-ETRN\015\012'
+reply: '250-XUSR\015\012'
+reply: '250 HELP\015\012'
+reply: retcode (250); Msg: equipe.isi.edu Hello LOCALHOST [127.0.0.1], pleased to meet you
+EXPN
+VERB
+8BITMIME
+SIZE
+DSN
+ONEX
+ETRN
+XUSR
+HELP
+send: 'mail FROM:<elves@isi.edu> size=381\015\012'
+reply: '250 <elves@isi.edu>... Sender ok\015\012'
+reply: retcode (250); Msg: <elves@isi.edu>... Sender ok
+send: 'rcpt TO:<knoblock@isi.edu>\015\012'
+reply: '250 <knoblock@isi.edu>... Recipient ok\015\012'
+reply: retcode (250); Msg: <knoblock@isi.edu>... Recipient ok
+send: 'data \015\012'
+reply: '354 Enter mail, end with "." on a line by itself\015\012'
+reply: retcode (354); Msg: Enter mail, end with "." on a line by itself
+data: (354, 'Enter mail, end with "." on a line by itself')
+send: 'From: "The Electric Elves" <elves>\015\012To: knoblock@isi.edu\015\012Subject: Connecting Flights\015\012\015\012Dear Craig Knoblock,\015\012Your connecting United Airlines flight 7882 will depart at 5:00 PM (On Time) at gate F11.\015\012\015\012If you would like to leave earlier, the following United Airlines flights will depart earlier than your scheduled flight:\015\012\015\012Earlier flights not found\015\012 Thank you, \015\012\015\012 -- Your personal elf'
+send: '\015\012.\015\012'
+reply: '250 UAA07919 Message accepted for delivery\015\012'
+reply: retcode (250); Msg: UAA07919 Message accepted for delivery
+data: (250, 'UAA07919 Message accepted for delivery')
+send: 'quit \015\012'
+reply: '221 equipe.isi.edu closing connection\015\012'
+reply: retcode (221); Msg: equipe.isi.edu closing connection
+send: 'ehlo equipe.isi.edu\015\012'
+reply: '250-equipe.isi.edu Hello LOCALHOST [127.0.0.1], pleased to meet you\015\012'
+reply: '250-EXPN\015\012'
+reply: '250-VERB\015\012'
+reply: '250-8BITMIME\015\012'
+reply: '250-SIZE\015\012'
+reply: '250-DSN\015\012'
+reply: '250-ONEX\015\012'
+reply: '250-ETRN\015\012'
+reply: '250-XUSR\015\012'
+reply: '250 HELP\015\012'
+reply: retcode (250); Msg: equipe.isi.edu Hello LOCALHOST [127.0.0.1], pleased to meet you
+EXPN
+VERB
+8BITMIME
+SIZE
+DSN
+ONEX
+ETRN
+XUSR
+HELP
+send: 'mail FROM:<elves@isi.edu> size=277\015\012'
+reply: '250 <elves@isi.edu>... Sender ok\015\012'
+reply: retcode (250); Msg: <elves@isi.edu>... Sender ok
+send: 'rcpt TO:<knoblock@isi.edu>\015\012'
+reply: '250 <knoblock@isi.edu>... Recipient ok\015\012'
+reply: retcode (250); Msg: <knoblock@isi.edu>... Recipient ok
+send: 'data \015\012'
+reply: '354 Enter mail, end with "." on a line by itself\015\012'
+reply: retcode (354); Msg: Enter mail, end with "." on a line by itself
+data: (354, 'Enter mail, end with "." on a line by itself')
+send: 'From: "The Electric Elves" <elves>\015\012To: knoblock@isi.edu\015\012Subject: United Airlines flight 7484\015\012\015\012Dear Craig Knoblock,\015\012\015\012Your United Airlines flight 7484 is still schGood-bye! ( from arens@isi.edu email_arens_at_isi_edu )
+Good-bye! ( from arens@isi.edu email_cellulararens_at_isi_edu )
+New Device:  --email --address ambite@isi.edu --user ambite@isi.edu --debug 1
+New Device:  --email --address arens@isi.edu --user arens@isi.edu --debug 1
+New Device:  --email --address blythe@isi.edu --user blythe@isi.edu --debug 1
+Good-bye! ( from blythe@isi.edu email_blythe_at_isi_edu )
+New Device:  --email --address hans@isi.edu --user hans@isi.edu --debug 1
+New Device:  --email --address jihie@isi.edu --user jihie@isi.edu --debug 1
+Good-bye! ( from knight@isi.edu email_knight_at_isi_edu )
+eduled to depart RDU on-time at 7:20 PM Gate and is scheduled to arrive IAD at 8:24 PM Gate .\015\012\015\012 -- Your personal elf'
+send: '\015\012.\015\012'
+reply: '250 VAA08036 Message accepted for delivery\015\012'
+reply: retcode (250); Msg: VAA08036 Message accepted for delivery
+data: (250, 'VAA08036 Message accepted for delivery')
+send: 'quit \015\012'
+reply: '221 equipe.isi.edu closing connection\015\012'
+reply: retcode (221); Msg: equipe.isi.edu closing connection
+send: 'ehlo equipe.isi.edu\015\012'
+reply: '250-equipe.isi.edu Hello LOCALHOST [127.0.0.1], pleased to meet you\015\012'
+reply: '250-EXPN\015\012'
+reply: '250-VERB\015\012'
+reply: '250-8BITMIME\015\012'
+reply: '250-SIZE\015\012'
+reply: '250-DSN\015\012'
+reply: '250-ONEX\015\012'
+reply: '250-ETRN\015\012'
+reply: '250-XUSR\015\012'
+reply: '250 HELP\015\012'
+reply: retcode (250); Msg: equipe.isi.edu Hello LOCALHOST [127.0.0.1], pleased to meet you
+EXPN
+VERB
+8BITMIME
+SIZE
+DSN
+ONEX
+ETRN
+XUSR
+HELP
+send: 'mail FROM:<elves@isi.edu> size=434\015\012'
+reply: '250 <elves@isi.edu>... Sender ok\015\012'
+reply: retcode (250); Msg: <elves@isi.edu>... Sender ok
+send: 'rcpt TO:<knoblock@isi.edu>\015\012'
+reply: '250 <knoblock@isi.edu>... Recipient ok\015\012'
+reply: retcode (250); Msg: <knoblock@isi.edu>... Recipient ok
+send: 'data \015\012'
+reply: '354 Enter mail, end with "." on a line by itself\015\012'
+reply: retcode (354); Msg: Enter mail, end with "." on a line by itself
+data: (354, 'Enter mail, end with "." on a line by itself')
+send: 'From: "The Electric Elves" <elves>\015\012To: knoblock@isi.edu\015\012Subject: Earlier Flights\015\012\015\012Dear Craig Knoblock,\015\012The status of your currently scheduled flight(s) are:\015\012# 7484 RDU (7:20 PM) - IAD (8:24 PM) On Time\015\012# 925 IAD (9:20 PM) - LAX (11:31 PM) On Time\015\012\015\012If you would like to return earlier, the following United Airlines flights will arrive earlier than your scheduled flights:\015\012\015\012Earlier flights not found\015\012 Thank you, \015\012\015\012 -- Your personal elf'
+send: '\015\012.\015\012'
+reply: '250 VAA08041 Message accepted for delivery\015\012'
+reply: retcode (250); Msg: VAA08041 Message accepted for delivery
+data: (250, 'VAA08041 Message accepted for delivery')
+send: 'quit \015\012'
+reply: '221 equipe.isi.edu closing connection\015\012'
+reply: retcode (221); Msg: equipe.isi.edu closing connection
+send: 'ehlo equipe.isi.edu\015\012'
+reply: '250-equipe.isi.edu Hello LOCALHOST [127.0.0.1], pleased to meet you\015\012'
+reply: '250-EXPN\015\012'
+reply: '250-VERB\015\012'
+reply: '250-8BITMIME\015\012'
+reply: '250-SIZE\015\012'
+reply: '250-DSN\015\012'
+reply: '250-ONEX\015\012'
+reply: '250-ETRN\015\012'
+reply: '250-XUSR\015\012'
+reply: '250 HELP\015\012'
+reply: retcode (250); Msg: equipe.isi.edu Hello LOCALHOST [127.0.0.1], pleased to meet you
+EXPN
+VERB
+8BITMIME
+SIZE
+DSN
+ONEX
+ETRN
+XUSR
+HELP
+send: 'mail FROM:<elves@isi.edu> size=335\015\012'
+reply: '250 <elves@isi.edu>... Sender ok\015\012'
+reply: retcode (250); Msg: <elves@isi.edu>... Sender ok
+send: 'rcpt TO:<knoblock@isi.edu>\015\012'
+reply: '250 <knoblock@isi.edu>... Recipient ok\015\012'
+reply: retcode (250); Msg: <knoblock@isi.edu>... Recipient ok
+send: 'data \015\012'
+reply: '354 Enter mail, end with "." on a line by itself\015\012'
+reply: retcode (354); Msg: Enter mail, end with "." on a line by itself
+data: (354, 'Enter mail, end with "." on a line by itself')
+send: 'From: "The Electric Elves" <elves>\015\012To: knoblock@isi.edu\015\012Subject: United Airlines flight 925\015\012\015\012\015\012 Dear Craig Knoblock, \015\012\015\012Your United Airlines flight 925 has been delayed. It was originally scheduled to depart at 9:20 PM and is now scheduled to depart at 9:35 PM. The gate is C6 and the new arrival time is 11:31 PM.\015\012\015\012 -- Your personal elf'
+send: '\015\012.\015\012'
+reply: '250 WAA08048 Message accepted for delivery\015\012'
+reply: retcode (250); Msg: WAA08048 Message accepted for delivery
+data: (250, 'WAA08048 Message accepted for delivery')
+send: 'quit \015\012'
+reply: '221 equipe.isi.edu closing connection\015\012'
+reply: retcode (221); Msg: equipe.isi.edu closing connection
+send: 'ehlo equipe.isi.edu\015\012'
+reply: '250-equipe.isi.edu Hello LOCALHOST [127.0.0.1], pleased to meet you\015\012'
+reply: '250-EXPN\015\012'
+reply: '250-VERB\015\012'
+reply: '250-8BITMIME\015\012'
+reply: '250-SIZE\015\012'
+reply: '250-DSN\015\012'
+reply: '250-ONEX\015\012'
+reply: '250-ETRN\015\012'
+reply: '250-XUSR\015\012'
+reply: '250 HELP\015\012'
+reply: retcode (250); Msg: equipe.isi.edu Hello LOCALHOST [127.0.0.1], pleased to meet you
+EXPN
+VERB
+8BITMIME
+SIZE
+DSN
+ONEX
+ETRN
+XUSR
+HELP
+send: 'mail FROM:<elves@isi.edu> size=387\015\012'
+reply: '250 <elves@isi.edu>... Sender ok\015\012'
+reply: retcode (250); Msg: <elves@isi.edu>... Sender ok
+send: 'rcpt TO:<knoblock@isi.edu>\015\012'
+reply: '250 <knoblock@isi.edu>... Recipient ok\015\012'
+reply: retcode (250); Msg: <knoblock@isi.edu>... Recipient ok
+send: 'data \015\012'
+reply: '354 Enter mail, end with "." on a line by itself\015\012'
+reply: retcode (354); Msg: Enter mail, end with "." on a line by itself
+data: (354, 'Enter mail, end with "." on a line by itself')
+send: 'From: "The Electric Elves" <elves>\015\012To: knoblock@isi.edu\015\012Subject: Connecting Flights\015\012\015\012Dear Craig Knoblock,\015\012Your connecting United Airlines flight 925 will depart at 9:45 PM (25 minutes Late) at gate C6.\015\012\015\012If you would like to leave earlier, the following United Airlines flights will depart earlier than your scheduled flight:\015\012\015\012Earlier flights not found\015\012 Thank you, \015\012\015\012 -- Your personal elf'
+send: '\015\012.\015\012'
+reply: '250 AAA08060 Message accepted for delivery\015\012'
+reply: retcode (250); Msg: AAA08060 Message accepted for delivery
+data: (250, 'AAA08060 Message accepted for delivery')
+send: 'quit \015\012'
+reply: '221 equipe.isi.edu closing connection\015\012'
+reply: retcode (221); Msg: equipe.isi.edu closing connection
+Good-bye! ( from knoblock@isi.edu email_knoblock_at_isi_edu )
+New Device:  --email  --address 3104032547@messaging.sprintpcs.com --length 120 --user knoblock@isi.edu --debug 1
+New Device:  --email --address chauvat@nerim.net --user chauvat@nerim.net --debug 1
+Good-bye! ( from jeanoh@isi.edu email_jeanoh_at_isi_edu )
+New Device:  --html --user pynadath@isi.edu --debug 1
+send: 'ehlo equipe.isi.edu\015\012'
+reply: '250-equipe.isi.edu Hello LOCALHOST [127.0.0.1], pleased to meet you\015\012'
+reply: '250-EXPN\015\012'
+reply: '250-VERB\015\012'
+reply: '250-8BITMIME\015\012'
+reply: '250-SIZE\015\012'
+reply: '250-DSN\015\012'
+reply: '250-ONEX\015\012'
+reply: '250-ETRN\015\012'
+reply: '250-XUSR\015\012'
+reply: '250 HELP\015\012'
+reply: retcode (250); Msg: equipe.isi.edu Hello LOCALHOST [127.0.0.1], pleased to meet you
+EXPN
+VERB
+8BITMIME
+SIZE
+DSN
+ONEX
+ETRN
+XUSR
+HELP
+send: 'mail FROM:<elves@isi.edu> size=182\015\012'
+reply: '250 <elves@isi.edu>... Sender ok\015\012'
+reply: retcode (250); Msg: <elves@isi.edu>... Sender ok
+send: 'rcpt TO:<3104183355@mobile.att.net>\015\012'
+reply: '250 <3104183355@mobile.att.net>... Recipient ok\015\012'
+reply: retcode (250); Msg: <3104183355@mobile.att.net>... Recipient ok
+send: 'data \015\012'
+reply: '354 Enter mail, end with "." on a line by itself\015\012'
+reply: retcode (354); Msg: Enter mail, end with "." on a line by itself
+data: (354, 'Enter mail, end with "." on a line by itself')
+send: 'From: "The Electric Elves" <elves>\015\012To: 3104183355@mobile.att.net\015\012Subject: \015\012\015\012American Airlines flight 850 departs LAX\015\012 on-time at 6:35 PM Gate 34 and \015\012arrives SJC at 7:38 PM Gate A13.'
+send: '\015\012.\015\012'
+reply: '250 XAA06283 Message accepted for delivery\015\012'
+reply: retcode (250); Msg: XAA06283 Message accepted for delivery
+data: (250, 'XAA06283 Message accepted for delivery')
+send: 'quit \015\012'
+reply: '221 equipe.isi.edu closing connection\015\012'
+reply: retcode (221); Msg: equipe.isi.edu closing connection
+Good-bye! ( from pynadath@isi.edu email_3104183355_at_mobile_att_net )
+New Device:  --palm --user pynadath@isi.edu --debug 1
+New Device:  --wap --user pynadath@isi.edu --debug 1
+Good-bye! ( from pynadath@isi.edu palm )
+New Device:  --html --user tar@isi.edu --debug 1
+Good-bye! ( from tar@isi.edu html )
+New Device:  --email  --address dschmorrow@darpa.mil --length long --user dschmorrow@darpa.mil --debug 1
+New Device:  --palm --user dschmorrow@darpa.mil --debug 1
+Good-bye! ( from barish@isi.edu email_barish_at_isi_edu )
+Good-bye! ( from nlemberos@darpa.mil email_nlemberos_at_darpa_mil )
+New Device:  --email  --address 8182039020@mobile.att.net --length 120 --user philpot@isi.edu --debug 1
+Good-bye! ( from scerri@isi.edu email_scerri_at_isi_edu )
+Unhandled exception in thread:
+Traceback (innermost last):
+  File "/home/pynadath/friday/KQML.py", line 200, in handle
+    result = self.queueFun(msg)
+  File "/home/pynadath/Agents/Device/Device.py", line 98, in processMsg
+    self.parser = saxexts.make_parser()	
+  File "/home/adapteam/teamcore/friday/xml/sax/saxexts.py", line 149, in make_parser
+  File "/home/adapteam/teamcore/friday/xml/sax/saxexts.py", line 64, in make_parser
+xml.sax.saxlib.SAXException: No parsers found
+Unhandled exception in thread:
+Traceback (innermost last):
+  File "/home/pynadath/friday/KQML.py", line 200, in handle
+    result = self.queueFun(msg)
+  File "/home/pynadath/Agents/Device/Device.py", line 98, in processMsg
+    self.parser = saxexts.make_parser()	
+  File "/home/adapteam/teamcore/friday/xml/sax/saxexts.py", line 149, in make_parser
+Unhandled exception in thread:
+Traceback (innermost last):
+  File "/home/pynadath/friday/KQML.py", line 200, in handle
+    result = self.queueFun(msg)
+  File "/home/pynadath/Agents/Device/Device.py", line 98, in processMsg
+  File "/home/adapteam/teamcore/friday/xml/sax/saxexts.py", line 64, in make_parser
+xml.sax.saxlib.SAXException: No parsers found
+    self.parser = saxexts.make_parser()	
+  File "/home/adapteam/teamcore/friday/xml/sax/saxexts.py", line 149, in make_parser
+  File "/home/adapteam/teamcore/friday/xml/sax/saxexts.py", line 64, in make_parser
+xml.sax.saxlib.SAXException: No parsers found
+Unhandled exception in thread:
+Traceback (innermost last):
+  File "/home/pynadath/friday/KQML.py", line 107, in run
+socket.error: (24, 'Too many open files')
+Unhandled exception in thread:
+Traceback (innermost last):
+  File "/home/pynadath/friday/KQML.py", line 167, in handle
+socket.error: (24, 'Too many open files')
+Unhandled exception in thread:
+Traceback (innermost last):
+  File "/home/pynadath/friday/KQML.py", line 107, in run
+socket.error: (24, 'Too many open files')
+Unhandled exception in thread:
+Traceback (innermost last):
+  File "/home/pynadath/friday/KQML.py", line 167, in handle
+socket.error: (24, 'Too many open files')
+Unhandled exception in thread:
+Traceback (innermost last):
+  File "/home/pynadath/friday/KQML.py", line 107, in run
+socket.error: (24, 'Too many open files')
+Unhandled exception in thread:
+Traceback (innermost last):
+  File "/home/pynadath/friday/KQML.py", line 167, in handle
+socket.error: (24, 'Too many open files')
+New Device:  --email  --address arens@isi.edu --length long --user arens@isi.edu --debug 1
+New Device:  --email  --address blythe@isi.edu --length long --user blythe@isi.edu --debug 1
+New Device:  --email  --address hans@isi.edu --length long --user hans@isi.edu --debug 1
+New Device:  --email  --address jihie@isi.edu --length long --user jihie@isi.edu --debug 1
+New Device:  --email  --address knight@isi.edu --length long --user knight@isi.edu --debug 1
+New Device:  --email  --address knoblock@isi.edu --length long --user knoblock@isi.edu --debug 1
+New Device:  --email  --address 3104032547@messaging.sprintpcs.com --length 120 --user knoblock@isi.edu --debug 1
+New Device:  --html --user pynadath@isi.edu --debug 1
+New Device:  --palm --user pynadath@isi.edu --debug 1
+New Device:  --html --user tar@isi.edu --debug 1
+New Device:  --email  --address dschmorrow@darpa.mil --length long --user dschmorrow@darpa.mil --debug 1
+New Device:  --palm --user dschmorrow@darpa.mil --debug 1
+New Device:  --email  --address barish@isi.edu --length long --user barish@isi.edu --debug 1
+New Device:  --email  --address nlemberos@darpa.mil --length long --user nlemberos@darpa.mil --debug 1
+New Device:  --email  --address 8182039020@mobile.att.net --length 120 --user philpot@isi.edu --debug 1
+New Device:  --email  --address scerri@isi.edu --length long --user scerri@isi.edu --debug 1
+send: 'ehlo equipe.isi.edu\015\012'
+reply: '250-equipe.isi.edu Hello LOCALHOST [127.0.0.1], pleased to meet you\015\012'
+reply: '250-EXPN\015\012'
+reply: '250-VERB\015\012'
+reply: '250-8BITMIME\015\012'
+reply: '250-SIZE\015\012'
+reply: '250-DSN\015\012'
+reply: '250-ONEX\015\012'
+reply: '250-ETRN\015\012'
+reply: '250-XUSR\015\012'
+reply: '250 HELP\015\012'
+reply: retcode (250); Msg: equipe.isi.edu Hello LOCALHOST [127.0.0.1], pleased to meet you
+EXPN
+VERB
+8BITMIME
+SIZE
+DSN
+ONEX
+ETRN
+XUSR
+HELP
+send: 'mail FROM:<elves@isi.edu> size=180\015\012'
+reply: '250 <elves@isi.edu>... Sender ok\015\012'
+reply: retcode (250); Msg: <elves@isi.edu>... Sender ok
+send: 'rcpt TO:<3104032547@messaging.sprintpcs.com>\015\012'
+reply: '250 <3104032547@messaging.sprintpcs.com>... Recipient ok\015\012'
+reply: retcode (250); Msg: <3104032547@messaging.sprintpcs.com>... Recipient ok
+send: 'data \015\012'
+reply: '354 Enter mail, end with "." on a line by itself\015\012'
+reply: retcode (354); Msg: Enter mail, end with "." on a line by itself
+data: (354, 'Enter mail, end with "." on a line by itself')
+send: 'From: "The Electric Elves" <elves>\015\012To: 3104032547@messaging.sprintpcs.com\015\012Subject: Airfare Changed\015\012\015\012The airfare for your United Airlines itinerary (lax - iad) has increased to $836'
+send: '\015\012.\015\012'
+reply: '250 UAA02869 Message accepted for delivery\015\012'
+reply: retcode (250); Msg: UAA02869 Message accepted for delivery
+data: (250, 'UAA02869 Message accepted for delivery')
+send: 'quit \015\012'
+reply: '221 equipe.isi.edu closing connection\015\012'
+reply: retcode (221); Msg: equipe.isi.edu closing connection
+send: 'ehlo equipe.isi.edu\015\012'
+reply: '250-equipe.isi.edu Hello LOCALHOST [127.0.0.1], pleased to meet you\015\012'
+reply: '250-EXPN\015\012'
+reply: '250-VERB\015\012'
+reply: '250-8BITMIME\015\012'
+reply: '250-SIZE\015\012'
+reply: '250-DSN\015\012'
+reply: '250-ONEX\015\012'
+reply: '250-ETRN\015\012'
+reply: '250-XUSR\015\012'
+reply: '250 HELP\015\012'
+reply: retcode (250); Msg: equipe.isi.edu Hello LOCALHOST [127.0.0.1], pleased to meet you
+EXPN
+VERB
+8BITMIME
+SIZE
+DSN
+ONEX
+ETRN
+XUSR
+HELP
+send: 'mail FROM:<elves@isi.edu> size=181\015\012'
+reply: '250 <elves@isi.edu>... Sender ok\015\012'
+reply: retcode (250); Msg: <elves@isi.edu>... Sender ok
+send: 'rcpt TO:<3104032547@messaging.sprintpcs.com>\015\012'
+reply: '250 <3104032547@messaging.sprintpcs.com>... Recipient ok\015\012'
+reply: retcode (250); Msg: <3104032547@messaging.sprintpcs.com>... Recipient ok
+send: 'data \015\012'
+reply: '354 Enter mail, end with "." on a line by itself\015\012'
+reply: retcode (354); Msg: Enter mail, end with "." on a line by itself
+data: (354, 'Enter mail, end with "." on a line by itself')
+send: 'From: "The Electric Elves" <elves>\015\012To: 3104032547@messaging.sprintpcs.com\015\012Subject: Airfare Changed\015\012\015\012The airfare for your United Airlines itinerary (LAX - PHL) has increased to $2245'
+send: '\015\012.\015\012'
+reply: '250 VAA07227 Message accepted for delivery\015\012'
+reply: retcode (250); Msg: VAA07227 Message accepted for delivery
+data: (250, 'VAA07227 Message accepted for delivery')
+send: 'quit \015\012'
+reply: '221 equipe.isi.edu closing connection\015\012'
+reply: retcode (221); Msg: equipe.isi.edu closing connection
+send: 'ehlo equipe.isi.edu\015\012'
+reply: '250-equipe.isi.edu Hello LOCALHOST [127.0.0.1], pleased to meet you\015\012'
+reply: '250-EXPN\015\012'
+reply: '250-VERB\015\012'
+reply: '250-8BITMIME\015\012'
+reply: '250-SIZE\015\012'
+reply: '250-DSN\015\012'
+reply: '250-ONEX\015\012'
+reply: '250-ETRN\015\012'
+reply: '250-XUSR\015\012'
+reply: '250 HELP\015\012'
+reply: retcode (250); Msg: equipe.isi.edu Hello LOCALHOST [127.0.0.1], pleased to meet you
+EXPN
+VERB
+8BITMIME
+SIZE
+DSN
+ONEX
+ETRN
+XUSR
+HELP
+send: 'mail FROM:<elves@isi.edu> size=223\015\012'
+reply: '250 <elves@isi.edu>... Sender ok\015\012'
+reply: retcode (250); Msg: <elves@isi.edu>... Sender ok
+send: 'rcpt TO:<3104032547@messaging.sprintpcs.com>\015\012'
+reply: '250 <3104032547@messaging.sprintpcs.com>... Recipient ok\015\012'
+reply: retcode (250); Msg: <3104032547@messaging.sprintpcs.com>... Recipient ok
+send: 'data \015\012'
+reply: '354 Enter mail, end with "." on a line by itself\015\012'
+reply: retcode (354); Msg: Enter mail, end with "." on a line by itself
+data: (354, 'Enter mail, end with "." on a line by itself')
+send: 'From: "The Electric Elves" <elves>\015\012To: 3104032547@messaging.sprintpcs.com\015\012Subject: \015\012\015\012Current:\015\012# 947 IAD (5:50 PM) - LAX (8:02 PM) On Time\015\012Earlier United Airlines Flights:\015\012# 191 IAD (5:00 PM) - LAX (7:26 PM) On Time\015\012------\015\012\015\012'
+send: '\015\012.\015\012'
+reply: '250 VAA07232 Message accepted for delivery\015\012'
+reply: retcode (250); Msg: VAA07232 Message accepted for delivery
+data: (250, 'VAA07232 Message accepted for delivery')
+send: 'quit \015\012'
+reply: '221 equipe.isi.edu closing connection\015\012'
+reply: retcode (221); Msg: equipe.isi.edu closing connection
+send: 'ehlo equipe.isi.edu\015\012'
+reply: '250-equipe.isi.edu Hello LOCALHOST [127.0.0.1], pleased to meet you\015\012'
+reply: '250-EXPN\015\012'
+reply: '250-VERB\015\012'
+reply: '250-8BITMIME\015\012'
+reply: '250-SIZE\015\012'
+reply: '250-DSN\015\012'
+reply: '250-ONEX\015\012'
+reply: '250-ETRN\015\012'
+reply: '250-XUSR\015\012'
+reply: '250 HELP\015\012'
+reply: retcode (250); Msg: equipe.isi.edu Hello LOCALHOST [127.0.0.1], pleased to meet you
+EXPN
+VERB
+8BITMIME
+SIZE
+DSN
+ONEX
+ETRN
+XUSR
+HELP
+send: 'mail FROM:<elves@isi.edu> size=197\015\012'
+reply: '250 <elves@isi.edu>... Sender ok\015\012'
+reply: retcode (250); Msg: <elves@isi.edu>... Sender ok
+send: 'rcpt TO:<3104032547@messaging.sprintpcs.com>\015\012'
+reply: '250 <3104032547@messaging.sprintpcs.com>... Recipient ok\015\012'
+reply: retcode (250); Msg: <3104032547@messaging.sprintpcs.com>... Recipient ok
+send: 'data \015\012'
+reply: '354 Enter mail, end with "." on a line by itself\015\012'
+reply: retcode (354); Msg: Enter mail, end with "." on a line by itself
+data: (354, 'Enter mail, end with "." on a line by itself')
+send: 'From: "The Electric Elves" <elves>\015\012To: 3104032547@messaging.sprintpcs.com\015\012Subject: \015\012\015\012Current:\015\012# 97 PHL (12:20 PM) - LAX (3:00 PM) On Time\015\012Earlier United Airlines Flights:\015\012Earlier flights not found\015\012'
+send: '\015\012.\015\012'
+reply: '250 WAA07238 Message accepted for delivery\015\012'
+reply: retcode (250); Msg: WAA07238 Message accepted for delivery
+data: (250, 'WAA07238 Message accepted for delivery')
+send: 'quit \015\012'
+reply: '221 equipe.isi.edu closing connection\015\012'
+reply: retcode (221); Msg: equipe.isi.edu closing connection
+send: 'ehlo equipe.isi.edu\015\012'
+reply: '250-equipe.isi.edu Hello LOCALHOST [127.0.0.1], pleased to meet you\015\012'
+reply: '250-EXPN\015\012'
+reply: '250-VERB\015\012'
+reply: '250-8BITMIME\015\012'
+reply: '250-SIZE\015\012'
+reply: '250-DSN\015\012'
+reply: '250-ONEX\015\012'
+reply: '250-ETRN\015\012'
+reply: '250-XUSR\015\012'
+reply: '250 HELP\015\012'
+reply: retcode (250); Msg: equipe.isi.edu Hello LOCALHOST [127.0.0.1], pleased to meet you
+EXPN
+VERB
+8BITMIME
+SIZE
+DSN
+ONEX
+ETRN
+XUSR
+HELP
+send: 'mail FROM:<elves@isi.edu> size=189\015\012'
+reply: '250 <elves@isi.edu>... Sender ok\015\012'
+reply: retcode (250); Msg: <elves@isi.edu>... Sender ok
+send: 'rcpt TO:<3104032547@messaging.sprintpcs.com>\015\012'
+reply: '250 <3104032547@messaging.sprintpcs.com>... Recipient ok\015\012'
+reply: retcode (250); Msg: <3104032547@messaging.sprintpcs.com>... Recipient ok
+send: 'data \015\012'
+reply: '354 Enter mail, end with "." on a line by itself\015\012'
+reply: retcode (354); Msg: Enter mail, end with "." on a line by itself
+data: (354, 'Enter mail, end with "." on a line by itself')
+send: 'From: "The Electric Elves" <elves>\015\012To: 3104032547@messaging.sprintpcs.com\015\012Subject: \015\012\015\012United Airlines flight 97 departs PHL\015\012 on-time at 12:20 PM Gate D7 and \015\012arrives LAX at 2:49 PM Gate 75A.'
+send: '\015\012.\015\012'
+reply: '250 OAA07311 Message accepted for delivery\015\012'
+reply: retcode (250); Msg: OAA07311 Message acNew Device:  --email --address tedmond@snap.org --length long --user tedmond@snap.org --debug 1
+Good-bye! ( from dschmorrow@darpa.mil palm )
+New Device:  --email --address dschmorrow@darpa.mil --length long --user dschmorrow@darpa.mil --debug 1
+send: 'ehlo equipe.isi.edu\015\012'
+reply: '250-equipe.isi.edu Hello LOCALHOST [127.0.0.1], pleased to meet you\015\012'
+reply: '250-EXPN\015\012'
+reply: '250-VERB\015\012'
+reply: '250-8BITMIME\015\012'
+reply: '250-SIZE\015\012'
+reply: '250-DSN\015\012'
+reply: '250-ONEX\015\012'
+reply: '250-ETRN\015\012'
+reply: '250-XUSR\015\012'
+reply: '250 HELP\015\012'
+reply: retcode (250); Msg: equipe.isi.edu Hello LOCALHOST [127.0.0.1], pleased to meet you
+EXPN
+VERB
+8BITMIME
+SIZE
+DSN
+ONEX
+ETRN
+XUSR
+HELP
+send: 'mail FROM:<elves@isi.edu> size=117\015\012'
+reply: '250 <elves@isi.edu>... Sender ok\015\012'
+reply: retcode (250); Msg: <elves@isi.edu>... Sender ok
+send: 'rcpt TO:<dschmorrow@darpa.mil>\015\012'
+reply: '250 <dschmorrow@darpa.mil>... Recipient ok\015\012'
+reply: retcode (250); Msg: <dschmorrow@darpa.mil>... Recipient ok
+send: 'data \015\012'
+reply: '354 Enter mail, end with "." on a line by itself\015\012'
+reply: retcode (354); Msg: Enter mail, end with "." on a line by itself
+data: (354, 'Enter mail, end with "." on a line by itself')
+send: 'From: "The Electric Elves" <elves>\015\012To: dschmorrow@darpa.mil\015\012Subject: Test\015\012\015\012This is a test message for Dylan Schmorrow'
+send: '\015\012.\015\012'
+reply: '250 RAA07981 Message accepted for delivery\015\012'
+reply: retcode (250); Msg: RAA07981 Message accepted for delivery
+data: (250, 'RAA07981 Message accepted for delivery')
+send: 'quit \015\012'
+reply: '221 equipe.isi.edu closing connection\015\012'
+reply: retcode (221); Msg: equipe.isi.edu closing connection
+send: 'ehlo equipe.isi.edu\015\012'
+reply: '250-equipe.isi.edu Hello LOCALHOST [127.0.0.1], pleased to meet you\015\012'
+reply: '250-EXPN\015\012'
+reply: '250-VERB\015\012'
+reply: '250-8BITMIME\015\012'
+reply: '250-SIZE\015\012'
+reply: '250-DSN\015\012'
+reply: '250-ONEX\015\012'
+reply: '250-ETRN\015\012'
+reply: '250-XUSR\015\012'
+reply: '250 HELP\015\012'
+reply: retcode (250); Msg: equipe.isi.edu Hello LOCALHOST [127.0.0.1], pleased to meet you
+EXPN
+VERB
+8BITMIME
+SIZE
+DSN
+ONEX
+ETRN
+XUSR
+HELP
+send: 'mail FROM:<elves@isi.edu> size=309\015\012'
+reply: '250 <elves@isi.edu>... Sender ok\015\012'
+reply: retcode (250); Msg: <elves@isi.edu>... Sender ok
+send: 'rcpt TO:<dschmorrow@darpa.mil>\015\012'
+reply: '250 <dschmorrow@darpa.mil>... Recipient ok\015\012'
+reply: retcode (250); Msg: <dschmorrow@darpa.mil>... Recipient ok
+send: 'data \015\012'
+reply: '354 Enter mail, end with "." on a line by itself\015\012'
+reply: retcode (354); Msg: Enter mail, end with "." on a line by itself
+data: (354, 'Enter mail, end with "." on a line by itself')
+send: 'From: "The Electric Elves" <elves>\015\012To: dschmorrow@darpa.mil\015\012Subject: Delta Air Lines flight 0975\015\012\015\012Dear Dylan Schmorrow,\015\012\015\012Your Delta Air Lines flight 0975 is still scheduled to depart DCA on-time at 6:00 PM Gate Not Available and is scheduled to arrive DFW at 8:18 PM Gate Not Available.\015\012\015\012 -- Your personal elf'
+send: '\015\012.\015\012'
+reply: '250 UAA08097 Message accepted for delivery\015\012'
+reply: retcode (250); Msg: UAA08097 Message accepted for delivery
+data: (250, 'UAA08097 Message accepted for delivery')
+send: 'quit \015\012'
+reply: '221 equipe.isi.edu closing connection\015\012'
+reply: retcode (221); Msg: equipe.isi.edu closing connection
+send: 'ehlo equipe.isi.edu\015\012'
+reply: '250-equipe.isi.edu Hello LOCALHOST [127.0.0.1], pleased to meet you\015\012'
+reply: '250-EXPN\015\012'
+reply: '250-VERB\015\012'
+reply: '250-8BITMIME\015\012'
+reply: '250-SIZE\015\012'
+reply: '250-DSN\015\012'
+reply: '250-ONEX\015\012'
+reply: '250-ETRN\015\012'
+reply: '250-XUSR\015\012'
+reply: '250 HELP\015\012'
+reply: retcode (250); Msg: equipe.isi.edu Hello LOCALHOST [127.0.0.1], pleased to meet you
+EXPN
+VERB
+8BITMIME
+SIZE
+DSN
+ONEX
+ETRN
+XUSR
+HELP
+send: 'mail FROM:<elves@isi.edu> size=403\015\012'
+reply: '250 <elves@isi.edu>... Sender ok\015\012'
+reply: retcode (250); Msg: <elves@isi.edu>... Sender ok
+send: 'rcpt TO:<dschmorrow@darpa.mil>\015\012'
+reply: '250 <dschmorrow@darpa.mil>... Recipient ok\015\012'
+reply: retcode (250); Msg: <dschmorrow@darpa.mil>... Recipient ok
+send: 'data \015\012'
+reply: '354 Enter mail, end with "." on a line by itself\015\012'
+reply: retcode (354); Msg: Enter mail, end with "." on a line by itself
+data: (354, 'Enter mail, end with "." on a line by itself')
+send: 'From: "The Electric Elves" <elves>\015\012To: dschmorrow@darpa.mil\015\012Subject: Connecting Flights\015\012\015\012Dear Dylan Schmorrow,\015\012Your connecting Delta Air Lines flight 1797 will depart at 9:04 PM (1 minute Early) at gate Not Available.\015\012\015\012If you would like to leave earlier, the following Delta Air Lines flights will depart earlier than your scheduled flight:\015\012\015\012Earlier flights not found\015\012 Thank you, \015\012\015\012 -- Your personal elf'
+send: '\015\012.\015\012'
+reply: '250 DAA08130 Message accepted for delivery\015\012'
+reply: retcode (250); Msg: DAA08130 Message accepted for delivery
+data: (250, 'DAA08130 Message accepted for delivery')
+send: 'quit \015\012'
+reply: '221 equipe.isi.edu closing connection\015\012'
+reply: retcode (221); Msg: equipe.isi.edu closing connection
+send: 'ehlo equipe.isi.edu\015\012'
+reply: '250-equipe.isi.edu Hello LOCALHOST [127.0.0.1], pleased to meet you\015\012'
+reply: '250-EXPN\015\012'
+reply: '250-VERB\015\012'
+reply: '250-8BITMIME\015\012'
+reply: '250-SIZE\015\012'
+reply: '250-DSN\015\012'
+reply: '250-ONEX\015\012'
+reply: '250-ETRN\015\012'
+reply: '250-XUSR\015\012'
+reply: '250 HELP\015\012'
+reply: retcode (250); Msg: equipe.isi.edu Hello LOCALHOST [127.0.0.1], pleased to meet you
+EXPN
+VERB
+8BITMIME
+SIZE
+DSN
+ONEX
+ETRN
+XUSR
+HELP
+send: 'mail FROM:<elves@isi.edu> size=299\015\012'
+reply: '250 <elves@isi.edu>... Sender ok\015\012'
+reply: retcode (250); Msg: <elves@isi.edu>... Sender ok
+send: 'rcpt TO:<dschmorrow@darpa.mil>\015\012'
+reply: '250 <dschmorrow@darpa.mil>... Recipient ok\015\012'
+reply: retcode (250); Msg: <dschmorrow@darpa.mil>... Recipient ok
+send: 'data \015\012'
+reply: '354 Enter mail, end with "." on a line by itself\015\012'
+reply: retcode (354); Msg: Enter mail, end with "." on a line by itself
+data: (354, 'Enter mail, end with "." on a line by itself')
+send: 'From: "The Electric Elves" <elves>\015\012To: dschmorrow@darpa.mil\015\012Subject: United Airlines flight 0435\015\012\015\012Dear Dylan Schmorrow,\015\012\015\012Your United Airlines flight 0435 is still scheduled to depart SAT on-time at 3:00 PM Gate Not Available and is scheduled to arrive DEN at 4:06 PM Gate B22.\015\012\015\012 -- Your personal elf'
+send: '\015\012.\015\012'
+reply: '250 TAA08201 Message accepted for delivery\015\012'
+reply: retcode (250); Msg: TAA08201 Message accepted for delivery
+data: (250, 'TAA08201 Message accepted for delivery')
+send: 'quit \015\012'
+reply: '221 equipe.isi.edu closing connection\015\012'
+reply: retcode (221); Msg: equipe.isi.edu closing connection
+send: 'ehlo equipe.isi.edu\015\012'
+reply: '250-equipe.isi.edu Hello LOCALHOST [127.0.0.1], pleased to meet you\015\012'
+reply: '250-EXPN\015\012'
+reply: '250-VERB\015\012'
+reply: '250-8BITMIME\015\012'
+reply: '250-SIZE\015\012'
+reply: '250-DSN\015\012'
+reply: '250-ONEX\015\012'
+reply: '250-ETRN\015\012'
+reply: '250-XUSR\015\012'
+reply: '250 HELP\015\012'
+reply: retcode (250); Msg: equipe.isi.edu Hello LOCALHOST [127.0.0.1], pleased to meet you
+EXPN
+VERB
+8BITMIME
+SIZE
+DSN
+ONEX
+ETRN
+XUSR
+HELP
+send: 'mail FROM:<elves@isi.edu> size=393\015\012'
+reply: '250 <elves@isi.edu>... Sender ok\015\012'
+reply: retcode (250); Msg: <elves@isi.edu>... Sender ok
+send: 'rcpt TO:<dschmorrow@darpa.mil>\015\012'
+reply: '250 <dschmorrow@darpa.mil>... Recipient ok\015\012'
+reply: retcode (250); Msg: <dschmorrow@darpa.mil>... Recipient ok
+send: 'data \015\012'
+reply: '354 Enter mail, end with "." on a line by itself\015\012'
+reply: retcode (354); Msg: Enter mail, end with "." on a line by itself
+data: (354, 'Enter mail, end with "." on a line by itself')
+send: 'From: "The Electric Elves" <elves>\015\012To: dschmorrow@darpa.mil\015\012Subject: Connecting Flights\015\012\015\012Dear Dylan Schmorrow,\015\012Your connecting United Airlines flight 0Unhandled exception in thread:
+Unhandled exception in thread:
+Traceback (innermost last):
+Unhandled exception in thread:
+Unhandled exception in thread:
+Unhandled exception in thread:
+Unhandled exception in thread:
+Unhandled exception in thread:
+Unhandled exception in thread:
+Unhandled exception in thread:
+Unhandled exception in thread:
+Unhandled exception in thread:
+Unhandled exception in thread:
+Unhandled exception in thread:
+Unhandled exception in thread:
+cepted for delivery
+data: (250, 'OAA07311 Message accepted for delivery')
+send: 'quit \015\012'
+reply: '221 equipe.isi.edu closing connection\015\012'
+reply: retcode (221); Msg: equipe.isi.edu closing connection
+send: 'ehlo equipe.isi.edu\015\012'
+reply: '250-equipe.isi.edu Hello LOCALHOST [127.0.0.1], pleased to meet you\015\012'
+reply: '250-EXPN\015\012'
+reply: '250-VERB\015\012'
+reply: '250-8BITMIME\015\012'
+reply: '250-SIZE\015\012'
+reply: '250-DSN\015\012'
+reply: '250-ONEX\015\012'
+reply: '250-ETRN\015\012'
+reply: '250-XUSR\015\012'
+reply: '250 HELP\015\012'
+reply: retcode (250); Msg: equipe.isi.edu Hello LOCALHOST [127.0.0.1], pleased to meet you
+EXPN
+VERB
+8BITMIME
+SIZE
+DSN
+ONEX
+ETRN
+XUSR
+HELP
+send: 'mail FROM:<elves@isi.edu> size=189\015\012'
+reply: '250 <elves@isi.edu>... Sender ok\015\012'
+reply: retcode (250); Msg: <elves@isi.edu>... Sender ok
+send: 'rcpt TO:<3104032547@messaging.sprintpcs.com>\015\012'
+reply: '250 <3104032547@messaging.sprintpcs.com>... Recipient ok\015\012'
+reply: retcode (250); Msg: <3104032547@messaging.sprintpcs.com>... Recipient ok
+send: 'data \015\012'
+reply: '354 Enter mail, end with "." on a line by itself\015\012'
+reply: retcode (354); Msg: Enter mail, end with "." on a line by itself
+data: (354, 'Enter mail, end with "." on a line by itself')
+send: 'From: "The Electric Elves" <elves>\015\012To: 3104032547@messaging.sprintpcs.com\015\012Subject: \015\012\015\012United Airlines flight 947 departs IAD\015\012 on-time at 5:50 PM Gate C3 and \015\012arrives LAX at 8:05 PM Gate 69A.'
+send: '\015\012.\015\012'
+reply: '250 UAA07337 Message accepted for delivery\015\012'
+reply: retcode (250); Msg: UAA07337 Message accepted for delivery
+data: (250, 'UAA07337 Message accepted for delivery')
+send: 'quit \015\012'
+reply: '221 equipe.isi.edu closing connection\015\012'
+reply: retcode (221); Msg: equipe.isi.edu closing connection
+send: 'ehlo equipe.isi.edu\015\012'
+reply: '250-equipe.isi.edu Hello LOCALHOST [127.0.0.1], pleased to meet you\015\012'
+reply: '250-EXPN\015\012'
+reply: '250-VERB\015\012'
+reply: '250-8BITMIME\015\012'
+reply: '250-SIZE\015\012'
+reply: '250-DSN\015\012'
+reply: '250-ONEX\015\012'
+reply: '250-ETRN\015\012'
+reply: '250-XUSR\015\012'
+reply: '250 HELP\015\012'
+reply: retcode (250); Msg: equipe.isi.edu Hello LOCALHOST [127.0.0.1], pleased to meet you
+EXPN
+VERB
+8BITMIME
+SIZE
+DSN
+ONEX
+ETRN
+XUSR
+HELP
+send: 'mail FROM:<elves@isi.edu> size=180\015\012'
+reply: '250 <elves@isi.edu>... Sender ok\015\012'
+reply: retcode (250); Msg: <elves@isi.edu>... Sender ok
+send: 'rcpt TO:<3104032547@messaging.sprintpcs.com>\015\012'
+reply: '250 <3104032547@messaging.sprintpcs.com>... Recipient ok\015\012'
+reply: retcode (250); Msg: <3104032547@messaging.sprintpcs.com>... Recipient ok
+send: 'data \015\012'
+reply: '354 Enter mail, end with "." on a line by itself\015\012'
+reply: retcode (354); Msg: Enter mail, end with "." on a line by itself
+data: (354, 'Enter mail, end with "." on a line by itself')
+send: 'From: "The Electric Elves" <elves>\015\012To: 3104032547@messaging.sprintpcs.com\015\012Subject: Airfare Changed\015\012\015\012The airfare for your United Airlines itinerary (lax - iad) has increased to $802'
+send: '\015\012.\015\012'
+reply: '250 HAA07392 Message accepted for delivery\015\012'
+reply: retcode (250); Msg: HAA07392 Message accepted for delivery
+data: (250, 'HAA07392 Message accepted for delivery')
+send: 'quit \015\012'
+reply: '221 equipe.isi.edu closing connection\015\012'
+reply: retcode (221); Msg: equipe.isi.edu closing connection
+Traceback (innermost last):
+Traceback (innermost last):
+Traceback (innermost last):
+Traceback (innermost last):
+Traceback (innermost last):
+Traceback (innermost last):
+Traceback (innermost last):
+Traceback (innermost last):
+Traceback (innermost last):
+Traceback (innermost last):
+Traceback (innermost last):
+Traceback (innermost last):
+Traceback (innermost last):
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+    result = self.parseMsg(data)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+    result = self.parseMsg(data)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+    return _cachecompile(pattern, flags).match(string)
+    return _cachecompile(pattern, flags).match(string)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+Unhandled exception in thread:
+Unhandled exception in thread:
+Unhandled exception in thread:
+Unhandled exception in thread:
+Unhandled exception in thread:
+Unhandled exception in thread:
+Unhandled exception in thread:
+Unhandled exception in thread:
+Unhandled exception in thread:
+Unhandled exception in thread:
+Unhandled exception in thread:
+Traceback (innermost last):
+Traceback (innermost last):
+214 will depart at 12:37 PM (2 minutes Late) at gate 12.\015\012\015\012If you would like to leave earlier, the following United Airlines flights will depart earlier than your scheduled flight:\015\012\015\012Earlier flights not found\015\012 Thank you, \015\012\015\012 -- Your personal elf'
+send: '\015\012.\015\012'
+reply: '250 VAA08218 Message accepted for delivery\015\012'
+reply: retcode (250); Msg: VAA08218 Message accepted for delivery
+data: (250, 'VAA08218 Message accepted for delivery')
+send: 'quit \015\012'
+reply: '221 equipe.isi.edu closing connection\015\012'
+reply: retcode (221); Msg: equipe.isi.edu closing connection
+Traceback (innermost last):
+Traceback (innermost last):
+Traceback (innermost last):
+Traceback (innermost last):
+Traceback (innermost last):
+Traceback (innermost last):
+Traceback (innermost last):
+Traceback (innermost last):
+Traceback (innermost last):
+Unhandled exception in thread:
+Unhandled exception in thread:
+Unhandled exception in thread:
+Unhandled exception in thread:
+Traceback (innermost last):
+Traceback (innermost last):
+Traceback (innermost last):
+Traceback (innermost last):
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+    result = self.parseMsg(data)
+    result = self.parseMsg(data)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+    return _cachecompile(pattern, flags).match(string)
+    return _cachecompile(pattern, flags).match(string)
+    return _cachecompile(pattern, flags).match(string)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+    return _cachecompile(pattern, flags).match(string)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+    result = self.parseMsg(data)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+Unhandled exception in thread:
+Unhandled exception in thread:
+Unhandled exception in thread:
+Unhandled exception in thread:
+Unhandled exception in thread:
+Unhandled exception in thread:
+Unhandled exception in thread:
+Unhandled exception in thread:
+Unhandled exception in thread:
+Unhandled exception in thread:
+Unhandled exception in thread:
+Unhandled exception in thread:
+Unhandled exception in thread:
+Unhandled exception in thread:
+Unhandled exception in thread:
+Traceback (innermost last):
+Traceback (innermost last):
+Traceback (innermost last):
+Traceback (innermost last):
+Traceback (innermost last):
+Traceback (innermost last):
+Traceback (innermost last):
+Traceback (innermost last):
+Traceback (innermost last):
+Traceback (innermost last):
+Traceback (innermost last):
+Traceback (innermost last):
+Traceback (innermost last):
+Traceback (innermost last):
+Traceback (innermost last):
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+    result = self.parseMsg(data)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+    result = self.parseMsg(data)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+    return _cachecompile(pattern, flags).match(string)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+    return _cachecompile(pattern, flags).match(string)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+    result = self.parseMsg(data)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+      File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+Unhandled exception in thread:
+Unhandled exception in thread:
+Unhandled exception in thread:
+Unhandled exception in thread:
+Unhandled exception in thread:
+Unhandled exception in thread:
+Unhandled exception in thread:
+Unhandled exception in thread:
+Unhandled exception in thread:
+Unhandled exception in thread:
+Unhandled exception in thread:
+Unhandled exception in thread:
+Unhandled exception in thread:
+Unhandled exception in thread:
+Unhandled exception in thread:
+Traceback (innermost last):
+Traceback (innermost last):
+Traceback (innermost last):
+Traceback (innermost last):
+Traceback (innermost last):
+Traceback (innermost last):
+Traceback (innermost last):
+Traceback (innermost last):
+Traceback (innermost last):
+Traceback (innermost last):
+Traceback (innermost last):
+Traceback (innermost last):
+Traceback (innermost last):
+Traceback (innermost last):
+Traceback (innermost last):
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+    result = self.parseMsg(data)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+    return _cachecompile(pattern, flags).match(string)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+Unhandled exception in thread:
+Unhandled exception in thread:
+Traceback (innermost last):
+Traceback (innermost last):
+Unhandled exception in thread:
+Unhandled exception in thread:
+Traceback (innermost last):
+Traceback (innermost last):
+Unhandled exception in thread:
+Traceback (innermost last):
+Unhandled exception in thread:
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+Traceback (innermost last):
+Unhandled exception in thread:
+Traceback (innermost last):
+Unhandled exception in thread:
+Traceback (innermost last):
+Unhandled exception in thread:
+Traceback (innermost last):
+Unhandled exception in thread:
+Traceback (innermost last):
+Unhandled exception in thread:
+Traceback (innermost last):
+Unhandled exception in thread:
+Traceback (innermost last):
+Unhandled exception in thread:
+Traceback (innermost last):
+Unhandled exception in thread:
+Traceback (innermost last):
+Unhandled exception in thread:
+Traceback (innermost last):
+    result = self.parseMsg(data)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+    return _cachecompile(pattern, flags).match(string)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+    result = self.parseMsg(data)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+Unhandled exception in thread:
+Unhandled exception in thread:
+Unhandled exception in thread:
+Unhandled exception in thread:
+Unhandled exception in thread:
+Unhandled exception in thread:
+Unhandled exception in thread:
+Unhandled exception in thread:
+Unhandled exception in thread:
+Unhandled exception in thread:
+Traceback (innermost last):
+Traceback (innermost last):
+Traceback (innermost last):
+Traceback (innermost last):
+Traceback (innermost last):
+Traceback (innermost last):
+Traceback (innermost last):
+Traceback (innermost last):
+Traceback (innermost last):
+Traceback (innermost last):
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+    result = self.parseMsg(data)
+    result = self.parseMsg(data)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+    result = self.parseMsg(data)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+    result = self.parseMsg(data)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+    result = self.parseMsg(data)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+    result = self.parseMsg(data)
+    result = self.parseMsg(data)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+Unhandled exception in thread:
+Traceback (innermost last):
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+    result = self.parseMsg(data)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    result = self.parseMsg(data)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+Unhandled exception in thread:
+Traceback (innermost last):
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+    return _cachecompile(pattern, flags).match(string)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+    return _cachecompile(pattern, flags).match(string)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+Unhandled exception in thread:
+Traceback (innermost last):
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+Unhandled exception in thread:
+Traceback (innermost last):
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object
+Unhandled exception in thread:
+Traceback (innermost last):
+  File "/nfs/v2/pynadath/friday/KQML.py", line 195, in handle
+    result = self.parseMsg(data)
+  File "/nfs/v2/pynadath/friday/KQML.py", line 129, in parseMsg
+    exp = re.match('.*?\(\s*(\S+)\s+(.*?)\s*\)$',data,re.DOTALL)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 40, in match
+    return _cachecompile(pattern, flags).match(string)
+  File "/home/pynadath/local/lib/python1.5/re.py", line 117, in match
+    endpos=len(string)
+TypeError: len() of unsized object

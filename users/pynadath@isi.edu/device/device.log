@@ -1,0 +1,307 @@
+Mon Jan 07 21:17:17 2002: Using ANS: ('vibhagam.isi.edu', 5500)
+Mon Jan 07 21:17:17 2002: Bound to host/port: vibhagam.isi.edu:6668
+Mon Jan 07 21:17:17 2002: Sending message: (register :ontology tcp-ip :sender pynadath_at_isi_edu_device :reply-with t :content "pynadath_at_isi_edu_device vibhagam.isi.edu:6668")
+Mon Jan 07 21:17:17 2002: Received: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Mon Jan 07 21:17:17 2002: Registration produced: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Mon Jan 07 21:17:17 2002: Sending message: (unregister :sender pynadath_at_isi_edu_device :ontology tcp-ip :reply-with nil :content pynadath_at_isi_edu_device)
+Mon Jan 07 21:17:17 2002: Sending message: (register :sender pynadath_at_isi_edu_device :ontology tcp-ip :reply-with t :content (pynadath_at_isi_edu_device vibhagam.isi.edu:6668))
+Mon Jan 07 21:17:18 2002: Received: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'pynadath_at_isi_edu_device TEAMCORE'}
+Mon Jan 07 21:17:18 2002: Registration produced: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'pynadath_at_isi_edu_device TEAMCORE'}pynadath_at_isi_edu_device, TEAMCORE
+Mon Jan 07 21:17:18 2002: Registration successful: pynadath_at_isi_edu_device
+Mon Jan 07 21:17:18 2002: Sending message: (ask-one :sender pynadath_at_isi_edu_device :reply-with t :content "proxy_pynadath_at_isi_edu")
+Mon Jan 07 21:17:18 2002: Router for pynadath_at_isi_edu_device running...
+Mon Jan 07 21:17:18 2002: Received: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_pynadath_at_isi_edu:sangat.isi.edu:9992:'}
+Mon Jan 07 21:17:18 2002: Sending message: (register :name device :reply-with nil :agenttype device :receiver proxy_pynadath_at_isi_edu :user pynadath_at_isi_edu :sender pynadath_at_isi_edu_device :direction both)
+Mon Jan 07 21:17:20 2002: Sending message: (unregister :receiver proxy_pynadath_at_isi_edu :name device :sender pynadath_at_isi_edu_device :reply-with nil :user pynadath_at_isi_edu)
+Mon Jan 07 21:17:20 2002: Router pynadath_at_isi_edu_device exiting...
+Mon Jan 07 21:17:20 2002: Sending message: (unregister :receiver TEAMCORE :sender pynadath_at_isi_edu_device :ontology tcp-ip :reply-with nil :content pynadath_at_isi_edu_device)
+Mon Jan 07 21:17:20 2002: Exiting...
+Mon Jan 07 21:17:28 2002: Using ANS: ('vibhagam.isi.edu', 5500)
+Mon Jan 07 21:17:28 2002: Bound to host/port: vibhagam.isi.edu:6668
+Mon Jan 07 21:17:28 2002: Sending message: (register :ontology tcp-ip :sender pynadath_at_isi_edu_device :reply-with t :content "pynadath_at_isi_edu_device vibhagam.isi.edu:6668")
+Mon Jan 07 21:17:28 2002: Received: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Mon Jan 07 21:17:28 2002: Registration produced: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Mon Jan 07 21:17:28 2002: Sending message: (unregister :sender pynadath_at_isi_edu_device :ontology tcp-ip :reply-with nil :content pynadath_at_isi_edu_device)
+Mon Jan 07 21:17:28 2002: Sending message: (register :sender pynadath_at_isi_edu_device :ontology tcp-ip :reply-with t :content (pynadath_at_isi_edu_device vibhagam.isi.edu:6668))
+Mon Jan 07 21:17:29 2002: Received: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'pynadath_at_isi_edu_device TEAMCORE'}
+Mon Jan 07 21:17:29 2002: Registration produced: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'pynadath_at_isi_edu_device TEAMCORE'}pynadath_at_isi_edu_device, TEAMCORE
+Mon Jan 07 21:17:29 2002: Registration successful: pynadath_at_isi_edu_device
+Mon Jan 07 21:17:29 2002: Sending message: (ask-one :sender pynadath_at_isi_edu_device :reply-with t :content "proxy_pynadath_at_isi_edu")
+Mon Jan 07 21:17:29 2002: Router for pynadath_at_isi_edu_device running...
+Mon Jan 07 21:17:29 2002: Received: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_pynadath_at_isi_edu:sangat.isi.edu:9992:'}
+Mon Jan 07 21:17:29 2002: Sending message: (register :name device :reply-with nil :agenttype device :receiver proxy_pynadath_at_isi_edu :user pynadath_at_isi_edu :sender pynadath_at_isi_edu_device :direction both)
+Mon Jan 07 21:17:29 2002: Sending message: (unregister :receiver proxy_pynadath_at_isi_edu :name device :sender pynadath_at_isi_edu_device :reply-with nil :user pynadath_at_isi_edu)
+Mon Jan 07 21:17:29 2002: Router pynadath_at_isi_edu_device exiting...
+Mon Jan 07 21:17:29 2002: Sending message: (unregister :receiver TEAMCORE :sender pynadath_at_isi_edu_device :ontology tcp-ip :reply-with nil :content pynadath_at_isi_edu_device)
+Mon Jan 07 21:17:29 2002: Exiting...
+Mon Jan 07 21:17:37 2002: Using ANS: ('vibhagam.isi.edu', 5500)
+Mon Jan 07 21:17:37 2002: Bound to host/port: vibhagam.isi.edu:6668
+Mon Jan 07 21:17:37 2002: Sending message: (register :ontology tcp-ip :sender pynadath_at_isi_edu_device :reply-with t :content "pynadath_at_isi_edu_device vibhagam.isi.edu:6668")
+Mon Jan 07 21:17:37 2002: Received: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Mon Jan 07 21:17:37 2002: Registration produced: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Mon Jan 07 21:17:37 2002: Sending message: (unregister :sender pynadath_at_isi_edu_device :ontology tcp-ip :reply-with nil :content pynadath_at_isi_edu_device)
+Mon Jan 07 21:17:37 2002: Sending message: (register :sender pynadath_at_isi_edu_device :ontology tcp-ip :reply-with t :content (pynadath_at_isi_edu_device vibhagam.isi.edu:6668))
+Mon Jan 07 21:17:37 2002: Received: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'pynadath_at_isi_edu_device TEAMCORE'}
+Mon Jan 07 21:17:37 2002: Registration produced: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'pynadath_at_isi_edu_device TEAMCORE'}pynadath_at_isi_edu_device, TEAMCORE
+Mon Jan 07 21:17:37 2002: Registration successful: pynadath_at_isi_edu_device
+Mon Jan 07 21:17:37 2002: Sending message: (ask-one :sender pynadath_at_isi_edu_device :reply-with t :content "proxy_pynadath_at_isi_edu")
+Mon Jan 07 21:17:37 2002: Received: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_pynadath_at_isi_edu:sangat.isi.edu:9992:'}
+Mon Jan 07 21:17:37 2002: Sending message: (register :name device :reply-with nil :agenttype device :receiver proxy_pynadath_at_isi_edu :user pynadath_at_isi_edu :sender pynadath_at_isi_edu_device :direction both)
+Mon Jan 07 21:17:37 2002: Router for pynadath_at_isi_edu_device running...
+Mon Jan 07 21:20:37 2002: Sending message: (unregister :receiver proxy_pynadath_at_isi_edu :name device :sender pynadath_at_isi_edu_device :reply-with nil :user pynadath_at_isi_edu)
+Mon Jan 07 21:20:37 2002: Router pynadath_at_isi_edu_device exiting...
+Mon Jan 07 21:20:37 2002: Sending message: (unregister :receiver TEAMCORE :sender pynadath_at_isi_edu_device :ontology tcp-ip :reply-with nil :content pynadath_at_isi_edu_device)
+Mon Jan 07 21:20:37 2002: Exiting...
+Mon Jan 07 21:20:42 2002: Using ANS: ('vibhagam.isi.edu', 5500)
+Mon Jan 07 21:20:42 2002: Bound to host/port: vibhagam.isi.edu:6668
+Mon Jan 07 21:20:42 2002: Sending message: (register :ontology tcp-ip :sender pynadath_at_isi_edu_device :reply-with t :content "pynadath_at_isi_edu_device vibhagam.isi.edu:6668")
+Mon Jan 07 21:20:42 2002: Received: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Mon Jan 07 21:20:42 2002: Registration produced: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Mon Jan 07 21:20:42 2002: Sending message: (unregister :sender pynadath_at_isi_edu_device :ontology tcp-ip :reply-with nil :content pynadath_at_isi_edu_device)
+Mon Jan 07 21:20:42 2002: Sending message: (register :sender pynadath_at_isi_edu_device :ontology tcp-ip :reply-with t :content (pynadath_at_isi_edu_device vibhagam.isi.edu:6668))
+Mon Jan 07 21:20:42 2002: Received: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'pynadath_at_isi_edu_device TEAMCORE'}
+Mon Jan 07 21:20:42 2002: Registration produced: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'pynadath_at_isi_edu_device TEAMCORE'}pynadath_at_isi_edu_device, TEAMCORE
+Mon Jan 07 21:20:42 2002: Registration successful: pynadath_at_isi_edu_device
+Mon Jan 07 21:20:42 2002: Sending message: (ask-one :sender pynadath_at_isi_edu_device :reply-with t :content "proxy_pynadath_at_isi_edu")
+Mon Jan 07 21:20:42 2002: Received: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_pynadath_at_isi_edu:sangat.isi.edu:9992:'}
+Mon Jan 07 21:20:42 2002: Sending message: (register :name device :reply-with nil :agenttype device :receiver proxy_pynadath_at_isi_edu :user pynadath_at_isi_edu :sender pynadath_at_isi_edu_device :direction both)
+Mon Jan 07 21:20:42 2002: Router for pynadath_at_isi_edu_device running...
+Mon Jan 07 21:21:46 2002: Received: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'tell', 'sender': 'pyKQML-agent', 'type': 'schedule', 'reply-with': 'nil', 'content': 'stop'}
+Mon Jan 07 21:21:46 2002: Processing message: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'tell', 'sender': 'pyKQML-agent', 'type': 'schedule', 'reply-with': 'nil', 'content': 'stop'}
+Mon Jan 07 21:21:46 2002: Sending message: (unregister :receiver proxy_pynadath_at_isi_edu :name device :sender pynadath_at_isi_edu_device :reply-with nil :user pynadath_at_isi_edu)
+Mon Jan 07 21:21:46 2002: Router pynadath_at_isi_edu_device exiting...
+Mon Jan 07 21:21:46 2002: Sending message: (unregister :receiver TEAMCORE :sender pynadath_at_isi_edu_device :ontology tcp-ip :reply-with nil :content pynadath_at_isi_edu_device)
+Mon Jan 07 21:21:46 2002: Exiting...
+Mon Jan 07 21:22:31 2002: Using ANS: ('vibhagam', 5500)
+Mon Jan 07 21:22:31 2002: Bound to host/port: vibhagam.isi.edu:6668
+Mon Jan 07 21:22:31 2002: Sending message: (register :ontology tcp-ip :sender pynadath_at_isi_edu_device :reply-with t :content "pynadath_at_isi_edu_device vibhagam.isi.edu:6668")
+Mon Jan 07 21:22:31 2002: Received: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Mon Jan 07 21:22:31 2002: Registration produced: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Mon Jan 07 21:22:31 2002: Sending message: (unregister :sender pynadath_at_isi_edu_device :ontology tcp-ip :reply-with nil :content pynadath_at_isi_edu_device)
+Mon Jan 07 21:22:31 2002: Sending message: (register :sender pynadath_at_isi_edu_device :ontology tcp-ip :reply-with t :content (pynadath_at_isi_edu_device vibhagam.isi.edu:6668))
+Mon Jan 07 21:22:31 2002: Received: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'pynadath_at_isi_edu_device TEAMCORE'}
+Mon Jan 07 21:22:31 2002: Registration produced: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'pynadath_at_isi_edu_device TEAMCORE'}pynadath_at_isi_edu_device, TEAMCORE
+Mon Jan 07 21:22:31 2002: Registration successful: pynadath_at_isi_edu_device
+Mon Jan 07 21:22:31 2002: Sending message: (ask-one :sender pynadath_at_isi_edu_device :reply-with t :content "proxy_pynadath_at_isi_edu")
+Mon Jan 07 21:22:31 2002: Received: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_pynadath_at_isi_edu:sangat.isi.edu:9992:'}
+Mon Jan 07 21:22:31 2002: Sending message: (register :name device :reply-with nil :agenttype device :receiver proxy_pynadath_at_isi_edu :user pynadath_at_isi_edu :sender pynadath_at_isi_edu_device :direction both)
+Mon Jan 07 21:22:31 2002: Router for pynadath_at_isi_edu_device running...
+Mon Jan 07 21:22:35 2002: Sending message: (unregister :receiver proxy_pynadath_at_isi_edu :name device :sender pynadath_at_isi_edu_device :reply-with nil :user pynadath_at_isi_edu)
+Mon Jan 07 21:22:35 2002: Router pynadath_at_isi_edu_device exiting...
+Mon Jan 07 21:22:35 2002: Sending message: (unregister :receiver TEAMCORE :sender pynadath_at_isi_edu_device :ontology tcp-ip :reply-with nil :content pynadath_at_isi_edu_device)
+Mon Jan 07 21:22:35 2002: Exiting...
+Mon Jan 07 21:22:40 2002: Using ANS: ('vibhagam', 5500)
+Mon Jan 07 21:22:40 2002: Bound to host/port: vibhagam.isi.edu:6668
+Mon Jan 07 21:22:40 2002: Sending message: (register :ontology tcp-ip :sender pynadath_at_isi_edu_device :reply-with t :content "pynadath_at_isi_edu_device vibhagam.isi.edu:6668")
+Mon Jan 07 21:22:40 2002: Received: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Mon Jan 07 21:22:40 2002: Registration produced: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Mon Jan 07 21:22:40 2002: Sending message: (unregister :sender pynadath_at_isi_edu_device :ontology tcp-ip :reply-with nil :content pynadath_at_isi_edu_device)
+Mon Jan 07 21:22:40 2002: Sending message: (register :sender pynadath_at_isi_edu_device :ontology tcp-ip :reply-with t :content (pynadath_at_isi_edu_device vibhagam.isi.edu:6668))
+Mon Jan 07 21:22:40 2002: Received: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'pynadath_at_isi_edu_device TEAMCORE'}
+Mon Jan 07 21:22:40 2002: Registration produced: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'pynadath_at_isi_edu_device TEAMCORE'}pynadath_at_isi_edu_device, TEAMCORE
+Mon Jan 07 21:22:40 2002: Registration successful: pynadath_at_isi_edu_device
+Mon Jan 07 21:22:40 2002: Sending message: (ask-one :sender pynadath_at_isi_edu_device :reply-with t :content "proxy_pynadath_at_isi_edu")
+Mon Jan 07 21:22:40 2002: Received: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_pynadath_at_isi_edu:sangat.isi.edu:9992:'}
+Mon Jan 07 21:22:40 2002: Sending message: (register :name device :reply-with nil :agenttype device :receiver proxy_pynadath_at_isi_edu :user pynadath_at_isi_edu :sender pynadath_at_isi_edu_device :direction both)
+Mon Jan 07 21:22:40 2002: Router for pynadath_at_isi_edu_device running...
+Mon Jan 07 21:22:44 2002: Received: {'performative': 'tell', 'type': 'schedule', 'reply-with': 'nil', 'receiver': 'pynadath_at_isi_edu_device', 'user': 'pynadath_at_isi_edu', 'sender': 'pyKQML-agent', 'content': 'stop'}
+Mon Jan 07 21:22:44 2002: Processing message: {'performative': 'tell', 'type': 'schedule', 'reply-with': 'nil', 'receiver': 'pynadath_at_isi_edu_device', 'user': 'pynadath_at_isi_edu', 'sender': 'pyKQML-agent', 'content': 'stop'}
+Mon Jan 07 21:22:44 2002: pynadath@isi.edu has schedule stop
+Mon Jan 07 21:23:57 2002: Sending message: (unregister :receiver proxy_pynadath_at_isi_edu :name device :sender pynadath_at_isi_edu_device :reply-with nil :user pynadath_at_isi_edu)
+Mon Jan 07 21:23:57 2002: Router pynadath_at_isi_edu_device exiting...
+Mon Jan 07 21:23:57 2002: Sending message: (unregister :receiver TEAMCORE :sender pynadath_at_isi_edu_device :ontology tcp-ip :reply-with nil :content pynadath_at_isi_edu_device)
+Mon Jan 07 21:23:57 2002: Exiting...
+Mon Jan 07 21:24:08 2002: Using ANS: ('vibhagam', 5500)
+Mon Jan 07 21:24:08 2002: Bound to host/port: vibhagam.isi.edu:6668
+Mon Jan 07 21:24:08 2002: Sending message: (register :ontology tcp-ip :sender pynadath_at_isi_edu_device :reply-with t :content "pynadath_at_isi_edu_device vibhagam.isi.edu:6668")
+Mon Jan 07 21:24:08 2002: Received: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Mon Jan 07 21:24:08 2002: Registration produced: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Mon Jan 07 21:24:08 2002: Sending message: (unregister :sender pynadath_at_isi_edu_device :ontology tcp-ip :reply-with nil :content pynadath_at_isi_edu_device)
+Mon Jan 07 21:24:08 2002: Sending message: (register :sender pynadath_at_isi_edu_device :ontology tcp-ip :reply-with t :content (pynadath_at_isi_edu_device vibhagam.isi.edu:6668))
+Mon Jan 07 21:24:08 2002: Received: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'pynadath_at_isi_edu_device TEAMCORE'}
+Mon Jan 07 21:24:08 2002: Registration produced: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'pynadath_at_isi_edu_device TEAMCORE'}pynadath_at_isi_edu_device, TEAMCORE
+Mon Jan 07 21:24:08 2002: Registration successful: pynadath_at_isi_edu_device
+Mon Jan 07 21:24:08 2002: Sending message: (ask-one :sender pynadath_at_isi_edu_device :reply-with t :content "proxy_pynadath_at_isi_edu")
+Mon Jan 07 21:24:08 2002: Received: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_pynadath_at_isi_edu:sangat.isi.edu:9992:'}
+Mon Jan 07 21:24:08 2002: Sending message: (register :name device :reply-with nil :agenttype device :receiver proxy_pynadath_at_isi_edu :user pynadath_at_isi_edu :sender pynadath_at_isi_edu_device :direction both)
+Mon Jan 07 21:24:08 2002: Router for pynadath_at_isi_edu_device running...
+Mon Jan 07 21:24:08 2002: Sending message: (unregister :receiver proxy_pynadath_at_isi_edu :name device :sender pynadath_at_isi_edu_device :reply-with nil :user pynadath_at_isi_edu)
+Mon Jan 07 21:24:08 2002: Router pynadath_at_isi_edu_device exiting...
+Mon Jan 07 21:24:08 2002: Sending message: (unregister :receiver TEAMCORE :sender pynadath_at_isi_edu_device :ontology tcp-ip :reply-with nil :content pynadath_at_isi_edu_device)
+Mon Jan 07 21:24:08 2002: Exiting...
+Mon Jan 07 21:24:13 2002: Using ANS: ('vibhagam', 5500)
+Mon Jan 07 21:24:13 2002: Bound to host/port: vibhagam.isi.edu:6668
+Mon Jan 07 21:24:13 2002: Sending message: (register :ontology tcp-ip :sender pynadath_at_isi_edu_device :reply-with t :content "pynadath_at_isi_edu_device vibhagam.isi.edu:6668")
+Mon Jan 07 21:24:13 2002: Received: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Mon Jan 07 21:24:13 2002: Registration produced: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Mon Jan 07 21:24:13 2002: Sending message: (unregister :sender pynadath_at_isi_edu_device :ontology tcp-ip :reply-with nil :content pynadath_at_isi_edu_device)
+Mon Jan 07 21:24:13 2002: Sending message: (register :sender pynadath_at_isi_edu_device :ontology tcp-ip :reply-with t :content (pynadath_at_isi_edu_device vibhagam.isi.edu:6668))
+Mon Jan 07 21:24:13 2002: Received: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'pynadath_at_isi_edu_device TEAMCORE'}
+Mon Jan 07 21:24:13 2002: Registration produced: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'pynadath_at_isi_edu_device TEAMCORE'}pynadath_at_isi_edu_device, TEAMCORE
+Mon Jan 07 21:24:13 2002: Registration successful: pynadath_at_isi_edu_device
+Mon Jan 07 21:24:13 2002: Sending message: (ask-one :sender pynadath_at_isi_edu_device :reply-with t :content "proxy_pynadath_at_isi_edu")
+Mon Jan 07 21:24:13 2002: Received: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_pynadath_at_isi_edu:sangat.isi.edu:9992:'}
+Mon Jan 07 21:24:13 2002: Sending message: (register :name device :reply-with nil :agenttype device :receiver proxy_pynadath_at_isi_edu :user pynadath_at_isi_edu :sender pynadath_at_isi_edu_device :direction both)
+Mon Jan 07 21:24:13 2002: Router for pynadath_at_isi_edu_device running...
+Mon Jan 07 21:24:20 2002: Received: {'performative': 'tell', 'type': 'schedule', 'reply-with': 'nil', 'receiver': 'pynadath_at_isi_edu_device', 'user': 'pynadath_at_isi_edu', 'sender': 'pyKQML-agent', 'content': 'stop'}
+Mon Jan 07 21:24:20 2002: Processing message: {'performative': 'tell', 'type': 'schedule', 'reply-with': 'nil', 'receiver': 'pynadath_at_isi_edu_device', 'user': 'pynadath_at_isi_edu', 'sender': 'pyKQML-agent', 'content': 'stop'}
+Mon Jan 07 21:24:20 2002: pynadath@isi.edu has schedule stop
+Mon Jan 07 21:25:39 2002: Received: {'performative': 'tell', 'type': 'schedule', 'reply-with': 'nil', 'receiver': 'pynadath_at_isi_edu_device', 'user': 'pynadath_at_isi_edu', 'sender': 'pyKQML-agent', 'content': 'Start: 01/07/2002/19:00 name: test meeting 1 team: Pynadath-other-team my_location: 923 location: not_ISI user_role: active-participant most_important: pynadath num_attendees: 2 frequency: weekly Outoftown: 0 presenter_capability: high subject_interest: high subject: unknown state: Inactive\012Start: 01/07/2002/16:00 name: test meeting 2 team: Pynadath-other-team my_location: 923 location: not_ISI user_role: active-participant most_important: pynadath num_attendees: 2 frequency: weekly Outoftown: 0 presenter_capability: high subject_interest: high subject: unknown state: Inactive\012Start: 01/07/2002/16:00 name: meeting team: Pynadath-other-team my_location: 923 location: not_ISI user_role: active-participant most_important: pynadath num_attendees: 2 frequency: weekly Outoftown: 0 presenter_capability: high subject_interest: high subject: unknown state: Inactive\012'}
+Mon Jan 07 21:26:03 2002: Sending message: (unregister :receiver proxy_pynadath_at_isi_edu :name device :sender pynadath_at_isi_edu_device :reply-with nil :user pynadath_at_isi_edu)
+Mon Jan 07 21:26:03 2002: Router pynadath_at_isi_edu_device exiting...
+Mon Jan 07 21:26:03 2002: Sending message: (unregister :receiver TEAMCORE :sender pynadath_at_isi_edu_device :ontology tcp-ip :reply-with nil :content pynadath_at_isi_edu_device)
+Mon Jan 07 21:26:03 2002: Exiting...
+Mon Jan 07 21:26:11 2002: Using ANS: ('vibhagam', 5500)
+Mon Jan 07 21:26:11 2002: Bound to host/port: vibhagam.isi.edu:6668
+Mon Jan 07 21:26:11 2002: Sending message: (register :ontology tcp-ip :sender pynadath_at_isi_edu_device :reply-with t :content "pynadath_at_isi_edu_device vibhagam.isi.edu:6668")
+Mon Jan 07 21:26:11 2002: Received: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Mon Jan 07 21:26:11 2002: Registration produced: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Mon Jan 07 21:26:11 2002: Sending message: (unregister :sender pynadath_at_isi_edu_device :ontology tcp-ip :reply-with nil :content pynadath_at_isi_edu_device)
+Mon Jan 07 21:26:11 2002: Sending message: (register :sender pynadath_at_isi_edu_device :ontology tcp-ip :reply-with t :content (pynadath_at_isi_edu_device vibhagam.isi.edu:6668))
+Mon Jan 07 21:26:11 2002: Received: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'pynadath_at_isi_edu_device TEAMCORE'}
+Mon Jan 07 21:26:11 2002: Registration produced: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'pynadath_at_isi_edu_device TEAMCORE'}pynadath_at_isi_edu_device, TEAMCORE
+Mon Jan 07 21:26:11 2002: Registration successful: pynadath_at_isi_edu_device
+Mon Jan 07 21:26:11 2002: Sending message: (ask-one :sender pynadath_at_isi_edu_device :reply-with t :content "proxy_pynadath_at_isi_edu")
+Mon Jan 07 21:26:11 2002: Received: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_pynadath_at_isi_edu:sangat.isi.edu:9992:'}
+Mon Jan 07 21:26:11 2002: Sending message: (register :name device :reply-with nil :agenttype device :receiver proxy_pynadath_at_isi_edu :user pynadath_at_isi_edu :sender pynadath_at_isi_edu_device :direction both)
+Mon Jan 07 21:26:11 2002: Router for pynadath_at_isi_edu_device running...
+Mon Jan 07 21:26:16 2002: Received: {'performative': 'tell', 'type': 'schedule', 'reply-with': 'nil', 'receiver': 'pynadath_at_isi_edu_device', 'user': 'pynadath_at_isi_edu', 'sender': 'pyKQML-agent', 'content': 'Start: 01/07/2002/19:00 name: test meeting 1 team: Pynadath-other-team my_location: 923 location: not_ISI user_role: active-participant most_important: pynadath num_attendees: 2 frequency: weekly Outoftown: 0 presenter_capability: high subject_interest: high subject: unknown state: Inactive\012Start: 01/07/2002/16:00 name: test meeting 2 team: Pynadath-other-team my_location: 923 location: not_ISI user_role: active-participant most_important: pynadath num_attendees: 2 frequency: weekly Outoftown: 0 presenter_capability: high subject_interest: high subject: unknown state: Inactive\012Start: 01/07/2002/16:00 name: meeting team: Pynadath-other-team my_location: 923 location: not_ISI user_role: active-participant most_important: pynadath num_attendees: 2 frequency: weekly Outoftown: 0 presenter_capability: high subject_interest: high subject: unknown state: Inactive\012'}
+Mon Jan 07 21:26:16 2002: Processing message: {'performative': 'tell', 'type': 'schedule', 'reply-with': 'nil', 'receiver': 'pynadath_at_isi_edu_device', 'user': 'pynadath_at_isi_edu', 'sender': 'pyKQML-agent', 'content': 'Start: 01/07/2002/19:00 name: test meeting 1 team: Pynadath-other-team my_location: 923 location: not_ISI user_role: active-participant most_important: pynadath num_attendees: 2 frequency: weekly Outoftown: 0 presenter_capability: high subject_interest: high subject: unknown state: Inactive\012Start: 01/07/2002/16:00 name: test meeting 2 team: Pynadath-other-team my_location: 923 location: not_ISI user_role: active-participant most_important: pynadath num_attendees: 2 frequency: weekly Outoftown: 0 presenter_capability: high subject_interest: high subject: unknown state: Inactive\012Start: 01/07/2002/16:00 name: meeting team: Pynadath-other-team my_location: 923 location: not_ISI user_role: active-participant most_important: pynadath num_attendees: 2 frequency: weekly Outoftown: 0 presenter_capability: high subject_interest: high subject: unknown state: Inactive\012'}
+Mon Jan 07 21:26:16 2002: pynadath@isi.edu has schedule Start: 01/07/2002/19:00 name: test meeting 1 team: Pynadath-other-team my_location: 923 location: not_ISI user_role: active-participant most_important: pynadath num_attendees: 2 frequency: weekly Outoftown: 0 presenter_capability: high subject_interest: high subject: unknown state: Inactive
+Start: 01/07/2002/16:00 name: test meeting 2 team: Pynadath-other-team my_location: 923 location: not_ISI user_role: active-participant most_important: pynadath num_attendees: 2 frequency: weekly Outoftown: 0 presenter_capability: high subject_interest: high subject: unknown state: Inactive
+Start: 01/07/2002/16:00 name: meeting team: Pynadath-other-team my_location: 923 location: not_ISI user_role: active-participant most_important: pynadath num_attendees: 2 frequency: weekly Outoftown: 0 presenter_capability: high subject_interest: high subject: unknown state: Inactive
+
+Mon Jan 07 21:36:44 2002: Sending message: (unregister :receiver proxy_pynadath_at_isi_edu :name device :sender pynadath_at_isi_edu_device :reply-with nil :user pynadath_at_isi_edu)
+Mon Jan 07 21:36:44 2002: Router pynadath_at_isi_edu_device exiting...
+Mon Jan 07 21:36:44 2002: Sending message: (unregister :receiver TEAMCORE :sender pynadath_at_isi_edu_device :ontology tcp-ip :reply-with nil :content pynadath_at_isi_edu_device)
+Mon Jan 07 21:36:44 2002: Exiting...
+Mon Jan 07 21:36:51 2002: Using ANS: ('vibhagam', 5500)
+Mon Jan 07 21:36:51 2002: Bound to host/port: vibhagam.isi.edu:6668
+Mon Jan 07 21:36:51 2002: Sending message: (register :ontology tcp-ip :sender pynadath_at_isi_edu_device :reply-with t :content "pynadath_at_isi_edu_device vibhagam.isi.edu:6668")
+Mon Jan 07 21:36:51 2002: Received: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Mon Jan 07 21:36:51 2002: Registration produced: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Mon Jan 07 21:36:51 2002: Sending message: (unregister :sender pynadath_at_isi_edu_device :ontology tcp-ip :reply-with nil :content pynadath_at_isi_edu_device)
+Mon Jan 07 21:36:51 2002: Sending message: (register :sender pynadath_at_isi_edu_device :ontology tcp-ip :reply-with t :content (pynadath_at_isi_edu_device vibhagam.isi.edu:6668))
+Mon Jan 07 21:36:52 2002: Received: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'pynadath_at_isi_edu_device TEAMCORE'}
+Mon Jan 07 21:36:52 2002: Registration produced: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'pynadath_at_isi_edu_device TEAMCORE'}pynadath_at_isi_edu_device, TEAMCORE
+Mon Jan 07 21:36:52 2002: Registration successful: pynadath_at_isi_edu_device
+Mon Jan 07 21:36:52 2002: Sending message: (ask-one :sender pynadath_at_isi_edu_device :reply-with t :content "proxy_pynadath_at_isi_edu")
+Mon Jan 07 21:36:52 2002: Router for pynadath_at_isi_edu_device running...
+Mon Jan 07 21:36:52 2002: Received: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_pynadath_at_isi_edu:sangat.isi.edu:9992:'}
+Mon Jan 07 21:36:52 2002: Sending message: (register :name device :reply-with nil :agenttype device :receiver proxy_pynadath_at_isi_edu :user pynadath_at_isi_edu :sender pynadath_at_isi_edu_device :direction both)
+Mon Jan 07 21:36:57 2002: Sending message: (unregister :receiver proxy_pynadath_at_isi_edu :name device :sender pynadath_at_isi_edu_device :reply-with nil :user pynadath_at_isi_edu)
+Mon Jan 07 21:36:57 2002: Router pynadath_at_isi_edu_device exiting...
+Mon Jan 07 21:36:57 2002: Sending message: (unregister :receiver TEAMCORE :sender pynadath_at_isi_edu_device :ontology tcp-ip :reply-with nil :content pynadath_at_isi_edu_device)
+Mon Jan 07 21:36:57 2002: Exiting...
+Mon Jan 07 21:37:01 2002: Using ANS: ('vibhagam', 5500)
+Mon Jan 07 21:37:01 2002: Bound to host/port: vibhagam.isi.edu:6668
+Mon Jan 07 21:37:01 2002: Sending message: (register :ontology tcp-ip :sender pynadath_at_isi_edu_device :reply-with t :content "pynadath_at_isi_edu_device vibhagam.isi.edu:6668")
+Mon Jan 07 21:37:01 2002: Received: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Mon Jan 07 21:37:01 2002: Registration produced: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Mon Jan 07 21:37:01 2002: Sending message: (unregister :sender pynadath_at_isi_edu_device :ontology tcp-ip :reply-with nil :content pynadath_at_isi_edu_device)
+Mon Jan 07 21:37:01 2002: Sending message: (register :sender pynadath_at_isi_edu_device :ontology tcp-ip :reply-with t :content (pynadath_at_isi_edu_device vibhagam.isi.edu:6668))
+Mon Jan 07 21:37:02 2002: Received: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'pynadath_at_isi_edu_device TEAMCORE'}
+Mon Jan 07 21:37:02 2002: Registration produced: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'pynadath_at_isi_edu_device TEAMCORE'}pynadath_at_isi_edu_device, TEAMCORE
+Mon Jan 07 21:37:02 2002: Registration successful: pynadath_at_isi_edu_device
+Mon Jan 07 21:37:02 2002: Sending message: (ask-one :sender pynadath_at_isi_edu_device :reply-with t :content "proxy_pynadath_at_isi_edu")
+Mon Jan 07 21:37:02 2002: Received: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_pynadath_at_isi_edu:sangat.isi.edu:9992:'}
+Mon Jan 07 21:37:02 2002: Sending message: (register :name device :reply-with nil :agenttype device :receiver proxy_pynadath_at_isi_edu :user pynadath_at_isi_edu :sender pynadath_at_isi_edu_device :direction both)
+Mon Jan 07 21:37:02 2002: Router for pynadath_at_isi_edu_device running...
+Mon Jan 07 21:37:08 2002: Received: {'performative': 'tell', 'type': 'schedule', 'reply-with': 'nil', 'receiver': 'pynadath_at_isi_edu_device', 'user': 'pynadath_at_isi_edu', 'sender': 'pyKQML-agent', 'content': 'Start: 01/07/2002/19:00 name: meeting1 team: Pynadath-other-team my_location: 923 location: not_ISI user_role: active-participant most_important: pynadath num_attendees: 2 frequency: weekly Outoftown: 0 presenter_capability: high subject_interest: high subject: unknown state: Inactive\012Start: 01/07/2002/16:00 name: meeting2 team: Pynadath-other-team my_location: 923 location: not_ISI user_role: active-participant most_important: pynadath num_attendees: 2 frequency: weekly Outoftown: 0 presenter_capability: high subject_interest: high subject: unknown state: Inactive\012Start: 01/07/2002/16:00 name: meeting3 team: Pynadath-other-team my_location: 923 location: not_ISI user_role: active-participant most_important: pynadath num_attendees: 2 frequency: weekly Outoftown: 0 presenter_capability: high subject_interest: high subject: unknown state: Inactive\012'}
+Mon Jan 07 21:37:08 2002: Processing message: {'performative': 'tell', 'type': 'schedule', 'reply-with': 'nil', 'receiver': 'pynadath_at_isi_edu_device', 'user': 'pynadath_at_isi_edu', 'sender': 'pyKQML-agent', 'content': 'Start: 01/07/2002/19:00 name: meeting1 team: Pynadath-other-team my_location: 923 location: not_ISI user_role: active-participant most_important: pynadath num_attendees: 2 frequency: weekly Outoftown: 0 presenter_capability: high subject_interest: high subject: unknown state: Inactive\012Start: 01/07/2002/16:00 name: meeting2 team: Pynadath-other-team my_location: 923 location: not_ISI user_role: active-participant most_important: pynadath num_attendees: 2 frequency: weekly Outoftown: 0 presenter_capability: high subject_interest: high subject: unknown state: Inactive\012Start: 01/07/2002/16:00 name: meeting3 team: Pynadath-other-team my_location: 923 location: not_ISI user_role: active-participant most_important: pynadath num_attendees: 2 frequency: weekly Outoftown: 0 presenter_capability: high subject_interest: high subject: unknown state: Inactive\012'}
+Mon Jan 07 21:37:08 2002: pynadath@isi.edu has schedule Start: 01/07/2002/19:00 name: meeting1 team: Pynadath-other-team my_location: 923 location: not_ISI user_role: active-participant most_important: pynadath num_attendees: 2 frequency: weekly Outoftown: 0 presenter_capability: high subject_interest: high subject: unknown state: Inactive
+Start: 01/07/2002/16:00 name: meeting2 team: Pynadath-other-team my_location: 923 location: not_ISI user_role: active-participant most_important: pynadath num_attendees: 2 frequency: weekly Outoftown: 0 presenter_capability: high subject_interest: high subject: unknown state: Inactive
+Start: 01/07/2002/16:00 name: meeting3 team: Pynadath-other-team my_location: 923 location: not_ISI user_role: active-participant most_important: pynadath num_attendees: 2 frequency: weekly Outoftown: 0 presenter_capability: high subject_interest: high subject: unknown state: Inactive
+
+Mon Jan 07 21:37:33 2002: Sending message: (unregister :receiver proxy_pynadath_at_isi_edu :name device :sender pynadath_at_isi_edu_device :reply-with nil :user pynadath_at_isi_edu)
+Mon Jan 07 21:37:33 2002: Router pynadath_at_isi_edu_device exiting...
+Mon Jan 07 21:37:33 2002: Sending message: (unregister :receiver TEAMCORE :sender pynadath_at_isi_edu_device :ontology tcp-ip :reply-with nil :content pynadath_at_isi_edu_device)
+Mon Jan 07 21:37:34 2002: Exiting...
+Mon Jan 07 21:38:15 2002: Using ANS: ('vibhagam', 5500)
+Mon Jan 07 21:38:15 2002: Bound to host/port: vibhagam.isi.edu:6668
+Mon Jan 07 21:38:15 2002: Sending message: (register :ontology tcp-ip :sender pynadath_at_isi_edu_device :reply-with t :content "pynadath_at_isi_edu_device vibhagam.isi.edu:6668")
+Mon Jan 07 21:38:15 2002: Received: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Mon Jan 07 21:38:15 2002: Registration produced: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Mon Jan 07 21:38:15 2002: Sending message: (unregister :sender pynadath_at_isi_edu_device :ontology tcp-ip :reply-with nil :content pynadath_at_isi_edu_device)
+Mon Jan 07 21:38:15 2002: Sending message: (register :sender pynadath_at_isi_edu_device :ontology tcp-ip :reply-with t :content (pynadath_at_isi_edu_device vibhagam.isi.edu:6668))
+Mon Jan 07 21:38:15 2002: Received: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'pynadath_at_isi_edu_device TEAMCORE'}
+Mon Jan 07 21:38:15 2002: Registration produced: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'pynadath_at_isi_edu_device TEAMCORE'}pynadath_at_isi_edu_device, TEAMCORE
+Mon Jan 07 21:38:15 2002: Registration successful: pynadath_at_isi_edu_device
+Mon Jan 07 21:38:15 2002: Sending message: (ask-one :sender pynadath_at_isi_edu_device :reply-with t :content "proxy_pynadath_at_isi_edu")
+Mon Jan 07 21:38:15 2002: Received: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_pynadath_at_isi_edu:sangat.isi.edu:9992:'}
+Mon Jan 07 21:38:15 2002: Sending message: (register :name device :reply-with nil :agenttype device :receiver proxy_pynadath_at_isi_edu :user pynadath_at_isi_edu :sender pynadath_at_isi_edu_device :direction both)
+Mon Jan 07 21:38:15 2002: Router for pynadath_at_isi_edu_device running...
+Mon Jan 07 21:38:28 2002: Received: {'performative': 'tell', 'type': 'schedule', 'reply-with': 'nil', 'receiver': 'pynadath_at_isi_edu_device', 'user': 'pynadath_at_isi_edu', 'sender': 'pyKQML-agent', 'content': 'Start: 01/07/2002/19:00 name: meeting1 team: Pynadath-other-team my_location: 923 location: not_ISI user_role: active-participant most_important: pynadath num_attendees: 2 frequency: weekly Outoftown: 0 presenter_capability: high subject_interest: high subject: unknown state: Inactive\012Start: 01/07/2002/16:00 name: meeting2 team: Pynadath-other-team my_location: 923 location: not_ISI user_role: active-participant most_important: pynadath num_attendees: 2 frequency: weekly Outoftown: 0 presenter_capability: high subject_interest: high subject: unknown state: Inactive\012Start: 01/07/2002/16:00 name: meeting3 team: Pynadath-other-team my_location: 923 location: not_ISI user_role: active-participant most_important: pynadath num_attendees: 2 frequency: weekly Outoftown: 0 presenter_capability: high subject_interest: high subject: unknown state: Inactive\012'}
+Mon Jan 07 21:38:28 2002: Processing message: {'performative': 'tell', 'type': 'schedule', 'reply-with': 'nil', 'receiver': 'pynadath_at_isi_edu_device', 'user': 'pynadath_at_isi_edu', 'sender': 'pyKQML-agent', 'content': 'Start: 01/07/2002/19:00 name: meeting1 team: Pynadath-other-team my_location: 923 location: not_ISI user_role: active-participant most_important: pynadath num_attendees: 2 frequency: weekly Outoftown: 0 presenter_capability: high subject_interest: high subject: unknown state: Inactive\012Start: 01/07/2002/16:00 name: meeting2 team: Pynadath-other-team my_location: 923 location: not_ISI user_role: active-participant most_important: pynadath num_attendees: 2 frequency: weekly Outoftown: 0 presenter_capability: high subject_interest: high subject: unknown state: Inactive\012Start: 01/07/2002/16:00 name: meeting3 team: Pynadath-other-team my_location: 923 location: not_ISI user_role: active-participant most_important: pynadath num_attendees: 2 frequency: weekly Outoftown: 0 presenter_capability: high subject_interest: high subject: unknown state: Inactive\012'}
+Mon Jan 07 21:38:28 2002: pynadath@isi.edu has schedule Start: 01/07/2002/19:00 name: meeting1 team: Pynadath-other-team my_location: 923 location: not_ISI user_role: active-participant most_important: pynadath num_attendees: 2 frequency: weekly Outoftown: 0 presenter_capability: high subject_interest: high subject: unknown state: Inactive
+Start: 01/07/2002/16:00 name: meeting2 team: Pynadath-other-team my_location: 923 location: not_ISI user_role: active-participant most_important: pynadath num_attendees: 2 frequency: weekly Outoftown: 0 presenter_capability: high subject_interest: high subject: unknown state: Inactive
+Start: 01/07/2002/16:00 name: meeting3 team: Pynadath-other-team my_location: 923 location: not_ISI user_role: active-participant most_important: pynadath num_attendees: 2 frequency: weekly Outoftown: 0 presenter_capability: high subject_interest: high subject: unknown state: Inactive
+
+Mon Jan 07 21:40:01 2002: Sending message: (unregister :receiver proxy_pynadath_at_isi_edu :name device :sender pynadath_at_isi_edu_device :reply-with nil :user pynadath_at_isi_edu)
+Mon Jan 07 21:40:01 2002: Router pynadath_at_isi_edu_device exiting...
+Mon Jan 07 21:40:01 2002: Sending message: (unregister :receiver TEAMCORE :sender pynadath_at_isi_edu_device :ontology tcp-ip :reply-with nil :content pynadath_at_isi_edu_device)
+Mon Jan 07 21:40:01 2002: Exiting...
+Mon Jan 07 21:40:07 2002: Using ANS: ('vibhagam', 5500)
+Mon Jan 07 21:40:07 2002: Bound to host/port: vibhagam.isi.edu:6668
+Mon Jan 07 21:40:07 2002: Sending message: (register :ontology tcp-ip :sender pynadath_at_isi_edu_device :reply-with t :content "pynadath_at_isi_edu_device vibhagam.isi.edu:6668")
+Mon Jan 07 21:40:07 2002: Received: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Mon Jan 07 21:40:07 2002: Registration produced: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Mon Jan 07 21:40:07 2002: Sending message: (unregister :sender pynadath_at_isi_edu_device :ontology tcp-ip :reply-with nil :content pynadath_at_isi_edu_device)
+Mon Jan 07 21:40:07 2002: Sending message: (register :sender pynadath_at_isi_edu_device :ontology tcp-ip :reply-with t :content (pynadath_at_isi_edu_device vibhagam.isi.edu:6668))
+Mon Jan 07 21:40:08 2002: Received: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'pynadath_at_isi_edu_device TEAMCORE'}
+Mon Jan 07 21:40:08 2002: Registration produced: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'pynadath_at_isi_edu_device TEAMCORE'}pynadath_at_isi_edu_device, TEAMCORE
+Mon Jan 07 21:40:08 2002: Registration successful: pynadath_at_isi_edu_device
+Mon Jan 07 21:40:08 2002: Sending message: (ask-one :sender pynadath_at_isi_edu_device :reply-with t :content "proxy_pynadath_at_isi_edu")
+Mon Jan 07 21:40:08 2002: Received: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_pynadath_at_isi_edu:sangat.isi.edu:9992:'}
+Mon Jan 07 21:40:08 2002: Sending message: (register :name device :reply-with nil :agenttype device :receiver proxy_pynadath_at_isi_edu :user pynadath_at_isi_edu :sender pynadath_at_isi_edu_device :direction both)
+Mon Jan 07 21:40:08 2002: Router for pynadath_at_isi_edu_device running...
+Mon Jan 07 21:40:11 2002: Received: {'performative': 'tell', 'type': 'schedule', 'reply-with': 'nil', 'receiver': 'pynadath_at_isi_edu_device', 'user': 'pynadath_at_isi_edu', 'sender': 'pyKQML-agent', 'content': 'Start: 01/07/2002/19:00 name: meeting1 team: Pynadath-other-team my_location: 923 location: not_ISI user_role: active-participant most_important: pynadath num_attendees: 2 frequency: weekly Outoftown: 0 presenter_capability: high subject_interest: high subject: unknown state: Inactive\012Start: 01/07/2002/16:00 name: meeting2 team: Pynadath-other-team my_location: 923 location: not_ISI user_role: active-participant most_important: pynadath num_attendees: 2 frequency: weekly Outoftown: 0 presenter_capability: high subject_interest: high subject: unknown state: Inactive\012Start: 01/07/2002/16:00 name: meeting3 team: Pynadath-other-team my_location: 923 location: not_ISI user_role: active-participant most_important: pynadath num_attendees: 2 frequency: weekly Outoftown: 0 presenter_capability: high subject_interest: high subject: unknown state: Inactive\012'}
+Mon Jan 07 21:40:11 2002: Processing message: {'performative': 'tell', 'type': 'schedule', 'reply-with': 'nil', 'receiver': 'pynadath_at_isi_edu_device', 'user': 'pynadath_at_isi_edu', 'sender': 'pyKQML-agent', 'content': 'Start: 01/07/2002/19:00 name: meeting1 team: Pynadath-other-team my_location: 923 location: not_ISI user_role: active-participant most_important: pynadath num_attendees: 2 frequency: weekly Outoftown: 0 presenter_capability: high subject_interest: high subject: unknown state: Inactive\012Start: 01/07/2002/16:00 name: meeting2 team: Pynadath-other-team my_location: 923 location: not_ISI user_role: active-participant most_important: pynadath num_attendees: 2 frequency: weekly Outoftown: 0 presenter_capability: high subject_interest: high subject: unknown state: Inactive\012Start: 01/07/2002/16:00 name: meeting3 team: Pynadath-other-team my_location: 923 location: not_ISI user_role: active-participant most_important: pynadath num_attendees: 2 frequency: weekly Outoftown: 0 presenter_capability: high subject_interest: high subject: unknown state: Inactive\012'}
+Mon Jan 07 21:40:11 2002: pynadath@isi.edu has schedule Start: 01/07/2002/19:00 name: meeting1 team: Pynadath-other-team my_location: 923 location: not_ISI user_role: active-participant most_important: pynadath num_attendees: 2 frequency: weekly Outoftown: 0 presenter_capability: high subject_interest: high subject: unknown state: Inactive
+Start: 01/07/2002/16:00 name: meeting2 team: Pynadath-other-team my_location: 923 location: not_ISI user_role: active-participant most_important: pynadath num_attendees: 2 frequency: weekly Outoftown: 0 presenter_capability: high subject_interest: high subject: unknown state: Inactive
+Start: 01/07/2002/16:00 name: meeting3 team: Pynadath-other-team my_location: 923 location: not_ISI user_role: active-participant most_important: pynadath num_attendees: 2 frequency: weekly Outoftown: 0 presenter_capability: high subject_interest: high subject: unknown state: Inactive
+
+Mon Jan 07 21:48:38 2002: Sending message: (unregister :receiver proxy_pynadath_at_isi_edu :name device :sender pynadath_at_isi_edu_device :reply-with nil :user pynadath_at_isi_edu)
+Mon Jan 07 21:48:38 2002: Router pynadath_at_isi_edu_device exiting...
+Mon Jan 07 21:48:38 2002: Sending message: (unregister :receiver TEAMCORE :sender pynadath_at_isi_edu_device :ontology tcp-ip :reply-with nil :content pynadath_at_isi_edu_device)
+Mon Jan 07 21:48:38 2002: Exiting...
+Wed Apr 03 12:11:28 2002: Using ANS: ('vibhagam', 5500)
+Wed Apr 03 12:11:28 2002: Bound to host/port: sangat.isi.edu:6683
+Wed Apr 03 12:11:28 2002: Sending message: (register :ontology tcp-ip :sender pynadath_at_isi_edu_device :reply-with t :content "pynadath_at_isi_edu_device sangat.isi.edu:6683")
+Wed Apr 03 12:11:28 2002: Received: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Wed Apr 03 12:11:28 2002: Registration produced: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Wed Apr 03 12:11:28 2002: Sending message: (unregister :sender pynadath_at_isi_edu_device :ontology tcp-ip :reply-with nil :content pynadath_at_isi_edu_device)
+Wed Apr 03 12:11:28 2002: Sending message: (register :sender pynadath_at_isi_edu_device :ontology tcp-ip :reply-with t :content (pynadath_at_isi_edu_device sangat.isi.edu:6683))
+Wed Apr 03 12:11:28 2002: Received: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'pynadath_at_isi_edu_device TEAMCORE'}
+Wed Apr 03 12:11:28 2002: Registration produced: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'pynadath_at_isi_edu_device TEAMCORE'}pynadath_at_isi_edu_device, TEAMCORE
+Wed Apr 03 12:11:28 2002: Registration successful: pynadath_at_isi_edu_device
+Wed Apr 03 12:11:28 2002: Router for pynadath_at_isi_edu_device running...
+Wed Apr 03 12:11:28 2002: Sending message: (ask-one :sender pynadath_at_isi_edu_device :reply-with t :content "proxy_pynadath_at_isi_edu")
+Wed Apr 03 12:11:28 2002: Received: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_pynadath_at_isi_edu:sangat.isi.edu:9992:'}
+Wed Apr 03 12:11:28 2002: Sending message: (register :name device :reply-with nil :agenttype device :receiver proxy_pynadath_at_isi_edu :user pynadath_at_isi_edu :sender pynadath_at_isi_edu_device :direction both)
+Wed Apr 03 12:11:44 2002: Received: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'tell', 'sender': 'deviceCGI_pynadath_at_isi_edu', 'reply-with': 'nil', 'content': 'stop'}
+Wed Apr 03 12:11:44 2002: Processing message: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'tell', 'sender': 'deviceCGI_pynadath_at_isi_edu', 'reply-with': 'nil', 'content': 'stop'}
+Wed Apr 03 12:11:44 2002: Sending message: (unregister :receiver proxy_pynadath_at_isi_edu :name device :sender pynadath_at_isi_edu_device :reply-with nil :user pynadath_at_isi_edu)
+Wed Apr 03 12:11:44 2002: Router pynadath_at_isi_edu_device exiting...
+Wed Apr 03 12:11:44 2002: Sending message: (unregister :receiver TEAMCORE :sender pynadath_at_isi_edu_device :ontology tcp-ip :reply-with nil :content pynadath_at_isi_edu_device)
+Wed Apr 03 12:11:44 2002: Exiting...
+Wed Apr 03 12:12:53 2002: Using ANS: ('vibhagam', 5500)
+Wed Apr 03 12:12:53 2002: Bound to host/port: sangat.isi.edu:6683
+Wed Apr 03 12:12:53 2002: Sending message: (register :ontology tcp-ip :sender pynadath_at_isi_edu_device :reply-with t :content "pynadath_at_isi_edu_device sangat.isi.edu:6683")
+Wed Apr 03 12:12:53 2002: Received: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Wed Apr 03 12:12:53 2002: Registration produced: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'error', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'handler encountered error'}
+Wed Apr 03 12:12:53 2002: Sending message: (unregister :sender pynadath_at_isi_edu_device :ontology tcp-ip :reply-with nil :content pynadath_at_isi_edu_device)
+Wed Apr 03 12:12:53 2002: Sending message: (register :sender pynadath_at_isi_edu_device :ontology tcp-ip :reply-with t :content (pynadath_at_isi_edu_device sangat.isi.edu:6683))
+Wed Apr 03 12:12:53 2002: Received: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'pynadath_at_isi_edu_device TEAMCORE'}
+Wed Apr 03 12:12:53 2002: Registration produced: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'pynadath_at_isi_edu_device TEAMCORE'}pynadath_at_isi_edu_device, TEAMCORE
+Wed Apr 03 12:12:53 2002: Registration successful: pynadath_at_isi_edu_device
+Wed Apr 03 12:12:53 2002: Router for pynadath_at_isi_edu_device running...
+Wed Apr 03 12:12:53 2002: Sending message: (ask-one :sender pynadath_at_isi_edu_device :reply-with t :content "proxy_pynadath_at_isi_edu")
+Wed Apr 03 12:12:53 2002: Received: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'reply', 'sender': 'TEAMCORE', 'in-reply-to': 't', 'content': 'proxy_pynadath_at_isi_edu:sangat.isi.edu:9992:'}
+Wed Apr 03 12:12:53 2002: Sending message: (register :name device :reply-with nil :agenttype device :receiver proxy_pynadath_at_isi_edu :user pynadath_at_isi_edu :sender pynadath_at_isi_edu_device :direction both)
+Wed Apr 03 12:13:02 2002: Received: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'tell', 'sender': 'deviceCGI_pynadath_at_isi_edu', 'reply-with': 'nil', 'content': 'stop'}
+Wed Apr 03 12:13:02 2002: Processing message: {'receiver': 'pynadath_at_isi_edu_device', 'performative': 'tell', 'sender': 'deviceCGI_pynadath_at_isi_edu', 'reply-with': 'nil', 'content': 'stop'}
+Wed Apr 03 12:13:02 2002: Sending message: (unregister :receiver proxy_pynadath_at_isi_edu :name device :sender pynadath_at_isi_edu_device :reply-with nil :user pynadath_at_isi_edu)
+Wed Apr 03 12:13:02 2002: Router pynadath_at_isi_edu_device exiting...
+Wed Apr 03 12:13:02 2002: Sending message: (unregister :receiver TEAMCORE :sender pynadath_at_isi_edu_device :ontology tcp-ip :reply-with nil :content pynadath_at_isi_edu_device)
+Wed Apr 03 12:13:02 2002: Exiting...
